@@ -1,0 +1,5 @@
+- name: Ping hosts
+  hosts: all
+  tasks:
+  - name: ping
+    action: ping

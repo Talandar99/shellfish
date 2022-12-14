@@ -1,0 +1,1 @@
+chown www-data /var/www/html/config/config.php

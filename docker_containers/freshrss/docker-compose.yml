@@ -1,0 +1,17 @@
+version: '3'
+services:
+  freshrss:
+    image: linuxserver/freshrss
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    environment:
+      - TZ=Europe/Warsaw
+      - CRON_MIN=1,31
+    volumes:
+      - freshrss_data:/var/www/FreshRSS/data
+      - freshrss_extensions:/var/www/FreshRSS/extensions
+volumes:
+  freshrss_data:
+  freshrss_extensions:
+
