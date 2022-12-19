@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -S tmux rustup starship bash-language-server lua-language-server vscode-html-languageserver
+sudo pacman -S tmux rustup starship bash-language-server lua-language-server vscode-html-languageserver
 mkdir .config
 cd ~/.config
 git clone https://github.com/Talandar99/starship_config
@@ -9,4 +9,4 @@ mv starship_config starship
 mv nvim_config nvim
 mv tmux_config tmux
 cd ~ 
-cat ~/.config/starship/.bashrc >> .bashrc  
+cat ~/.config/starship/.bashrc > .bashrc  
