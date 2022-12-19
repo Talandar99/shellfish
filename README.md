@@ -1,1 +1,2 @@
-# kraken_shell
+# shellfish
+colection of system terraforming scripts
