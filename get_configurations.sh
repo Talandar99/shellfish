@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 sudo pacman -S tmux rustup starship bash-language-server lua-language-server vscode-html-languageserver
 mkdir .config
 cd ~/.config
