@@ -1,2 +1,2 @@
-# shellfish 🦐
-<br> type ``` ./terraform.sh ``` to start
+# 🦐 shellfish 🦐
+collection of usefull system configuration scripts
