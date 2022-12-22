@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Starting Instalation Process"
-curl -fsSL https://get.docker.com -o get-docker.sh
+sudo curl -fsSL https://get.docker.com -o get-docker.sh
 echo "Relax now"
 echo "It may take a while..."
 sudo sh get-docker.sh
