@@ -10,3 +10,4 @@ mv nvim_shrimp_config nvim
 mv tmux_config tmux
 cd ~ 
 cat ~/.config/starship/.bashrc > .bashrc  
+echo "Don't forget to Check if you installed tmux, neovim and starship"
