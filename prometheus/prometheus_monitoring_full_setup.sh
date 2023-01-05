@@ -10,17 +10,17 @@ echo '-----------------------'
 echo '-----------------------'
 echo 'node-exporter setup and run'
 echo '-----------------------'
-./setup_and_run_node-exporter.sh
+./setup_and_run_node_exporter.sh
 echo '-----------------------'
 echo 'prometheus setup'
 echo '-----------------------'
-./setup_prometheus_container_and_yml.sh
+./setup_prometheus_container_and_yml_on_master.sh
 echo '-----------------------'
 echo 'run prometheus'
 echo '-----------------------'
-./run_prometheus_container.sh
+./build_and_run_prometheus_container.sh
 echo '-----------------------'
 echo 'cleaning up'
 echo '-----------------------'
-rm docker-compose.yml prometheus.yml
+rm docker-compose.yml prometheus.yml Dockerfile
 echo 'done :>'
