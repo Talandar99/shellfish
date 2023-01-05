@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "--------------------------"
 echo "Bro I need your ip address"
 echo "Enter your IP:"
 read IP
