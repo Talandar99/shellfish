@@ -1,8 +1,6 @@
 #!/bin/bash
-echo "Bro I need your ip address"
-echo "Enter your IP:"
-read IP
 echo "Building prometheus.yml"
+IP=$(ip a | grep 192 | cut -d ' ' -f 6 | awk -F/ '{print $1}')
 echo "scrape_configs:" > prometheus.yml
 echo "  - job_name: 'prometheus'" >> prometheus.yml
 echo "    static_configs:" >> prometheus.yml
