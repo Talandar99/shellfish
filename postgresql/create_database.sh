@@ -1,2 +1,3 @@
 #!/bin/bash
-createdb -U postgres -h localhost kebab 
+DBNAME=$1
+createdb -U postgres -h localhost $DBNAME 
