@@ -16,5 +16,7 @@ echo "    ports:" >> docker-compose.yml
 echo "      - 9100:9100" >> docker-compose.yml
 
 echo "composing up node-exporter"
+echo '!----------------------------------------------!'
 echo 'make sure that you have docker-compose installed'
+echo '!----------------------------------------------!'
 docker-compose up -d node-exporter
