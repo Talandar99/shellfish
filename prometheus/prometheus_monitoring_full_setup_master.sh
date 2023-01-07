@@ -1,9 +1,5 @@
 #!/bin/bash
 echo '-----------------------'
-echo 'killing all containers '
-echo '-----------------------'
-docker rm -f $(docker ps -a -q)
-echo '-----------------------'
 echo 'graphana setup and run'
 echo '-----------------------'
 ./pull_and_start_graphana_container.sh
@@ -21,6 +17,9 @@ echo '-----------------------'
 ./build_and_run_prometheus_container.sh
 echo '-----------------------'
 echo 'cleaning up'
+echo 'and'
+echo 'killing all containers '
 echo '-----------------------'
-rm docker-compose.yml prometheus.yml Dockerfile
+./clean_up.sh
+echo '-----------------------'
 echo 'done :>'
