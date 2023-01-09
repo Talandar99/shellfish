@@ -6,5 +6,5 @@ sudo gpasswd -a talandar flutterusers
 sudo chown -R :flutterusers /opt/flutter
 sudo chmod -R g+w /opt/flutter/
 sudo chown -R talandar /opt/flutter
-paru -S android-sdk android-sdk-platform-tools android-sdk-build-tools-latest android-platform
+paru -S android-sdk android-sdk-platform-tools android-sdk-build-tools-latest android-platform android-studio
 
