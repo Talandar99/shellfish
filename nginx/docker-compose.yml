@@ -4,3 +4,5 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
+    volumes:
+      - ./my-site:/usr/share/nginx/html
