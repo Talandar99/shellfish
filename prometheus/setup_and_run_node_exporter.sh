@@ -11,7 +11,7 @@ echo "      - /:/rootfs:ro" >> docker-compose.yml
 echo "    command:" >> docker-compose.yml
 echo "      - --path.procfs=/host/proc" >> docker-compose.yml
 echo "      - --path.sysfs=/host/sys" >> docker-compose.yml
-echo "      - --collector.filesystem.ignored-mount-points=\"^/(sys|proc|dev|host|etc)($|/)\"" >> docker-compose.yml
+echo "      - --collector.filesystem.ignored-mount-points=\"^/(sys|proc|dev|host|etc)(\\\$|/)\"" >> docker-compose.yml
 echo "    ports:" >> docker-compose.yml
 echo "      - 9100:9100" >> docker-compose.yml
 
