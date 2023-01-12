@@ -1,0 +1,7 @@
+- name: Create ansible test directory
+  hosts: all
+  tasks:
+  - name: Create directory
+    file:
+      path: "{{ ansible_env.HOME }}/ansible_test"
+      state: directory
