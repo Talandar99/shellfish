@@ -1,0 +1,16 @@
+version: '1'
+services:
+  seafile:
+    image: seafileltd/seafile-pro:latest
+    environment:
+      - SEAFILE_SERVER_HOSTNAME=seafile.example.com
+      - SEAFILE_ADMIN_EMAIL=admin@example.com
+      - SEAFILE_ADMIN_PASSWORD=password
+    volumes:
+      - seafile-data:/shared
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8082:8082"
+volumes:
+  seafile-data:
