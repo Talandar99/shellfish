@@ -19,4 +19,4 @@ echo "composing up node-exporter"
 echo '!----------------------------------------------!'
 echo 'make sure that you have docker-compose installed'
 echo '!----------------------------------------------!'
-docker-compose up -d node-exporter
+docker compose up -d node-exporter
