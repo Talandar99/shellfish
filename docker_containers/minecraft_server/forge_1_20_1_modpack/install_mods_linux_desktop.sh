@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./get_mods_linux.sh
+./get_mods.py
 cp -r mods ~/.minecraft/
 
