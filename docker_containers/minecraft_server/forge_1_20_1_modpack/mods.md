@@ -1,4 +1,4 @@
-# FORGE 1.20.1
+# FORGE 1.20.1 (47.1.0)
 - [FORGE](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
 # Shadery
 - [BSL](https://www.curseforge.com/minecraft/customization/bsl-shaders)
