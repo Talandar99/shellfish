@@ -69,9 +69,6 @@
 ## Undergarden
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-undergarden)
 - [download](https://www.curseforge.com/api/v1/mods/379849/files/4635205/download)
-## alex-mobs 
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
-- [download](https://www.curseforge.com/api/v1/mods/426558/files/4618074/download)
 # Libraries
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
