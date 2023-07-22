@@ -39,9 +39,6 @@
 ## Jade
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/jade)
 - [download](https://www.curseforge.com/api/v1/mods/324717/files/4654448/download)
-## Comforts
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/comforts)
-- [download](https://www.curseforge.com/api/v1/mods/276951/files/4599959/download)
 ## Nether Portal Fix
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
 - [download](https://www.curseforge.com/api/v1/mods/241160/files/4583070/download)
