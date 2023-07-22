@@ -46,9 +46,6 @@
 ## Aquamarine
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/ob-aquamirae)
 - [download](https://www.curseforge.com/api/v1/mods/536254/files/4616373/download)
-## Krypton
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/krypton-reforged)
-- [download](https://www.curseforge.com/api/v1/mods/549394/files/4606534/download)
 ## Monster Plus
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/monster-plus)
 - [download](https://www.curseforge.com/api/v1/mods/676418/files/4612195/download)
@@ -58,9 +55,6 @@
 ## farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [download](https://www.curseforge.com/api/v1/mods/398521/files/4638874/download)
-## corn delight
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/corn-delight)
-- [download](https://www.curseforge.com/api/v1/mods/577805/files/4640390/download)
 ## ocean delight 
 - [curseforge](https://curseforge.com/minecraft/mc-mods/oceans-delight)
 - [download](https://www.curseforge.com/api/v1/mods/841262/files/4652060/download)
@@ -88,6 +82,8 @@
 ## Obscure API
 - [download](https://www.curseforge.com/api/v1/mods/638417/files/4616364/download)
 # Optimization
+## Krypton
+- [download](https://www.curseforge.com/api/v1/mods/549394/files/4606534/download)
 ## Entitiy culling
 - [download](https://www.curseforge.com/api/v1/mods/448233/files/4573621/download)
 ## FerriteCore 
