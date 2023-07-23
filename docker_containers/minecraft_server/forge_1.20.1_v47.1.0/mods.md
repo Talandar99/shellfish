@@ -2,7 +2,7 @@
 - [FORGE](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
 # Shadery
 - [BSL](https://www.curseforge.com/minecraft/customization/bsl-shaders)
-# Mods
+# Mods (2023-07-22)
 ## comforts
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/comforts)
 - [download](https://www.curseforge.com/api/v1/mods/276951/files/4599957/download)
@@ -69,6 +69,9 @@
 ## Undergarden
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-undergarden)
 - [download](https://www.curseforge.com/api/v1/mods/379849/files/4635205/download)
+## alex-mobs 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
+- [download](https://www.curseforge.com/api/v1/mods/426558/files/4618074/download)
 # Libraries
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
@@ -90,3 +93,42 @@
 ## Rubidium and Oculus
 - [download](https://www.curseforge.com/api/v1/mods/574856/files/4573226/download)
 - [download](https://www.curseforge.com/api/v1/mods/581495/files/4578741/download)
+# new ones
+## death-counter
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/death-counter)
+- [download](https://www.curseforge.com/api/v1/mods/229068/files/4618804/download)
+## death-knell
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/death-knell)
+- [download](https://www.curseforge.com/api/v1/mods/538316/files/4648458/download)
+## create-diesel-generators
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators)
+- [download](https://www.curseforge.com/api/v1/mods/869316/files/4653211/download)
+## create-slice-and-dice
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
+- [download](https://www.curseforge.com/api/v1/mods/659674/files/4653121/download)
+## thirst-was-remade
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/thirst-was-remade)
+- [download](https://www.curseforge.com/api/v1/mods/884742/files/4649354/download)
+## xaeros-world-map
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+- [download](https://www.curseforge.com/api/v1/mods/317780/files/4594991/download)
+## enchantments description
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+- [download](https://www.curseforge.com/api/v1/mods/250419/files/4657243/download)
+## lexicon
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/lexicon)
+- [download](https://www.curseforge.com/api/v1/mods/615275/files/4658203/download)
+## no chat reports
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
+- [download](https://www.curseforge.com/api/v1/mods/634062/files/4610474/download)
+## controlling
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/controlling)
+- [download](https://www.curseforge.com/api/v1/mods/250398/files/4646682/download)
+## kotlin-for-forge
+- [download](https://www.curseforge.com/api/v1/mods/351264/files/4630525/download)
+## searchables
+- [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
+## bookshelf
+- [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
+## Patchouli
+- [download](https://www.curseforge.com/api/v1/mods/306770/files/4633797/download)

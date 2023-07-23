@@ -18,17 +18,13 @@ services:
       #REQUIRED for all types
       EULA: "TRUE"
       MEMORY: "7G"
-      #Set server type (vs the default of vanilla)
       TYPE: FORGE
+      FORGE_VERSION: 47.1.0
       VERSION: 1.20.1
       ENABLE_ROLLING_LOGS: "true"
-      #MODS_FILE: /extras/mods.txt
     volumes:
     #use a named, managed volume for data volume
     - ./data:/data
-      #- ./mods.txt:/extras/mods.txt:ro
-    #attach local host directory "mods" in same directory as this compose file
-    #all mods in this directory get copied into /data/mods at startup
 
 volumes:
   # eclared the named volume, but use default/local storage engine
