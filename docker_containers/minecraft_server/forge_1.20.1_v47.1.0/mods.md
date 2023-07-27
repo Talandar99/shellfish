@@ -112,20 +112,15 @@
 ## enchantments description
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [download](https://www.curseforge.com/api/v1/mods/250419/files/4657243/download)
-## lexicon -
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/lexicon)
-- [download](https://www.curseforge.com/api/v1/mods/615275/files/4658203/download)
 ## no chat reports -
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
 - [download](https://www.curseforge.com/api/v1/mods/634062/files/4610474/download)
 ## controlling -
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [download](https://www.curseforge.com/api/v1/mods/250398/files/4646682/download)
-## kotlin-for-forge -
+## kotlin-for-forge --
 - [download](https://www.curseforge.com/api/v1/mods/351264/files/4630525/download)
 ## searchables -
 - [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
 ## bookshelf -
 - [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
-## Patchouli -
-- [download](https://www.curseforge.com/api/v1/mods/306770/files/4633797/download)
