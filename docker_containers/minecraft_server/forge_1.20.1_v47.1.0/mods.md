@@ -103,9 +103,6 @@
 ## create-diesel-generators
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators)
 - [download](https://www.curseforge.com/api/v1/mods/869316/files/4653211/download)
-## create-slice-and-dice
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
-- [download](https://www.curseforge.com/api/v1/mods/659674/files/4653121/download)
 ## thirst-was-remade
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/thirst-was-remade)
 - [download](https://www.curseforge.com/api/v1/mods/884742/files/4649354/download)
@@ -115,20 +112,20 @@
 ## enchantments description
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [download](https://www.curseforge.com/api/v1/mods/250419/files/4657243/download)
-## lexicon
+## lexicon -
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/lexicon)
 - [download](https://www.curseforge.com/api/v1/mods/615275/files/4658203/download)
-## no chat reports
+## no chat reports -
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
 - [download](https://www.curseforge.com/api/v1/mods/634062/files/4610474/download)
-## controlling
+## controlling -
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [download](https://www.curseforge.com/api/v1/mods/250398/files/4646682/download)
-## kotlin-for-forge
+## kotlin-for-forge -
 - [download](https://www.curseforge.com/api/v1/mods/351264/files/4630525/download)
-## searchables
+## searchables -
 - [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
-## bookshelf
+## bookshelf -
 - [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
-## Patchouli
+## Patchouli -
 - [download](https://www.curseforge.com/api/v1/mods/306770/files/4633797/download)
