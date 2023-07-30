@@ -120,6 +120,7 @@
 - [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
 ## bookshelf 
 - [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
+
 # new mods
 ## falling-leaves
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge)
@@ -159,12 +160,15 @@
 ## biomes-o-plenty
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
 - [download](https://www.curseforge.com/api/v1/mods/220318/files/4617259/download)
-## incendium
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/incendium)
-- [download](https://www.curseforge.com/api/v1/mods/591388/files/4655668/download)
 ## towers-of-the-wild-additions
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additions)
 - [download](https://www.curseforge.com/api/v1/mods/560091/files/4666394/download)
 ## ender cataclism
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/l_ender-s-cataclysm)
 - [download](https://www.curseforge.com/api/v1/mods/551586/files/4668870/download)
+## helions sniffer
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/hellions-sniffer)
+- [download](https://www.curseforge.com/api/v1/mods/871962/files/4591535/download)
+## more sniffer flowers
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/more-sniffer-flowers)
+- [download](https://www.curseforge.com/api/v1/mods/884119/files/4624549/download)
