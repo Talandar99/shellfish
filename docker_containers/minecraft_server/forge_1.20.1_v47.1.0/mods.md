@@ -69,9 +69,6 @@
 ## Undergarden
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-undergarden)
 - [download](https://www.curseforge.com/api/v1/mods/379849/files/4635205/download)
-## alex-mobs 
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
-- [download](https://www.curseforge.com/api/v1/mods/426558/files/4618074/download)
 # Libraries
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
@@ -93,7 +90,6 @@
 ## Rubidium and Oculus
 - [download](https://www.curseforge.com/api/v1/mods/574856/files/4573226/download)
 - [download](https://www.curseforge.com/api/v1/mods/581495/files/4578741/download)
-# new ones
 ## death-counter
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/death-counter)
 - [download](https://www.curseforge.com/api/v1/mods/229068/files/4618804/download)
@@ -112,15 +108,63 @@
 ## enchantments description
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [download](https://www.curseforge.com/api/v1/mods/250419/files/4657243/download)
-## no chat reports -
+## no chat reports
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
 - [download](https://www.curseforge.com/api/v1/mods/634062/files/4610474/download)
-## controlling -
+## controlling
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [download](https://www.curseforge.com/api/v1/mods/250398/files/4646682/download)
-## kotlin-for-forge --
+## kotlin-for-forge
 - [download](https://www.curseforge.com/api/v1/mods/351264/files/4630525/download)
-## searchables -
+## searchables 
 - [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
-## bookshelf -
+## bookshelf 
 - [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
+# new mods
+## falling-leaves
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge)
+- [download](https://www.curseforge.com/api/v1/mods/463155/files/4573705/download)
+## kobolds
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/kobolds)
+- [download](https://www.curseforge.com/api/v1/mods/484967/files/4670475/download)
+## mouse-tweaks
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+- [download](https://www.curseforge.com/api/v1/mods/60089/files/4581243/download)
+## inventory sorter
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
+- [download](https://www.curseforge.com/api/v1/mods/240633/files/4655091/download)
+## sound-physics-remastered
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered)
+- [download](https://www.curseforge.com/api/v1/mods/535489/files/4584316/download)
+## Roots classic
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/roots-classic)
+- [download](https://www.curseforge.com/api/v1/mods/295780/files/4652663/download)
+## flib
+- [download](https://www.curseforge.com/api/v1/mods/661261/files/4661080/download)
+## ends-delight
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
+- [download](https://www.curseforge.com/api/v1/mods/662675/files/4643639/download)
+## cuisine-delight
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/cuisine-delight)
+- [download](https://www.curseforge.com/api/v1/mods/893541/files/4670462/download)
+## spice of life - carrot edition
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
+- [download](https://www.curseforge.com/api/v1/mods/277616/files/4650707/download)
+## trough
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)
+- [download](https://www.curseforge.com/api/v1/mods/445838/files/4606794/download)
+## terrablender
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/terrablender)
+- [download](https://www.curseforge.com/api/v1/mods/563928/files/4647094/download)
+## biomes-o-plenty
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+- [download](https://www.curseforge.com/api/v1/mods/220318/files/4617259/download)
+## incendium
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/incendium)
+- [download](https://www.curseforge.com/api/v1/mods/591388/files/4655668/download)
+## towers-of-the-wild-additions
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additions)
+- [download](https://www.curseforge.com/api/v1/mods/560091/files/4666394/download)
+## ender cataclism
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/l_ender-s-cataclysm)
+- [download](https://www.curseforge.com/api/v1/mods/551586/files/4668870/download)
