@@ -148,9 +148,6 @@
 ## cuisine-delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/cuisine-delight)
 - [download](https://www.curseforge.com/api/v1/mods/893541/files/4670462/download)
-## spice of life - carrot edition
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
-- [download](https://www.curseforge.com/api/v1/mods/277616/files/4650707/download)
 ## trough
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)
 - [download](https://www.curseforge.com/api/v1/mods/445838/files/4606794/download)
