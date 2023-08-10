@@ -1,192 +1,207 @@
 # Gentoo Installation guide
-## Requirements
-- any live cd distro
-- internet
-- vim
-## Installation
-#### Preparations
-- make sure that you have internet connection
-```
-ping -c 3 gentoo.org
-```
-- become root
-- check disks
-```
-fdisk -l
-```
-- in this guide disk is /dev/sda
-- wipe old filesystem
-```
-wipefs -a /dev/sda
-```
-#### Partitioning Using Parted
-- enter parted
-```
-parted -a optimal /dev/sda
-```
-- set label and unit 
-```
-mklabel gpt
-unit mib
-```
-- boot and grub partitions
-```
-mkpart primary 1 3
-mkpart 1 grub
-set 1 bios_grub on
-mkpart praimary 3 131
-name 2 boot
+## (liveUSB) (BTRFS) (EFI) (systemd)
+- get root permissions (`sudo su` should work fine on most distros)
+- make sure `vim` is installed
 
+# partitioning (using cfdisk)
+- `cfdisk`
+- pick gpt
+```
+1G          EFI System
+4/8/12/16G  Linux swap
+rest        Linux filesystem
+```
+# formating 
+- efi
+```
+mkfs.vfat -F 32 /dev/sda1
 ```
 - swap
 ```
-mkpart primary 131 4227
-name 3 swap
+mkswap /dev/sda2
 ```
-- main
+- btrfs
 ```
-mkpart primary 4227 -1
-name 4 rootfs
+mkfs.btrfs /dev/sda3
 ```
-- check if everything is fine 
+- turn swap on
 ```
-print
+swapon /dev/sda2
 ```
-- write and quit parted
+- creating mounting point
 ```
-write
-quit
+mkdir --parents /mnt/gentoo
 ```
-- check again if everything is fine
+- mounting btrfs
 ```
-lsblk
+mount /dev/sda3 /mnt/gentoo/
 ```
-#### Format and mount partitions
-- boot
+- check if it's mounted
 ```
-mkfs.fat -F 32 /dev/sda2
+df -h
 ```
-- swap
-```
-mkswap /dev/sda3
-swapon /dev/sda3
-```
-- main
-```
-mkfs.ext4 /dev/sda4
-```
-- prepare directory
-```
-mkdir -r /mnt/gentoo
-```
-- mount 
-```
-mount /dev/sda4 /mnt/gentoo
-```
-- enter mounted partition
+# BTRFS subvolumes
+- go to mounted btrfs partition
 ```
 cd /mnt/gentoo
 ```
-#### check if date is correct
+- create root subvolume
 ```
-date
+btrfs subvolume create @
 ```
-- if it's not fix it with something like this 
-- example (18-05-2023 21:37)
+- create home subvolume
 ```
-date 180521372023
+btrfs subvolume create @home
 ```
-#### Stage 3 preparation (tarball)
-- download stage 3 taball
-- you can get it here https://www.gentoo.org/downloads/
-- use wget followed by link
+- remount volumes
 ```
-wget https://this.is.your.link
+cd /
+umount /mnt/gentoo
 ```
+- mount root subvolume
+```
+mount -o subvol=@ /dev/sda3 /mnt/gentoo/
+```
+- mount home subvolume
+```
+mkdir /mnt/gentoo/home
+mount -o subvol=@home /dev/sda3 /mnt/gentoo/home/
+```
+- check if it's mounted
+```
+df -h
+```
+# mounting boot partioton
+- boot
+```
+mkdir /mnt/gentoo/boot
+mount /dev/sda1 /mnt/gentoo/boot
+cd /mnt/gentoo
+```
+# date setup
+```
+# pattern:
+# date MMDDHHMMYYYY
+date 080920472023
+```
+# stage 3 tarball
+- open browser and go to https://www.gentoo.org/downloads 
+- get systemd tarball
+- move tarbal to /mnt/gentoo
 - unpack it
 ```
-tar xpvf stage3-restoftarbalname --xattrs-include='*.*' --numeric-owner
+tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
 ```
-- remove tarball
+# create make configuration
+- open make.conf
 ```
-rm -rf stage3-restoftarbalname
+vim ./etc/portage/make.conf
 ```
-#### create configuration
-- create/edit make.conf
+- change this line
 ```
-vim etc/make.conf
+COMMON_FLAGS="-O2 -pipe"
 ```
-- portage
+- to this line
 ```
-mkdir --parents etc/portage/repos.conf
-cp usr/share/portage/config/repos.conf etc/portage/repos.conf/gentoo.conf
-cp dereference /etc/resolv.conf etc/
+COMMON_FLAGS="-march=native -O2 -pipe"
 ```
-#### chroot
-- mount 
+- add this line under flags 
 ```
-mount --types proc /proc proc/
-mount --rbind /sys sys
-mount --make-rslave sys
-mount --rbind /dev/ dev
-mount --make-rslave dev
+FEATURES="candy parallel-fetch parallel-install"
 ```
-- chroot 
+- add this line under FEATURES(where j4 = 4 cores)
+```
+MAKEOPTS="-j4"
+```
+- and save changes
+# configure repositories
+- create repos.conf directory
+```
+mkdir --parents /mnt/gentoo/etc/portage/repos.conf
+```
+- copy gentoo repo configuration
+```
+cp /mnt/gentoo/usr/share/portage/config/repos.conf /mnt/gentoo/etc/portage/repos.conf/gentoo.conf
+```
+- copy DNS info
+```
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
+```
+# mount filesystems
+```
+mount --types proc /proc /mnt/gentoo/proc
+mount --rbind /sys /mnt/gentoo/sys
+mount --make-rslave /mnt/gentoo/sys
+mount --rbind /dev /mnt/gentoo/dev
+mount --make-rslave /mnt/gentoo/dev
+mount --bind /run /mnt/gentoo/run
+mount --make-slave /mnt/gentoo/run 
+```
+- if using non-gentoo installation iso type also this
+```
+test -L /dev/shm && rm /dev/shm && mkdir /dev/shm 
+mount --types tmpfs --options nosuid,nodev,noexec shm /dev/shm 
+chmod 1777 /dev/shm /run/shm
+```
+# Entering new environment
 ```
 chroot /mnt/gentoo /bin/bash
-```
-- in gentoo 
-```
 source /etc/profile
+export PS1="(chroot) ${PS1}"
 ```
-### gentoo installation stage 3
-```
-mount /dev/sda2 /boot
-```
+# configure portage
+- fetch the latest snapshot (which is released on a daily basis) from one of Gentoo's mirrors and install it onto the system
 ```
 emerge-webrsync
 ```
-- fix if can't emerge
+- use the rsync protocol to update the Gentoo ebuild repository (which was fetched earlier on through emerge-webrsync) to the latest state. 
+```
+emerge --sync
+```
+- make sure you are on right profile
+```
+eselect profile list
+eselect profile set X
+```
+- emerge vim
+```
+emerge vim
+```
+- edit make.conf
 ```
 vim /etc/portage/make.conf
 ```
-- or move make.conf to correct location
+- add some use flags
 ```
-mv /etc/make.conf /etc/portage/make.conf
+USE="alsa systemd"
 ```
-- select profile that you are using
+- update world set 
 ```
-eselect profile list
+emerge --ask --verbose --update --deep --newuse @world
+emerge -avUDN @world
 ```
-### First emerge
-- update system for first time
+- extra cpu flags
 ```
-emerge --verbose --update --deep --newuse @world
+emerge --ask app-portage/cpuid2cpuflags
+echo "*/* $(cpuid2cpuflags)" > /etc/portage/package.use/00cpu-flags
 ```
-- emerge the best text editor
+- add license to make.conf
 ```
-emerge -q app-editors/vim
+ACCEPT_LICENSE="*"
 ```
-
-### setting timezone/locale
-- update timezone
+# Locale and time
+- find your timezone using this
 ```
-echo "Europe/Warsaw" > /etc/timezone
-
+ls /usr/share/zoneinfo
 ```
-- emerge timezone
+- set your timezone using this
 ```
-emerge --config sys-libs/timezone-data
+ln -sf ../usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 ```
-- make sure you are at right locale
-```
-eselect locale list
-```
-- add US locale
+- configure locale
 ```
 vim /etc/locale.gen
-# add line bellow
-en_US.UTF-8 UTF-8 
+# uncomment both en_US
 ```
 - generate locale
 ```
@@ -195,131 +210,128 @@ locale-gen
 - select locale
 ```
 eselect locale list
+eselect locale set X
 ```
+- source changes
 ```
-eselect locale set 4
+source /etc/profile
 ```
-- update enviroment
+- update environment
 ```
-env-update && source /etc/profile
+env-update
 ```
-### emerge few more things
-- gentoo-sources
+# kernel
+- install this if you have AMD CPU
 ```
-emerge -q --autounmask-continue sys-kernel/gentoo-sources genkernel
+emerge --ask sys-kernel/linux-firmware
 ```
-- pciutils (in general for graphics card)
+- install this if you have Intel CPU
 ```
-emerge -q sys-apps/pciutils
+emerge --ask sys-kernel/linux-firmware
+emerge --ask sys-firmware/intel-microcode
 ```
-- compression algorithms for compressing kernel
+- install kernel binary
 ```
-emerge -q app-arch/lzop app-arch/lz4
+emerge --ask sys-kernel/gentoo-kernel-bin
 ```
-### configuring the kernel
+# fstab
+- get genfstab
 ```
-cd /usr/src/linux
+emerge genfstab
 ```
+- configure fstab
 ```
-make menuconfig
-# remember to save after you finish
+genfstab -U / >> /etc/fstab
 ```
-### making kernel
-- compile
+- edit fstab to look something like this:
 ```
-make && make modules_install && make install 
+vim /etc/fstab
+# /dev/sda1
+UUID=somenumber     /boot   vfat    noauto,noatime              1 2
+# /dev/sda2 
+UUID=somenumber     none    swap    sw                          0 0 
+# /dev/sda3
+UUID=somenumber     /       btrfs   subvol=@,ssd,defaults       1 0
+# /dev/sda3
+UUID=somenumber     /home   btrfs   subvol=@home,ssd,defaults   0 0
 ```
-- create initramfs
-```
-genkernel --install --kernel-config=/usr/src/linux/.config initramfs
-```
-- check if it's there
-```
-ls /boot/initramfs*
-```
-### web configuration
+# rest of the system
 - hostname
 ```
-vim /etc/conf.d/hostname
+echo "gentoo" > /etc/hostname
 ```
+- network
 ```
-emerge --noreplace --quiet net-misc/netifrc
+emerge --ask net-misc/dhcpcd
+systemctl enable --now dhcpcd 
+systemctl enable dhcpcd 
+
 ```
-- check what network card you have
+- get informaiton about network
 ```
 ifconfig
 ```
-- adding network card
+- edit config
 ```
 vim /etc/conf.d/net
-```
-```
-# add this string to file
-config_yourcardname="dhcp"
-```
-- emerge dhcpcd
-```
-emerge net-misc/dhcpcd
-```
-- change directory
-```
-cd /etc/init.d
-```
-- create symlink
-```
-ln -s net.lo net.yourcardname
-```
-- add starting ad boot
-```
-rc-update add net.yourcardname default
-```
 
-### boot configuration
-- IF YOU HAVE UEFI SYSTEM MAKE SURE YOU HAVE THIS LINE 
+#it should look something like this
+# where eno1 is your network
+config_eno1="dhcp" 
 ```
-GRUB_PLATFORMS="efi-64"
+- edit hosts
 ```
-inside the `/etc/portage/make.conf`
-- get UUIDs (save somewhere for later, you will need them)
+vim /etc/hosts
+# add alias to make it look something like this:
+127.0.0.1   gentoo-hardware localhost
 ```
-blkid -s UUID -o value /dev/sda2
-blkid -s UUID -o value /dev/sda3
-blkid -s UUID -o value /dev/sda4
+- iff you don't care about secure passwords
 ```
-- emerge grub
+vim /etc/security/passwdqc.conf
+# change 
+enforce=everyone
+#to
+enforce=none 
 ```
-emerge --verbose sys-boot/grub:2
+- root password
 ```
-- install grub(for efi)
+passwd
 ```
+- systemd-firstboot
+```
+systemd-firstboot --prompt --setup-machine-id
+systemctl preset-all --preset-mode=enable-only
+```
+# installing tools
+- system tools
+```
+emerge --ask sys-apps/mlocate
+emerge --ask app-shells/bash-completion
+emerge --ask net-misc/chrony
+
+systemctl enable chronyd.service
+
+emerge sys-fs/btrfs-progs
+emerge sys-fs/dosfstools
+
+emerge --ask sys-block/io-scheduler-udev-rules
+```
+- networking tools
+```
+emerge --ask net-misc/dhcpcd
+```
+# configuring bootloader
+```
+echo 'GRUB_PLATFORMS="efi-64"' >> /etc/portage/make.conf
+emerge --ask sys-boot/grub
 grub-install --target=x86_64-efi --efi-directory=/boot
-```
-- if you don't see `No error reported then you fucked up`
-- make grub config file
-```
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
-- edit fstab
+# moment of truth
 ```
-vim /etc/fstab
-```
-- add UUID to fstab 
-```
-# add UUIDs saved before (this one is for efi)
-yourUUIDforsda2    /boot/efi    vfat    defaults    0    2
-yourUUIDforsda3    none         swap    sw          0    0
-yourUUIDforsda4    /            ext4    noatime     0    1
-```
-
-### setting up SUDO
-```
-emerge -q app-admin/sudo
-```
-- edit sudoers file (look around line 70)
-```
-vim /etc/sudoers
-```
-### setting up window manager 
-```
-TODO
+exit
+cd 
+umount -l /mnt/gentoo/dev{/shm,/pts,}
+umount -R /mnt/gentoo
+reboot
 ```
