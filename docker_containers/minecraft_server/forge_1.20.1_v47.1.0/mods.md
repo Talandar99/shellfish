@@ -66,9 +66,6 @@
 ## Twilight forest
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 - [download](https://www.curseforge.com/api/v1/mods/227639/files/4653704/download)
-## Undergarden
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-undergarden)
-- [download](https://www.curseforge.com/api/v1/mods/379849/files/4635205/download)
 # Libraries
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
@@ -120,8 +117,6 @@
 - [download](https://www.curseforge.com/api/v1/mods/858542/files/4598462/download)
 ## bookshelf 
 - [download](https://www.curseforge.com/api/v1/mods/228525/files/4648130/download)
-
-# new mods
 ## falling-leaves
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge)
 - [download](https://www.curseforge.com/api/v1/mods/463155/files/4573705/download)
@@ -169,3 +164,10 @@
 ## more sniffer flowers
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/more-sniffer-flowers)
 - [download](https://www.curseforge.com/api/v1/mods/884119/files/4624549/download)
+# new mods
+## Brewin And Chewin 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-1-20-port)
+- [download](https://www.curseforge.com/api/v1/mods/898078/files/4682433/download)
+## Shield Expansion
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/shield-expansion)
+- [download](https://www.curseforge.com/api/v1/mods/583318/files/4681306/download)
