@@ -7,3 +7,4 @@ This part of repo contain guides for things that are too complex to be done by s
 
 ### Other
 - [Docker privilage escalation](docker_privilege_escalation.md)
+- [BTRFS snapper](btrfs_snapper.md)
