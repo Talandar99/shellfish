@@ -1,14 +1,5 @@
 # Arch Linux EFI BTRFS Installation + Desktop 
 
-## Contents:
-- disc partitioning and formating for BTRFS filesystem
-- installation pacstrap command
-- pacman confguration
-- installation of all basic packages
-- creating BTRFS snapshots
-- i3 window manager installation with all dependancies
-- snapper tool installation and usage
-
 # Let's go :D
 ## launch archlinux USB image
 ## test connection
