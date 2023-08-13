@@ -51,9 +51,6 @@
 ## Monster Plus
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/monster-plus)
 - [download](https://www.curseforge.com/api/v1/mods/676418/files/4612195/download)
-## Dynamic Lights
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
-- [download](https://www.curseforge.com/api/v1/mods/227874/files/4588517/download)
 ## farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [download](https://www.curseforge.com/api/v1/mods/398521/files/4638874/download)
@@ -73,7 +70,7 @@
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
 ## puzzels lib
-- [download](https://www.curseforge.com/api/v1/mods/495476/files/4621178/download)
+- [download](https://www.curseforge.com/api/v1/mods/495476/files/4701146/download)
 ## balm  
 - [download](https://www.curseforge.com/api/v1/mods/531761/files/4597440/download)
 ## sophisticated core
@@ -167,11 +164,37 @@
 ## more sniffer flowers
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/more-sniffer-flowers)
 - [download](https://www.curseforge.com/api/v1/mods/884119/files/4624549/download)
-
-# new mods
 ## Brewin And Chewin 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-1-20-port)
 - [download](https://www.curseforge.com/api/v1/mods/898078/files/4682433/download)
 ## Shield Expansion
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/shield-expansion)
 - [download](https://www.curseforge.com/api/v1/mods/583318/files/4681306/download)
+# new mods
+## Magnesium/Rubidium Extras
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/magnesium-extras)
+- [download](https://www.curseforge.com/api/v1/mods/558905/files/4632207/download)
+## Magnesium/Rubidium Dynamic Lights
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged)
+- [download](https://www.curseforge.com/api/v1/mods/551736/files/4606589/download)
+## Diamond In The Rough (as in obsidian)
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/diamond-in-the-rough-as-in-obsidian)
+- [download](https://www.curseforge.com/api/v1/mods/898993/files/4685707/download)
+## Forgiving Void 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/forgiving-void)
+- [download](https://www.curseforge.com/api/v1/mods/271009/files/4583144/download)
+## B.F. End Cities
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/bf-end-cities)
+- [download](https://www.curseforge.com/api/v1/mods/676639/files/4607889/download)
+## Nullscape
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/nullscape)
+- [download](https://www.curseforge.com/api/v1/mods/570354/files/4677638/download)
+## Ender Trigon
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/ender-trigon)
+- [download](https://www.curseforge.com/api/v1/mods/662563/files/4621953/download)
+## Easy Anvils
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/easy-anvils)
+- [download](https://www.curseforge.com/api/v1/mods/682567/files/4662014/download)
+## Easy Magic
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/easy-magic)
+- [download](https://www.curseforge.com/api/v1/mods/456239/files/4658750/download)
