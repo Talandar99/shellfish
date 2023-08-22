@@ -30,9 +30,6 @@
 ## gravestone
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 - [download](https://www.curseforge.com/api/v1/mods/238551/files/4584214/download)
-## Xaero's Minimap
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
-- [download](https://www.curseforge.com/api/v1/mods/263420/files/4593190/download)
 ## Apple skin
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/appleskin)
 - [download](https://www.curseforge.com/api/v1/mods/248787/files/4605078/download)
@@ -48,9 +45,6 @@
 ## Aquamarine
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/ob-aquamirae)
 - [download](https://www.curseforge.com/api/v1/mods/536254/files/4616373/download)
-## Monster Plus
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/monster-plus)
-- [download](https://www.curseforge.com/api/v1/mods/676418/files/4612195/download)
 ## farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [download](https://www.curseforge.com/api/v1/mods/398521/files/4638874/download)
@@ -63,9 +57,6 @@
 ## Twilight forest
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 - [download](https://www.curseforge.com/api/v1/mods/227639/files/4653704/download)
-## Undergarden
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-undergarden)
-- [download](https://www.curseforge.com/api/v1/mods/379849/files/4635205/download)
 # Libraries
 ## citadel
 - [download](https://www.curseforge.com/api/v1/mods/331936/files/4579078/download)
@@ -99,9 +90,6 @@
 ## thirst-was-remade
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/thirst-was-remade)
 - [download](https://www.curseforge.com/api/v1/mods/884742/files/4649354/download)
-## xaeros-world-map
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
-- [download](https://www.curseforge.com/api/v1/mods/317780/files/4594991/download)
 ## enchantments description
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [download](https://www.curseforge.com/api/v1/mods/250419/files/4657243/download)
@@ -120,9 +108,6 @@
 ## falling-leaves
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge)
 - [download](https://www.curseforge.com/api/v1/mods/463155/files/4573705/download)
-## kobolds
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/kobolds)
-- [download](https://www.curseforge.com/api/v1/mods/484967/files/4670475/download)
 ## mouse-tweaks
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [download](https://www.curseforge.com/api/v1/mods/60089/files/4581243/download)
@@ -145,7 +130,7 @@
 - [download](https://www.curseforge.com/api/v1/mods/893541/files/4670462/download)
 ## trough
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)
-- [download](https://www.curseforge.com/api/v1/mods/445838/files/4606794/download)
+- [download](https://www.curseforge.com/api/v1/mods/445838/files/4606793/download)
 ## terrablender
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/terrablender)
 - [download](https://www.curseforge.com/api/v1/mods/563928/files/4647094/download)
@@ -167,10 +152,6 @@
 ## Brewin And Chewin 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-1-20-port)
 - [download](https://www.curseforge.com/api/v1/mods/898078/files/4682433/download)
-## Shield Expansion
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/shield-expansion)
-- [download](https://www.curseforge.com/api/v1/mods/583318/files/4681306/download)
-# new mods
 ## Magnesium/Rubidium Extras
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/magnesium-extras)
 - [download](https://www.curseforge.com/api/v1/mods/558905/files/4632207/download)
@@ -198,3 +179,6 @@
 ## Easy Magic
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/easy-magic)
 - [download](https://www.curseforge.com/api/v1/mods/456239/files/4658750/download)
+## Nature Compass
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
+- [download](https://www.curseforge.com/api/v1/mods/252848/files/4712189/download)
