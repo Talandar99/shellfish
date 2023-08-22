@@ -182,3 +182,5 @@
 ## Nature Compass
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 - [download](https://www.curseforge.com/api/v1/mods/252848/files/4712189/download)
+## Architectury API
+- [download](https://www.curseforge.com/api/v1/mods/419699/files/4663010/download)
