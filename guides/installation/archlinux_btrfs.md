@@ -155,6 +155,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 ```
 arch-chroot /mnt
 ```
+HERE
 ## setup basic stuff 
 - setup timezone (Poland in my case)
 ```
