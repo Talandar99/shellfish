@@ -187,3 +187,12 @@
 - [download](https://www.curseforge.com/api/v1/mods/252848/files/4712189/download)
 ## Architectury API
 - [download](https://www.curseforge.com/api/v1/mods/419699/files/4663010/download)
+## Easy Shulker boxes
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes)
+- [download](https://www.curseforge.com/api/v1/mods/594006/files/4621184/download)
+## Valkyrien Skies
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies)
+- [download](https://www.curseforge.com/api/v1/mods/258371/files/4654328/download)
+## Eureka ships
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/eureka-ships)
+- [download](https://www.curseforge.com/api/v1/mods/654384/files/4654299/download)
