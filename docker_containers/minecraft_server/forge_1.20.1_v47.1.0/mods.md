@@ -192,4 +192,4 @@
 - [download](https://www.curseforge.com/api/v1/mods/594006/files/4621184/download)
 ## Create: Broken Bad
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/create-broken-bad)
-- [download](https://www.curseforge.com/minecraft/mc-mods/create-broken-bad/download/4671984)
+- [download](https://www.curseforge.com/api/v1/mods/635620/files/4671984/download)
