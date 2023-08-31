@@ -32,7 +32,7 @@
 - [download](https://www.curseforge.com/api/v1/mods/245755/files/4635315/download)
 ## gravestone
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
-- [download](https://www.curseforge.com/api/v1/mods/238551/files/4584214/download)
+- [download](https://www.curseforge.com/api/v1/mods/238551/files/4678861/download)
 ## Apple skin
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/appleskin)
 - [download](https://www.curseforge.com/api/v1/mods/248787/files/4605078/download)
@@ -50,7 +50,7 @@
 - [download](https://www.curseforge.com/api/v1/mods/536254/files/4616373/download)
 ## farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
-- [download](https://www.curseforge.com/api/v1/mods/398521/files/4638874/download)
+- [download](https://www.curseforge.com/api/v1/mods/398521/files/4679319/download)
 ## ocean delight 
 - [curseforge](https://curseforge.com/minecraft/mc-mods/oceans-delight)
 - [download](https://www.curseforge.com/api/v1/mods/841262/files/4652060/download)
@@ -139,7 +139,7 @@
 - [download](https://www.curseforge.com/api/v1/mods/563928/files/4647094/download)
 ## biomes-o-plenty
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
-- [download](https://www.curseforge.com/api/v1/mods/220318/files/4617259/download)
+- [download]( https://www.curseforge.com/api/v1/mods/220318/files/4707270/download)
 ## towers-of-the-wild-additions
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additions)
 - [download](https://www.curseforge.com/api/v1/mods/560091/files/4666394/download)
@@ -190,3 +190,6 @@
 ## Easy Shulker boxes
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes)
 - [download](https://www.curseforge.com/api/v1/mods/594006/files/4621184/download)
+## Create: Broken Bad
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/create-broken-bad)
+- [download](https://www.curseforge.com/minecraft/mc-mods/create-broken-bad/download/4671984)
