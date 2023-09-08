@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S docker
+sudo pacman -S docker --noconfirm
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 USER=$(whoami)
