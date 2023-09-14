@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    flex-direction:column; 
+}
+
+button {
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+    border-color: sandybrown;
+	color: sandybrown;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: brown;
+}
+button:active{
+    background-color: brown;
+    color: black;
+    border-color: black;
+}
+body {
+	background-color: saddlebrown;
+	font-style: normal;
+	color: sandybrown;
+}
