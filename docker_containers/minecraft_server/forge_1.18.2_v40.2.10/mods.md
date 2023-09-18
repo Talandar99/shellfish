@@ -1,10 +1,6 @@
 # Forge 
 - [forge](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.10/forge-1.18.2-40.2.10-installer.jar)
 # Mods 
-## Terralith
-- new terrain generation and more biomes
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/terralith)
-- [download](https://www.curseforge.com/api/v1/mods/513688/files/4559078/download)
 ## Oh The Biomes You'll Go
 - More biomes
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go)
@@ -101,18 +97,6 @@
 - Adding food from ocean to farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/oceans-delight)
 - [download](https://www.curseforge.com/api/v1/mods/841262/files/4462935/download)
-## Alex delight
-- Adding food from alex mobs to farmers delight
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-delight)
-- [download](https://www.curseforge.com/api/v1/mods/556448/files/3984913/download)
-## Alex mobs
-- new mobs 
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
-- [download](https://www.curseforge.com/api/v1/mods/426558/files/3853078/download)
-## Alex mobs extra music
-- Fight void worm with a style
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs-battle-music)
-- [download](https://www.curseforge.com/api/v1/mods/500532/files/3696346/download)
 ## Ferrite Core
 - Optimization 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
@@ -253,7 +237,31 @@
 - harvest blood to create powerfull items
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/blood-magic)
 - [download](https://www.curseforge.com/api/v1/mods/224791/files/3953207/download)
+## Malum
+- Dark magic mod centered around spirit arcana
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/malum)
+- [download](https://www.curseforge.com/api/v1/mods/484064/files/4631612/download)
+## Biomancy
+- Living machinery 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/biomancy)
+- [download](https://www.curseforge.com/api/v1/mods/492939/files/4496477/download)
 # Libraries
+## GeckoLib
+- Library mod for biomancy
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+- [download](https://www.curseforge.com/api/v1/mods/388172/files/4181370/download)
+## Lodestone
+- Library mod for Malum
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/malum/files)
+- [download](https://www.curseforge.com/api/v1/mods/616457/files/4631609/download)
+## Curios API
+- Library mod for Malum
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/curios)
+- [download](https://www.curseforge.com/api/v1/mods/309927/files/4590652/download)
+## balm
+- Library mod for Waystones
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/balm)
+- [download](https://www.curseforge.com/api/v1/mods/531761/files/4442615/download)
 ## balm
 - Library mod for Waystones
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/balm)
@@ -274,10 +282,6 @@
 - Library mod for Oh the biomes You'll Go
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/terrablender)
 - [download](https://www.curseforge.com/api/v1/mods/563928/files/3957976/download)
-## Cristel Lib
-- library mod for terralith
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/cristel-lib)
-- [download](https://www.curseforge.com/api/v1/mods/856996/files/4531755/download)
 ## Citadel
 - Library mod for ice and fire 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/citadel)
@@ -302,3 +306,4 @@
 - datapack for integrating better combat with tinkers construct
 - [curseforge](https://www.curseforge.com/minecraft/texture-packs/tinkers-better-combat)
 - [download](https://www.curseforge.com/api/v1/mods/837916/files/4714619/download)
+
