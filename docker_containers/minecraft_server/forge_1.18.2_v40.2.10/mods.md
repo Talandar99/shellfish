@@ -25,6 +25,22 @@
 - new complex way of creating powerfull gear
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/74072/files/4509008/download)
+## Useful Slime
+- slimeboots 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/useful-slime)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/417702/files/3722531/download)
+## Tinkers Expansion
+- Adds Slimedice and coated copper
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-expansion)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/819036/files/4672145/download)
+## TConstructCompatible 
+- Adds Chlorium and Powdered Tin
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tconstructcompatible)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/714602/files/4120587/download)
+## EmpaTiC
+- Adds sandstone related materials
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/empatic)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/547851/files/3806950/download)
 ## Tinkers Construct Intergrations
 - integrates tinkers construct with few other mods
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tcintegrations)
@@ -166,10 +182,7 @@
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [feature list](https://quarkmod.net/#features)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/243121/files/3840125/download)
-## Quark oddities
-- few more advanced changes to minecraft mechanics, like backpack , copper iitem pipes or totem of holding
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/quark-oddities)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/301051/files/3575623/download)
+
 ## Spice Of life: Carrot Edition
 - Rewarding the player for eating a variety of foods by giving them extra health points
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
@@ -253,6 +266,10 @@
 - Living machinery 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/biomancy)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/492939/files/4496477/download)
+## gravestone
+- Adds gravestones
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/238551/files/3713957/download)
 # Libraries
 ## Blueprint 
 - Library mod for Upgrade Aquatic
