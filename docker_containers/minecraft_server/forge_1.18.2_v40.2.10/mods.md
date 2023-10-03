@@ -149,27 +149,6 @@
 - show info about thing you are looking at
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/jade)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/324717/files/4575623/download)
-## YUNG's Better nether fortress
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/817651/files/4428187/download)
-## YUNG's Better witch huts
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-witch-huts)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/631401/files/3855148/download)
-## YUNG's Better dungeons
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-dungeons)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/510089/files/3777934/download)
-## YUNG's Better strongholds
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/465575/files/3778231/download)
-## YUNG's Better desert temples
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-desert-temples)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/631016/files/3950598/download)
-## YUNG's Better ocean monuments
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/689238/files/4032731/download)
-## YUNG's Better mineshafts
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/389665/files/3855186/download)
 ## Map Atlases 
 - vanilla friendly minimap mod
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
@@ -299,10 +278,6 @@
 - Library mod for Easy Shulkerboxes 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/495476/files/4707477/download)
-## YUNG's api
-- Library mod fo young's collection
-- [curseforge](https://curseforge.com/minecraft/mc-mods/yungs-api)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/421850/files/4428184/download)
 ## AutoRegLib
 - Library mod for Quark
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/autoreglib)
