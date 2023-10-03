@@ -306,6 +306,7 @@
 - Library mod for better combat
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/658587/files/4418152/download)
+# Datapacks
 ## Tinkers Better combat (datapack)
 - datapack for integrating better combat with tinkers construct
 - [curseforge](https://www.curseforge.com/minecraft/texture-packs/tinkers-better-combat)
