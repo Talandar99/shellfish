@@ -53,6 +53,30 @@
 - Combines tinkers construct with Blood magic
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/blood-smeltery)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/476863/files/4579120/download)
+## Tinkers' Thinking
+- Extension for TC 
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-thinking)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/850772/files/4745327/download)
+## Tinkers Reforged
+- Extension for TC. New materials, broadsword, frying pan
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-reforged)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/376876/files/4580213/download)
+## Tinkers' Disassembler
+- Extension for TC. Special table for disassembling weapon
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-disassembler)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/826357/files/4609671/download)
+## Materialis
+- Extension for TC. New Materials
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/materialis)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/377652/files/4582883/download)
+## Tinkers' JSON Things
+- Extension for TC. New armor. Laminar slime armor
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-things-json)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/811436/files/4396026/download)
+## Forged In Fire
+- Extension for TC. Integrates Ice And Fire and tinkers-construct
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/forged-in-fire)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/846779/files/4521996/download)
 # Create
 - Variety of tools and blocks for Building, Decoration and Aesthetic Automation.
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/create)
@@ -161,7 +185,6 @@
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [feature list](https://quarkmod.net/#features)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/243121/files/3840125/download)
-
 ## Spice Of life: Carrot Edition
 - Rewarding the player for eating a variety of foods by giving them extra health points
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
@@ -306,3 +329,7 @@
 - Library mod for better combat
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/658587/files/4418152/download)
+## JSON Things
+- Library mod for Tinkers' JSON Things
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/json-things)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/541617/files/4645826/download)
