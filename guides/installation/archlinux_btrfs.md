@@ -224,7 +224,7 @@ ILoveCandy
 ## setup grub and networkmanager
 - get packages
 ```
-pacman -S grub efibootmgr networkmanager network-manager-manager-applet dialog wpa_supplicant mtools dosfstools reflector snapper blue bluez-utils xdg-utils xdg-user-dirs alsa-utils pulseaudio pulseaudio-bluetooth inetutils linux-headers bash-completion
+pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector snapper blue bluez-utils xdg-utils xdg-user-dirs alsa-utils pulseaudio pulseaudio-bluetooth inetutils linux-headers bash-completion
 ```
 - open mkinitcpio config
 ```
@@ -244,7 +244,7 @@ mkinitcpio -p linux
 ```
 - install grub 
 ```
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --removable
 ```
 - generate configuration file for grub 
 ```
@@ -410,7 +410,7 @@ sudo mkinitcpio -p linux
 ## install i3 wm
 - get packages
 ```
-sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm i3blocks dunst flameshot palyerctl rofi pamixer feh xclip xcompmgr alacritty firefox ttf-font-awesome ttf-firacode-nerd ttf-dejavu
+sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm i3blocks dunst flameshot playerctl rofi pamixer feh xclip xcompmgr alacritty firefox ttf-font-awesome ttf-firacode-nerd ttf-dejavu
 paru -S betterlockscreen 
 ```
 - crate config directory
@@ -427,9 +427,25 @@ nvim ~/.xinitrc
 ```
 - Add line:
 ```
-exec i3
+exec dbus-launch i3
 ```
 - launch i3 and have fun
 ```
 startx
+```
+
+## bluetooth
+- install blueberry
+```
+sudo pacman -S blueberry
+```
+- allow yourself to use input
+```
+sudo usermod -G yourusername
+```
+
+## thunar
+```
+sudo pacman -S thunar thunar-volman gvfs tumbler polkit-gnome
+
 ```
