@@ -410,7 +410,7 @@ sudo mkinitcpio -p linux
 ## install i3 wm
 - get packages
 ```
-sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm i3blocks dunst flameshot playerctl rofi pamixer feh xclip xcompmgr alacritty firefox ttf-font-awesome ttf-firacode-nerd ttf-dejavu
+sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm i3blocks dunst flameshot playerctl rofi pamixer feh xclip xcompmgr alacritty firefox ttf-font-awesome ttf-firacode-nerd ttf-dejavu ttf-joypixels
 paru -S betterlockscreen 
 ```
 - crate config directory
