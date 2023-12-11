@@ -259,6 +259,10 @@ systemctl enable NetworkManager
 ```
 systemctl enable bluetooth
 ```
+## set clock synchronize
+```
+timedatectl set-ntp true
+```
 ## create user and add persmissions
 - create user
 ```
