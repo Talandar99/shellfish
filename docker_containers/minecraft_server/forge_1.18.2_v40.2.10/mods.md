@@ -272,6 +272,14 @@
 - Adds gravestones
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/238551/files/3713957/download)
+## Botania
+- Plant based machinery
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/botania)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/225643/files/3936568/download)
+## Twilight Forest
+- Adds new dimension called Twilight Forest
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/227639/files/4337390/download)
 # Libraries
 ## Blueprint 
 - Library mod for Upgrade Aquatic
