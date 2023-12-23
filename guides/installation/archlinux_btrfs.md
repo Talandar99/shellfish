@@ -303,6 +303,21 @@ sudo nvim /etc/vconsole.conf
 ```
 KEYMAP=yourkeymap
 ```
+### [optional] adding keymap in X11 config (pl in my case)
+adding keymapping into vconsole may not always work. If that's the case try to add it in different location
+- open keyboard.conf
+```bash
+sudo nvim /etc/X11/xorg.conf.d/00-keyboard.conf
+```
+- paste this
+```bash
+Section "InputClass"
+    Identifier "system-keyboard"
+    MatchIsKeyboard "on"
+    Option "XkbLayout" "pl"
+EndSection
+```
+- save
 ## paru setup 
 ```
 sudo pacman -S rustup
