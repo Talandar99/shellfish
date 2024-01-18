@@ -38,10 +38,4 @@ echo "CMD [ \"--config.file=/etc/prometheus/prometheus.yml\", \"--storage.tsdb.p
 docker build -t myprometheus .
 docker run -d -p 9090:9090 myprometheus 
 echo "prometheus is running on localhost:9090"
-#echo '-----------------------'
-#echo 'run graphana'
-#echo '-----------------------'
-#docker pull grafana/grafana-oss
-#docker run -d -p 3000:3000 grafana/grafana-oss
-#echo "grafana is running on port 3000"
 echo 'done :>'
