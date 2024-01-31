@@ -1,4 +1,4 @@
-# 🐚shellfish🐚
+# [shellfish] 🐚
 This repo contains a lot of scripts, configuration, guides etc that I think are/were usefull. 
 <br/>Hope you will also find something usefull here
 
