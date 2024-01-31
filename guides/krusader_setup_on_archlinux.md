@@ -10,4 +10,3 @@ export QT_PLUGIN_PATH=$HOME/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/
 ```
 ### setup theme and font using qt5ct
 ### toggle the "Show Previews" option from View menu. 
-
