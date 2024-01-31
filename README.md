@@ -1,6 +1,6 @@
-# 🦪shellfish🦪
-Setup scripts, ansible playbooks, guides and containerized apps, all in one place
- 
+# 🦪shellfish
+This repo contains a lot of scripts, configuration, guides etc that I think are/were usefull.
+
 ## Contents
 - [ansible_playbooks](ansible_playbooks)
 - [docker_containers](docker_containers)
