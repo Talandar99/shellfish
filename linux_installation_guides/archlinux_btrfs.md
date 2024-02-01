@@ -1,6 +1,5 @@
 # Arch Linux EFI BTRFS Installation + Desktop 
 
-# Let's go :D
 ## launch archlinux USB image
 ## test connection
 ```
