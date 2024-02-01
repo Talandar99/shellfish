@@ -1,6 +1,5 @@
 # Arch Linux EFI EXT4 Installation + Desktop 
 
-# Let's go :D
 ## launch archlinux USB image
 ## test connection
 ```
