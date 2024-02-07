@@ -1,10 +1,8 @@
 services:
   miniflux:
-    image: ${MINIFLUX_IMAGE:-miniflux/miniflux:latest}
-    container_name: miniflux
-    restart: always
+    image: miniflux/miniflux:latest
     ports:
-      - "80:8080"
+      - "5555:8080"
     depends_on:
       db:
         condition: service_healthy
@@ -14,21 +12,15 @@ services:
       - CREATE_ADMIN=1
       - ADMIN_USERNAME=admin
       - ADMIN_PASSWORD=test123
-      - DEBUG=1
-    # Optional health check:
-    # healthcheck:
-    #  test: ["CMD", "/usr/bin/miniflux", "-healthcheck", "auto"]
   db:
     image: postgres:15
-    container_name: postgres
     environment:
       - POSTGRES_USER=miniflux
       - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=miniflux
     volumes:
       - ./miniflux-db:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "miniflux"]
       interval: 10s
       start_period: 30s
-volumes:
-  miniflux-db:
