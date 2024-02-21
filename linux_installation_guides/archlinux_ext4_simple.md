@@ -312,6 +312,10 @@ sudo systemctl status sshd
 sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm i3blocks dunst flameshot playerctl rofi pamixer feh xclip xcompmgr alacritty firefox ttf-font-awesome ttf-firacode-nerd ttf-dejavu ttf-joypixels
 paru -S betterlockscreen 
 ```
+- install drivers (list and select appropriate)
+```
+pacman -Ss xf86-video
+```
 - crate config directory
 ```
 mkdir ~/.config
