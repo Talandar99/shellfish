@@ -6,7 +6,7 @@
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/death-counter)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/229068/files/4382935/download)
 ## Memory leak fix
-- datapack for integrating better combat with tinkers construct
+- memory leak fix
 - [modrinth](https://modrinth.com/mod/memoryleakfix)
 - [download_modrinth](https://cdn.modrinth.com/data/NRjRiSSD/versions/AK7fR5Ja/memoryleakfix-forge-1.17%2B-1.1.2.jar)
 ## Oh The Biomes You'll Go
@@ -113,10 +113,6 @@
 - A ton of new food
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/398521/files/4679315/download)
-## Create Central Kitchen
-- Farmer's delight integration with Create
-- [curseforge](https://curseforge.com/minecraft/mc-mods/create-central-kitchen)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/820977/files/4679678/download)
 ## Large meals
 - More food
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/large-meals-an-add-on-for-farmers-delight)
@@ -248,10 +244,6 @@
 - Locate biomes with special compass
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/252848/files/3858196/download)
-## Better combat
-- Better combat
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/639842/files/4428885/download)
 ## Stackable potions
 - Stack your potions up to 16
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/stackablepotions-forge)
@@ -297,10 +289,6 @@
 - Library mod for Malum
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/curios)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/309927/files/4590652/download)
-## balm
-- Library mod for Waystones
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/balm)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/531761/files/4442615/download)
 ## balm
 - Library mod for Waystones
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/balm)
