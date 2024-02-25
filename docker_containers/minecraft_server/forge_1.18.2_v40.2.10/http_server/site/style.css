@@ -2,19 +2,19 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px 0px;
+    padding: 50px 0px;
     flex-direction:column; 
 }
 
 button {
-    background-color: black;
-    border: 2px;
+    background-color: maroon;
+    border: 4px;
     border-style: solid;
     border-color: sandybrown;
 	color: sandybrown;
     border-radius: 30px;
-    padding: 10px 50px;
-    margin: 5px;
+    padding: 20px 60px;
+    margin: 10px;
     font-weight: bold;
 }
 button:hover{
@@ -26,7 +26,7 @@ button:active{
     border-color: black;
 }
 body {
-	background-color: saddlebrown;
+	background-color: black;
 	font-style: normal;
 	color: sandybrown;
 }
