@@ -1,6 +1,11 @@
 # Forge 
 - [forge](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.10/forge-1.18.2-40.2.10-installer.jar)
 # Mods 
+
+## Naturalist
+- Adds animals
+- [modrinth](https://modrinth.com/mod/naturalist)
+- [download_modrinth](https://cdn.modrinth.com/data/F8BQNPWX/versions/A4D0ssAc/naturalist-forge-1.1.1-1.18.2.jar)
 ## death-counter
 - death-counter 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/death-counter)
@@ -25,6 +30,14 @@
 - new complex way of creating powerfull gear
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/74072/files/4509008/download)
+## TconJei
+- Tinkers construct JEI addon 
+- [modrinth](https://modrinth.com/mod/tconjei)
+- [download_modrinth](https://cdn.modrinth.com/data/DhBtjMiv/versions/CInFRLwD/tconjei-1.18.2-1.0.0.jar)
+## tinkers_ingenuity
+- even more tinkers things
+- [modrinth](https://modrinth.com/mod/tinkers_ingenuity)
+- [download_modrinth](https://cdn.modrinth.com/data/SQdgERI9/versions/wxvGncuN/tinkers_ingenuity-1.4.5beta.jar)
 ## Useful Slime
 - slimeboots 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/useful-slime)
@@ -73,10 +86,6 @@
 - Extension for TC. New armor. Laminar slime armor
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-things-json)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/811436/files/4396026/download)
-## Forged In Fire
-- Extension for TC. Integrates Ice And Fire and tinkers-construct
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/forged-in-fire)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/846779/files/4521996/download)
 # Create
 - Variety of tools and blocks for Building, Decoration and Aesthetic Automation.
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/create)
