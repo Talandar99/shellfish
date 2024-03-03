@@ -2,6 +2,10 @@
 - [forge](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.10/forge-1.18.2-40.2.10-installer.jar)
 # Mods 
 
+# bedspreads
+- Change how beds look 
+- [modrinth](https://modrinth.com/mod/bedspreads)
+- [download_modrinth](https://cdn.modrinth.com/data/vNNL5mc7/versions/SiEyMylD/bedspreads-forge-1.18.2-5.1.2.0.jar)
 ## Naturalist
 - Adds animals
 - [modrinth](https://modrinth.com/mod/naturalist)
@@ -28,8 +32,8 @@
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/490653/files/4692793/download)
 # Tinkers Construct
 - new complex way of creating powerfull gear
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/74072/files/4509008/download)
+- [modrinth](https://modrinth.com/mod/tinkers-construct)
+- [download_modrinth](https://cdn.modrinth.com/data/rxIIYO6c/versions/4U8Td4Sc/TConstruct-1.18.2-3.7.1.155.jar)
 ## TconJei
 - Tinkers construct JEI addon 
 - [modrinth](https://modrinth.com/mod/tconjei)
@@ -150,6 +154,10 @@
 - Adding food from ocean to farmers delight
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/oceans-delight)
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/841262/files/4462935/download)
+## Brewin and Chewin
+- Make beer and alcohol
+- [curseforge](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin)
+- [download_curseforge](https://www.curseforge.com/api/v1/mods/637808/files/3854764/download)
 ## Ferrite Core
 - Optimization 
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
@@ -320,8 +328,8 @@
 - [download_curseforge](https://www.curseforge.com/api/v1/mods/331936/files/3783096/download)
 ## Mantle
 - Library mod for Tinkers Construct
-- [curseforge](https://www.curseforge.com/minecraft/mc-mods/mantle)
-- [download_curseforge](https://www.curseforge.com/api/v1/mods/74924/files/4509007/download)
+- [modrinth](https://modrinth.com/mod/mantle)
+- [download_modrinth](https://cdn.modrinth.com/data/Cg6Uc79H/versions/VQOMbHEV/Mantle-1.18.2-1.9.50.jar)
 ## Patchouli
 - Library mod that adds manual books. Dependancy for blood smeltery and blood magic
 - [curseforge](https://www.curseforge.com/minecraft/mc-mods/patchouli)
