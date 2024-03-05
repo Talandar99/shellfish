@@ -1,8 +1,11 @@
 # Forge 
 - [forge](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.10/forge-1.18.2-40.2.10-installer.jar)
 # Mods 
-
-# bedspreads
+## Explorers Compass
+- Locate structures
+- [modrinth](https://modrinth.com/mod/explorers-compass)
+- [download_modrinth](https://cdn.modrinth.com/data/RV1qfVQ8/versions/ggrXqdX7/ExplorersCompass-1.18.2-1.3.0-forge.jar)
+## bedspreads
 - Change how beds look 
 - [modrinth](https://modrinth.com/mod/bedspreads)
 - [download_modrinth](https://cdn.modrinth.com/data/vNNL5mc7/versions/SiEyMylD/bedspreads-forge-1.18.2-5.1.2.0.jar)
