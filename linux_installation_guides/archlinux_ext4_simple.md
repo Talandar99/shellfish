@@ -208,6 +208,10 @@ ILoveCandy
 ```
 pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector bluez bluez-utils xdg-utils xdg-user-dirs alsa-utils pulseaudio pulseaudio-bluetooth inetutils linux-headers bash-completion
 ```
+- get rest of alsa drivers
+```
+sudo pacman -S pipewire-alsa pipewire-pulse
+```
 - install grub 
 ```
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --removable

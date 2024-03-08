@@ -225,6 +225,10 @@ ILoveCandy
 ```
 pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector snapper blue bluez-utils xdg-utils xdg-user-dirs alsa-utils pulseaudio pulseaudio-bluetooth inetutils linux-headers bash-completion
 ```
+- get rest of alsa drivers
+```
+sudo pacman -S pipewire-alsa pipewire-pulse
+```
 - open mkinitcpio config
 ```
 nvim /etc/mkinitcpio.conf 
