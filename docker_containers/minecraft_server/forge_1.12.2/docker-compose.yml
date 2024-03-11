@@ -1,0 +1,23 @@
+services:
+  mc:
+    image: itzg/minecraft-server:java8-multiarch
+    ports:
+    #expose the Minecraft server port outside of container
+    - "25565:25565"
+    #add rcon port for command execution
+    #login to RCON using
+    #mcrcon -H ip_address -P 25575 -p password
+    - "25575:25575"
+    #If you want to use RCON make sure these options are set properly
+    #enable-rcon=true
+    #rcon.port=25575
+    #rcon.password=your_password
+    environment:
+      EULA: "TRUE"
+      MEMORY: "7G"
+      TYPE: FORGE
+      FORGE_VERSION: 14.23.5.2859
+      VERSION: 1.12.2
+      ENABLE_ROLLING_LOGS: "true"
+    volumes:
+    - ./data:/data
