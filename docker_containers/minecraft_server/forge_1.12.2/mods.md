@@ -4,15 +4,30 @@
     search for item
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/jei)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/238222/files/5101347/download)
+### Baubles
+    adds slosts for amulets rings etc
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/baubles)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/227083/files/2518667/download)
+### HWYLA
+    Here's What You're Looking At
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/hwyla)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/253449/files/2568751/download)
 ## Tinkers
 ### Tinkers Construct
     Tinkers Construct base mod
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/74072/files/2902483/download)
 ### Construct Armory
+#### base
     Tinkers Construct addon that allow to craft armor
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/constructs-armory)
-    - [download_curseforge](https://www.curseforge.com/api/v1/mods/287683/files/3174535/download)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/287683/files/3174535/download)   
+#### Construct Armory Expansion
+    Tinkers Construct Armory addon 
+    #TODO tweaking 
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/armory-expansion)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/293602/files/2925154/download) 
+
 ### Tinkers JEI
     Just enough items addon for tinkers stuff
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/tinkers-jei)
@@ -29,6 +44,11 @@
     Tinkers Construct more materials
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/materialis)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/377652/files/3182552/download)
+### Thermal Tinkering
+    Have you ever been playing with Tinkers' Construct at the mid-to-end-game and thought:
+    "This smeltery takes up a lot of space. I wish I didn't have to have it lying around here."?
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/thermal-tinkering)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/251718/files/2684043/download)
 ## Thermal Series
 ### Thermal Foundation
     a collection of common components, resources, and tools.
@@ -55,8 +75,13 @@
     Glowstone portal to heaven
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/aether)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/255308/files/5035622/download)
+### Twilight forest
+    Flower portal to fantasy forest
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/227639/files/3051450/download)
 ## Magic
 ### AbyssalCraft
+#### base
     AbyssalCraft is a mod centered around exploration, but with a growing magic influence. 
     Another thing that has been getting more focus is influences from the works of H.P Lovecraft, 
     adding even more evil to that which is already in the mod.
@@ -67,14 +92,16 @@
     This mod is a previous part of AbyssalCraft split into a separate mod. What it does is handle integrations between AbyssalCraft and other mods 
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/abyssalcraft-integration)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/234851/files/3425537/download)
+### Thaumcraft
+    This is what this mod is all about - drawing magic from physical objects in the form of Essentia and reshaping it to perform miracles.
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/223628/files/2629023/download)
 ## Mobs and monsters
-### Mowzie
-    - [curseforge]()
-    - [download_curseforge]()
 ### Ice And Fire
-    - [curseforge]()
-    - [download_curseforge]()
+    - [curseforge](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/264231/files/2939529/download)
 ### Scape and Run: Parasites
+#### base
     This mod adds hostile parasite-themed mobs to your Minecraft game for you to fight,
     they can be dangerous, scary and some of them can learn from their fights to evolve.
     TODO: turn off adapatation ?
@@ -106,4 +133,7 @@
     Tinkers construct and construct armory requirement
     - [curseforge](https://www.curseforge.com/minecraft/mc-mods/mantle)
     - [download_curseforge](https://www.curseforge.com/api/v1/mods/74924/files/2713386/download)
-
+### LLibrary
+    Ice and fire dependancy
+    - [curseforge](https://legacy.curseforge.com/minecraft/mc-mods/llibrary)
+    - [download_curseforge](https://www.curseforge.com/api/v1/mods/243298/files/3116493/download)
