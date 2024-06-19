@@ -278,6 +278,8 @@ reboot system to check if everything works fine
 ```
 reboot
 ```
+
+# anything bellow is optional
 ## TTY fonts and resolution
 update grub resolution
 ```
@@ -337,7 +339,29 @@ uncomment this line
 # should look like this at the end
 %wheel ALL=(ALL) ALL
 ```
+## bashrc setup
+open bashrc
+```
+nvim ~/.bashrc
+```
+clear and add this
+```
+[[ $- != *i* ]] && return
+PS1='\[\033[93m\]\u\[\033[0m\]@\[\033[95m\]\h\[\033[0m\]\[\033[92m\] \w\[\033[0m\] $ '
+set -o vi
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+export EDITOR=nvim
+PATH=$PATH:~/.cargo/bin/
+```
 ## desktop setup (i3 and my configs)
+get font
+```
+mkdir -p ~/.local/share/fonts 
+cd ~/.local/share/fonts
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.tar.xz
+tar xvJf FiraCode.tar.xz
+```
 emerge some tools
 ```
 emerge tmux dev-vcs/git fzf
@@ -356,7 +380,7 @@ udpate portage with X
 ```
 nvim /etc/portage/make.conf
 # add this
-USE="X"
+USE="X systemd"
 ```
 update world set
 ```
@@ -367,14 +391,31 @@ get i3
 # most important stuff
 emerge -a -q x11-base/xorg-server x11-wm/i3 
 # configuraiton specific stuff
-emerge -a -q x11-misc/i3blocks x11-misc/dunst x11-misc/rofi x11-misc/xcompmgr x11-terms/alacritty media-gfx/feh  
-```
+emerge -a -q x11-misc/i3blocks x11-misc/dunst x11-misc/rofi x11-misc/xcompmgr x11-terms/alacritty media-gfx/feh  \
+media-sound/pulseaudio media-sound/pavucontrol media-sound/pulsemixer media-sound/paprefs \
+net-misc/networkmanager gnome-extra/nm-applet
 
+```
+enable audio
+```
+sudo systemctl --global enable pulseaudio.service pulseaudio.socket 
+```
+enable network manager
+```
+sudo systemctl enable NetworkManager
+```
+udpate portage with NetworkManager and pulseaudio
+```
+nvim /etc/portage/make.conf
+# add this
+USE="... networkmanager pulseaudio ..."
+```
 create .xinitrc configuraiton
 ```
 nvim .xinitrc
 exec dbus-launch i3
 ```
+
 try if it works
 ```
 startx
@@ -391,6 +432,161 @@ startx
 # Win+E to get into system mode
 # q to quit
 ```
-# TODO
+## laptop specific
+### touchapd tweaks
+update make.conf
+```
+sudo nvim /etc/portage/make.conf
+## add this
+INPUT_DEVICES="synaptics libinput"
+```
+emerge synaptics
+```
+sudo emerge x11-drivers/xf86-input-synaptics
+```
+natural scrolling and sensitivity
+```
+sudo nvim /etc/X11/xorg.conf.d/50-synaptics.conf
+### add this
+
+Section "InputClass"
+        Identifier "touchpad catchall"
+        Driver "synaptics"
+        MatchIsTouchpad "on"
+        Option      "VertEdgeScroll"            "on"
+        Option      "CircularScrolling"         "on"
+        
+        #sensitivity
+        Option      "VertScrollDelta"           "-500" 
+        Option      "HorizScrollDelta"          "-500"
+        
+        Option      "TapButton1"       	        "1"
+EndSection
+
+```
+### backlight controls
+install xbacklight
+```
+emerge -q sys-apps/acpilight
+```
+add yourself to video group
+```
+sudo usermod -a -G video YOUR_USER_NAME
+sudo chgrp -R video /sys/class/backlight
+sudo chmod g+w /sys/class/backlight/*/*
+```
+using backlight
+```
+xbacklight -inc 10
+xbacklight -dec 10
+```
+(optional) controling brightness from i3
+update world set
+```
+emerge --ask --changed-use --deep @world
+```
+## 3rd party repos (steam and proton-ge as example)
+get eselect-repository
+```
+sudo emerge --ask --noreplace app-eselect/eselect-repository dev-vcs/git
+```
+add steam repo
+```
+sudo eselect repository enable steam-overlay
+```
+sync
+```
+sudo emerge --sync
+```
+steam need abi_x86_32 as dependancies add this to your make .conf
+```
+sudo nvim /etc/portage/make.conf
+# add abi_x86_32 to useflags 
+USE="... abi_x86_32 ..."
+```
+add accpet keywords
+```
+sudo nvim /etc/portage/package.accept_keywords/steam
+
+#------add stuff bellow--------#
+*/*::steam-overlay
+games-util/game-device-udev-rules
+sys-libs/libudev-compat
+```
+emerge steam
+```
+sudo emerge --ask games-util/steam-launcher
+```
+add steam repo for proton-ge
+```
+sudo eselect repository enable kzd
+```
+sync
+```
+sudo emerge --sync
+```
+add accpet keywords
+```
+sudo nvim /etc/portage/package.accept_keywords/proton-ge-custom-bin
+#add this
+app-emulation/proton-ge-custom-bin ~amd64
+```
+emerge proton-ge
+```
+sudo emerge app-emulation/proton-ge-custom-bin
+```
+## Theme customization
+
+edit use flags (ad qt5 and gtk3 support and remove qt6)
+```
+sudo nvim /etc/portage/make.conf
+USE="... -qt6 qt5 gtk3 ..."
+```
+unmask package
+```
+sudo nvim  /etc/portage/package.unmask/kvantum
+# add this
+=x11-themes/kvantum-1.1.2 ~amd64
+#save
+```
+get kvantummanager lxappearance qt5ct
+```
+sudo emerge -aq x11-themes/kvantum lxde-base/lxappearance x11-misc/qt5ct
+```
+update .bashrc with this stuff
+```
+export QT_STYLE_OVERRIDE="kvantum"
+export QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_PLATFORMTHEME="qt5ct"
+export QT_PLATFORM_PLUGIN="qt5ct"
+```
+edit theme with lxappearance
+```
+lxappearance
+```
+
+# usefull default apps 
 firefox
-add pulseaudio
+```
+sudo emerge -aq www-client/firefox-bin
+```
+thunar (file manager)
+```
+sudo emerge -aq \
+xfce-base/thunar \
+xfce-base/thunar-volman \
+xfce-extra/thunar-vcs-plugin \
+xfce-extra/thunar-media-tags-plugin \
+xfce-extra/thunar-archive-plugin \
+```
+flameshot (tool for screenshots)
+```
+sudo emerge -aq media-dfx/flameshot
+```
+audacious
+```
+sudo emerge media-sound/audacious
+```
+
+# TODO
+add icons
