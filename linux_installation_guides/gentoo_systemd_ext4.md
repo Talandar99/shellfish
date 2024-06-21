@@ -544,7 +544,7 @@ USE="... -qt6 qt5 gtk3 ..."
 ```
 unmask package
 ```
-sudo nvim  /etc/portage/package.unmask/kvantum
+sudo nvim  /etc/portage/package.accept_keywords/kvantum
 # add this
 =x11-themes/kvantum-1.1.2 ~amd64
 #save
@@ -588,5 +588,8 @@ audacious
 sudo emerge media-sound/audacious
 ```
 
+## suport for wireless xbox one dongle 
+
 # TODO
 add icons
+
