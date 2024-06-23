@@ -1,5 +1,5 @@
 # [shellfish] 🐚
-This repo contains a lot of scripts, configuration, guides etc that I think are/were usefull. 
+Repo with scripts, guides, and docker-compose files that I use 
 <br/>Hope you will also find something usefull here
 
 ## Contents
@@ -8,4 +8,3 @@ This repo contains a lot of scripts, configuration, guides etc that I think are/
 - [guides](guides)
 - [linux_installation_guides](linux_installation_guides)
 - [scripts](scripts)
-
