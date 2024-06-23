@@ -1,0 +1,39 @@
+name: <your project name>
+services:
+  drone:
+    volumes:
+      - /var/lib/drone:/data
+    environment:
+      # Github Configuration
+      #- DRONE_GITHUB_CLIENT_ID=your-id
+      #- DRONE_GITHUB_CLIENT_SECRET=super-duper-secret
+      #
+      # Gitea Configuration
+      #- DRONE_GITEA_SERVER=https://try.gitea.io
+      #- DRONE_GITEA_CLIENT_ID=05136e57d80189bef462
+      #- DRONE_GITEA_CLIENT_SECRET=7c229228a77d2cbddaa61ddc78d45e
+      #
+      # Girlab Configuration
+      #- DRONE_GITLAB_SERVER=https://gitlab.com
+      #- DRONE_GITLAB_CLIENT_ID=05136e57d80189bef462
+      #- DRONE_GITLAB_CLIENT_SECRET=7c229228a77d2cbddaa61ddc78d45e
+      - DRONE_RPC_SECRET=super-duper-secret
+      - DRONE_SERVER_HOST=drone.company.com
+      - DRONE_SERVER_PROTO=https
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    container_name: drone
+    image: drone/drone:2
+
+    environment:
+      - DRONE_RPC_SECRET=super-duper-secret
+      - DRONE_SERVER_HOST=drone.company.com
+      - DRONE_SERVER_PROTO=https
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    container_name: drone
+    image: drone/drone:2
