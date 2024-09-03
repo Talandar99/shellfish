@@ -59,6 +59,7 @@ def get_download_links(file_path, link_name):
                     line = line.replace(link_name, "")
                     line = line.replace("[", "")
                     line = line.replace("]", "")
+                    line = line.replace("-", "")
                     line = line.replace(" ", "")
                     if line != "":
                         links.append(line)
