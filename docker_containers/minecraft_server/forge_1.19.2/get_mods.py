@@ -3,6 +3,7 @@
 import requests
 import os
 import shutil
+import subprocess
 
 
 class color:
@@ -19,12 +20,22 @@ class color:
 
 
 def download_curseforge(url, save_directory):
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    response = requests.head(url, headers=headers)
-    response.raise_for_status()
-    redirect_url = response.headers['Location']
-    redirect_url = redirect_url.split('?')[0]
-    download(redirect_url, save_directory)
+    command = ''.join(
+        [f"wget -S {url}",
+         " 2>&1",
+         " | grep 'Location'",
+         " | awk -F'/' '{print $NF}'",
+         " | awk '{print $1}'",
+         " | tail -n 1",
+         " | tr -d '\n'",
+         " | tr -d ' '"])
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    mod_name = result.stdout
+    print(f"{color.green}{color.bold}{mod_name}{color.end}")
+    print("\rsaved ")
+    print("------------------------------------------------")
+    command = f"mv download {save_directory}/{result.stdout}"
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
 
 
 def download(url, save_directory):
@@ -59,7 +70,7 @@ def get_download_links(file_path, link_name):
                     line = line.replace(link_name, "")
                     line = line.replace("[", "")
                     line = line.replace("]", "")
-                    line = line.replace("-", "")
+                    line = line.replace(" - ", "")
                     line = line.replace(" ", "")
                     if line != "":
                         links.append(line)
