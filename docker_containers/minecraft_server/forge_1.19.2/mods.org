@@ -4,9 +4,6 @@
 ** Aether
    - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/h8VKO9w6/aether-1.19.2-1.4.2-forge.jar][modrinth_download_link]]
-*** Twilight Aether
-    - [[https://modrinth.com/mod/twilight-aether][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/bTR6zxRo/versions/TRpYRYwR/twilightaether-1.19.2-1.0.0.jar][modrinth_download_link]]
 *** Ascended Quark
     - [[https://modrinth.com/mod/ascended-quark][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/SqIC1Dq9/versions/VONGNIUC/ascended_quark-1.19.2-1.0.2.jar][modrinth_download_link]]
@@ -130,6 +127,9 @@
 *** Tinkers' Thinking
     - [[https://modrinth.com/mod/tinkers-thinking][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/yMtiecO6/versions/jQtIGXZg/Tinkers-Thinking-0.1.3.3.2.jar][modrinth_download_link]]
+*** Tinkers' Things
+    - [[https://modrinth.com/mod/tinkers-things][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/fNJfw6Ix/versions/JAhWh457/Tinker-Things-1.19.2-1.2.0.1.jar][modrinth_download_link]]
 ** Ice And Fire
    - [[https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/264231/files/5037952/download][curseforge_download_link]]
@@ -151,6 +151,9 @@
 *** Twilight Delight
     - [[https://modrinth.com/mod/twilight-delight][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/d6cSefpO/versions/Iy0nnP4D/Twilight%20Flavors%20%26%20Delight-1.3.1.jar][modrinth_download_link]]
+*** Twilight Aether
+    - [[https://modrinth.com/mod/twilight-aether][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/bTR6zxRo/versions/TRpYRYwR/twilightaether-1.19.2-1.0.0.jar][modrinth_download_link]]
 ** Quark
    - [[https://modrinth.com/mod/quark][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/qnQsVE2z/versions/8po5DGR8/Quark-3.4-418.jar][modrinth_download_link]]
@@ -279,8 +282,6 @@
 ** ModernFix
    - [[https://modrinth.com/mod/modernfix][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/nmDcB62a/versions/i0vWRI7P/modernfix-forge-5.18.0%2Bmc1.19.2.jar][modrinth_download_link]]
-   - [[https://modrinth.com/mod/radon][x]] 
-   - [[https://cdn.modrinth.com/data/4AiJdRfV/versions/nswAOup6/radon-0.8.2.jar][x]]
 ** Pluto (Krypton for forge)
    - [[https://modrinth.com/mod/pluto][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][modrinth_download_link]]
@@ -384,3 +385,6 @@
 ** Lionfish-API (L_Ender's Cataclysm)
    - [[https://modrinth.com/mod/lionfish-api][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar][modrinth_download_link]]
+** Json things (Tinker-Things)
+   - [[https://www.curseforge.com/minecraft/mc-mods/json-things][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/541617/files/4645830/download][curseforge_download_link]]
