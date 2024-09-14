@@ -28,12 +28,6 @@
 *** Create: Dreams & Desires
     - [[https://modrinth.com/mod/create-dreams-and-desires][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/JmybsfWs/versions/PiqvawlN/Create-DnDesire-1.19.2-0.1c.Release-Early-Dev.jar][modrinth_download_link]]
-*** Create: Diesel Generators
-    - [[https://modrinth.com/mod/create-diesel-generators][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/ZM3tt6p1/versions/i0FKUeRP/createdieselgenerators-1.19.2-1.2h.jar][modrinth_download_link]]
-*** Create Crafts & Additions
-    - [[https://modrinth.com/mod/createaddition][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/kU1G12Nn/versions/AjwN7Aq8/createaddition-1.19.2-1.2.2.jar][modrinth_download_link]]
 *** Create: Dynamic Village 
     - [[https://modrinth.com/mod/dynamic-village][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/YCPmkFAm/versions/JhQKUR2E/dynamicvillage-v0.4-1.19.2.jar][modrinth_download_link]]
@@ -49,12 +43,21 @@
 *** Create: Structures
     - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
-*** Create: Misc and Things
-    - [[https://modrinth.com/mod/create-misc-and-things][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/uWrs8XlB/versions/6Qs4cZl2/create_misc_and_things_%201.19.2_4.0A.jar][modrinth_download_link]]
+*** Create: The Factory Must Grow
+    - [[https://modrinth.com/mod/create-tfmg][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/USgVjXsk/versions/WnrydYjl/tfmg-0.9.2-1.19.2.jar][modrinth_download_link]]
+*** Create: New Age
+    - [[https://modrinth.com/mod/create-new-age][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/FTeXqI9v/versions/bLna6SZ1/create-new-age-forge-1.19.2-1.1.2.jar][modrinth_download_link]]
 *** Create Enchantment Industry
     - [[https://modrinth.com/mod/create-enchantment-industry][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/JWGBpFUP/versions/KA5Gf4rg/create_enchantment_industry-1.19.2-for-create-0.5.1.f-1.2.9.e.jar][modrinth_download_link]]
+*** Create: Enchantable Machinery
+    - [[https://modrinth.com/mod/create-enchantable-machinery][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/eqrvp4NK/versions/UVWuT6cw/createenchantablemachinery-1.19.2-1.4.4.jar][modrinth_download_link]]
+*** Create: Liquid Fuel
+    - [[https://modrinth.com/mod/create-liquid-fuel][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/sH9tXU9f/versions/YNiP5j5K/createliquidfuel-2.1.1-1.19.2.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
@@ -232,12 +235,6 @@
 ** Guard Villagers
    - [[https://modrinth.com/mod/guard-villagers][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/H1sntfo8/versions/ZXYzy1iR/guardvillagers-1.19.2-1.5.9.jar][modrinth_download_link]]
-** Villager Workers
-   - [[https://modrinth.com/mod/villager-workers][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/Pqlv7VM3/versions/CRO7WmCZ/workers-1.19.2-1.7.8.jar][modrinth_download_link]]
-** Villager Recruits
-   - [[https://modrinth.com/mod/villager-recruits][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/WOg9lm4u/versions/DSTanhXc/recruits-1.19.2-1.12.1.jar][modrinth_download_link]]
 ** Critters and Companions
    - [[https://modrinth.com/mod/critters-and-companions][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/Yd4wb5wZ/versions/yoI3fMGq/crittersandcompanions-1.19.2-2.1.1.jar][modrinth_download_link]]
@@ -418,6 +415,9 @@
 ** Lionfish-API (L_Ender's Cataclysm)
    - [[https://modrinth.com/mod/lionfish-api][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar][modrinth_download_link]]
+** Botarium (Create: New Age)
+   - [[https://modrinth.com/mod/botarium][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/2u6LRnMa/versions/d3FyC3ZY/botarium-forge-1.19.2-1.9.2.jar][modrinth_download_link]]
 ** Json things (Tinker-Things)
    - [[https://www.curseforge.com/minecraft/mc-mods/json-things][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/541617/files/4645830/download][curseforge_download_link]]
