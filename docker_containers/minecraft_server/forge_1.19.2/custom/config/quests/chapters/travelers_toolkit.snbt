@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travelers_toolkit"
+	group: ""
+	icon: "astikorcarts:supply_cart"
+	id: "04DCB2F9B6963170"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63E6C6261BBEDD68"
+			rewards: [{
+				id: "0A580F2CB8A16A7D"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D3660EC5C9AC09F"
+				item: "astikorcarts:wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63E6C6261BBEDD68"]
+			id: "4E67CE1A48058196"
+			tasks: [{
+				id: "4205E7F97189B81F"
+				item: "astikorcarts:animal_cart"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63E6C6261BBEDD68"]
+			id: "334CA95465547555"
+			tasks: [{
+				id: "57F5E101A6F75E75"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "4353D2148A7BC439"
+			tasks: [{
+				id: "6A2E115ECF24C0C4"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "4ABF37252FE36967"
+			tasks: [{
+				id: "7E43085DC8FBED9C"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "4C2DF65C43E5642F"
+			tasks: [{
+				id: "1818466DC1183FF4"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "5E7BA2F287136DFC"
+			tasks: [{
+				id: "397B255BB0601020"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			title: "Minimap"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "6CC5F87394C6B5CD"
+			tasks: [{
+				id: "4F8EA49D3A991802"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			icon: "vs_eureka:oak_ship_helm"
+			id: "45B81CE084FBDD70"
+			tasks: [{
+				id: "31188B6713E0BEE7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vs_eureka:ship_helms"
+					}
+				}
+				title: "Any #vs_eureka:ship_helms"
+				type: "item"
+			}]
+			title: "Helm"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45B81CE084FBDD70"]
+			id: "1C51E967B8FF2B88"
+			tasks: [{
+				id: "3C06BE008538B9C6"
+				item: "vs_eureka:floater"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45B81CE084FBDD70"]
+			id: "6AC24CD1DA1DBB59"
+			tasks: [{
+				id: "046F429DA2CACAA9"
+				item: "vs_eureka:engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45B81CE084FBDD70"]
+			id: "52A28D4DEBD0A051"
+			tasks: [{
+				id: "39A1557EF52C54A4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vs_eureka:balloons"
+					}
+				}
+				title: "Any #vs_eureka:balloons"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45B81CE084FBDD70"]
+			id: "6C72A0D379D63126"
+			tasks: [{
+				id: "69B2A3B70F4D7BA4"
+				item: "vs_eureka:anchor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45B81CE084FBDD70"]
+			id: "67F97E38A0D53545"
+			tasks: [{
+				id: "3742383D5728F656"
+				item: "vs_eureka:ballast"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "194684DC82D29670"
+			tasks: [{
+				id: "05BEC7F04169DF78"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "406DED39F3281D88"
+			tasks: [{
+				id: "07A7C12F81B2D3D4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solsweetpotato:golden_lunchbox"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "599079933CB2D308"
+			tasks: [{
+				id: "090ECB17A6CBE982"
+				item: {
+					Count: 1b
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						Fuel: 64.0d
+						Lit: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "5A7F9CE968BA7677"
+			tasks: [{
+				id: "5F2FD72291ADE592"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Travelers toolkit"
+}

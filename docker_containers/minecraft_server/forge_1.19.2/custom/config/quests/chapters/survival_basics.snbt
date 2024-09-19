@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival_basics"
+	group: ""
+	icon: "minecraft:campfire"
+	id: "13EDB64A7A9C59C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tinkers construct is mod that add new way of creating weapons, tools and armors. "
+				""
+				"First Create workstations, and few patterns, you will recive a &ebook&r called &e\"Materials And You\"&r"
+				""
+				"Everything you need to know in order to create a basic tool is in this book."
+				"&eRead chapter called \"Introduction\"&r"
+			]
+			icon: "tconstruct:materials_and_you"
+			id: "4E844EFB2E7394D3"
+			rewards: [{
+				id: "422CC4629D94F72E"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			subtitle: "Tinkers Construct's way of making tools"
+			tasks: [
+				{
+					id: "47346C4F902CE15A"
+					item: {
+						Count: 1b
+						id: "tconstruct:crafting_station"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7ED2BD890DBDC658"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "53A8E35A067D55BF"
+					item: {
+						Count: 1b
+						id: "tconstruct:tinker_station"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "38E1AACD1117715E"
+					item: {
+						Count: 1b
+						id: "tconstruct:part_builder"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Materials And You"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Temperature is new mechanic added in modpack."
+				"You Can see temperature icon between health and hunger bar."
+				"&bIf icon is freezing, it means you are freezing.&f"
+				"&6If icon is burning, it means you are overheating.&f"
+				"&7Try to maintain grey icon color.&f"
+				""
+				"Temperature is dependant on:"
+				"- Day/Night cycle"
+				"- Biome"
+				"- Season"
+				""
+				"If you feel to uncomfortable because of temperature you won't fall asleep."
+				"&eNight&r can be realy &ecold&r."
+				""
+				"&eCraft campfire&r. You can &euse flint instead of coal&r. It will be easier to find"
+			]
+			icon: "minecraft:campfire"
+			id: "4FD4C210B010A90D"
+			subtitle: "Campfire is your new best friend"
+			tasks: [
+				{
+					id: "31DC6E96804F4ACA"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "48F50D8EE905CE69"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "Temperature"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FD4C210B010A90D"]
+			id: "47490184EF356315"
+			subtitle: "Just in Case"
+			tasks: [{
+				id: "3C5F2B400A5DF586"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FD4C210B010A90D"
+				"4E844EFB2E7394D3"
+			]
+			id: "7F9351BD791BF01E"
+			tasks: [{
+				id: "15165D947139D4C9"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"47490184EF356315"
+				"35A2B19E01775161"
+			]
+			id: "503769AE33DFF79D"
+			tasks: [{
+				id: "6308F2595425B1BE"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C822410221CD1C4"]
+			id: "4C1C1E13DED2322A"
+			tasks: [{
+				id: "7755BB97C87D6130"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47490184EF356315"]
+			id: "005D122B1325D111"
+			tasks: [{
+				id: "7003CEA009A9A0DF"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E844EFB2E7394D3"
+				"2A40A730EE6D1C8E"
+			]
+			id: "79759D75B8293265"
+			tasks: [{
+				id: "58FD7CA6FB268B29"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35A2B19E01775161"]
+			id: "7E553F27ABADFE6A"
+			tasks: [{
+				id: "1A9BD10FB9F120F2"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Thirst in new mechanic similar to hunger."
+				""
+				"You can see water icon above your hotbar. "
+				"This is thirst. "
+				"You have to drink fluids in order to stay alive."
+				"It is important to &bPurify&f water before drinking it."
+				""
+				"Follow these steps:"
+				"&61.&fGet some clay"
+				"&62.&fCreate clay bowl"
+				"&63.&fPlace Bowl on campfire in order to create teracota bowl"
+				"&64.&fFill teracota bowl with water and place it on campfire few times in order to boil water"
+				"Try to create teracota bowl"
+			]
+			icon: {
+				Count: 1b
+				id: "thirst:terracotta_water_bowl"
+				tag: {
+					Purity: -1
+				}
+			}
+			id: "35A2B19E01775161"
+			subtitle: "How not to die from dehydration"
+			tasks: [
+				{
+					id: "18DA1F26E21C7F7A"
+					item: "thirst:clay_bowl"
+					type: "item"
+				}
+				{
+					id: "6F47C2C15CE111E6"
+					item: "thirst:terracotta_bowl"
+					type: "item"
+				}
+				{
+					id: "500D0D8E6C02C095"
+					item: {
+						Count: 1b
+						id: "thirst:terracotta_water_bowl"
+						tag: {
+							Purity: -1
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Thirst"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"005D122B1325D111"
+				"503769AE33DFF79D"
+			]
+			id: "1C822410221CD1C4"
+			tasks: [{
+				id: "75C4DF1488B15EED"
+				item: "cold_sweat:smokestack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Food system is changed a bit."
+				"&cDon't eat the same thing over and over again.&r"
+				"It's not healthy"
+				""
+				"Take an apple and visit &eSpice Of Life quest&r in &eGuidebooks section&r for more information"
+			]
+			icon: "minecraft:apple"
+			id: "2A40A730EE6D1C8E"
+			rewards: [{
+				id: "6376D11946AFC320"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Varied diet is important"
+			tasks: [{
+				id: "292957D4D7EFCC6E"
+				title: "You don't look healthy. Here take an apple"
+				type: "checkmark"
+			}]
+			title: "Food"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Toolmaking, Thirst and temperature"]
+	title: "Survival"
+}

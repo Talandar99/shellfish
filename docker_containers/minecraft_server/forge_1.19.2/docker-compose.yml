@@ -16,7 +16,7 @@ services:
       EULA: "TRUE"
       MEMORY: "14G"
       TYPE: FORGE
-      FORGE_VERSION: 43.4.2
+      FORGE_VERSION: 43.4.4
       VERSION: 1.19.2
       ENABLE_ROLLING_LOGS: "true"
     volumes:

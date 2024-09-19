@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide"
+	group: "02BF2472C03BF401"
+	icon: "aether:aether_portal_frame"
+	id: "156D8E71A2D1FEB3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			hide_text_until_complete: false
+			id: "10B04F4FE954FA60"
+			rewards: [{
+				description: ""
+				id: "0AAE5690604F8CEE"
+				type: "toast"
+			}]
+			subtitle: "Enter Aether Dimension"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "5D109802C92BE146"
+				title: "Stairway to Aether"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10B04F4FE954FA60"]
+			description: [
+				"The Bronze Dungeon is one of the three types of dungeons found in the Aether, and is considered the easiest one to conquer. The walls and floor of the dungeon cannot be broken until the dungeon is beaten, as with all other dungeons."
+				""
+				"It can be found on the sides of Aether land masses. It is also possible for a Bronze Dungeon to have an entrance from its ceiling. Sometimes, the ceiling can be exposed to land, making it easier to find."
+			]
+			hide_text_until_complete: false
+			icon: "aether:carved_stone"
+			id: "674D1781C2144B6E"
+			tasks: [{
+				icon: "aether:bronze_dungeon_key"
+				id: "5709BD51384FB1E5"
+				structure: "aether:bronze_dungeon"
+				title: "Bronze Dungeon"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["674D1781C2144B6E"]
+			icon: "aether:bronze_dungeon_key"
+			id: "039119FA9C455273"
+			subtitle: "Kill The Cube"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "36CB0F8740A4D9EC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["039119FA9C455273"]
+			icon: "aether:angelic_stone"
+			id: "404E4D708F9DFC19"
+			tasks: [{
+				icon: "aether:silver_dungeon_key"
+				id: "0009B4FB01B11106"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "Silver Dungeon"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["404E4D708F9DFC19"]
+			icon: "aether:silver_dungeon_key"
+			id: "2DCD9BD2DE5145D4"
+			subtitle: "Kill Valkyrien Queen"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "072298F26C49722C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DCD9BD2DE5145D4"]
+			id: "1E3B1CF0DDE6F3D7"
+			tasks: [{
+				icon: "aether:hellfire_stone"
+				id: "66393D5F8CA3E00A"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			title: "Gold Dungeon"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E3B1CF0DDE6F3D7"]
+			id: "33DF28E947DDBAAB"
+			subtitle: "Kill The Sun"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:gold_dungeon_key"
+				id: "0F8703DD9EB6A366"
+				title: "Ending Eternal Day"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+	]
+	title: "Aether"
+}

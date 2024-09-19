@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: ""
+	icon: "farmersdelight:stove"
+	id: "4B88558EC7A85D3B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "farmersdelight:stove"
+			id: "449E5CCE06931C3D"
+			tasks: [{
+				id: "1337D2FCB80585BB"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "2D3D7502D7BAB083"
+			tasks: [{
+				id: "56200EA0FFD8DE20"
+				item: "casualness_delight:deep_frying_pan"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "237D7CA937EE0B9B"
+			tasks: [{
+				id: "5C7B578024D4D868"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "23A6431241671A33"
+			tasks: [{
+				id: "2F00027F1249F3C0"
+				item: "extradelight:oven"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "092298501B25478B"
+			tasks: [{
+				id: "54468607C46189EE"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "7858E07FD08A7CD2"
+			tasks: [{
+				id: "25F30D8006372241"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "69C60FD98D5B3A40"
+			tasks: [{
+				id: "563218F35BD5374D"
+				item: "extradelight:mixing_bowl"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "5060DB79F7E1A5F3"
+			tasks: [{
+				id: "772A284031B01C8F"
+				item: "brewinandchewin:keg"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "53A45513FE6AD375"
+			tasks: [{
+				id: "25D4A5037AFD2BB9"
+				item: "extradelight:drying_rack_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "5AB8967915A60F84"
+			tasks: [{
+				id: "0CE9D3C66EE95228"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "2D7481CBCA1A02AA"
+			tasks: [{
+				id: "13317FE746400CB0"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "0682AD9EAE79FE55"
+			tasks: [
+				{
+					id: "32F29484429E6159"
+					item: {
+						Count: 1b
+						id: "butchercraft:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1032CBF10D24D0EE"
+					item: {
+						Count: 1b
+						id: "butchercraft:skinning_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75822136E8927D97"
+					item: {
+						Count: 1b
+						id: "butchercraft:bone_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "752CE7223522F9FA"
+					item: {
+						Count: 1b
+						id: "butchercraft:gut_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Butcher's tools"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CD006252DA4D38D"]
+			id: "5DA59174C6200AB5"
+			tasks: [{
+				id: "6F775EB589B175CC"
+				item: "butchercraft:grinder_block_item"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0682AD9EAE79FE55"]
+			id: "4540E83324BC3A32"
+			tasks: [{
+				id: "4A13C769F1B89426"
+				item: "butchercraft:meat_hook_item"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4540E83324BC3A32"
+				"0682AD9EAE79FE55"
+			]
+			id: "7CD006252DA4D38D"
+			tasks: [{
+				id: "259FC632016BE771"
+				item: "butchercraft:butcher_block_block_item"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	subtitle: ["Chef's equipment"]
+	title: "Farmers Delight"
+}

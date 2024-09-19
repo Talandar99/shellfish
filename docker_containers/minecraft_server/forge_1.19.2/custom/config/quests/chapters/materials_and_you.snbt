@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "materials_and_you"
+	group: ""
+	icon: "tconstruct:encyclopedia"
+	id: "525C478499797A89"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F1F9123169A111D"]
+			id: "58E37932DFF4DFB8"
+			tasks: [{
+				id: "6FAAF3959D60480D"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CB564D55E2A2F7E"]
+			id: "1F1F9123169A111D"
+			tasks: [{
+				id: "4E769CC40BBC80F7"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E844EFB2E7394D3"]
+			id: "3CB564D55E2A2F7E"
+			tasks: [{
+				id: "7AA9B5A4A755A899"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CB564D55E2A2F7E"]
+			id: "6F7AC99BC8A736D7"
+			tasks: [{
+				id: "0C5742C7C2B3522A"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CB564D55E2A2F7E"]
+			id: "48AA3F88F0FF77C3"
+			tasks: [{
+				id: "54206D0EE9682814"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F1F9123169A111D"]
+			id: "6027ABAF1D6571C8"
+			tasks: [{
+				id: "546031F24A7D0BCA"
+				item: "tinkers_reforged:reforging_guide"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "30C591632CBFDD37"
+			tasks: [{
+				id: "3E59C5EC4A10FA55"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "37B9B54C5BE1FE16"
+			tasks: [{
+				id: "58C7EE4993AE1EF1"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "52CBBB6DA8EFF5DA"
+			tasks: [{
+				id: "48F518113AD78B05"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10B04F4FE954FA60"]
+			id: "5EA789F71DCEFA2E"
+			tasks: [{
+				id: "630649272E2EF420"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A40A730EE6D1C8E"]
+			description: [
+				"Spice of life &6carrot edition&r:"
+				"- You can gain up to 19 hearts for eating healthy."
+				"- Milestones are in range of 1-800 eaten &bdifferent&r food items"
+				""
+				"Spice of life &esweet potato edtion&r:"
+				"- Eat different things to gain &bFood Diversity&r"
+				"- Last 70 things you have eaten count"
+				"- &cLow Food Diversity will give you negative effects (slowness, mining fatigue, hunger)&r"
+				"- &aHigh Food Diversity will give you positive effects (speed, regeneration, strength)&r"
+				""
+				"you can track your progress in books. Take em"
+			]
+			icon: "solcarrot:food_book"
+			id: "7679C5DB1D40FE17"
+			rewards: [
+				{
+					id: "72B4017A39A45699"
+					item: "solsweetpotato:food_book"
+					type: "item"
+				}
+				{
+					id: "505A632320BCD173"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			subtitle: "Carrot And Potato"
+			tasks: [{
+				id: "6D1A19188FDEDCA8"
+				title: "Click checkbox for free spice of life books"
+				type: "checkmark"
+			}]
+			title: "Spice Of Life"
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Guidebooks"
+}

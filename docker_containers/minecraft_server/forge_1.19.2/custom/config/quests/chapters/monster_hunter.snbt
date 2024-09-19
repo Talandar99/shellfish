@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monster_hunter"
+	group: ""
+	icon: "iceandfire:bestiary"
+	id: "5282DD4CBC7A4A43"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			id: "2D53245E6AD95155"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "31BF34ACB4D522F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			id: "1CDC72B5C161F1B5"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "394673F218E063A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "3F66751C23CFF62A"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "4EA8798BAEA36642"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			icon: "iceandfire:hydra_heart"
+			id: "42C4E1877475E8DF"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_heart"
+				id: "4BE01DB6F61B4151"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			id: "1BA651C2C4C0A6BE"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:sea_serpent_fang"
+				id: "5DB8392DAE28F080"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			id: "349F195831138E52"
+			subtitle: "Extermination huh?"
+			tasks: [
+				{
+					id: "1BB293439E7FA551"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+				{
+					id: "1CAEF8F5C20A9877"
+					item: "iceandfire:dragonscales_green"
+					type: "item"
+				}
+				{
+					id: "7C64D7A9DBCC412F"
+					item: "iceandfire:dragonscales_bronze"
+					type: "item"
+				}
+				{
+					id: "4D1644139DCB8295"
+					item: "iceandfire:dragonscales_gray"
+					type: "item"
+				}
+				{
+					id: "2AAE02B221F08D03"
+					item: "iceandfire:dragonscales_blue"
+					type: "item"
+				}
+				{
+					id: "743317EA72DFE40C"
+					item: "iceandfire:dragonscales_white"
+					type: "item"
+				}
+				{
+					id: "7073211169595B73"
+					item: "iceandfire:dragonscales_sapphire"
+					type: "item"
+				}
+				{
+					id: "6274CAF6458E097D"
+					item: "iceandfire:dragonscales_silver"
+					type: "item"
+				}
+				{
+					id: "3C912F4D0CFED26E"
+					item: "iceandfire:dragonscales_electric"
+					type: "item"
+				}
+				{
+					id: "4BAF479C616DFD75"
+					item: "iceandfire:dragonscales_amythest"
+					type: "item"
+				}
+				{
+					id: "4DB5586FF73280FB"
+					item: "iceandfire:dragonscales_copper"
+					type: "item"
+				}
+				{
+					id: "1AE8D60D85E00D74"
+					item: "iceandfire:dragonscales_black"
+					type: "item"
+				}
+			]
+			title: "Dragon Scale Collector"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C3C212F75624533"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: "iceandfire:cyclops_skull"
+				id: "499C70C09A94FCD5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			id: "7078A696A2715CCC"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1b
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "565BE133AB84A21E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Ice And Fire"
+}

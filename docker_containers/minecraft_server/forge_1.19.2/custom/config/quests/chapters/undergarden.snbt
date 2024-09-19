@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "02BF2472C03BF401"
+	icon: "undergarden:twistytwig"
+	id: "7C2ABD110413ED2F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D41ADE8823C00C9"]
+			icon: "undergarden:twistytwig"
+			id: "68650DC804956181"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "4CD9118A2E0593AD"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "ftbquests:stage_barrier"
+			id: "2D41ADE8823C00C9"
+			subtitle: "This task block unfinished tasks"
+			tasks: [{
+				id: "3C72445941D8CC91"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Work In Progress"
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	title: "Undergarden"
+}
