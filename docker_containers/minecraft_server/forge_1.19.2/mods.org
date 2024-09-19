@@ -146,8 +146,8 @@
    - [[https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/264231/files/5037952/download][curseforge_download_link]]
 *** Ice and Fire: Dragonseeker
-    - [[https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragonseeker][modrinth_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/490653/files/5096495/download][modrinth_download_link]]
+    - [[https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragonseeker][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/490653/files/5096495/download][curseforge_download_link]]
 *** Ice and Fire Delight 
     - [[https://modrinth.com/mod/ice-and-fire-delight-(-farmers-delight-ice-and-fire-add-on)][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/35MH7Q1p/versions/Kx34UbTm/IceandFireDelight_addon1.19.2-1.0.0.jar][modrinth_download_link]]
