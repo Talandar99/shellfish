@@ -205,12 +205,6 @@
 ** Spice of Life: Sweet Potato Editio
    - [[https://www.curseforge.com/minecraft/mc-mods/spice-of-life-sweet-potato-edition][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/643106/files/4030254/download][curseforge_download_link]]
-** FTB Quests (Forge)
-   - [[https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/289412/files/5417957/download][curseforge_download_link]]
-*** FTB Quests Optimizer
-    - [[https://modrinth.com/mod/ftb-quests-optimizer][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/oPwMsrcf/versions/6qmXDQpl/FTBQuestsOptimizer-forge-1.2.1-1.19.2.jar][modrinth_download_link]]
 ** Map Atlases
    - [[https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/519759/files/5138314/download][curseforge_download_link]]
@@ -253,16 +247,16 @@
 ** Serene Seasons
    - [[https://modrinth.com/mod/serene-seasons][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/e0bNACJD/versions/O1v6mc2V/SereneSeasons-1.19.2-8.1.0.24.jar][modrinth_download_link]]
-*** SeasonHUD
+*** SeasonHUD [client_only]
     - [[https://modrinth.com/mod/seasonhud][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/VNjUn3NA/versions/84wJ78Gj/seasonhud-forge-1.19.2-1.10.4.jar][modrinth_download_link]]
 ** AmbientSounds
    - [[https://modrinth.com/mod/ambientsounds][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fM515JnW/versions/2z5buLUy/AmbientSounds_FORGE_v5.3.9_mc1.19.2.jar][modrinth_download_link]]
-** Sound Physics Remastered
+** Sound Physics Remastered [client_only]
    - [[https://modrinth.com/mod/sound-physics-remastered][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/qyVF9oeo/versions/cT0aLJ8N/sound-physics-remastered-forge-1.19.2-1.4.5.jar][modrinth_download_link]]
-** Presence Footsteps
+** Presence Footsteps [client_only]
    - [[https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/433068/files/4291556/download][curseforge_download_link]]
 ** YUNG's API
@@ -301,6 +295,15 @@
 ** End Of Mending
    - [[https://www.curseforge.com/minecraft/mc-mods/end-of-mending][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/622608/files/5262632/download][curseforge_download_link]]
+** Dave's Potioneering
+   - [[https://modrinth.com/mod/daves-potioneering][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/TaH1eXdZ/versions/eC2GEwQZ/davespotioneering-1.19.2-1.2.1.jar][modrinth_download_link]]
+** Time Stacker
+   - [[https://modrinth.com/mod/timestacker][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/gfDTzhpd/versions/Cd6Q9t2t/TimeStackerForge-1.1.2-1.19.2.jar][modrinth_download_link]]
+** Companion 
+   - [[https://modrinth.com/mod/companion][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/4w0EzGRW/versions/7NBgz9Ej/Companion-1.19.2-forge-3.1.3.jar][modrinth_download_link]]
 * UI/Utilities
 ** JEI (JustEnoughItems)
    - [[https://modrinth.com/mod/jei][modrinth_modpage]] 
@@ -454,21 +457,6 @@
 ** AttributeFix (Spice of Life: Sweet Potato Edition)
    - [[https://www.curseforge.com/minecraft/mc-mods/attributefix][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/280510/files/5126457/download][curseforge_download_link]]
-** AFTB XMod Compat (FTB Quests)
-   - [[https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/889915/files/5327224/download][curseforge_download_link]]
-** Architectury API (FTB Quests)
-   - [[https://www.curseforge.com/minecraft/mc-mods/architectury-api][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/419699/files/5137942/download][curseforge_download_link]]
-** FTB Library (FTB Quests)
-   - [[https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/404465/files/4661834/download][curseforge_download_link]]
-** Item Filters (FTB Quests)
-   - [[https://www.curseforge.com/minecraft/mc-mods/item-filters][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/309674/files/4553326/download][curseforge_download_link]]
-** FTB Teams (FTB Quests)
-   - [[https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/404468/files/4611938/download][curseforge_download_link]]
 ** Lodestone (Malum)
    - [[https://www.curseforge.com/minecraft/mc-mods/lodestone][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/616457/files/5586307/download][curseforge_download_link]]
