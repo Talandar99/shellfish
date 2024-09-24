@@ -129,7 +129,7 @@
     - [[https://cdn.modrinth.com/data/EO8aSHxh/versions/3jvU69Oz/eureka-1192-1.5.1-beta.2.jar][modrinth_download_link]]
 ** Tinkers Construct
    - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/KpNAIJ7D/TConstruct-1.19.2-3.8.3.39.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/93Np1BkB/TConstruct-1.19.2-3.8.4.50.jar][modrinth_download_link]]
 *** Tinkers Reforged
     - [[https://modrinth.com/mod/tinkers-reforged][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/cj8IZDhP/versions/u5ZCZpNY/Tinkers%20Reforged%201.19.2-2.1.6.jar][modrinth_download_link]]
