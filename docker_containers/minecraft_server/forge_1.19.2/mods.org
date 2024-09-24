@@ -229,9 +229,6 @@
 ** Towns and Towers 
    - [[https://modrinth.com/mod/towns-and-towers][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/DjLobEOy/versions/vHB74V8C/Towns-and-Towers-v.1.10-_FORGE-1.19.2_.jar][modrinth_download_link]]
-** ChoiceTheorem's Overhauled Village
-   - [[https://modrinth.com/mod/ct-overhaul-village][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/fgmhI8kH/versions/CXja9TJq/ctov-3.2.6c.jar][modrinth_download_link]]
 ** Smarter Farmers
    - [[https://modrinth.com/mod/smarter-farmers-farmers-replant][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/Bh6ZOMvp/versions/WO7QFUFi/smarterfarmers-1.19.2-1.7.1.jar][modrinth_download_link]]
@@ -283,9 +280,6 @@
 *** Traveler's Titles
     - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/JtifUr64/versions/nIfqKsvT/TravelersTitles-1.19.2-Forge-3.1.2.jar][modrinth_download_link]]
-** Enderman Overhaul
-   - [[https://modrinth.com/mod/enderman-overhaul][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/Lq6ojcWv/versions/TgB7Em92/endermanoverhaul-forge-1.19.2-0.0.2.jar][modrinth_download_link]]
 ** Better Mob Models
    - [[https://modrinth.com/resourcepack/better-mob-models][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fa06JGLx/versions/8tGfqRcs/Better_Mobs_RP_1.1.zip][modrinth_download_link]]
@@ -478,3 +472,6 @@
 ** iChunUtil (DeathCounter)
    - [[https://modrinth.com/mod/ichunutil][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/W6ROj0Hl/versions/CplS92u9/iChunUtil-1.19.2-Forge-1.0.0.jar][modrinth_download_link]]
+** Kiwi (SnowRealMagic)
+   - [[https://modrinth.com/mod/kiwi][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/ufdDoWPd/versions/yQbhR062/Kiwi-1.19.2-forge-8.3.6.jar][modrinth_download_link]]
