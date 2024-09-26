@@ -20,11 +20,13 @@ craftingTable.addShapeless("limesand_to_white_phosphorus", <item:createbb:white_
 craftingTable.addShapeless("breadslice_to_breadslice1", <item:extradelight:bread_slice>, [<item:moredelight:bread_slice>]);
 craftingTable.addShapeless("breadslice_to_breadslice2", <item:moredelight:bread_slice>, [<item:extradelight:bread_slice>]);
 //meatgrinder
+craftingTable.remove(<item:butchercraft:grinder_block_item>);
 craftingTable.addShaped("alternative_recipe_meat_grinder", <item:butchercraft:grinder_block_item>, [
     [<item:create:hand_crank>, <item:create:chute>, <item:minecraft:air>],
     [<item:minecraft:iron_ingot>, <item:create:propeller>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <item:minecraft:piston>, <item:create:chute>]]);
 //pot 
+craftingTable.remove(<item:farmersdelight:cooking_pot>);
 craftingTable.addShaped("alternative_recipe_cooking_pot", <item:farmersdelight:cooking_pot>, [
     [<item:minecraft:brick>, <item:extradelight:wooden_spoon>, <item:minecraft:brick>],
     [<item:minecraft:iron_ingot>, <item:minecraft:water_bucket>, <item:minecraft:iron_ingot>],
@@ -39,7 +41,23 @@ craftingTable.addShaped("leather_scrap_into_leather", <item:minecraft:leather>, 
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>],
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>],
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>]]);
-// leather cord string don't always work (fishing rod for example) (need to investigate)
+// blood bucket into blood bucket recipe (buckets duplicate)
+//craftingTable.addShapeless("blood_tinkers_from_butchercraft", <item:tconstruct:meat_soup_bucket> , [ <item:butchercraft:blood_fluid_bucket>]);
+//craftingTable.addShapeless("blood_butchercraft_from_tinkers", <item:butchercraft:blood_fluid_bucket> , [ <item:tconstruct:meat_soup_bucket>]);
+// blood soup
+craftingTable.addShapeless("blood_soup_from_bucket_tinkers", <item:tconstruct:meat_soup>*4 , [
+    <item:tconstruct:meat_soup_bucket>.transformReplace(<item:minecraft:bucket>),
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>]);
+craftingTable.addShapeless("blood_soup_from_bucket_butcher", <item:tconstruct:meat_soup>*4 , [
+    <item:butchercraft:blood_fluid_bucket>.transformReplace(<item:minecraft:bucket>),
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>,
+    <item:minecraft:bowl>]);
+
 // 
 // -----------------------------------------------------------
 // Vanilla 

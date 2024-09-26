@@ -103,7 +103,7 @@
 	"Temperature-Affecting Foods" = [["cold_sweat:soul_sprout", -20, "{}", 1200]]
 	#Defines how much a waterskin will change the player's body temperature by when used
 	#Range: > 0
-	"Waterskin Strength" = 100
+	"Waterskin Strength" = 100 #default was 50
 
 [Misc]
 	#Defines items that affect the player's temperature when in the inventory
