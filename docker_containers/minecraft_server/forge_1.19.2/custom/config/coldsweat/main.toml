@@ -2,7 +2,7 @@
 #DO NOT EDIT THE SETTINGS IN THIS SECTION
 [Builtin]
 	#Range: 0 ~ 4
-	Difficulty = 2
+	Difficulty = 4
 	Version = "2.3.4"
 
 [Difficulty]
