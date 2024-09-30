@@ -8,6 +8,10 @@ craftingTable.addShapeless("easy_nametag", <item:minecraft:name_tag> , [<tag:ite
 //troll leather
 craftingTable.addShapeless("leather_from_mountain_troll", <item:minecraft:leather>*8, [ <item:iceandfire:troll_leather_mountain>]);
 craftingTable.addShapeless("leather_from_forest_troll", <item:minecraft:leather>*8, [ <item:iceandfire:troll_leather_forest>]);
+craftingTable.addShapeless("leather_from_frost_troll", <item:minecraft:leather>*8, [ <item:iceandfire:troll_leather_frost>]);
+//hoglin hide into hoglin hide
+craftingTable.addShapeless("hoglin_hide_into_hoglin_hide_1", <item:mynethersdelight:hoglin_hide>, [ <item:cold_sweat:hoglin_hide>]);
+craftingTable.addShapeless("hoglin_hide_into_hoglin_hide_2", <item:cold_sweat:hoglin_hide>, [ <item:mynethersdelight:hoglin_hide>]);
 //campfire
 craftingTable.addShaped("easy_campfire", <item:minecraft:campfire>, [
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
@@ -58,6 +62,26 @@ craftingTable.addShapeless("blood_soup_from_bucket_butcher", <item:tconstruct:me
     <item:minecraft:bowl>,
     <item:minecraft:bowl>]);
 
+// enchanting_table
+craftingTable.remove(<item:minecraft:enchanting_table>);
+craftingTable.addShaped("enchanting_table_aether_recipe", <item:minecraft:enchanting_table>, [
+    [<item:minecraft:air>, <item:minecraft:book>, <item:minecraft:air>],
+    [<item:minecraft:diamond>, <item:aether:enchanted_gravitite>, <item:minecraft:diamond>],
+    [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]]);
+// golden apple and enchanted golden apple
+craftingTable.remove(<item:minecraft:golden_apple>);
+craftingTable.addShaped("enchanted_golden_apple_with_gravitite", <item:minecraft:enchanted_golden_apple>, [
+    [<item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>],
+    [<item:aether:enchanted_gravitite>, <item:minecraft:golden_apple>, <item:aether:enchanted_gravitite>],
+    [<item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>]]);
+// eureka balloon
+craftingTable.remove(<item:vs_eureka:balloon>);
+craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32, [
+    [<item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>],
+    [<item:minecraft:phantom_membrane>, <item:aether:enchanted_gravitite>, <item:minecraft:phantom_membrane>],
+    [<item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>]]);
+//craftable ambrosia dew from ambrosia
+craftingTable.addShapeless("ambrosia_dew_from_ambrosia_shard", <item:aetherdelight:ambrosia_dew>*4, [<item:aether:ambrosium_shard>]);
 // 
 // -----------------------------------------------------------
 // Vanilla 
