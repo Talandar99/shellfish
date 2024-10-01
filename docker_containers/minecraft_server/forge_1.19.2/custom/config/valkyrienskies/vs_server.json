@@ -1,6 +1,6 @@
 {
   "FTBChunks" : {
-    "shipsProtectedByClaims" : true,
+    "shipsProtectedByClaims" : false,
     "shipsProtectionOutOfBuildHeight" : false
   },
   "ComputerCraft" : {

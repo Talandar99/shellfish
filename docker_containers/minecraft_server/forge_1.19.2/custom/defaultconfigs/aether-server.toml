@@ -7,7 +7,7 @@
 	#Ambrosium Shards can be eaten to restore a half heart of health
 	"Ambrosium Shards are edible" = true
 	#Makes Berry Bushes and Bush Stems behave consistently with Sweet Berry Bushes
-	"Berry Bush consistency" = false
+	"Berry Bush consistency" = true
 	#Makes Crystal Fruit Leaves behave consistently with Sweet Berry Bushes
 	"Crystal Fruit Leaves consistency" = false
 	#Gummy Swets when eaten restore full health instead of full hunger

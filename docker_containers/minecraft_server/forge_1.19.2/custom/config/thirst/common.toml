@@ -15,7 +15,7 @@
 	#Whether players won't be able to sprint if their thirst bar is 3 droplets or less
 	moveSlowWhenThirsty = true
 	#Whether players can drink rain water
-	DrinkRainWater = true
+	DrinkRainWater = false
 	#Whether foods labeled as drinks will restore hunger
 	enableDrinksNutrition = true
 
@@ -71,9 +71,9 @@
 
 ["Fermentation levels"]
 	#Purification level below which fermented liquids will grow bacteria and get less purified
-	fermentationMoldingThreshold = 3
+	fermentationMoldingThreshold = 2
 	#Decrement of purification levels if water isn't purified enough when fermenting
-	fermentationMoldingHarshness = 2
+	fermentationMoldingHarshness = 1
 
 ["Create compatibility"]
 	#Purification levels gained by filtering water through a Sand Filter

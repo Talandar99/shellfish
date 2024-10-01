@@ -99,37 +99,38 @@
     # ["cold_sweat:boiler",                   0.27,   7,          0.88,       "lit=true",     "",     4       ], 
     # ["cold_sweat:icebox",                   -0.27,  7,          0.88,       "frosted=true", "",     0       ], 
 
-        #block-id ,                             temp,   falloff,    max_effect, predicates,     nbt,    temp_limit 
+        #block-id ,                             temp,   falloff,    max_effect, predicates,         nbt,    temp_limit 
 	"Block Temperatures" = [
-        ["aether:icestone",                     -0.35,  7,          1.4,        "",             "{}",   -1      ],
-        ["ascended_quark:icestone_bricks",      -0.35,  7,          1.4,        "",             "{}",   -1      ],
-        ["ascended_quark:polished_icestone",    -0.35,  7,          1.4,        "",             "{}",   -1      ],
-        ["iceandfire:dragon_ice",               -0.15,  4,          0.6,        "",             "{}",   -1      ], 
-        ["ends_delight:end_stove",              0.27,   6,          0.5,        "lit=true",     "",     4       ], 
-        ["farmersdelight:stove",                0.27,   6,          0.5,        "lit=true",     "",     4       ], 
-        ["mynethersdelight:nether_stove",       -0.27,  6,          0.5,        "lit=true",     "",     -0.7    ], 
-        ["twilightdelight:maze_stove",          0.27,   6,          0.5,        "lit=true",     "",     4       ], 
-        ["tconstruct:seared_heater",            0.476,  7,          0.9,        "active=true",  " ",            ], 
-        ["tconstruct:foundry_controller",       0.476,  7,          0.9,        "active=true",  " ",            ], 
-        ["tconstruct:smeltery_controller",      0.476,  7,          0.9,        "active=true",  " ",            ], 
-        ["create_new_age:reactor_rod",          1.50,   7,          20,         "lit=true",     " "             ], 
-        ["create_new_age:corium",               5.00,   7,          40,         "",             " "             ], 
-        ["create:blaze_burner",                 0.3,    6,          0.9,        "blaze=SMOULDERING","",         ], #todo
-        ["create:blaze_burner",                 0.45,   6,          1.35,       "blaze=KINDLED"," ",            ], #todo
-        ["create:blaze_burner",                 0.6,    6,          1.8,        "blaze=SEETHING"," ",           ], #todo
-        ["create_new_age:heater",               0.3,    6,          0.9,        "blaze=SMOULDERING","",         ], #todo
-        ["create_new_age:heater",               0.45,   6,          1.35,       "blaze=KINDLED"," ",            ], #todo
-        ["create_new_age:heater",               0.6,    6,          1.8,        "blaze=SEETHING"," ",           ], #todo
-        ["cold_sweat:boiler",                   0.35,   7,          0.9,        "lit=true",     "",     5       ], 
-        ["cold_sweat:icebox",                   -0.35,  7,          0.9,        "frosted=true", "",     0       ], 
-        ["minecraft:fire",                      0.476,  7,          0.9,        "",             "",     8       ], 
-        ["#minecraft:campfires",                0.476,  7,          0.9,        "lit=true",     " ",    8       ], 
-        ["minecraft:magma_block",               0.25,   3,          1.0                                         ], 
-        ["minecraft:lava_cauldron",             0.5,    7,          1.5                                         ], 
-        ["#minecraft:ice",                      -0.15,  4,          0.6,        "",             "",     -0.7    ], 
-        ["minecraft:ice",                       -0.15,  4,          0.6,        "",             "{}",   -0.7    ], 
-        ["minecraft:packed_ice",                -0.25,  4,          1.0,        "",             "{}",   -0.7    ], 
-        ["minecraft:blue_ice",                  -0.35,  5,          1.4,        "",             "{}",   -0.7    ]
+        ["aether:icestone",                     -0.35,  7,          1.4,        "",                 "{}",   -1      ],
+        ["ascended_quark:icestone_bricks",      -0.35,  7,          1.4,        "",                 "{}",   -1      ],
+        ["ascended_quark:polished_icestone",    -0.35,  7,          1.4,        "",                 "{}",   -1      ],
+        ["iceandfire:dragon_ice",               -0.15,  4,          0.6,        "",                 "{}",   -1      ], 
+        ["ends_delight:end_stove",              0.27,   6,          0.5,        "lit=true",         "",     4       ], 
+        ["farmersdelight:stove",                0.27,   6,          0.5,        "lit=true",         "",     4       ], 
+        ["mynethersdelight:nether_stove",       -0.27,  6,          0.5,        "lit=true",         "",     -0.7    ], 
+        ["twilightdelight:maze_stove",          0.27,   6,          0.5,        "lit=true",         "",     4       ], 
+        ["tconstruct:seared_heater",            0.476,  7,          0.9,        "active=true",      ""              ], 
+        ["tconstruct:foundry_controller",       0.476,  7,          0.9,        "active=true",      ""              ], 
+        ["tconstruct:smeltery_controller",      0.476,  7,          0.9,        "active=true",      ""              ], 
+        ["create_new_age:reactor_rod",          1.50,   7,          20,         "lit=true",         ""              ], 
+        ["create_new_age:corium",               5.00,   7,          40,         "",                 ""              ], 
+    #["create:blaze_burner",                 0.3,    6,          0.9,        "blaze=SMOULDERING",""              ], #todo
+    #["create:blaze_burner",                 0.45,   6,          1.35,       "blaze=KINDLED",    ""              ], #todo
+    #["create:blaze_burner",                 0.6,    6,          1.8,        "blaze=SEETHING",   ""              ], #todo
+    #["create_new_age:heater",               0.3,    6,          0.9,        "blaze=SMOULDERING",""              ], #todo
+    #["create_new_age:heater",               0.45,   6,          1.35,       "blaze=KINDLED",    ""              ], #todo
+    #["create_new_age:heater",               0.45,   6,          1.35,       "blaze=kindled",    ""              ], #todo
+    #["create_new_age:heater",               0.6,    6,          1.8,        "blaze=SEETHING",   ""              ], #todo
+        ["cold_sweat:boiler",                   0.4,    7,          0.9,        "lit=true",         "",     5       ], 
+        ["cold_sweat:icebox",                   -0.4,   7,          0.9,        "frosted=true",     "",     0       ], 
+        ["minecraft:fire",                      0.476,  7,          0.9,        "",                 "",     8       ], 
+        ["#minecraft:campfires",                0.476,  7,          0.9,        "lit=true",         "",     8       ], 
+        ["minecraft:magma_block",               0.25,   3,          1.0                                             ], 
+        ["minecraft:lava_cauldron",             0.5,    7,          1.5                                             ], 
+        ["#minecraft:ice",                      -0.15,  4,          0.6,        "",                 "",     -0.7    ], 
+        ["minecraft:ice",                       -0.15,  4,          0.6,        "",                 "{}",   -0.7    ], 
+        ["minecraft:packed_ice",                -0.25,  4,          1.0,        "",                 "{}",   -0.7    ], 
+        ["minecraft:blue_ice",                  -0.35,  5,          1.4,        "",                 "{}",   -0.7    ]
     ]
 	#The maximum range of blocks' area of effect
 	#Note: This will not change anything unless blocks are configured to utilize the expanded range
@@ -178,8 +179,8 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.4, 0.6, 0.4]
+	Summer = [0.4, 0.7, 0.4]
 	Autumn = [0.2, 0, -0.2]
-	Winter = [-0.4, -0.6, -0.4]
+	Winter = [-0.4, -0.7, -0.4]
 	Spring = [-0.2, 0, 0.2]
 
