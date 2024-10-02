@@ -43,21 +43,24 @@
 *** Create: Structures
     - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
-*** Create: The Factory Must Grow
-    - [[https://modrinth.com/mod/create-tfmg][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/USgVjXsk/versions/WnrydYjl/tfmg-0.9.2-1.19.2.jar][modrinth_download_link]]
-*** Create: New Age
-    - [[https://modrinth.com/mod/create-new-age][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/FTeXqI9v/versions/bLna6SZ1/create-new-age-forge-1.19.2-1.1.2.jar][modrinth_download_link]]
+*** Create: Diesel Generators
+    - [[https://modrinth.com/mod/create-diesel-generators][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/ZM3tt6p1/versions/i0FKUeRP/createdieselgenerators-1.19.2-1.2h.jar][modrinth_download_link]]
+*** Create Crafts & Additions
+    - [[https://modrinth.com/mod/createaddition][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/kU1G12Nn/versions/AjwN7Aq8/createaddition-1.19.2-1.2.2.jar][modrinth_download_link]]
+*** Create: High Pressure
+    - [[https://modrinth.com/mod/create-high-pressure][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/Mn8ziD0c/versions/XgAZJx0f/create_high_pressure-1.1.0-1.19.2.jar][modrinth_download_link]]
 *** Create Enchantment Industry
     - [[https://modrinth.com/mod/create-enchantment-industry][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/JWGBpFUP/versions/KA5Gf4rg/create_enchantment_industry-1.19.2-for-create-0.5.1.f-1.2.9.e.jar][modrinth_download_link]]
 *** Create: Enchantable Machinery
     - [[https://modrinth.com/mod/create-enchantable-machinery][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/eqrvp4NK/versions/UVWuT6cw/createenchantablemachinery-1.19.2-1.4.4.jar][modrinth_download_link]]
-*** Create: Liquid Fuel
-    - [[https://modrinth.com/mod/create-liquid-fuel][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/sH9tXU9f/versions/YNiP5j5K/createliquidfuel-2.1.1-1.19.2.jar][modrinth_download_link]]
+*** Oreganized
+    - [[https://modrinth.com/mod/oreganized][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/2FJutzEL/versions/8mxk6Cye/Oreganized%201.19.2-2.0.2.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
@@ -172,6 +175,9 @@
 *** Farmer's Cutting: Quark
     - [[https://modrinth.com/datapack/farmers-cutting-quark][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/rH2QzhPh/versions/pPKj4Q5L/farmers-cutting-quark-1.0.0-1.19.jar][modrinth_download_link]]
+*** Every Compat (Wood Good)
+    - [[https://modrinth.com/mod/every-compat][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/eiktJyw1/versions/gq59syP7/everycomp-1.19.2-2.5.28.jar][modrinth_download_link]]
 ** Nature's Compass
    - [[https://modrinth.com/mod/natures-compass][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fPetb5Kh/versions/N4ONofeB/NaturesCompass-1.19.2-1.10.0-forge.jar][modrinth_download_link]]
@@ -223,6 +229,9 @@
 ** Incendium
    - [[https://modrinth.com/mod/incendium][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ZVzW5oNS/versions/ednvmJkC/Incendium_1.19.3_v5.1.6.jar][modrinth_download_link]]
+*** Incendium Biomes Only
+    - [[https://modrinth.com/datapack/ibo][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/gmUU3UdW/versions/5dS4CDKI/ibo-2.1.0%2Bforge%2B1.19.jar][modrinth_download_link]]
 ** Nullscape
    - [[https://modrinth.com/datapack/nullscape][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/LPjGiSO4/versions/M1tAEtbt/Nullscape_1.19.3_v1.2.2.jar][modrinth_download_link]]
@@ -237,7 +246,7 @@
    - [[https://cdn.modrinth.com/data/H1sntfo8/versions/ZXYzy1iR/guardvillagers-1.19.2-1.5.9.jar][modrinth_download_link]]
 ** Cold Sweat
    - [[https://modrinth.com/mod/cold-sweat][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/uXhSmPjd/versions/o1vBjBJY/ColdSweat-2.3.4.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/uXhSmPjd/versions/God35jzk/ColdSweat-2.3.5.jar][modrinth_download_link]]
 ** Serene Seasons
    - [[https://modrinth.com/mod/serene-seasons][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/e0bNACJD/versions/O1v6mc2V/SereneSeasons-1.19.2-8.1.0.24.jar][modrinth_download_link]]
@@ -277,6 +286,12 @@
 ** Critters and Companions
    - [[https://modrinth.com/mod/critters-and-companions][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/Yd4wb5wZ/versions/yoI3fMGq/crittersandcompanions-1.19.2-2.1.1.jar][modrinth_download_link]]
+** Bosses of Mass Destruction
+   - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/941573/files/4955735/download][curseforge_download_link]]
+*** Bosses of Mass Destruction
+    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-delight][curseforge_modpage]] 
+    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-delight][curseforge_download_link]]
 * UI/Utilities
 ** AmbientSounds
    - [[https://modrinth.com/mod/ambientsounds][modrinth_modpage]] 

@@ -18,8 +18,8 @@ craftingTable.addShaped("easy_campfire", <item:minecraft:campfire>, [
     [<tag:items:forge:rods/wooden>, <item:minecraft:flint>, <tag:items:forge:rods/wooden>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 //white_phosphorus limesand compatibility
-craftingTable.addShapeless("white_phosphorus_to_limesand", <item:createindustry:limesand>, [<item:createbb:white_phosphorus>]);
-craftingTable.addShapeless("limesand_to_white_phosphorus", <item:createbb:white_phosphorus>, [<item:createindustry:limesand>]);
+//craftingTable.addShapeless("white_phosphorus_to_limesand", <item:createindustry:limesand>, [<item:createbb:white_phosphorus>]);
+//craftingTable.addShapeless("limesand_to_white_phosphorus", <item:createbb:white_phosphorus>, [<item:createindustry:limesand>]);
 //bread_slice
 craftingTable.addShapeless("breadslice_to_breadslice1", <item:extradelight:bread_slice>, [<item:moredelight:bread_slice>]);
 craftingTable.addShapeless("breadslice_to_breadslice2", <item:moredelight:bread_slice>, [<item:extradelight:bread_slice>]);
@@ -134,24 +134,24 @@ craftingTable.remove(<item:iceandfire:copper_hoe>);
 // -----------------------------------------------------------
 // Factory Must Grow
 // -----------------------------------------------------------
-// Remove lead tools
-craftingTable.remove(<item:createindustry:steel_sword>);
-craftingTable.remove(<item:createindustry:steel_pickaxe>);
-craftingTable.remove(<item:createindustry:steel_shovel>);
-craftingTable.remove(<item:createindustry:steel_axe>);
-craftingTable.remove(<item:createindustry:steel_hoe>);
-// Remove steel tools
-craftingTable.remove(<item:createindustry:aluminum_sword>);
-craftingTable.remove(<item:createindustry:aluminum_pickaxe>);
-craftingTable.remove(<item:createindustry:aluminum_shovel>);
-craftingTable.remove(<item:createindustry:aluminum_axe>);
-craftingTable.remove(<item:createindustry:aluminum_hoe>);
-// Remove aluminium tools
-craftingTable.remove(<item:createindustry:lead_sword>);
-craftingTable.remove(<item:createindustry:lead_pickaxe>);
-craftingTable.remove(<item:createindustry:lead_shovel>);
-craftingTable.remove(<item:createindustry:lead_axe>);
-craftingTable.remove(<item:createindustry:lead_hoe>);
+//// Remove lead tools
+//craftingTable.remove(<item:createindustry:steel_sword>);
+//craftingTable.remove(<item:createindustry:steel_pickaxe>);
+//craftingTable.remove(<item:createindustry:steel_shovel>);
+//craftingTable.remove(<item:createindustry:steel_axe>);
+//craftingTable.remove(<item:createindustry:steel_hoe>);
+//// Remove steel tools
+//craftingTable.remove(<item:createindustry:aluminum_sword>);
+//craftingTable.remove(<item:createindustry:aluminum_pickaxe>);
+//craftingTable.remove(<item:createindustry:aluminum_shovel>);
+//craftingTable.remove(<item:createindustry:aluminum_axe>);
+//craftingTable.remove(<item:createindustry:aluminum_hoe>);
+//// Remove aluminium tools
+//craftingTable.remove(<item:createindustry:lead_sword>);
+//craftingTable.remove(<item:createindustry:lead_pickaxe>);
+//craftingTable.remove(<item:createindustry:lead_shovel>);
+//craftingTable.remove(<item:createindustry:lead_axe>);
+//craftingTable.remove(<item:createindustry:lead_hoe>);
 // -----------------------------------------------------------
 // Aether
 // -----------------------------------------------------------
