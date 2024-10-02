@@ -178,6 +178,9 @@
 *** Every Compat (Wood Good)
     - [[https://modrinth.com/mod/every-compat][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/eiktJyw1/versions/gq59syP7/everycomp-1.19.2-2.5.28.jar][modrinth_download_link]]
+** Immersive Weathering
+   - [[https://modrinth.com/mod/immersive-weathering][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/jkskOO9i/versions/LQ2O7I0J/immersive_weathering-1.19.2-1.2.10-forge.jar][modrinth_download_link]]
 ** Nature's Compass
    - [[https://modrinth.com/mod/natures-compass][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fPetb5Kh/versions/N4ONofeB/NaturesCompass-1.19.2-1.10.0-forge.jar][modrinth_download_link]]
