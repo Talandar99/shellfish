@@ -3,6 +3,12 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // New crafting recipes
 // -----------------------------------------------------------
+// blood bucket into blood bucket recipe (buckets duplicate)
+//craftingTable.addShapeless("blood_tinkers_from_butchercraft", <item:tconstruct:meat_soup_bucket> , [ <item:butchercraft:blood_fluid_bucket>]);
+//craftingTable.addShapeless("blood_butchercraft_from_tinkers", <item:butchercraft:blood_fluid_bucket> , [ <item:tconstruct:meat_soup_bucket>]);
+//white_phosphorus limesand compatibility
+//craftingTable.addShapeless("white_phosphorus_to_limesand", <item:createindustry:limesand>, [<item:createbb:white_phosphorus>]);
+//craftingTable.addShapeless("limesand_to_white_phosphorus", <item:createbb:white_phosphorus>, [<item:createindustry:limesand>]);
 //name_tag
 craftingTable.addShapeless("easy_nametag", <item:minecraft:name_tag> , [<tag:items:forge:string>, <tag:items:forge:leather>]);
 //troll leather
@@ -17,9 +23,6 @@ craftingTable.addShaped("easy_campfire", <item:minecraft:campfire>, [
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:flint>, <tag:items:forge:rods/wooden>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
-//white_phosphorus limesand compatibility
-//craftingTable.addShapeless("white_phosphorus_to_limesand", <item:createindustry:limesand>, [<item:createbb:white_phosphorus>]);
-//craftingTable.addShapeless("limesand_to_white_phosphorus", <item:createbb:white_phosphorus>, [<item:createindustry:limesand>]);
 //bread_slice
 craftingTable.addShapeless("breadslice_to_breadslice1", <item:extradelight:bread_slice>, [<item:moredelight:bread_slice>]);
 craftingTable.addShapeless("breadslice_to_breadslice2", <item:moredelight:bread_slice>, [<item:extradelight:bread_slice>]);
@@ -29,6 +32,27 @@ craftingTable.addShaped("alternative_recipe_meat_grinder", <item:butchercraft:gr
     [<item:create:hand_crank>, <item:create:chute>, <item:minecraft:air>],
     [<item:minecraft:iron_ingot>, <item:create:propeller>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <item:minecraft:piston>, <item:create:chute>]]);
+//bucket_from_iron_sheets
+craftingTable.remove(<item:minecraft:bucket>);
+craftingTable.addShaped("bucket_from_iron_sheets", <item:minecraft:bucket>, [
+    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
+    [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
+//kettle from copper sheets
+craftingTable.remove(<item:farmersrespite:kettle>);
+craftingTable.addShaped("kettle_from_copper_sheets", <item:farmersrespite:kettle>, [
+    [<item:createaddition:copper_rod>, <item:minecraft:leather>, <item:createaddition:copper_rod>],
+    [<item:create:copper_sheet>, <item:minecraft:air>, <item:create:copper_sheet>],
+    [<item:minecraft:air>, <item:create:copper_sheet>, <item:minecraft:air>]]);
+//deep frying pan
+craftingTable.remove(<item:casualness_delight:deep_frying_pan>);
+craftingTable.addShaped("deep_frying_pan_with_oil", <item:casualness_delight:deep_frying_pan>, [
+    [<item:minecraft:brick>, <item:minecraft:iron_bars>, <item:minecraft:brick>],
+    [<item:minecraft:iron_ingot>, <item:createdieselgenerators:plant_oil_bucket>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
+craftingTable.addShaped("deep_frying_pan_with_oil2", <item:casualness_delight:deep_frying_pan>, [
+    [<item:minecraft:brick>, <item:minecraft:iron_bars>, <item:minecraft:brick>],
+    [<item:minecraft:iron_ingot>, <item:createaddition:seed_oil_bucket>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
 //pot 
 craftingTable.remove(<item:farmersdelight:cooking_pot>);
 craftingTable.addShaped("alternative_recipe_cooking_pot", <item:farmersdelight:cooking_pot>, [
@@ -45,9 +69,6 @@ craftingTable.addShaped("leather_scrap_into_leather", <item:minecraft:leather>, 
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>],
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>],
     [<item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>, <item:butchercraft:leather_scrap>]]);
-// blood bucket into blood bucket recipe (buckets duplicate)
-//craftingTable.addShapeless("blood_tinkers_from_butchercraft", <item:tconstruct:meat_soup_bucket> , [ <item:butchercraft:blood_fluid_bucket>]);
-//craftingTable.addShapeless("blood_butchercraft_from_tinkers", <item:butchercraft:blood_fluid_bucket> , [ <item:tconstruct:meat_soup_bucket>]);
 // blood soup
 craftingTable.addShapeless("blood_soup_from_bucket_tinkers", <item:tconstruct:meat_soup>*4 , [
     <item:tconstruct:meat_soup_bucket>.transformReplace(<item:minecraft:bucket>),

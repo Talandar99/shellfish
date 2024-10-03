@@ -31,9 +31,6 @@
 *** Create: Dynamic Village 
     - [[https://modrinth.com/mod/dynamic-village][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/YCPmkFAm/versions/JhQKUR2E/dynamicvillage-v0.4-1.19.2.jar][modrinth_download_link]]
-*** Create: Interactive
-    - [[https://modrinth.com/mod/interactive][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/MyfCcqiE/versions/DOMv81lG/create_interactive-1192-forge-1.0.1-beta.3.jar][modrinth_download_link]]
 *** Create: Broken Bad
     - [[https://www.curseforge.com/minecraft/mc-mods/create-broken-bad][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/635620/files/5192479/download][curseforge_download_link]]
@@ -292,9 +289,6 @@
 ** Bosses of Mass Destruction
    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/941573/files/4955735/download][curseforge_download_link]]
-*** Bosses of Mass Destruction
-    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-delight][curseforge_modpage]] 
-    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-delight][curseforge_download_link]]
 * UI/Utilities
 ** AmbientSounds
    - [[https://modrinth.com/mod/ambientsounds][modrinth_modpage]] 
@@ -386,6 +380,9 @@
 ** Property Modifier
    - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]
+** No Elytra Boosting
+   - [[https://www.curseforge.com/minecraft/mc-mods/no-elytra-boosting][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/620541/files/4490327/download][curseforge_download_link]]
 * Optimization
 ** Clumps
    - [[https://modrinth.com/mod/clumps][modrinth_modpage]] 
