@@ -58,6 +58,12 @@
 *** Oreganized
     - [[https://modrinth.com/mod/oreganized][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/2FJutzEL/versions/8mxk6Cye/Oreganized%201.19.2-2.0.2.jar][modrinth_download_link]]
+*** Create: Dynamic Lights
+    - [[https://modrinth.com/mod/create-dynamic-lights][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/evMQRxqV/versions/mYHHrKDE/create-dyn-light-forge1.19.2%2B1.0.2.jar][modrinth_download_link]]
+*** Create: Connected
+    - [[https://modrinth.com/mod/create-connected][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/Vg5TIO6d/versions/1HrN6TRS/create_connected-0.8.2-mc1.19.2-all.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
@@ -115,6 +121,9 @@
 *** Farmers Structures
     - [[https://www.curseforge.com/minecraft/mc-mods/farmers-structures][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/1088877/files/5656711/download][curseforge_download_link]]
+*** Cuisine Delight
+    - [[https://www.curseforge.com/minecraft/mc-mods/cuisine-delight][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/893541/files/5122578/download][curseforge_download_link]]
 ** Naturalist
    - [[https://modrinth.com/mod/naturalist][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/F8BQNPWX/versions/YjWRWE02/naturalist-forge-4.0.3-1.19.2.jar][modrinth_download_link]]
