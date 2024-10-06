@@ -94,7 +94,7 @@
 	#*falloff: The block is less effective as distance increases
 	#*max effect: The maximum temperature change this block can cause to a player (even with multiple blocks)
 	#*predicates: The state that the block has to be in for the temperature to be applied (i.e. lit=true).
-	#- (Multiple predicates can be used by separating them with commas [i.e. "lit=true,waterlogged=false"])
+	#- (Multipl
 	#*nbt: The NBT data that the block must have for the temperature to be applied.
 	#*temperature-limit: The maximum world temperature at which this block temp will be effective.
 	#- (Represents the minimum temp if the block temp is negative)
@@ -103,11 +103,6 @@
         #["create:blaze_burner",             0.3,    6,      0.9,        "",                 "{fuelLevel: 0}",   4], 
         #["create:blaze_burner",             0.45,   6,      1.35,       "",                 "{fuelLevel: 1}",   8],
         ["create:blaze_burner",             0.6,    7,      1.8,        "",                 "{fuelLevel: 2}"    ], 
-        #["create_new_age:heater",           0.3,    6,      0.9,        "",                 "{fuelLevel: 0}",   4], 
-        #["create_new_age:heater",           0.45,   6,      1.35,       "",                 "{fuelLevel: 1}",   8],
-        ["create_new_age:heater",           0.6,    7,      1.8,        "blaze=SEETHING",   ""                  ],
-        ["create_new_age:reactor_rod",      1.50,   7,      20,         "lit=true",         ""                  ], 
-        ["create_new_age:corium",           5.00,   7,      40,         "",                 ""                  ], 
         #farmers delight
         ["ends_delight:end_stove",          0.27,   6,      0.5,        "lit=true",         "",                 4], 
         ["farmersdelight:stove",            0.27,   6,      0.5,        "lit=true",         "",                 4], 
@@ -124,9 +119,10 @@
         #ice and fire
         ["iceandfire:dragon_ice",           -0.35,  5,      1.4,        "",                 "{}",               -0.7],
         #cold_sweat
-        #default
+        #default version
         #["cold_sweat:boiler",              0.27,   7,      0.88,       "lit=true",         "",                 4], 
         #["cold_sweat:icebox",              -0.27,  7,      0.88,       "frosted=true",     "",                 0], 
+        #changed
         ["cold_sweat:boiler",               0.35,   7,      0.9,        "lit=true",         "",                 5], 
         ["cold_sweat:icebox",               -0.35,  7,      0.9,        "frosted=true",     "",                 0], 
         #minecraft
@@ -134,8 +130,8 @@
         ["#minecraft:campfires",            0.476,  7,      0.9,        "lit=true",         "",                 8], 
         ["minecraft:magma_block",           0.25,   3,      1.0                                                 ], 
         ["minecraft:lava_cauldron",         0.5,    7,      1.5                                                 ], 
-        ["#minecraft:ice",                  -0.15,  4,      0.6,        "",                 "",                 -0.7], 
-        ["minecraft:ice",                   -0.15,  4,      0.6,        "",                 "{}",               -0.7], 
+        ["#minecraft:ice",                  -0.15,  3,      0.6,        "",                 "",                 -0.7], 
+        ["minecraft:ice",                   -0.15,  3,      0.6,        "",                 "{}",               -0.7], 
         ["minecraft:packed_ice",            -0.25,  4,      1.0,        "",                 "{}",               -0.7], 
         ["minecraft:blue_ice",              -0.35,  5,      1.4,        "",                 "{}",               -0.7]
     ]
@@ -175,7 +171,7 @@
 	"Automatic Hearth" = false
 	#How effective the hearth is at normalizing temperature
 	#Range: 0.0 ~ 1.0
-	"Hearth Strength" = 0.9
+	"Hearth Strength" = 1.0
 	#List of additional blocks that the hearth can spread through
 	#Use this list if the hearth isn't spreading through particular blocks that it should
 	"Hearth Spread Whitelist" = [
@@ -244,13 +240,12 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.5, 0.75, 0.5]
+	Summer = [0.4, 0.7, 0.4]
 	Autumn = [0.2, 0, -0.2]
-	Winter = [-0.5, -0.75, -0.5]
+	Winter = [-0.4, -0.7, -0.4]
 	Spring = [-0.2, 0, 0.2]
 #   DEFAULT VALUES
 #	Summer = [0.4, 0.6, 0.4]
 #	Autumn = [0.2, 0, -0.2]
 #	Winter = [-0.4, -0.6, -0.4]
 #   Spring = [-0.2, 0, 0.2]
-

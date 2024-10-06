@@ -34,9 +34,6 @@
 *** Create: Broken Bad
     - [[https://www.curseforge.com/minecraft/mc-mods/create-broken-bad][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/635620/files/5192479/download][curseforge_download_link]]
-*** Create Recycle Everything
-    - [[https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/872577/files/4714432/download][curseforge_download_link]]
 *** Create: Structures
     - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
@@ -121,9 +118,6 @@
 *** Farmers Structures
     - [[https://www.curseforge.com/minecraft/mc-mods/farmers-structures][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/1088877/files/5656711/download][curseforge_download_link]]
-*** Cuisine Delight
-    - [[https://www.curseforge.com/minecraft/mc-mods/cuisine-delight][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/893541/files/5122578/download][curseforge_download_link]]
 ** Naturalist
    - [[https://modrinth.com/mod/naturalist][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/F8BQNPWX/versions/YjWRWE02/naturalist-forge-4.0.3-1.19.2.jar][modrinth_download_link]]
@@ -289,12 +283,6 @@
 *** YUNG's Better Dungeons
     - [[https://modrinth.com/mod/yungs-better-dungeons][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/o1C1Dkj5/versions/vhbhPrpZ/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar][modrinth_download_link]]
-** Dave's Potioneering
-   - [[https://modrinth.com/mod/daves-potioneering][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/TaH1eXdZ/versions/eC2GEwQZ/davespotioneering-1.19.2-1.2.1.jar][modrinth_download_link]]
-** Critters and Companions
-   - [[https://modrinth.com/mod/critters-and-companions][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/Yd4wb5wZ/versions/yoI3fMGq/crittersandcompanions-1.19.2-2.1.1.jar][modrinth_download_link]]
 ** Bosses of Mass Destruction
    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/941573/files/4955735/download][curseforge_download_link]]
@@ -323,9 +311,6 @@
 ** End Of Mending
    - [[https://www.curseforge.com/minecraft/mc-mods/end-of-mending][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/622608/files/5262632/download][curseforge_download_link]]
-** Time Stacker
-   - [[https://modrinth.com/mod/timestacker][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/gfDTzhpd/versions/Cd6Q9t2t/TimeStackerForge-1.1.2-1.19.2.jar][modrinth_download_link]]
 ** Companion 
    - [[https://modrinth.com/mod/companion][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/4w0EzGRW/versions/7NBgz9Ej/Companion-1.19.2-forge-3.1.3.jar][modrinth_download_link]]
@@ -347,9 +332,6 @@
 ** Jade
    - [[https://modrinth.com/mod/jade][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/nvQzSEkH/versions/kp0HjPre/Jade-1.19.1-forge-8.9.2.jar][modrinth_download_link]]
-** Leaves Be Gone
-   - [[https://modrinth.com/mod/leaves-be-gone][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/AVq17PqV/versions/6LsBcPWG/LeavesBeGone-v4.0.1-1.19.2-Forge.jar][modrinth_download_link]]
 ** AppleSkin
    - [[https://modrinth.com/mod/appleskin][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/EsAfCjCV/versions/forge-mc1.19-2.4.2/appleskin-forge-mc1.19-2.4.2.jar][modrinth_download_link]]
@@ -386,6 +368,9 @@
 ** Better Nether Map
    - [[https://modrinth.com/mod/better-nether-map][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fdtm99de/versions/roU7BQC2/betternethermap-1.2-1.19.2.jar][modrinth_download_link]]
+** Stacking Potions
+   - [[https://modrinth.com/mod/stacking-potions][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/pTcBrZdj/versions/zIZM3sGW/stacking_potions-1.19.2-2.0.jar][modrinth_download_link]]
 ** Property Modifier
    - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]
@@ -496,9 +481,6 @@
 ** Moonlight Lib (Map Atlases)
    - [[https://www.curseforge.com/minecraft/mc-mods/selene][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/499980/files/5567102/download][curseforge_download_link]]
-** Botarium (Create: New Age)
-   - [[https://modrinth.com/mod/botarium][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/2u6LRnMa/versions/d3FyC3ZY/botarium-forge-1.19.2-1.9.2.jar][modrinth_download_link]]
 ** Json things (Tinker-Things)
    - [[https://www.curseforge.com/minecraft/mc-mods/json-things][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/541617/files/4645830/download][curseforge_download_link]]

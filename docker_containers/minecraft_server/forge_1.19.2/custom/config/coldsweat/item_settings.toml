@@ -78,8 +78,6 @@
 	#*"type": Optional. Either "static" or "adaptive". Defines the insulation type. Defaults to static.
 	#*"nbt": Optional. If set, the item will only provide insulation if it has the specified NBT tag.
 	"Insulation Ingredients" = [
-        #critters and companions
-        ["crittersandcompanions:silk", 0, 1.5], 
         #twilightforest
         ["twilightforest:arctic_fur", 2, 0], 
         ["twilightforest:alpha_yeti_fur", 4, 0], 
