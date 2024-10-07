@@ -1,0 +1,9 @@
+{
+	"credit": "End_Rage waz here",
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"top": "vs_eureka:block/engine_top",
+		"front": "vs_eureka:block/engine_on",
+		"side": "vs_eureka:block/engine_side"
+	}
+}

@@ -118,6 +118,9 @@
 *** Farmers Structures
     - [[https://www.curseforge.com/minecraft/mc-mods/farmers-structures][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/1088877/files/5656711/download][curseforge_download_link]]
+*** Bamboo Delight
+    - [[https://www.curseforge.com/minecraft/mc-mods/bamboo-delight][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/1055397/files/5683757/download][curseforge_download_link]]
 ** Naturalist
    - [[https://modrinth.com/mod/naturalist][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/F8BQNPWX/versions/YjWRWE02/naturalist-forge-4.0.3-1.19.2.jar][modrinth_download_link]]
@@ -286,6 +289,15 @@
 ** Bosses of Mass Destruction
    - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/941573/files/4955735/download][curseforge_download_link]]
+** Biomancy
+   - [[https://modrinth.com/mod/biomancy][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/uAAuyU4M/versions/fAYXgFCf/biomancy-forge-1.19.2-2.3.2.0.jar][modrinth_download_link]]
+** L_Ender 's Cataclysm
+   - [[https://www.curseforge.com/minecraft/mc-mods/lendercataclysm][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/551586/files/5788087/download][curseforge_download_link]]
+*** Cataclysm Delight 
+    - [[https://www.curseforge.com/minecraft/mc-mods/cataclysm-delight][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/867902/files/5357862/download][curseforge_download_link]]
 * UI/Utilities
 ** AmbientSounds
    - [[https://modrinth.com/mod/ambientsounds][modrinth_modpage]] 
@@ -296,9 +308,6 @@
 ** Presence Footsteps [client_only]
    - [[https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/433068/files/4291556/download][curseforge_download_link]]
-** Better Mob Models
-   - [[https://modrinth.com/resourcepack/better-mob-models][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/fa06JGLx/versions/8tGfqRcs/Better_Mobs_RP_1.1.zip][modrinth_download_link]]
 ** Carry On
    - [[https://modrinth.com/mod/carry-on][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/joEfVgkn/versions/CE3MquDi/carryon-forge-1.19.2-2.1.2.23.jar][modrinth_download_link]]
@@ -377,6 +386,12 @@
 ** No Elytra Boosting
    - [[https://www.curseforge.com/minecraft/mc-mods/no-elytra-boosting][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/620541/files/4490327/download][curseforge_download_link]]
+** Resource Pack Overrides
+   - [[https://www.curseforge.com/minecraft/mc-mods/resource-pack-overrides][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/832644/files/4438897/download][curseforge_download_link]]
+** Enhanced Boss Bars
+   - [[https://modrinth.com/mod/enhanced-boss-bars-mod][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/J5bVsBt9/versions/llTZkxCc/enhanced_boss_bars-1.19.2-1.0.0.jar][modrinth_download_link]]
 * Optimization
 ** Clumps
    - [[https://modrinth.com/mod/clumps][modrinth_modpage]] 
@@ -493,3 +508,6 @@
 ** Kiwi (SnowRealMagic)
    - [[https://modrinth.com/mod/kiwi][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ufdDoWPd/versions/yQbhR062/Kiwi-1.19.2-forge-8.3.6.jar][modrinth_download_link]]
+** Lionfish-API
+   - [[https://modrinth.com/mod/lionfish-api][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar][modrinth_download_link]]

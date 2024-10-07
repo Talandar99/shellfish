@@ -1,0 +1,7 @@
+{
+	"credit": "End_Rage waz here",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "create:block/sail/canvas_light_blue"
+	}
+}

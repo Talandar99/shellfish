@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/traveling_titles_fix",
+    "file/Eureka_Create_1.0_modified"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "vanilla": {
+      "title": "\"Vanilla Assets\"",
+      "description": "\"Resource pack from Minecraft\""
+    },
+    "server": {
+      "default_position": "BOTTOM",
+      "force_compatible": true,
+      "fixed_position": false
+    },
+    "1": [
+      "file/traveling_titles_fix",
+      "file/Eureka_Create_1.0_modified"
+    ],
+    "$1": {
+      "hidden": false,
+      "required": true
+    }
+  }
+}
