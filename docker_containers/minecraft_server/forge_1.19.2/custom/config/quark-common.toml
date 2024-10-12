@@ -117,7 +117,7 @@
 	"Shear Vines" = true
 	"Nether Brick Fence Gate" = true
 	"Gold Bars" = true
-	Rope = true
+	Rope = false
 	"Celebratory Lamps" = true
 	"Soul Sandstone" = true
 	"Variant Chests" = true

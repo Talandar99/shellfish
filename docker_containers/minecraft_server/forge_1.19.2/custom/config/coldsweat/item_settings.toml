@@ -100,8 +100,6 @@
         ["iceandfire:troll_leather_frost", 1, 1], 
         #farmersdelight
         ["mynethersdelight:hoglin_hide", 0, 2], 
-        #createindustry
-        ["createindustry:synthetic_leather", 1, 1], 
         #minecraft
         ["minecraft:leather_helmet", 4.0, 4.0, "static", "{}"], 
         ["minecraft:leather_chestplate", 6.0, 6.0, "static", "{}"], 
@@ -141,11 +139,11 @@
 	#Defines the items that provide insulation when worn
 	#See Insulation Ingredients for formatting
 	"Insulating Armor" = [
-    #   ["create:netherite_backtank"], 
-    #   ["create:netherite_diving_helmet"], 
-    #   ["create:netherite_diving_boots"], 
-    #   ["minecraft:netherite_boots"], 
-    #   ["minecraft:netherite_leggings"], 
+        ["create:netherite_backtank"], 
+        ["create:netherite_diving_helmet"], 
+        ["create:netherite_diving_boots"], 
+    #["minecraft:netherite_boots"], 
+        ["minecraft:netherite_leggings"], 
         #alexsmobs
         ["alexsmobs:frontier_cap", 8.0, 0.0, "static", "{}"], 
         ["alexsmobs:fedora", 0.0, 8.0, "static", "{}"], 
@@ -173,7 +171,30 @@
     ]
 	#Defines the items that provide insulation when worn in a curio slot
 	#See Insulation Ingredients for formatting
-	"Insulating Curios" = []
+"Insulating Curios" = [
+        # good against cold
+        ["aether:leather_gloves",               4.0, 0.0, "static", "{}"],
+        ["twilightaether:arctic_gloves",        4.0, 0.0, "static", "{}"],
+        ["aether:gravitite_gloves",             4.0, 0.0, "static", "{}"],
+        ["twilightaether:yeti_gloves",          4.0, 0.0, "static", "{}"],
+        ["aether:neptune_gloves",               4.0, 0.0, "static", "{}"],
+        ["aether:valkyrie_gloves",              4.0, 0.0, "static", "{}"],
+        ["aether:valkyrie_cape",                6.0, 0.0, "static", "{}"],
+        # good against hot
+        ["cataclysm:sticky_gloves",             0.0, 4.0, "static", "{}"],
+        ["aether:zanite_gloves",                0.0, 4.0, "static", "{}"],
+        ["twilightaether:naga_gloves",          0.0, 4.0, "static", "{}"],
+        ["twilightaether:fiery_gloves",         0.0, 4.0, "static", "{}"],
+        ["aether:netherite_gloves",             0.0, 4.0, "static", "{}"],
+        ["aether:phoenix_gloves",               0.0, 4.0, "static", "{}"],
+        ["twilightaether:fiery_cape",           0.0, 6.0, "static", "{}"],
+        # meh against both
+        ["aether:iron_gloves",                  2.0, 2.0, "static", "{}"],
+        ["aether:diamond_gloves",               2.0, 2.0, "static", "{}"],
+        ["twilightaether:ironwood_gloves",      2.0, 2.0, "static", "{}"],
+        ["twilightaether:knightmetal_gloves",   2.0, 2.0, "static", "{}"],
+        ["aether:obsidian_gloves",              2.0, 2.0, "static", "{}"]
+    ]
 	#Defines how many insulation slots armor pieces have
 	#There are 4 modes for this setting:
 	#Static: Each armor slot (head, body, legs, feet) has a fixed number of insulation slots

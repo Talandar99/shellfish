@@ -1,0 +1,25 @@
+# https://github.com/TheIllusiveC4/Curios/wiki/How-to-Use:-Users
+[[curiosSettings]]
+  override = true
+  identifier = "head"
+  size = 1
+[[curiosSettings]]
+  override = true
+  identifier = "necklace"
+  size = 1
+[[curiosSettings]]
+  override = true
+  identifier = "body"
+[[curiosSettings]]
+  override = true
+  identifier = "hands"
+  size = 1
+[[curiosSettings]]
+  override = true
+  identifier = "ring"
+  size = 2
+
+[[curiosSettings]]
+  override = true
+  identifier = "calendarslot"
+  size = 0

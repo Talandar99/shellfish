@@ -9,8 +9,7 @@
     ]
 	#Defines the temperature of a dimension, overriding all other biome and dimension temperatures/settings
 	"Dimension Temperatures" = [
-        ["aether:the_aether", 10,"C"],
-        ["twilightforest:twilight_forest", 25,"C"]
+        ["aether:the_aether", 10,"C"]
     ]
 
 #Format: [["biome_1", tempLow, tempHigh, *units], ["biome_2", tempLow, tempHigh, *units]... etc]
@@ -149,7 +148,7 @@
         ["minecraft:soul_torch",                -0.1,   2,      0.4,        "",                 "",                 -1], 
         ["minecraft:soul_wall_torch",           -0.1,   2,      0.4,        "",                 "",                 -1], 
         ["iceandfire:dread_torch",              -0.2,   2,      0.4,        "",                 "",                 -1], 
-        ["iceandfire:dread_wall_torch",         -0.2,   2,      0.4,        "",                 "",                 -1], 
+        #["iceandfire:dread_wall_torch",         -0.2,   2,      0.4,        "",                 "",                 -1], 
         #lanterns
         ["minecraft:lantern",                   0.05,   2,      0.15,        "",                 "",                 ], 
         ["minecraft:soul_lantern",              -0.05,  3,      0.15,        "",                 "",                 -1], 
