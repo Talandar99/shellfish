@@ -1,18 +1,24 @@
 #+title: mods
 
 * Gamgechanging Mods
+*** Ender Trigon
+    - [[https://modrinth.com/mod/ender-trigon][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/bIGwdx6D/versions/N8s1bBhm/endertrigon-1.0.jar][modrinth_download_link]]
 ** Aether
    - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/h8VKO9w6/aether-1.19.2-1.4.2-forge.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/cm5EsdIg/aether-1.19.2-1.5.0-forge.jar][modrinth_download_link]]
 *** Ascended Quark
     - [[https://modrinth.com/mod/ascended-quark][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/SqIC1Dq9/versions/VONGNIUC/ascended_quark-1.19.2-1.0.2.jar][modrinth_download_link]]
 *** Aether Delight
     - [[https://www.curseforge.com/minecraft/mc-mods/aether-delight][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/961108/files/5029293/download][curseforge_download_link]]
+*** Aether Addon: Enhanced Extinguishing
+    - [[https://modrinth.com/mod/aether-enhanced-extinguishing][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/FDrEl7QY/versions/neQ8c772/aether_enhanced_extinguishing-1.19.2-1.0.0-forge.jar][modrinth_download_link]]
 ** Create
    - [[https://modrinth.com/mod/create][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/LNytGWDc/versions/Vfzp1Xaz/create-1.19.2-0.5.1.f.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/LNytGWDc/versions/tJVykywJ/create-1.19.2-0.5.1.i.jar][modrinth_download_link]]
 *** Create: The Salt
     - [[https://modrinth.com/mod/create-the-salt][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/OXUFUU4x/versions/IwhIDWd7/create_salt%201.19.2-1.1.0.jar][modrinth_download_link]]
@@ -21,13 +27,13 @@
     - [[https://cdn.modrinth.com/data/btq68HMO/versions/xfrRlEVH/create_central_kitchen-1.19.2-for-create-0.5.1.f-1.3.11.c.jar][modrinth_download_link]]
 *** Create: Steam & Rails
     - [[https://modrinth.com/mod/create-steam-n-rails][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/ZzjhlDgM/versions/a0hkZGSr/Steam_Rails-1.6.4%2Bforge-mc1.19.2.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/ZzjhlDgM/versions/AYmDx1OW/Steam_Rails-1.6.6%2Bforge-mc1.19.2.jar][modrinth_download_link]]
 *** Create Big Cannons
     - [[https://modrinth.com/mod/create-big-cannons][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/GWp4jCJj/versions/t8xKYZve/createbigcannons-5.5.1%2Bmc.1.19.2-forge.jar][modrinth_download_link]]
 *** Create: Dreams & Desires
     - [[https://modrinth.com/mod/create-dreams-and-desires][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/JmybsfWs/versions/PiqvawlN/Create-DnDesire-1.19.2-0.1c.Release-Early-Dev.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/JmybsfWs/versions/n3bakyiQ/Create-DnDesire-1.19.2-1.2c.Beta%20Mid-Dev.jar][modrinth_download_link]]
 *** Create: Dynamic Village 
     - [[https://modrinth.com/mod/dynamic-village][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/YCPmkFAm/versions/JhQKUR2E/dynamicvillage-v0.4-1.19.2.jar][modrinth_download_link]]
@@ -48,7 +54,7 @@
     - [[https://cdn.modrinth.com/data/JWGBpFUP/versions/KA5Gf4rg/create_enchantment_industry-1.19.2-for-create-0.5.1.f-1.2.9.e.jar][modrinth_download_link]]
 *** Create: Enchantable Machinery
     - [[https://modrinth.com/mod/create-enchantable-machinery][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/eqrvp4NK/versions/UVWuT6cw/createenchantablemachinery-1.19.2-1.4.4.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/eqrvp4NK/versions/TZiYQn5p/createenchantablemachinery-1.19.2-1.8.4.jar][modrinth_download_link]]
 *** Oreganized
     - [[https://modrinth.com/mod/oreganized][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/2FJutzEL/versions/8mxk6Cye/Oreganized%201.19.2-2.0.2.jar][modrinth_download_link]]
@@ -58,11 +64,14 @@
 *** Create: Connected
     - [[https://modrinth.com/mod/create-connected][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/Vg5TIO6d/versions/1HrN6TRS/create_connected-0.8.2-mc1.19.2-all.jar][modrinth_download_link]]
+*** Create Guardian Beam Defense
+    - [[https://modrinth.com/mod/create-guardian-beam-defense][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/pwPEdvXO/versions/1SHlpVZa/Create-Guardian-Beam-Defense-1.2.3b.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
 ** Farmer's Delight
-   - [[Farmer's Delight][modrinth_modpage]] 
+   - [[https://modrinth.com/mod/farmers-delight][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/R2OftAxM/versions/rFTKVUtq/FarmersDelight-1.19.2-1.2.4.jar][modrinth_download_link]]
 *** Delightful
     - [[https://modrinth.com/mod/delightful][modrinth_modpage]] 
@@ -75,10 +84,10 @@
     - [[https://cdn.modrinth.com/data/gBGdVBJy/versions/q2lyova5/CrabbersDelight-1.19.2-1.1.4.jar][modrinth_download_link]]
 *** Crate Delight for Farmer's Delight
     - [[https://modrinth.com/mod/crate-delight][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/9rlXSyLg/versions/64M3oUWR/cratedelight-2024.07.12-1.19-forge.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/9rlXSyLg/versions/7HfU11jZ/cratedelight-24.09.07-1.19-forge.jar][modrinth_download_link]]
 *** More Delight for Farmer's Delight
     - [[https://modrinth.com/mod/more-delight][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/znHQQtuU/versions/9LjNBLWL/moredelight-2024.06.30-1.19.2-forge.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/znHQQtuU/versions/vEJFxXl7/moredelight-24.09.27-1.19-forge.jar][modrinth_download_link]]
 *** Brewin' And Chewin'
     - [[https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/637808/files/4468049/download][curseforge_download_link]]
@@ -99,7 +108,7 @@
     - [[https://cdn.modrinth.com/data/YttyNOFA/versions/9Wc5BtzF/culturaldelights-1.19.2-0.15.5.jar][modrinth_download_link]]
 *** Farmer's Delight: Plus
     - [[https://modrinth.com/mod/farmers-delight-plus][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/ZjUUZ0PX/versions/HsmrCQ4w/FarmersDelightPlus-1.19.2-1.2.0.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/ZjUUZ0PX/versions/RoV1xbIP/FarmersDelightPlus-1.19.2-1.2.1.jar][modrinth_download_link]]
 *** Casualness Delight
     - [[https://modrinth.com/mod/casualness-delight][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/zYuGPZIx/versions/Mmx9xgrq/casualness_delight-1.19.2-0.4.jar][modrinth_download_link]]
@@ -132,16 +141,16 @@
    - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/93Np1BkB/TConstruct-1.19.2-3.8.4.50.jar][modrinth_download_link]]
 *** Tinkers Reforged
     - [[https://modrinth.com/mod/tinkers-reforged][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/cj8IZDhP/versions/u5ZCZpNY/Tinkers%20Reforged%201.19.2-2.1.6.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/cj8IZDhP/versions/uqzjrkwz/Tinkers%20Reforged%201.19.2-2.1.7.jar][modrinth_download_link]]
 *** Tinkers' Integrations and Tweaks
     - [[https://modrinth.com/mod/tcintegrations][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/jNa5P8yc/versions/egKgpsvZ/TCIntegrations-1.19.2-2.0.21.7.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/jNa5P8yc/versions/QUpvt2gy/TCIntegrations-1.19.2-2.0.22.3.jar][modrinth_download_link]]
 *** Tinkers' Thinking
     - [[https://modrinth.com/mod/tinkers-thinking][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/yMtiecO6/versions/jQtIGXZg/Tinkers-Thinking-0.1.3.3.2.jar][modrinth_download_link]]
 *** Tinkers' Things
     - [[https://modrinth.com/mod/tinkers-things][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/fNJfw6Ix/versions/JAhWh457/Tinker-Things-1.19.2-1.2.0.1.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/fNJfw6Ix/versions/REfzhrgb/Tinker-Things-1.19.2-1.2.1.jar][modrinth_download_link]]
 ** Ice And Fire
    - [[https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/264231/files/5037952/download][curseforge_download_link]]
@@ -150,7 +159,7 @@
     - [[https://www.curseforge.com/api/v1/mods/490653/files/5096495/download][curseforge_download_link]]
 *** Ice and Fire Delight 
     - [[https://modrinth.com/mod/ice-and-fire-delight-(-farmers-delight-ice-and-fire-add-on)][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/35MH7Q1p/versions/Kx34UbTm/IceandFireDelight_addon1.19.2-1.0.0.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/35MH7Q1p/versions/JbYwGMZX/IceandFireDelight_addon1.19.2-1.1.4.jar][modrinth_download_link]]
 ** Alex's Mobs 
    - [[https://modrinth.com/mod/alexs-mobs][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/2cMuAZAp/versions/BgeYEhGG/alexsmobs-1.21.1.jar][modrinth_download_link]]
@@ -188,8 +197,8 @@
    - [[https://modrinth.com/mod/comforts][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/SaCpeal4/versions/4xI610Ck/comforts-forge-6.0.7%2B1.19.2.jar][modrinth_download_link]]
 ** GraveStone
-   - [[https://sodrinth.com/mod/gravestone-mod][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/RYtXKJPr/versions/wb9vCtzz/gravestone-forge-1.19.2-1.0.21.jar][modrinth_download_link]]
+   - [[https://modrinth.com/mod/gravestone-mod][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/RYtXKJPr/versions/BdpmfW7F/gravestone-forge-1.19.2-1.0.24.jar][modrinth_download_link]]
 ** Thirst Was Taken
    - [[https://modrinth.com/mod/thirst-was-taken][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/iUheEnjm/versions/F9DLuYzA/ThirstWasTaken-1.19.2-1.3.9.jar][modrinth_download_link]]
@@ -217,9 +226,9 @@
 ** Terralith
    - [[https://modrinth.com/mod/terralith][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/8oi3bsk5/versions/FOe2l0tx/Terralith_1.19.3_v2.3.12.jar][modrinth_download_link]]
-** Continents
-   - [[https://modrinth.com/mod/continents][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/bQ5TJA1E/versions/WHW8ec8k/Continents_1.20.4_v1.1.4.jar][modrinth_download_link]]
+*** Continents
+    - [[https://modrinth.com/mod/continents][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/bQ5TJA1E/versions/WHW8ec8k/Continents_1.20.4_v1.1.4.jar][modrinth_download_link]]
 ** Incendium
    - [[https://modrinth.com/mod/incendium][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ZVzW5oNS/versions/ednvmJkC/Incendium_1.19.3_v5.1.6.jar][modrinth_download_link]]
@@ -243,7 +252,7 @@
    - [[https://cdn.modrinth.com/data/e0bNACJD/versions/O1v6mc2V/SereneSeasons-1.19.2-8.1.0.24.jar][modrinth_download_link]]
 *** SeasonHUD [client_only]
     - [[https://modrinth.com/mod/seasonhud][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/VNjUn3NA/versions/84wJ78Gj/seasonhud-forge-1.19.2-1.10.4.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/VNjUn3NA/versions/QZ0mzndi/seasonhud-forge-1.19.2-1.11.0.jar][modrinth_download_link]]
 ** Snow! Real Magic!
    - [[https://modrinth.com/mod/snow-real-magic][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/iJNje1E8/versions/BywGg9xj/SnowRealMagic-1.19.2-forge-6.5.4.jar][modrinth_download_link]]
@@ -255,7 +264,7 @@
    - [[https://cdn.modrinth.com/data/uAAuyU4M/versions/fAYXgFCf/biomancy-forge-1.19.2-2.3.2.0.jar][modrinth_download_link]]
 ** L_Ender 's Cataclysm
    - [[https://www.curseforge.com/minecraft/mc-mods/lendercataclysm][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/551586/files/5788087/download][curseforge_download_link]]
+   - [[https://www.curseforge.com/api/v1/mods/551586/files/5804796/download][curseforge_download_link]]
 *** Cataclysm Delight 
     - [[https://www.curseforge.com/minecraft/mc-mods/cataclysm-delight][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/867902/files/5357862/download][curseforge_download_link]]
@@ -280,9 +289,15 @@
 ** Another Furniture
    - [[https://modrinth.com/mod/another-furniture][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ulloLmqG/versions/b6EO57JG/another_furniture-forge-1.19.2-2.1.4.jar][modrinth_download_link]]
+** Grace
+   - [[https://www.curseforge.com/minecraft/mc-mods/grace][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/1090870/files/5663205/download][curseforge_download_link]]
 * Structures
-** Create: Structures
+** Create: New Beginnings
    - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
+** Create: Structures
+   - [[https://modrinth.com/datapack/create-structures][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
 ** Chef's Delight
    - [[https://modrinth.com/mod/chefs-delight][modrinth_modpage]] 
@@ -317,12 +332,15 @@
 *** YUNG's Better Nether Fortresses
     - [[https://modrinth.com/mod/yungs-better-nether-fortresses][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/Z2mXHnxP/versions/9iPMgrMe/YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar][modrinth_download_link]]
-*** Traveler's Titles
-    - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/JtifUr64/versions/nIfqKsvT/TravelersTitles-1.19.2-Forge-3.1.2.jar][modrinth_download_link]]
 *** YUNG's Better Dungeons
     - [[https://modrinth.com/mod/yungs-better-dungeons][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/o1C1Dkj5/versions/vhbhPrpZ/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar][modrinth_download_link]]
+*** Traveler's Titles
+    - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/JtifUr64/versions/nIfqKsvT/TravelersTitles-1.19.2-Forge-3.1.2.jar][modrinth_download_link]]
+*** Paxi
+    - [[https://modrinth.com/mod/paxi][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/CU0PAyzb/versions/nAUDoZw6/Paxi-1.19.2-Forge-3.0.1.jar][modrinth_download_link]]
 * UI/Utilities
 ** What's That Slot?
    - [[https://modrinth.com/mod/whats-that-slot][modrinth_modpage]] 
@@ -353,22 +371,25 @@
    - [[https://cdn.modrinth.com/data/4w0EzGRW/versions/7NBgz9Ej/Companion-1.19.2-forge-3.1.3.jar][modrinth_download_link]]
 ** JEI (JustEnoughItems)
    - [[https://modrinth.com/mod/jei][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/u6dRKJwZ/versions/8HIXqeHh/jei-1.19.2-forge-11.6.0.1024.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/u6dRKJwZ/versions/zgVFeePC/jei-1.19.2-forge-11.8.1.1033.jar][modrinth_download_link]]
 *** JER (JustEnoughResources)
     - [[https://modrinth.com/mod/just-enough-resources-jer][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/uEfK2CXF/versions/gYpN3Xsx/JustEnoughResources-1.19.2-1.2.3.243.jar][modrinth_download_link]]
 *** TConJEI 
     - [[https://modrinth.com/mod/tconjei][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/DhBtjMiv/versions/WNZzTsNU/tconjei-1.19.2-1.3.1.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/DhBtjMiv/versions/IsIy3iLS/tconjei-1.19.2-1.4.0.jar][modrinth_download_link]]
 *** Just Enough Breeding (JEBr)
     - [[https://modrinth.com/mod/justenoughbreeding][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/9Pk89J3g/versions/BPwngZSn/justenoughbreeding-forge-1.19.2-1.2.1.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/9Pk89J3g/versions/y4fIeriy/justenoughbreeding-forge-1.19.2-1.4.0.jar][modrinth_download_link]]
 *** Just Enough Effect Descriptions (JEED)
     - [[https://modrinth.com/mod/just-enough-effect-descriptions-jeed][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/EO27GKs1/versions/dbK8LkEi/jeed-1.19.2-2.1.4.jar][modrinth_download_link]]
 ** Jade
    - [[https://modrinth.com/mod/jade][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/nvQzSEkH/versions/kp0HjPre/Jade-1.19.1-forge-8.9.2.jar][modrinth_download_link]]
+*** Jade Addons (Forge)
+    - [[https://modrinth.com/mod/jade-addons-forge][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/xuDOzCLy/versions/rPlsZgp0/JadeAddons-1.19.2-forge-3.6.0.jar][modrinth_download_link]]
 ** AppleSkin
    - [[https://modrinth.com/mod/appleskin][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/EsAfCjCV/versions/forge-mc1.19-2.4.2/appleskin-forge-mc1.19-2.4.2.jar][modrinth_download_link]]
@@ -384,9 +405,6 @@
 *** BlueMap Offline Player Markers [server_only]
     - [[https://modrinth.com/mod/bluemap-offline-player-markers-forge][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/LFSk55jv/versions/g5aUEyKM/bluemapofflineplayermarkers-1.3.1.jar][modrinth_download_link]]
-** CraftTweaker
-   - [[https://modrinth.com/mod/crafttweaker][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/Xg35A4rS/versions/OhppNJhO/CraftTweaker-forge-1.19.2-10.1.55.jar][modrinth_download_link]]
 ** OfflineSkins
    - [[https://www.curseforge.com/minecraft/mc-mods/offlineskins][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/241420/files/3920644/download][curseforge_download_link]]
@@ -408,15 +426,9 @@
 ** Stacking Potions
    - [[https://modrinth.com/mod/stacking-potions][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/pTcBrZdj/versions/zIZM3sGW/stacking_potions-1.19.2-2.0.jar][modrinth_download_link]]
-** Property Modifier
-   - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]
 ** No Elytra Boosting
    - [[https://www.curseforge.com/minecraft/mc-mods/no-elytra-boosting][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/620541/files/4490327/download][curseforge_download_link]]
-** Resource Pack Overrides
-   - [[https://www.curseforge.com/minecraft/mc-mods/resource-pack-overrides][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/832644/files/4438897/download][curseforge_download_link]]
 ** Enhanced Boss Bars
    - [[https://modrinth.com/mod/enhanced-boss-bars-mod][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/J5bVsBt9/versions/llTZkxCc/enhanced_boss_bars-1.19.2-1.0.0.jar][modrinth_download_link]]
@@ -426,6 +438,16 @@
 ** Leaves Be Gone
    - [[https://modrinth.com/mod/leaves-be-gone][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/AVq17PqV/versions/6LsBcPWG/LeavesBeGone-v4.0.1-1.19.2-Forge.jar][modrinth_download_link]]
+* Tweakers
+** CraftTweaker
+   - [[https://modrinth.com/mod/crafttweaker][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/Xg35A4rS/versions/OhppNJhO/CraftTweaker-forge-1.19.2-10.1.55.jar][modrinth_download_link]]
+*** CreateTweaker
+    - [[https://www.curseforge.com/minecraft/mc-mods/createtweaker][modrinth_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/437717/files/4764075/download][modrinth_download_link]]
+** Property Modifier
+   - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]
 * Optimization
 ** Model Gap Fix
    - [[https://modrinth.com/mod/modelfix][modrinth_modpage]] 
@@ -453,7 +475,7 @@
    - [[https://cdn.modrinth.com/data/iRfIGC1s/versions/1.1.1%2B1.19/starlight-1.1.1%2Bforge.cf5b10b.jar][modrinth_download_link]]
 ** ModernFix
    - [[https://modrinth.com/mod/modernfix][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/nmDcB62a/versions/i0vWRI7P/modernfix-forge-5.18.0%2Bmc1.19.2.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/nmDcB62a/versions/FqoRZlrr/modernfix-forge-5.18.1%2Bmc1.19.2.jar][modrinth_download_link]]
 ** Pluto (Krypton for forge)
    - [[https://modrinth.com/mod/pluto][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][modrinth_download_link]]
@@ -480,7 +502,7 @@
    - [[https://cdn.modrinth.com/data/US93mifm/versions/fZzwk293/lightspeed-1.19.2-1.0.5.jar][modrinth_download_link]]
 ** Let Me Despawn
    - [[https://modrinth.com/plugin/lmd][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/vE2FN5qn/versions/wiNkX0Xr/letmedespawn-1.18-forge-1.0.3.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/vE2FN5qn/versions/ILDzAkCA/letmedespawn-forge-1.3.2b.jar][modrinth_download_link]]
 ** Ksyxis
    - [[https://modrinth.com/mod/ksyxis][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/2ecVyZ49/versions/QFfBwOwT/Ksyxis-1.3.2.jar][modrinth_download_link]]
@@ -489,7 +511,7 @@
    - [[https://cdn.modrinth.com/data/GiriLmaY/versions/1.0/Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0.jar][modrinth_download_link]]
 ** Dimensional Threading Reforked (may be incompatible with Chunky)
    - [[https://www.curseforge.com/minecraft/mc-mods/dimensional-threads][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/955545/files/5480308/download][curseforge_download_link]]
+   - temporarly removed
 ** Alternate Current
    - [[https://www.curseforge.com/minecraft/mc-mods/alternate-current][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/548115/files/4609489/download][curseforge_download_link]]
@@ -510,7 +532,7 @@
    - [[https://modrinth.com/mod/curios][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/vvuO3ImH/versions/S9Xq7LzJ/curios-forge-1.19.2-5.1.6.3.jar][modrinth_download_link]]
 ** Citatel (Alex and Ice and fire)
-   - [[https://modrinth.com/mod/citadel][modrinth_modpage]] 
+   - [[https://www.curseforge.com/minecraft/mc-mods/citadel][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/331936/files/4556677/download][curseforge_download_link]]
 ** AutoRegLib (Quark)
    - [[https://modrinth.com/mod/autoreglib][modrinth_modpage]] 

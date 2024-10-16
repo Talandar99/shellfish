@@ -167,33 +167,49 @@
         ["cold_sweat:goat_fur_cap", 8.0, 0.0, "static", "{}"], 
         ["cold_sweat:goat_fur_parka", 12.0, 0.0, "static", "{}"], 
         ["cold_sweat:goat_fur_pants", 10.0, 0.0, "static", "{}"], 
-        ["cold_sweat:goat_fur_boots", 8.0, 0.0, "static", "{}"]
+        ["cold_sweat:goat_fur_boots", 8.0, 0.0, "static", "{}"],
+        #twilightforest 
+        # fiery
+        ["twilightforest:fiery_helmet", 0.0, 8.0, "static", "{}"], 
+        ["twilightforest:fiery_chestplate", 0.0, 12.0, "static", "{}"], 
+        ["twilightforest:fiery_leggings", 0.0, 10.0, "static", "{}"], 
+        ["twilightforest:fiery_boots", 0.0, 8.0, "static", "{}"], 
+        # arctic
+        ["twilightforest:arctic_helmet", 8.0, 0.0, "static", "{}"], 
+        ["twilightforest:arctic_chestplate", 12.0, 0.0, "static", "{}"], 
+        ["twilightforest:arctic_leggings", 10.0, 0.0, "static", "{}"], 
+        ["twilightforest:arctic_boots", 8.0, 0.0, "static", "{}"],
+        # yeti
+        ["twilightforest:yeti_helmet", 8.0, 0.0, "static", "{}"], 
+        ["twilightforest:yeti_chestplate", 12.0, 0.0, "static", "{}"], 
+        ["twilightforest:yeti_leggings", 10.0, 0.0, "static", "{}"], 
+        ["twilightforest:yeti_boots", 8.0, 0.0, "static", "{}"]
     ]
 	#Defines the items that provide insulation when worn in a curio slot
 	#See Insulation Ingredients for formatting
 "Insulating Curios" = [
         # good against cold
         ["aether:leather_gloves",               4.0, 0.0, "static", "{}"],
-        ["twilightaether:arctic_gloves",        4.0, 0.0, "static", "{}"],
         ["aether:gravitite_gloves",             4.0, 0.0, "static", "{}"],
-        ["twilightaether:yeti_gloves",          4.0, 0.0, "static", "{}"],
         ["aether:neptune_gloves",               4.0, 0.0, "static", "{}"],
-        ["aether:valkyrie_gloves",              4.0, 0.0, "static", "{}"],
-        ["aether:valkyrie_cape",                6.0, 0.0, "static", "{}"],
+        ["twilightaether:arctic_gloves",        8.0, 0.0, "static", "{}"],
+        ["twilightaether:yeti_gloves",          8.0, 0.0, "static", "{}"],
+        ["aether:valkyrie_gloves",              8.0, 0.0, "static", "{}"],
+        ["aether:valkyrie_cape",                8.0, 0.0, "static", "{}"],
         # good against hot
         ["cataclysm:sticky_gloves",             0.0, 4.0, "static", "{}"],
         ["aether:zanite_gloves",                0.0, 4.0, "static", "{}"],
         ["twilightaether:naga_gloves",          0.0, 4.0, "static", "{}"],
-        ["twilightaether:fiery_gloves",         0.0, 4.0, "static", "{}"],
-        ["aether:netherite_gloves",             0.0, 4.0, "static", "{}"],
-        ["aether:phoenix_gloves",               0.0, 4.0, "static", "{}"],
-        ["twilightaether:fiery_cape",           0.0, 6.0, "static", "{}"],
+        ["twilightaether:fiery_gloves",         0.0, 8.0, "static", "{}"],
+        ["aether:netherite_gloves",             0.0, 8.0, "static", "{}"],
+        ["aether:phoenix_gloves",               0.0, 8.0, "static", "{}"],
+        ["twilightaether:fiery_cape",           0.0, 8.0, "static", "{}"],
         # meh against both
         ["aether:iron_gloves",                  2.0, 2.0, "static", "{}"],
         ["aether:diamond_gloves",               2.0, 2.0, "static", "{}"],
         ["twilightaether:ironwood_gloves",      2.0, 2.0, "static", "{}"],
         ["twilightaether:knightmetal_gloves",   2.0, 2.0, "static", "{}"],
-        ["aether:obsidian_gloves",              2.0, 2.0, "static", "{}"]
+        ["aether:obsidian_gloves",              4.0, 4.0, "static", "{}"]
     ]
 	#Defines how many insulation slots armor pieces have
 	#There are 4 modes for this setting:
@@ -204,10 +220,11 @@
 	#Exponential: Number of slots increases rapidly with protection
 	#Logarithmic: Number of slots increases with protection, with diminishing returns
 	#- Format: [number, max-slots] (a positive integer or decimal; the rate of increase)
-	"Insulation Slots" = ["static", 4, 6, 5, 4]
+    #"Insulation Slots" = ["static", 4, 6, 5, 4]
+	"Insulation Slots" = ["static", 5, 8, 7, 4]
 	#Defines the effectiveness of insulating items in protecting against temperature
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Insulation Strength" = 1.0
+	"Insulation Strength" = 1.1
 	#Defines wearable items that cannot be insulated
 	#Format: ["item_id", "item_id", ...etc]
 	"Insulation Blacklist" = []
@@ -223,7 +240,7 @@
     ]
 	#Defines how much a waterskin will change the player's body temperature by when used
 	#Range: > 0
-	"Waterskin Strength" = 100 #default was 50
+	"Waterskin Strength" = 80 #default was 50
 	#Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
 	#A value of 1 means it will never be overwhelmed
 	#Range: 0.0 ~ 1.0

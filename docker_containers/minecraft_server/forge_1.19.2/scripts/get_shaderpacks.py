@@ -80,20 +80,22 @@ def get_download_links(file_path, link_name):
 
 
 if __name__ == "__main__":
-    mods_file = "mods"
+    mods_file = "shaderpacks"
     if os.path.exists(mods_file):
         shutil.rmtree(mods_file)
     os.makedirs(mods_file)
     print("================================================")
-    print("Getting mods from curseforge")
+    print("Getting shaderpacks from curseforge")
     print("================================================")
-    links = get_download_links("mods.org", "[curseforge_download_link]")
+    links = get_download_links("download_lists/shaderpacks.org", "[curseforge_download_link]")
     for link in links:
         download_curseforge(link, mods_file)
 
     print("================================================")
-    print("Getting mods from modrinth")
+    print("Getting shaderpacks from modrinth")
     print("================================================")
-    links = get_download_links("mods.org", "[modrinth_download_link]")
+    links = get_download_links("download_lists/shaderpacks.org", "[modrinth_download_link]")
     for link in links:
         download(link, mods_file)
+    command = "cp -r shaderpacks custom_configuration"
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)

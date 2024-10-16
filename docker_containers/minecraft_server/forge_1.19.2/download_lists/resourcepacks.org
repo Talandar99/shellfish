@@ -1,0 +1,16 @@
+#+title: Resourcepacks
+** Runic Enchanting
+   - [[https://modrinth.com/resourcepack/ewobees-runic-enchanting][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/rfIYriPS/versions/ZVUKcpnH/RunicEnchanting_1.20-1.21.zip][modrinth_download_link]]
+** Ariz's Tinkering Resources
+   - [[https://modrinth.com/resourcepack/arizs-tinkering-resources][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/cSg1Yg1o/versions/sbjWlHeG/Tinkering_Resources_v1.zip][modrinth_download_link]]
+** Dungeons Crit Sound
+   - [[https://modrinth.com/resourcepack/dungeons-crit-sound][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/Q2JYZUmr/versions/tQ729b8N/MC_Dungeons_Crit%20%5B1.19-1.19.2%5D.zip][modrinth_download_link]]
+** End Portal Ender Chests
+   - [[https://modrinth.com/resourcepack/end-portal-ender-chests][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/uIuaBRCf/versions/Y6RR22QG/end-portal-ender-chests.zip][modrinth_download_link]]
+** Broken Heart of Ender (Dragons)
+   - [[https://modrinth.com/resourcepack/broken-heart-of-ender-(dragons)][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/9pLjYCjr/versions/K4Ck0KoR/BROKEN%20HEART%20OF%20ENDER%20DRAGONS.zip][modrinth_download_link]]

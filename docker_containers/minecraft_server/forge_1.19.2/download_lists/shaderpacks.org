@@ -1,0 +1,7 @@
+#+title: Shaders
+** Complementary Shaders - Reimagined
+   - [[https://modrinth.com/shader/complementary-reimagined][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/HVnmMxH1/versions/71Hn3myZ/ComplementaryReimagined_r5.3.zip][modrinth_download_link]]
+** Complementary Shaders - Unbound
+   - [[https://modrinth.com/shader/complementary-unbound][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/R6NEzAwj/versions/CVu3AGAd/ComplementaryUnbound_r5.3.zip][modrinth_download_link]]

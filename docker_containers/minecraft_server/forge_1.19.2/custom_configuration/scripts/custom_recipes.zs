@@ -35,6 +35,26 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:items>.addId(<tag:items:forge:slimeballs>, <resource:butchercraft:gelatin>);
 // adding items to curio slots
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:bundle>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:supplementaries:sack>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:biomancy:storage_sac>);
+// shulkerbox
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:white_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:orange_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:magenta_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:light_blue_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:yellow_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:lime_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:pink_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:gray_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:light_gray_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:cyan_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:purple_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:blue_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:brown_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:green_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:red_shulker_box>);
+<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:black_shulker_box>);
 // -----------------------------------------------------------
 // B L A S T   F U R N A C E
 // -----------------------------------------------------------
@@ -61,6 +81,11 @@ blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:createbigcannons:st
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+// fat into fat compatibility
+craftingTable.addShapeless("fat_delight_to_butcher", <item:butchercraft:fat>, [ <item:delightful:animal_fat>]);
+craftingTable.addShapeless("fat_butcher_to_delight", <item:delightful:animal_fat>, [ <item:butchercraft:fat>]);
+// label easy crafting
+craftingTable.addShapeless("easier_label_crafting", <item:labels:label>*2, [ <item:minecraft:paper>,<item:minecraft:ink_sac>]);
 // soul torch additional recipes
 craftingTable.addShaped("soul_torch_from_soulstone", <item:minecraft:soul_torch>*4, [
     [<item:malum:processed_soulstone>],
@@ -131,6 +156,7 @@ craftingTable.addShapeless("blood_soup_from_bucket_tinkers", <item:tconstruct:me
     <item:minecraft:bowl>,
     <item:minecraft:bowl>,
     <item:minecraft:bowl>]);
+
 craftingTable.addShapeless("blood_soup_from_bucket_butcher", <item:tconstruct:meat_soup>*4 , [
     <item:butchercraft:blood_fluid_bucket>.transformReplace(<item:minecraft:bucket>),
     <item:minecraft:bowl>,
@@ -305,6 +331,8 @@ craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32,
     [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>],
     [<item:aether:cold_aercloud>, <item:aether:enchanted_gravitite>, <item:aether:cold_aercloud>],
     [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>]]);
+// remove pale gold amulet from crafting recipes
+craftingTable.remove(<item:createaddition:electrum_amulet>);
 // -----------------------------------------------------------
 // Remove recipes for items
 // Remove all tools except sword

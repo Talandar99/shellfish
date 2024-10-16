@@ -1,0 +1,29 @@
+#+title: Datapacks
+
+** Tinker's Masonry
+   - [[https://modrinth.com/datapack/tinkers-masonry][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/teOa7ixJ/versions/i4BZgJZs/Tinkers_Masonry_v1.zip][modrinth_download_link]]
+** Tinker's Woodworks
+   - [[https://modrinth.com/datapack/tinkers-woodworks][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/6QjI7n7Q/versions/bqWpf4MQ/Tinkers_Woodworks_v1.zip][modrinth_download_link]]
+** Create: Curios Backtank
+   - [[https://modrinth.com/datapack/create-curios-backtank][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/WuKy9y7l/versions/YEiwyfDP/create_curios_backtank-1.0.0.zip][modrinth_download_link]]
+** Create Railways Refuelled
+  - [[https://modrinth.com/datapack/create-railways-refuelled][modrinth_modpage]] 
+*** Minecraft - Remove Lava
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/PjSdVVds/CRR-Minecraft-RemoveLava.zip][modrinth_download_link]]
+*** Create: Diesel Generators - Biodiesel
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/Kz9Lw7vH/CRR_CREATEDIESELGENERATORS_BIODIESEL.zip][modrinth_download_link]]
+*** Create: Diesel Generators - Ethanol
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/5M9bXlX9/CRR_CREATEDIESELGENERATORS_ETHANOL.zip][modrinth_download_link]]
+*** Create: Diesel Generators - Plant Oil
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/i6Cupwjz/CRR_CREATEDIESELGENERATORS_PLANT_OIL.zip][modrinth_download_link]]
+*** Create: Diesel Generators - Gasoline
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/G92SvyPx/CRR_CREATEDIESELGENERATORS_GASOLINE.zip][modrinth_download_link]]
+*** Create: Diesel Generators - Diesel
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/ALg34iZF/CRR_CREATEDIESELGENERATORS_DIESEL.zip][modrinth_download_link]]
+*** Crafts & Additions - Bioethanol
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/5LDZUGQN/CRR-CraftsAndAdditions-Bioethanol.zip][modrinth_download_link]]
+*** Crafts & Additions - Seed Oil
+    - [[https://cdn.modrinth.com/data/4JmVzRPF/versions/W7UzSfMd/CCR-CraftsAndAdditions-SeedOil.zip][modrinth_download_link]]
