@@ -8,9 +8,9 @@
 ** Dungeons Crit Sound
    - [[https://modrinth.com/resourcepack/dungeons-crit-sound][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/Q2JYZUmr/versions/tQ729b8N/MC_Dungeons_Crit%20%5B1.19-1.19.2%5D.zip][modrinth_download_link]]
-** End Portal Ender Chests
-   - [[https://modrinth.com/resourcepack/end-portal-ender-chests][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/uIuaBRCf/versions/Y6RR22QG/end-portal-ender-chests.zip][modrinth_download_link]]
 ** Broken Heart of Ender (Dragons)
    - [[https://modrinth.com/resourcepack/broken-heart-of-ender-(dragons)][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/9pLjYCjr/versions/K4Ck0KoR/BROKEN%20HEART%20OF%20ENDER%20DRAGONS.zip][modrinth_download_link]]
+** Seamless Prismarine Bricks
+   - [[https://modrinth.com/resourcepack/seamless-prismarine-bricks][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/4t1WQUdt/versions/PQlU5bJ4/prismarine.zip][modrinth_download_link]]

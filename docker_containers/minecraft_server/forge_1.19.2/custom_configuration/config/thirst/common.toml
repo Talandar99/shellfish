@@ -71,9 +71,9 @@
 
 ["Fermentation levels"]
 	#Purification level below which fermented liquids will grow bacteria and get less purified
-	fermentationMoldingThreshold = 2
+	fermentationMoldingThreshold = 0
 	#Decrement of purification levels if water isn't purified enough when fermenting
-	fermentationMoldingHarshness = 1
+	fermentationMoldingHarshness = 0
 
 ["Create compatibility"]
 	#Purification levels gained by filtering water through a Sand Filter

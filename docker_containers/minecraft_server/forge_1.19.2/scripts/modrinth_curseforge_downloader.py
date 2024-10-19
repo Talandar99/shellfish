@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
+import tomllib
 import requests
 import os
 import shutil
 import subprocess
+import sys
 
 
 class color:
@@ -19,7 +21,7 @@ class color:
     end = '\033[0m'
 
 
-def download_curseforge(url, save_directory):
+def _download_curseforge(url, save_directory):
     command = ''.join(
         [f"wget -S {url}",
          " 2>&1",
@@ -38,7 +40,7 @@ def download_curseforge(url, save_directory):
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
 
 
-def download(url, save_directory):
+def _download(url, save_directory):
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers, stream=True)
     response.raise_for_status()
@@ -59,7 +61,7 @@ def download(url, save_directory):
     print("------------------------------------------------")
 
 
-def get_download_links(file_path, link_name):
+def _get_download_links(file_path, link_name):
     links = []
     try:
         with open(file_path, 'r') as file:
@@ -79,23 +81,46 @@ def get_download_links(file_path, link_name):
     return links
 
 
-if __name__ == "__main__":
-    mods_file = "shaderpacks"
-    if os.path.exists(mods_file):
-        shutil.rmtree(mods_file)
-    os.makedirs(mods_file)
-    print("================================================")
-    print("Getting shaderpacks from curseforge")
-    print("================================================")
-    links = get_download_links("download_lists/shaderpacks.org", "[curseforge_download_link]")
-    for link in links:
-        download_curseforge(link, mods_file)
+def main():
+    download_list_filename = sys.argv[1]
+
+    with open("download_configuration/configuration.toml", "rb") as f:
+        data = tomllib.load(f)
+
+    toml = data[download_list_filename]
+    final_location = toml['final_location']
+    additional_custom_files = toml['additional_custom_files']
+    cleanup_temp_file_after_downloading = toml['cleanup_temp_file_after_downloading']
+
+    if os.path.exists(download_list_filename):
+        shutil.rmtree(download_list_filename)
+        os.makedirs(download_list_filename)
+    command = f"cp -r {additional_custom_files} ."
+    subprocess.run(command, shell=True, capture_output=True, text=True)
 
     print("================================================")
-    print("Getting shaderpacks from modrinth")
+    print(f"Getting {download_list_filename} from curseforge")
     print("================================================")
-    links = get_download_links("download_lists/shaderpacks.org", "[modrinth_download_link]")
+    links = _get_download_links(f"download_configuration/{download_list_filename}.org", "[curseforge_download_link]")
     for link in links:
-        download(link, mods_file)
-    command = "cp -r shaderpacks custom_configuration"
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        _download_curseforge(link, download_list_filename)
+
+    print("================================================")
+    print(f"Getting {download_list_filename} from modrinth")
+    print("================================================")
+    links = _get_download_links(f"download_configuration/{download_list_filename}.org", "[modrinth_download_link]")
+    for link in links:
+        _download(link, download_list_filename)
+
+    command = f"cp -r {download_list_filename} {final_location}"
+    subprocess.run(command, shell=True, capture_output=True, text=True)
+
+    if cleanup_temp_file_after_downloading:
+        print("================================================")
+        print("Cleaning up")
+        print("================================================")
+        command = f"rm -r {download_list_filename}"
+        subprocess.run(command, shell=True, capture_output=True, text=True)
+
+
+main()

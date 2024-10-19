@@ -1,81 +1,4 @@
-//crafting recipes 
 import crafttweaker.api.recipe.CraftingTableRecipeManager;
-//events
-import crafttweaker.api.events.CTEventManager;
-//CuttingBoard
-import mods.farmersdelight.CuttingBoard;
-//Blast furnace
-import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
-// -----------------------------------------------------------
-// player is unable to place minecraft:hanging_roots on top and bottom of block
-// -----------------------------------------------------------
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((event) => {
-    var face = event.getFace();
-    if(event.getItemStack().contains(<item:minecraft:hanging_roots>)){
-        if(face==<constant:minecraft:direction:up>|face==<constant:minecraft:direction:down>) {
-            event.cancel();
-        }
-    }
-});
-// -----------------------------------------------------------
-// Adding / Editing tags
-// -----------------------------------------------------------
-//adding forge ash tag
-<tagmanager:items>.addId(<tag:items:forge:ash>, <resource:immersive_weathering:ash_layer_block>);
-//fixing logs
-<tagmanager:items>.addId(<tag:items:minecraft:logs>, <resource:extradelight:cinnamon_log>);
-<tagmanager:items>.addId(<tag:items:minecraft:logs>, <resource:extradelight:stripped_cinnamon_log>);
-<tagmanager:items>.addId(<tag:items:minecraft:logs>, <resource:iceandfire:dreadwood_log>);
-<tagmanager:items>.addId(<tag:items:minecraft:logs>, <resource:immersive_weathering:charred_log>);
-//adding all feathers as feathers
-<tagmanager:items>.addId(<tag:items:forge:feathers>, <resource:alexsmobs:roadrunner_feather>);
-<tagmanager:items>.addId(<tag:items:forge:feathers>, <resource:iceandfire:amphithere_feather>);
-<tagmanager:items>.addId(<tag:items:forge:feathers>, <resource:alexsmobs:emu_feather>);
-// using gelatin as slimeball
-<tagmanager:items>.addId(<tag:items:forge:slimeballs>, <resource:butchercraft:gelatin>);
-// adding items to curio slots
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:bundle>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:supplementaries:sack>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:biomancy:storage_sac>);
-// shulkerbox
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:white_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:orange_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:magenta_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:light_blue_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:yellow_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:lime_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:pink_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:gray_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:light_gray_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:cyan_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:purple_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:blue_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:brown_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:green_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:red_shulker_box>);
-<tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:black_shulker_box>);
-// -----------------------------------------------------------
-// B L A S T   F U R N A C E
-// -----------------------------------------------------------
-// BlastFurnaceRecipeManager.addRecipe(name as string, output as IItemStack, input as IIngredient, xp as float, cookTime as int)
-//ash
-blastFurnace.addRecipe("bonemeal_to_ash", <item:supplementaries:ash>, <item:minecraft:bone_meal>, 0.1, 50);
-blastFurnace.addRecipe("rotten_flesh_to_ash", <item:supplementaries:ash>, <item:minecraft:rotten_flesh>, 0.1, 200);
-blastFurnace.addRecipe("any_meat_to_ash", <item:supplementaries:ash>, <tag:items:forge:meat>, 0.1, 200);
-blastFurnace.addRecipe("any_sappling_to_ash", <item:supplementaries:ash>, <tag:items:minecraft:saplings>, 0.1, 100);
-blastFurnace.addRecipe("spider_eye_to_ash", <item:supplementaries:ash>, <item:minecraft:spider_eye>, 0.1, 200);
-blastFurnace.addRecipe("eye_to_ash", <item:supplementaries:ash>, <item:butchercraft:eyeball>, 0.1, 200);
-blastFurnace.addRecipe("cooked_eye_to_ash", <item:supplementaries:ash>, <item:butchercraft:cooked_eyeball>, 0.1, 100);
-//twilight
-blastFurnace.addRecipe("fiery_ingot_into_blaze_powder", <item:minecraft:blaze_powder>*25, <item:twilightforest:fiery_ingot>, 0.1, 1000);
-blastFurnace.addRecipe("knightmetal_from_ironwood", <item:twilightforest:armor_shard>, <item:twilightforest:ironwood_block>, 0.1, 500);
-blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:createbigcannons:steel_scrap>, <item:twilightforest:knightmetal_ingot>, 0.1, 1000);
-// -----------------------------------------------------------
-// C U T T I N G   B O A R D
-// -----------------------------------------------------------
-// flax_to_straw
-<recipetype:farmersdelight:cutting>.addRecipe("flax_to_straw", <item:supplementaries:flax>, [<item:farmersdelight:straw>*2,<item:minecraft:string>], <tag:items:forge:tools/knives>, "minecraft:block.sweet_berry_bush.break");
 // -----------------------------------------------------------
 // C R A F T I N G   T A B L E 
 // -----------------------------------------------------------
@@ -219,17 +142,6 @@ craftingTable.addShaped("soul_campfire_from_torch", <item:minecraft:soul_campfir
 craftingTable.addShaped("campfire_from_torch", <item:minecraft:campfire>, [
     [<item:minecraft:torch>, <item:minecraft:torch>],
     [<item:minecraft:torch>, <item:minecraft:torch>]]);
-//rope and elevator pulley use rope
-craftingTable.remove(<item:supplementaries:cog_block>);
-craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
-    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
-craftingTable.remove(<item:create:elevator_pulley>);
-craftingTable.addShaped("elevator_pulley", <item:create:elevator_pulley>, [
-    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
 //new engine recipe
 craftingTable.remove(<item:vs_eureka:engine>);
 craftingTable.addShaped("vs_eureka_engine", <item:vs_eureka:engine>, [
@@ -331,8 +243,35 @@ craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32,
     [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>],
     [<item:aether:cold_aercloud>, <item:aether:enchanted_gravitite>, <item:aether:cold_aercloud>],
     [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>]]);
+// -----------------------------
+// Create
+// -----------------------------
 // remove pale gold amulet from crafting recipes
 craftingTable.remove(<item:createaddition:electrum_amulet>);
+//rope and elevator pulley use rope
+craftingTable.remove(<item:supplementaries:cog_block>);
+craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
+craftingTable.remove(<item:create:elevator_pulley>);
+craftingTable.addShaped("elevator_pulley", <item:create:elevator_pulley>, [
+    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
+// disenchanter craftable with diamond sandpaper
+craftingTable.remove(<item:create_enchantment_industry:disenchanter>);
+craftingTable.addShaped("disenchanter_from_any_sandpaper", <item:create_enchantment_industry:disenchanter>, [
+    [<tag:items:create:sandpaper>],
+    [<item:create:copper_casing>]]);
+//new drill recipe
+craftingTable.remove(<item:create:mechanical_drill>);
+craftingTable.addShaped("new_drill_recipe", <item:create:mechanical_drill>, [
+    [<item:minecraft:air>, <item:create_high_pressure:graphite_powder>, <item:minecraft:air>],
+    [<item:create_high_pressure:graphite_powder>, <item:create_dd:diamond_shard>, <item:create_high_pressure:graphite_powder>],
+    [<item:minecraft:iron_ingot>, <item:create:andesite_casing>, <item:minecraft:iron_ingot>]]);
+//diamond into shards
+craftingTable.remove(<item:create_dd:diamond_shard>);
 // -----------------------------------------------------------
 // Remove recipes for items
 // Remove all tools except sword

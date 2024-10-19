@@ -1,6 +1,9 @@
 #+title: mods
 
 * Gamgechanging Mods
+*** Copperative
+    - [[https://modrinth.com/mod/copperative][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/f9rb8trZ/versions/ccybklNI/Copperative%201.19.2--1.1.0.jar][modrinth_download_link]]
 *** Ender Trigon
     - [[https://modrinth.com/mod/ender-trigon][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/bIGwdx6D/versions/N8s1bBhm/endertrigon-1.0.jar][modrinth_download_link]]
@@ -289,10 +292,10 @@
 ** Another Furniture
    - [[https://modrinth.com/mod/another-furniture][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ulloLmqG/versions/b6EO57JG/another_furniture-forge-1.19.2-2.1.4.jar][modrinth_download_link]]
-** Grace
-   - [[https://www.curseforge.com/minecraft/mc-mods/grace][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/1090870/files/5663205/download][curseforge_download_link]]
 * Structures
+** Swampier Swamps
+   - [[https://modrinth.com/mod/swampier-swamps][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/C909jS7n/versions/Qt8heIyR/swampier_swamps-forge-1.19-1.2.0.jar][modrinth_download_link]]
 ** Create: New Beginnings
    - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
@@ -432,9 +435,6 @@
 ** Enhanced Boss Bars
    - [[https://modrinth.com/mod/enhanced-boss-bars-mod][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/J5bVsBt9/versions/llTZkxCc/enhanced_boss_bars-1.19.2-1.0.0.jar][modrinth_download_link]]
-** Better Lily Pads
-   - [[https://modrinth.com/mod/better-lily-pads][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/NRgsGZ6B/versions/9oM9ZeUp/betterlily.jar][modrinth_download_link]]
 ** Leaves Be Gone
    - [[https://modrinth.com/mod/leaves-be-gone][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/AVq17PqV/versions/6LsBcPWG/LeavesBeGone-v4.0.1-1.19.2-Forge.jar][modrinth_download_link]]
@@ -443,8 +443,8 @@
    - [[https://modrinth.com/mod/crafttweaker][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/Xg35A4rS/versions/OhppNJhO/CraftTweaker-forge-1.19.2-10.1.55.jar][modrinth_download_link]]
 *** CreateTweaker
-    - [[https://www.curseforge.com/minecraft/mc-mods/createtweaker][modrinth_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/437717/files/4764075/download][modrinth_download_link]]
+    - [[https://www.curseforge.com/minecraft/mc-mods/createtweaker][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/437717/files/4764075/download][curseforge_download_link]]
 ** Property Modifier
    - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]
