@@ -12,8 +12,8 @@
 <recipetype:create:crushing>.addRecipe("zanite_gemstone_into_galium", [<item:tinkers_reforged:gallium_dust> % 100], <item:aether:zanite_gemstone>, 200);
 
 //mechanical_crafting
-<recipetype:create:mechanical_crafting>.remove(<item:create_dd:excavation_drill>);
-<recipetype:create:mechanical_crafting>.remove(<item:create_dd:jetpack>);
+//<recipetype:create:mechanical_crafting>.remove(<item:create_dd:excavation_drill>);
+//<recipetype:create:mechanical_crafting>.remove(<item:create_dd:jetpack>);
 
 //splashing
 <recipetype:create:splashing>.addRecipe("blazing_quartz_into_quartz", [<item:malum:natural_quartz>], <item:malum:blazing_quartz>, 200);
