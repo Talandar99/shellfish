@@ -269,7 +269,7 @@ craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32,
 // remove pale gold amulet from crafting recipes
 craftingTable.remove(<item:createaddition:electrum_amulet>);
 //rope and elevator pulley use rope
-craftingTable.remove(<item:supplementaries:cog_block>);
+craftingTable.remove(<item:supplementaries:rope>);
 craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
