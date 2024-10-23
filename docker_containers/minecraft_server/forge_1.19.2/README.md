@@ -18,6 +18,8 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 - 1. This button will launch your game
 - 2. This button will allow 
 - 3. This button will open your game instance files
+
+
 ![right_panel](images/right_panel.png)
 ## Instance settings
 - open instance settings (button 2)
