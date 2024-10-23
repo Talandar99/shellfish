@@ -28,5 +28,5 @@ windlessDimension = ["minecraft:the_nether", "minecraft:the_end"]
 	#Format: '<season>:<modifier>'; eg 'SUMMER:0.23'
 	#Subseasons override seasons
 	#Allowed seasons: SPRING,SUMMER,AUTUMN,WINTER,EARLY_SPRING,MID_SPRING,LATE_SPRING,EARLY_SUMMER,MID_SUMMER,LATE_SUMMER,EARLY_AUTUMN,MID_AUTUMN,LATE_AUTUMN,EARLY_WINTER,MID_WINTER,LATE_WINTER
-	seasonFallRate = ["SPRING:0", "AUTUMN:2.5", "SUMMER:0.5", "WINTER:0.2"]
+	seasonFallRate = ["SPRING:0.0",  "SUMMER:0.5", "WINTER:0.2","AUTUMN:2.5"]
 

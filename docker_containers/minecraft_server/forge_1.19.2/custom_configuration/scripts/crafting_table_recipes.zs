@@ -4,6 +4,9 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+//corn_kernels into corn_seeds compatibility
+craftingTable.addShapeless("corn_kernels_to_corn_seeds", <item:extradelight:corn_seeds>, [ <item:culturaldelights:corn_kernels>]);
+craftingTable.addShapeless("corn_seeds_to_corn_kernels", <item:culturaldelights:corn_kernels>, [ <item:extradelight:corn_seeds>]);
 // fat into fat compatibility
 craftingTable.addShapeless("fat_delight_to_butcher", <item:butchercraft:fat>, [ <item:delightful:animal_fat>]);
 craftingTable.addShapeless("fat_butcher_to_delight", <item:delightful:animal_fat>, [ <item:butchercraft:fat>]);
@@ -115,6 +118,7 @@ craftingTable.addShaped("black_wool_from_carpet", <item:minecraft:black_wool>*2,
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 // -----------------------------
+
 //enchantless naga_gloves
 craftingTable.remove(<item:twilightaether:naga_gloves>);
 craftingTable.addShaped("naga_gloves", <item:twilightaether:naga_gloves>, [
@@ -199,6 +203,22 @@ craftingTable.remove(<item:minecraft:bucket>);
 craftingTable.addShaped("bucket_from_iron_sheets", <item:minecraft:bucket>, [
     [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
     [<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>]]);
+//shears
+craftingTable.remove(<item:minecraft:shears>);
+craftingTable.addShaped("shears_from_iron_sheets", <item:minecraft:shears>, [
+    [<item:minecraft:air>, <item:create:iron_sheet>],
+    [<item:create:iron_sheet>, <item:minecraft:air>]]);
+//shears
+craftingTable.remove(<item:create:white_sail>);
+craftingTable.remove(<item:create:sail_frame>);
+craftingTable.addShaped("sail_frame_from_wood", <item:create:sail_frame>*4, [
+    [<tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <tag:items:forge:rods/wooden>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>]]);
+craftingTable.addShapeless("sail_with_canvas", <item:create:white_sail>, [<item:create:sail_frame>, <item:farmersdelight:canvas>]);
+//shuriken
+craftingTable.remove(<item:tconstruct:quartz_shuriken>);
+craftingTable.remove(<item:tconstruct:flint_shuriken>);
 // -----------------------------
 // FarmersDelight
 // -----------------------------
@@ -272,12 +292,16 @@ craftingTable.addShaped("new_drill_recipe", <item:create:mechanical_drill>, [
     [<item:minecraft:iron_ingot>, <item:create:andesite_casing>, <item:minecraft:iron_ingot>]]);
 //diamond into shards
 craftingTable.remove(<item:create_dd:diamond_shard>);
+//diamond diamond back from diamond_shard
+craftingTable.remove(<item:minecraft:diamond>);
+craftingTable.addShaped("diamonds_from_diamond_block", <item:minecraft:diamond>*9, [[<item:minecraft:diamond_block>]]);
+craftingTable.addShaped("diamond_from_diamond_shards", <item:minecraft:diamond>, [
+    [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>],
+    [<item:create_dd:diamond_shard>, <tag:items:forge:slimeballs>, <item:create_dd:diamond_shard>],
+    [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>]]);
 // -----------------------------------------------------------
-// Remove recipes for items
-// Remove all tools except sword
+// Remove all tools 
 // -----------------------------------------------------------
-// Minecraft
-// -----------------------------
 // wood
 craftingTable.remove(<item:minecraft:wooden_sword>);
 craftingTable.remove(<item:minecraft:wooden_pickaxe>);
@@ -308,9 +332,6 @@ craftingTable.remove(<item:minecraft:diamond_pickaxe>);
 craftingTable.remove(<item:minecraft:diamond_axe>);
 craftingTable.remove(<item:minecraft:diamond_shovel>);
 craftingTable.remove(<item:minecraft:diamond_hoe>);
-// -----------------------------
-// Ice And Fire
-// -----------------------------
 // silver tools
 craftingTable.remove(<item:iceandfire:silver_sword>);
 craftingTable.remove(<item:iceandfire:silver_pickaxe>);
@@ -323,9 +344,6 @@ craftingTable.remove(<item:iceandfire:copper_pickaxe>);
 craftingTable.remove(<item:iceandfire:copper_shovel>);
 craftingTable.remove(<item:iceandfire:copper_axe>);
 craftingTable.remove(<item:iceandfire:copper_hoe>);
-// -----------------------------
-// Aether
-// -----------------------------
 // skyroot tools
 craftingTable.remove(<item:aether:skyroot_sword>);
 craftingTable.remove(<item:aether:skyroot_pickaxe>);
@@ -344,9 +362,46 @@ craftingTable.remove(<item:aether:zanite_pickaxe>);
 craftingTable.remove(<item:aether:zanite_shovel>);
 craftingTable.remove(<item:aether:zanite_axe>);
 craftingTable.remove(<item:aether:zanite_hoe>);
-// -----------------------------
-// malum
-// -----------------------------
+// gravitite tools
+craftingTable.remove(<item:aether:gravitite_sword>);
+craftingTable.remove(<item:aether:gravitite_pickaxe>);
+craftingTable.remove(<item:aether:gravitite_shovel>);
+craftingTable.remove(<item:aether:gravitite_axe>);
+craftingTable.remove(<item:aether:gravitite_hoe>);
+// knightmetal pickaxe
+craftingTable.remove(<item:twilightforest:knightmetal_sword>);
+craftingTable.remove(<item:twilightforest:knightmetal_pickaxe>);
+craftingTable.remove(<item:twilightforest:knightmetal_axe>);
+// black steel
+craftingTable.remove(<item:cataclysm:black_steel_sword>);
+craftingTable.remove(<item:cataclysm:black_steel_pickaxe>);
+craftingTable.remove(<item:cataclysm:black_steel_shovel>);
+craftingTable.remove(<item:cataclysm:black_steel_axe>);
+craftingTable.remove(<item:cataclysm:black_steel_hoe>);
+//fire dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_sword>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_pickaxe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_shovel>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_axe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_hoe>);
+//ice dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_sword>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_pickaxe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_shovel>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_axe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_hoe>);
+//lightning dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_sword>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_pickaxe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_shovel>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_axe>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_hoe>);
+// neptunium tools
+craftingTable.remove(<item:aquaculture:neptunium_sword>);
+craftingTable.remove(<item:aquaculture:neptunium_pickaxe>);
+craftingTable.remove(<item:aquaculture:neptunium_shovel>);
+craftingTable.remove(<item:aquaculture:neptunium_axe>);
+craftingTable.remove(<item:aquaculture:neptunium_hoe>);
 // soul steel
 craftingTable.remove(<item:malum:soul_stained_steel_pickaxe>);
 craftingTable.remove(<item:malum:soul_stained_steel_shovel>);
@@ -376,6 +431,7 @@ craftingTable.remove(<item:delightful:fiery_knife>);
 craftingTable.remove(<item:delightful:ironwood_knife>);
 craftingTable.remove(<item:delightful:knightmetal_knife>);
 craftingTable.remove(<item:delightful:steeleaf_knife>);
+craftingTable.remove(<item:delightful:electrum_knife>);
 //twilightdelight
 craftingTable.remove(<item:twilightdelight:fiery_knife>);
 craftingTable.remove(<item:twilightdelight:ironwood_knife>);
@@ -392,4 +448,87 @@ craftingTable.remove(<item:aquaculture:iron_fillet_knife>);
 craftingTable.remove(<item:aquaculture:gold_fillet_knife>);
 craftingTable.remove(<item:aquaculture:diamond_fillet_knife>);
 craftingTable.remove(<item:aquaculture:neptunium_fillet_knife>);
+//aquaculturedelight
+craftingTable.remove(<item:aquaculturedelight:neptunium_knife>);
+//ends_delight
+craftingTable.remove(<item:ends_delight:dragon_egg_shell_knife>);
+craftingTable.remove(<item:ends_delight:purpur_knife>);
+craftingTable.remove(<item:ends_delight:end_stone_knife>);
+craftingTable.remove(<item:ends_delight:dragon_tooth_knife>);
+//ice and fire
+craftingTable.remove(<item:ice_and_fire_delight:firedragonsteelknife>);
+craftingTable.remove(<item:ice_and_fire_delight:thunderdragonsteelknife>);
+craftingTable.remove(<item:ice_and_fire_delight:frostydragonsteelknife>);
+craftingTable.remove(<item:ice_and_fire_delight:stymphalianknife>);
+craftingTable.remove(<item:ice_and_fire_delight:leviathanknife>);
+// -----------------------------------------------------------
+//remove armor crafting recipes
+// -----------------------------------------------------------
+//zanite
+craftingTable.remove(<item:aether:zanite_helmet>);
+craftingTable.remove(<item:aether:zanite_chestplate>);
+craftingTable.remove(<item:aether:zanite_leggings>);
+craftingTable.remove(<item:aether:zanite_boots>);
+//gravitite
+craftingTable.remove(<item:aether:gravitite_helmet>);
+craftingTable.remove(<item:aether:gravitite_chestplate>);
+craftingTable.remove(<item:aether:gravitite_leggings>);
+craftingTable.remove(<item:aether:gravitite_boots>);
+//knightmetal
+craftingTable.remove(<item:twilightforest:knightmetal_helmet>);
+craftingTable.remove(<item:twilightforest:knightmetal_chestplate>);
+craftingTable.remove(<item:twilightforest:knightmetal_leggings>);
+craftingTable.remove(<item:twilightforest:knightmetal_boots>);
+//chainmail
+craftingTable.remove(<item:minecraft:chainmail_helmet>);
+craftingTable.remove(<item:minecraft:chainmail_chestplate>);
+craftingTable.remove(<item:minecraft:chainmail_leggings>);
+craftingTable.remove(<item:minecraft:chainmail_boots>);
+//iron
+craftingTable.remove(<item:minecraft:iron_helmet>);
+craftingTable.remove(<item:minecraft:iron_chestplate>);
+craftingTable.remove(<item:minecraft:iron_leggings>);
+craftingTable.remove(<item:minecraft:iron_boots>);
+//gold
+craftingTable.remove(<item:minecraft:golden_helmet>);
+craftingTable.remove(<item:minecraft:golden_chestplate>);
+craftingTable.remove(<item:minecraft:golden_leggings>);
+craftingTable.remove(<item:minecraft:golden_boots>);
+//diamond
+craftingTable.remove(<item:minecraft:diamond_helmet>);
+craftingTable.remove(<item:minecraft:diamond_chestplate>);
+craftingTable.remove(<item:minecraft:diamond_leggings>);
+craftingTable.remove(<item:minecraft:diamond_boots>);
+//neptunium
+craftingTable.remove(<item:aquaculture:neptunium_helmet>);
+craftingTable.remove(<item:aquaculture:neptunium_chestplate>);
+craftingTable.remove(<item:aquaculture:neptunium_leggings>);
+craftingTable.remove(<item:aquaculture:neptunium_boots>);
+//silver
+craftingTable.remove(<item:iceandfire:armor_silver_metal_helmet>);
+craftingTable.remove(<item:iceandfire:armor_silver_metal_chestplate>);
+craftingTable.remove(<item:iceandfire:armor_silver_metal_leggings>);
+craftingTable.remove(<item:iceandfire:armor_silver_metal_boots>);
+//copper
+craftingTable.remove(<item:iceandfire:armor_copper_metal_helmet>);
+craftingTable.remove(<item:iceandfire:armor_copper_metal_chestplate>);
+craftingTable.remove(<item:iceandfire:armor_copper_metal_leggings>);
+craftingTable.remove(<item:iceandfire:armor_copper_metal_boots>);
+//ice dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_helmet>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_chestplate>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_leggings>);
+craftingTable.remove(<item:iceandfire:dragonsteel_ice_boots>);
+//fire dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_helmet>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_chestplate>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_leggings>);
+craftingTable.remove(<item:iceandfire:dragonsteel_fire_boots>);
+//lightning dragonsteel
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_helmet>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_chestplate>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_leggings>);
+craftingTable.remove(<item:iceandfire:dragonsteel_lightning_boots>);
 
+
+craftingTable.remove(<item:create_dd:deforester_saw>);

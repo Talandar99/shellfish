@@ -1,5 +1,8 @@
 #+title: Datapacks
 
+** Twilight Forest - Aurora Palace Regeared
+   - [[https://www.curseforge.com/minecraft/data-packs/twilight-forest-aurora-palace-regeared][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/1074703/files/5582620/download][curseforge_download_link]]
 ** Tinker's Masonry
    - [[https://modrinth.com/datapack/tinkers-masonry][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/teOa7ixJ/versions/i4BZgJZs/Tinkers_Masonry_v1.zip][modrinth_download_link]]

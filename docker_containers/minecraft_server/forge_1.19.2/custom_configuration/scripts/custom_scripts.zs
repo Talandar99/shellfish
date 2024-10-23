@@ -54,4 +54,59 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:green_shulker_box>);
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:red_shulker_box>);
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:black_shulker_box>);
+// seasons tags
+//---------------------------------------
+//spring_crops
+//<tag:items:sereneseasons:spring_crops>
+//<tag:blocks:sereneseasons:spring_crops>
+//---------------------------------------
+//summer_crops
+//<tag:items:sereneseasons:summer_crops>
+//<tag:blocks:sereneseasons:summer_crops>
+//---------------------------------------
+//autumn_crops
+//<tag:items:sereneseasons:autumn_crops>
+//<tag:blocks:sereneseasons:autumn_crops>
+//---------------------------------------
+//winter_crops
+//<tag:items:sereneseasons:winter_crops>
+//<tag:blocks:sereneseasons:winter_crops>
 
+//corn extradelight
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:extradelight:corn_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:extradelight:corn_top>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:extradelight:corn_bottom>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:extradelight:corn_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:extradelight:corn_top>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:extradelight:corn_bottom>);
+//corn culturaldelight
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:culturaldelights:corn_kernels>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:corn_upper>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:corn>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:culturaldelights:corn_kernels>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:culturaldelights:corn_upper>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:culturaldelights:corn>);
+//eggplant 
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:culturaldelights:eggplant_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:eggplants>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:culturaldelights:eggplant_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:culturaldelights:eggplants>);
+//grapes
+<tagmanager:items>.addId(<tag:items:sereneseasons:spring_crops>, <resource:italian_delight:grape_seeds>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:italian_delight:grape_seeds>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:italian_delight:grape_seeds>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:winter_crops>, <resource:italian_delight:grape_seeds>);
+//avocado
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:culturaldelights:avocado_pit>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:avocado_pit>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:avocado_sapling>);
+//cucumber
+<tagmanager:items>.addId(<tag:items:sereneseasons:summer_crops>, <resource:culturaldelights:cucumber_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:summer_crops>, <resource:culturaldelights:cucumbers>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:culturaldelights:cucumber_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:culturaldelights:cucumbers>);
+// ephedra
+<tagmanager:items>.addId(<tag:items:sereneseasons:spring_crops>, <resource:createbb:ephedra_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:spring_crops>, <resource:createbb:ephedra_crop_block>);
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:createbb:ephedra_seeds>);
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:createbb:ephedra_crop_block>);

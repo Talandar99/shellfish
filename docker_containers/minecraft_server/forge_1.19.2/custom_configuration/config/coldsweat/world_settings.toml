@@ -129,6 +129,7 @@
         ["ascended_quark:icestone_bricks",      -0.35,  7,      1.4,        "",                 "{}",               -1],
         ["ascended_quark:polished_icestone",    -0.35,  7,      1.4,        "",                 "{}",               -1],
         ["aether:cold_aercloud",                -0.4,   1,      0.8,        "",                 "{}",               -1], 
+        ["aether:freezer",                      -0.4,   7,      0.9,        "lit=true",         "",                 -1], 
         #ice and fire
         ["iceandfire:dragon_ice",               -0.35,  5,      1.4,        "",                 "{}",               -0.7],
         #cold_sweat changed
@@ -286,7 +287,7 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.4, 0.7, 0.4]
+	Summer = [0.4, 0.6, 0.4]
 	Autumn = [0.2, 0, -0.2]
 	Winter = [-0.4, -0.7, -0.4]
 	Spring = [-0.2, 0, 0.2]

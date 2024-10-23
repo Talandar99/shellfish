@@ -49,6 +49,7 @@ def _download(url, save_directory):
     save_path = os.path.join(save_directory, filename)
     chunks = 0
     print(f"{color.green}{color.bold}{filename}{color.end}")
+    print(save_path)
     with open(save_path, 'wb') as file:
         for chunk in response.iter_content(chunk_size=8192):
             file.write(chunk)
@@ -94,7 +95,7 @@ def main():
 
     if os.path.exists(download_list_filename):
         shutil.rmtree(download_list_filename)
-        os.makedirs(download_list_filename)
+    os.makedirs(download_list_filename)
     command = f"cp -r {additional_custom_files} ."
     subprocess.run(command, shell=True, capture_output=True, text=True)
 

@@ -402,12 +402,6 @@
 ** Chunky [server_only]
    - [[https://modrinth.com/plugin/chunky][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fALzjamp/versions/WNen5Iom/Chunky-1.3.38.jar][modrinth_download_link]]
-** BlueMap [server_only]
-   - [[https://modrinth.com/plugin/bluemap][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/swbUV1cr/versions/guHqbtbc/BlueMap-3.13-forge-1.19.1.jar][modrinth_download_link]]
-*** BlueMap Offline Player Markers [server_only]
-    - [[https://modrinth.com/mod/bluemap-offline-player-markers-forge][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/LFSk55jv/versions/g5aUEyKM/bluemapofflineplayermarkers-1.3.1.jar][modrinth_download_link]]
 ** OfflineSkins
    - [[https://www.curseforge.com/minecraft/mc-mods/offlineskins][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/241420/files/3920644/download][curseforge_download_link]]

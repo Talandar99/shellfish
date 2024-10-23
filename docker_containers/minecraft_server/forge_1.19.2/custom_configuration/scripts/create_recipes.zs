@@ -2,13 +2,21 @@
 
 //remove seething
 <recipetype:create_dd:seething>.remove(<item:create_dd:diamond_shard>);
-
 //crushing
 <recipetype:create:crushing>.remove(<item:createaddition:diamond_grit>);
 <recipetype:create:crushing>.addRecipe("crushing_steelleaf_into_diamond", [<item:create_dd:diamond_shard> % 10], <item:twilightforest:steeleaf_ingot>, 200);
 <recipetype:create:crushing>.addRecipe("crushing_diamond_into_shards", [<item:create_dd:diamond_shard>*4], <item:minecraft:diamond>, 200);
 <recipetype:create:crushing>.addRecipe("crushing_diamond_shard_into_dust", [<item:createaddition:diamond_grit>], <item:create_dd:diamond_shard>, 200);
 
+//zanite_gemstone into galium
+<recipetype:create:crushing>.addRecipe("zanite_gemstone_into_galium", [<item:tinkers_reforged:gallium_dust> % 100], <item:aether:zanite_gemstone>, 200);
+
+//mechanical_crafting
+<recipetype:create:mechanical_crafting>.remove(<item:create_dd:excavation_drill>);
+<recipetype:create:mechanical_crafting>.remove(<item:create_dd:jetpack>);
+
+//splashing
+<recipetype:create:splashing>.addRecipe("blazing_quartz_into_quartz", [<item:malum:natural_quartz>], <item:malum:blazing_quartz>, 200);
 
 //<recipetype:minecraft:crafting>
 //<recipetype:minecraft:smelting>
@@ -49,7 +57,6 @@
 //<recipetype:iceandfire:dragonforge>
 //<recipetype:jeed:effect_provider>
 //<recipetype:jeed:potion_provider>
-//<recipetype:twilightforest:uncrafting>
 //<recipetype:twilightforest:crumble_horn>
 //<recipetype:twilightforest:transformation_powder>
 //<recipetype:farmersdelight:cooking>
@@ -70,13 +77,11 @@
 //<recipetype:create:compacting>
 //<recipetype:create:pressing>
 //<recipetype:create:sandpaper_polishing>
-//<recipetype:create:splashing>
 //<recipetype:create:haunting>
 //<recipetype:create:deploying>
 //<recipetype:create:filling>
 //<recipetype:create:emptying>
 //<recipetype:create:item_application>
-//<recipetype:create:mechanical_crafting>
 //<recipetype:create:sequenced_assembly>
 //<recipetype:create_dd:hydraulic_compacting>
 //<recipetype:create_dd:dragon_breathing>

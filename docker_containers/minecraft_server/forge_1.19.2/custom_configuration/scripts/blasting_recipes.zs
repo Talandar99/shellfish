@@ -16,8 +16,8 @@ blastFurnace.addRecipe("fiery_ingot_into_blaze_powder", <item:minecraft:blaze_po
 blastFurnace.addRecipe("knightmetal_from_ironwood", <item:twilightforest:armor_shard>, <item:twilightforest:ironwood_block>, 0.1, 500);
 
 //steel_scrap
-blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:createbigcannons:steel_scrap>, <item:twilightforest:knightmetal_ingot>, 0.1, 400);
-blastFurnace.addRecipe("steel_scrap_from_black_steel", <item:createbigcannons:steel_scrap>, <item:cataclysm:black_steel_ingot>, 0.1, 400);
+blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:createbigcannons:steel_scrap>*3, <item:twilightforest:knightmetal_ingot>, 0.1, 400);
+blastFurnace.addRecipe("steel_scrap_from_black_steel", <item:createbigcannons:steel_scrap>*3, <item:cataclysm:black_steel_ingot>, 0.1, 400);
 //serpent scales to neptunium
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium1", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_green>, 0.1, 1000);
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium2", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_deepblue>, 0.1, 1000);
@@ -26,4 +26,5 @@ blastFurnace.addRecipe("sea_serpent_scales_to_neptunium4", <item:aquaculture:nep
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium5", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_red>, 0.1, 1000);
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium6", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_purple>, 0.1, 1000);
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium7", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_blue>, 0.1, 1000);
-
+//salt back into block
+blastFurnace.addRecipe("salt_into_rock_salt", <item:salt:raw_rock_salt_block>, <item:salt:salt_block>, 0.1, 200);
