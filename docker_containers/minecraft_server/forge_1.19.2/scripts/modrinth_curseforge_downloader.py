@@ -112,9 +112,9 @@ def main():
     links = _get_download_links(f"download_configuration/{download_list_filename}.org", "[modrinth_download_link]")
     for link in links:
         _download(link, download_list_filename)
-
-    command = f"cp -r {download_list_filename} {final_location}"
-    subprocess.run(command, shell=True, capture_output=True, text=True)
+    if download_list_filename != final_location:
+        command = f"cp -r {download_list_filename} {final_location}"
+        subprocess.run(command, shell=True, capture_output=True, text=True)
 
     if cleanup_temp_file_after_downloading:
         print("================================================")
