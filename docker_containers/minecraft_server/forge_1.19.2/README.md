@@ -92,7 +92,7 @@ Everything you need to know in order to create a basic tool is in this book.
 - eat new things in order to gain more health
 - you can earn up to 19 hearts this way. 
 #### Potato Edition
-- You start game with 3 debufs
-- eat different things in order to gain to remove debufs and gain buffs
+- You start game with 3 debuffs
+- eat different things in order to remove debuffs and gain buffs
 - you can gain up to 3 buffs if last 64 foods were unique
 
