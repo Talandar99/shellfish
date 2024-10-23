@@ -9,7 +9,7 @@
     - [[https://cdn.modrinth.com/data/bIGwdx6D/versions/N8s1bBhm/endertrigon-1.0.jar][modrinth_download_link]]
 ** Aether
    - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/cm5EsdIg/aether-1.19.2-1.5.0-forge.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/h8VKO9w6/aether-1.19.2-1.4.2-forge.jar][modrinth_download_link]]
 *** Ascended Quark
     - [[https://modrinth.com/mod/ascended-quark][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/SqIC1Dq9/versions/VONGNIUC/ascended_quark-1.19.2-1.0.2.jar][modrinth_download_link]]
