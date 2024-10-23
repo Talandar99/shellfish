@@ -7,7 +7,7 @@
 	#Range: 0 ~ 1000
 	heartsPerMilestone = 1
 	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
-    milestones = [1,3,5,10, 15,20,30,40,50, 100,150,200,250,300, 400,500,600,700,800]
+    milestones = [1,3,5,10, 15,20,30,40,50, 100,150,200,250,300, 400,500,600,800,1000]
 #milestones = []
 
 [filtering]
