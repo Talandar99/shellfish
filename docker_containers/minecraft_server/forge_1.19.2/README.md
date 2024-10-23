@@ -3,15 +3,26 @@
 - [Online version](https://prismlauncher.org/) 
 - [Offline version](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/v8.4.1/PrismLauncher-Windows-MinGW-w64-Setup-v8.4.1.exe)
 ## Creating account
+Create account by clicking button in upper-right corner in PrismLauncher
+### for non peremium launcher
+`button`-> `Manage Accounts...` -> `Add Offline`
+### for premium launcher
+`button`-> `Manage Accounts...` -> `Add Microsoft`
 ## Creating instance
-## Testing
-
-# Modpack installation (Where to put what?)
-Put all files in correct folders
-- custom/config        ===> .minecraft/config
-- custom/serverconfig  ===> .minecraft/defaultconfig
-- custom/scripts       ===> .minecraft/scripts
-- mods                 ===> .minecraft/mods
+Create instance by pressing button `Add Instance` in upper-left corner in PrismLauncher
+### after pressing Add Instance button
+- click `Custom` on left panel 
+- pick version `1.19.2` on upper half of PrismLauncher window
+- pick `Forge` on bottom right panel
+- pick version `43.4.4` on lower half of PrismLauncher window
+final result should look like this: ![adding_instance](images/adding_instance.png)
+# File installation (Where to put what?)
+Put all files in correct folders. 
+- mods                                  ===> .minecraft/mods
+- custom_configuration/shaderpacks      ===> .minecraft/shaderpacks   
+- custom_configuration/scripts          ===> .minecraft/scripts       
+- custom_configuration/defaultconfigs   ===> .minecraft/defaultconfigs
+- custom_configuration/config           ===> .minecraft/config        
 
 # About modpack
 ## Thirst 
