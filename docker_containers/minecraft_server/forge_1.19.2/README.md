@@ -22,7 +22,7 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 
 ![right_panel](images/right_panel.png)
 ## Instance settings
-- open instance settings (button 2)
+- open instance settings 
 - press `settings` button
 - check if you are using java version 17
 - check and (optionally) change max allowed RAM
@@ -34,7 +34,7 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 - set it to be something like this
 ![language](images/language.png)
 ## File installation
-- quit game and press `Foler` button in right panel to open game files
+- quit game and press `Foler` button in right panel to open instance files
 ### File installation (Where to put what?)
 Put all files in correct folders. 
 (In case of shaderpacks,scripts,defaultconfigs, and config just throw all at one into .minecraft)
