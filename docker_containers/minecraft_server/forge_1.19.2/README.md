@@ -38,11 +38,17 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 ### File installation (Where to put what?)
 Put all files in correct folders. 
 (In case of shaderpacks,scripts,defaultconfigs, and config just throw all at one into .minecraft)
+
 - mods                                  ===> .minecraft/mods
 - custom_configuration/shaderpacks      ===> .minecraft/shaderpacks   
 - custom_configuration/scripts          ===> .minecraft/scripts       
 - custom_configuration/defaultconfigs   ===> .minecraft/defaultconfigs
 - custom_configuration/config           ===> .minecraft/config        
+
+if asked to replace files, replace them
+
+
+![yeet_configuration](images/yeet_configuration.png)
 #### Disable tutorial (optionally) 
 - open `options.txt`
 - find a line 
