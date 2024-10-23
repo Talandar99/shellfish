@@ -16,7 +16,7 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 
 # Before launching
 - 1. This button will launch your game
-- 2. This button will allow 
+- 2. This button will allow to edit instance
 - 3. This button will open your game instance files
 
 
