@@ -4,6 +4,9 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+// flour compatibility
+craftingTable.addShapeless("wheat_flour_to_flour", <item:extradelight:flour>, [ <item:create:wheat_flour>]);
+craftingTable.addShapeless("flour_to_wheat_flour", <item:create:wheat_flour>, [ <item:extradelight:flour>]);
 //corn_kernels into corn_seeds compatibility
 craftingTable.addShapeless("corn_kernels_to_corn_seeds", <item:extradelight:corn_seeds>, [ <item:culturaldelights:corn_kernels>]);
 craftingTable.addShapeless("corn_seeds_to_corn_kernels", <item:culturaldelights:corn_kernels>, [ <item:extradelight:corn_seeds>]);
@@ -269,7 +272,7 @@ craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32,
 // remove pale gold amulet from crafting recipes
 craftingTable.remove(<item:createaddition:electrum_amulet>);
 //rope and elevator pulley use rope
-craftingTable.remove(<item:supplementaries:rope>);
+craftingTable.remove(<item:create:rope_pulley>);
 craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],

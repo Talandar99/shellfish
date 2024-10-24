@@ -11,6 +11,8 @@
 //zanite_gemstone into galium
 <recipetype:create:crushing>.addRecipe("zanite_gemstone_into_galium", [<item:tinkers_reforged:gallium_dust> % 100], <item:aether:zanite_gemstone>, 200);
 
+// MillingManager.addRecipe(name as string, outputs as Percentaged<IItemStack>[], input as IIngredient, duration as int)
+<recipetype:create:milling>.addRecipe("flour_from_seeds", [<item:extradelight:flour>], <item:minecraft:wheat_seeds>, 200);
 //mechanical_crafting
 //<recipetype:create:mechanical_crafting>.remove(<item:create_dd:excavation_drill>);
 //<recipetype:create:mechanical_crafting>.remove(<item:create_dd:jetpack>);
