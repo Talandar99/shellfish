@@ -38,6 +38,7 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 ### File installation (Where to put what?)
 Put all files in correct folders. 
 (In case of shaderpacks,scripts,defaultconfigs, and config just throw all at one into .minecraft)
+<\br>*REMOVE mods if it'n not empty*
 
 - mods                                  ===> .minecraft/mods
 - custom_configuration/shaderpacks      ===> .minecraft/shaderpacks   
