@@ -472,7 +472,7 @@
    - [[https://cdn.modrinth.com/data/nmDcB62a/versions/FqoRZlrr/modernfix-forge-5.18.1%2Bmc1.19.2.jar][modrinth_download_link]]
 ** Pluto (Krypton for forge)
    - [[https://modrinth.com/mod/pluto][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][temporarly_disabled]]
 ** Saturn
    - [[https://modrinth.com/mod/saturn][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/2eT495vq/versions/np1EcSVx/saturn-mc1.19.2-0.1.4.jar][modrinth_download_link]]
@@ -485,9 +485,31 @@
 ** FastSuite
    - [[https://www.curseforge.com/minecraft/mc-mods/fastsuite][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/475117/files/4679156/download][curseforge_download_link]]
-** Better chunk loading
-   - [[https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/899487/files/5323277/download][curseforge_download_link]]
+** someaddon Optimization mods
+*** Connectivity
+    - [[https://www.curseforge.com/minecraft/mc-mods/connectivity][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/470193/files/4764733/download][curseforge_download_link]]
+*** Better chunk loading
+    - [[https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/899487/files/5323277/download][curseforge_download_link]]
+*** fix GPU memory leak
+    - [[https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/882495/files/4621015/download][curseforge_download_link]]
+*** Chunk Sending
+    - [[https://www.curseforge.com/minecraft/mc-mods/chunk-sending-forge-fabric][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/831663/files/4894788/download][curseforge_download_link]]
+*** Server Performance - Smooth Chunk Save
+    - [[https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/582327/files/4876162/download][curseforge_download_link]]
+*** Dynamic View
+    - [[https://www.curseforge.com/minecraft/mc-mods/dynamic-view][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/366140/files/3919241/download][curseforge_download_link]]
+*** Better Fps - Render Distance
+    - [[https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance][curseforge_modpage]] 
+    - [[https://www.curseforge.com/api/v1/mods/551520/files/5100224/download][curseforge_download_link]]
+** Packet Fixer
+   - [[https://modrinth.com/mod/packet-fixer][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/c7m1mi73/versions/AScUisZl/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar][modrinth_download_link]]
 ** Get It Together, Drops!
    - [[https://modrinth.com/mod/get-it-together-drops][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/T0OUgf8P/versions/IPXN2wh9/getittogetherdrops-forge-1.19.2-1.3.jar][modrinth_download_link]]
