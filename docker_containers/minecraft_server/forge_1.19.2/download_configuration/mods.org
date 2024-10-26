@@ -504,9 +504,6 @@
 ** Enhanced Block Entities Reforged
    - [[https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities-reforged-unofficial][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/853851/files/4619599/download][curseforge_download_link]]
-** Save My Shaky Network
-   - [[https://modrinth.com/mod/smsn][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/oXzIQwRj/versions/TO86F3Z1/smsn-forge-1.0.1%2Bmc1.19.2.jar][modrinth_download_link]]
 ** Proper Ping
    - [[https://modrinth.com/mod/ping-in-tablist][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/1SvzcA6G/versions/XJ6crTbQ/proper_ping-1.19.2-1.0.1.jar][modrinth_download_link]]
