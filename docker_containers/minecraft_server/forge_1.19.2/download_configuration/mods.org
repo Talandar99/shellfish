@@ -498,18 +498,36 @@
 *** Chunk Sending
     - [[https://www.curseforge.com/minecraft/mc-mods/chunk-sending-forge-fabric][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/831663/files/4894788/download][curseforge_download_link]]
-*** Server Performance - Smooth Chunk Save
-    - [[https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/582327/files/4876162/download][curseforge_download_link]]
-*** Dynamic View
-    - [[https://www.curseforge.com/minecraft/mc-mods/dynamic-view][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/366140/files/3919241/download][curseforge_download_link]]
 *** Better Fps - Render Distance
     - [[https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/551520/files/5100224/download][curseforge_download_link]]
-** Packet Fixer
+** Enhanced Block Entities Reforged
+   - [[https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities-reforged-unofficial][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/853851/files/4619599/download][curseforge_download_link]]
+** Save My Shaky Network
+   - [[https://modrinth.com/mod/smsn][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/oXzIQwRj/versions/TO86F3Z1/smsn-forge-1.0.1%2Bmc1.19.2.jar][modrinth_download_link]]
+** Proper Ping
+   - [[https://modrinth.com/mod/ping-in-tablist][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/1SvzcA6G/versions/XJ6crTbQ/proper_ping-1.19.2-1.0.1.jar][modrinth_download_link]]
+** Fast IP Ping
+   - [[https://modrinth.com/mod/fast-ip-ping][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/9mtu0sUO/versions/rWuoGgn4/fast-ip-ping-v1.0.5-mc1.19.4-forge.jar][modrinth_download_link]]
+** Redirector
+   - [[https://modrinth.com/mod/redirector][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/nzRWPE5v/versions/vnotZ9tN/redirector-5.0.0.jar][modrinth_download_link]]
+** ImmediatelyFast 
+   - [[https://modrinth.com/mod/immediatelyfast][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/5ZwdcRci/versions/XobHzBZw/ImmediatelyFast-Forge-1.3.0%2B1.19.2.jar][modrinth_download_link]]
+** Pluto
+   - [[https://modrinth.com/mod/pluto][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][modrinth_download_link]]
+** Iris & Oculus Flywheel Compat
+   - [[https://modrinth.com/mod/iris-flw-compat][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/ndHYMY2K/versions/k5wcEnhS/oculus-flywheel-compat-forge1.19.2%2B1.0.3b.jar][modrinth_download_link]]
+** Packet Fixer (incompatible with pluto)(disabled)
    - [[https://modrinth.com/mod/packet-fixer][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/c7m1mi73/versions/AScUisZl/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar][modrinth_download_link]]
+   - [[disabled][disabled]]
 ** Get It Together, Drops!
    - [[https://modrinth.com/mod/get-it-together-drops][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/T0OUgf8P/versions/IPXN2wh9/getittogetherdrops-forge-1.19.2-1.3.jar][modrinth_download_link]]
@@ -586,3 +604,6 @@
 ** Lionfish-API
    - [[https://modrinth.com/mod/lionfish-api][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar][modrinth_download_link]]
+** Reforgium (required by Enhanced Block Entities Reforged)
+   - [[https://www.curseforge.com/minecraft/mc-mods/reforgium][curseforge_modpage]] 
+   - [[https://www.curseforge.com/api/v1/mods/853424/files/4505759/download][curseforge_download_link]]
