@@ -1,0 +1,24 @@
+
+["Ping HUD"]
+	#Enable ping HUD
+	pingHudEnabled = false
+	#Additionally show 5 last ping values
+	showPingQueue = false
+	#Draw text with a shadow
+	drawTextWithShadow = true
+	#Draw ping either on the left side (true), or on the right (false)
+	leftOrRight = true
+	#How many scaled GUI pixels to start drawing from the edge of the screen
+	#Range: > 0
+	horizontalPadding = 4
+	#On which line counting from the top to start drawing from
+	#Range: > 0
+	lineFromTop = 1
+	#How many scaled GUI pixels to start drawing from the top of the screen
+	#Range: > 0
+	verticalPadding = 4
+
+[Other]
+	#Show numbers in milliseconds in player list
+	playerListNumbers = true
+
