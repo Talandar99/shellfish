@@ -107,8 +107,20 @@
 [items]
 
 	#Set the max damage (durability) of an item. Only items that already have durability can have this value altered. Example (without the leading #):
-	#"minecraft:diamond_.*" = 5000
+    #"minecraft:diamond_.*" = 5000
 	[items.max_damage]
+        # iron tools
+        "item:minecraft:iron_sword" = 64
+        "item:minecraft:iron_pickaxe" = 64
+        "item:minecraft:iron_axe" = 64
+        "item:minecraft:iron_shovel" = 64
+        "item:minecraft:iron_hoe" = 64
+        # diamond tools
+        "item:minecraft:diamond_sword"= 2
+        "item:minecraft:diamond_pickaxe"= 2
+        "item:minecraft:diamond_axe"= 2
+        "item:minecraft:diamond_shovel"= 2
+        "item:minecraft:diamond_hoe"= 2
 		test = 0
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
@@ -446,6 +458,19 @@
             "iceandfire:forest_troll_leather_chestplate" = 0
             "iceandfire:forest_troll_leather_leggings" = 0
             "iceandfire:forest_troll_leather_boots" = 0     
+            #northstar space suits
+            "northstar:iron_space_suit_helmet" = 0
+            "northstar:iron_space_suit_chestpiece"= 0
+            "northstar:iron_space_suit_leggings"= 0
+            "northstar:iron_space_suit_boots"= 0
+            "northstar:broken_iron_space_suit_helmet" = 0
+            "northstar:broken_iron_space_suit_chestpiece"= 0
+            "northstar:broken_iron_space_suit_leggings"= 0
+            "northstar:broken_iron_space_suit_boots"= 0
+            "northstar:martian_steel_space_suit_helmet" = 1
+            "northstar:martian_steel_space_suit_chestpiece"= 1
+            "northstar:martian_steel_space_suit_leggings"= 1
+            "northstar:martian_steel_space_suit_boots"= 1
 			test = 0.0
 
 		#Set the knockback resistance of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):

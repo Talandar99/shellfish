@@ -121,7 +121,201 @@ craftingTable.addShaped("black_wool_from_carpet", <item:minecraft:black_wool>*2,
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 // -----------------------------
+// ComputerCraft
+// -----------------------------
+craftingTable.remove(<item:computercraft:computer_normal>);
+craftingTable.remove(<item:computercraft:computer_advanced>);
+craftingTable.remove(<item:computercraft:computer_command>);
+craftingTable.remove(<item:computercraft:turtle_normal>);
+craftingTable.remove(<item:computercraft:turtle_advanced>);
+craftingTable.remove(<item:computercraft:monitor_normal>);
+craftingTable.remove(<item:computercraft:monitor_advanced>);
+craftingTable.remove(<item:computercraft:pocket_computer_normal>);
+craftingTable.remove(<item:computercraft:pocket_computer_advanced>);
+craftingTable.remove(<item:computercraft:speaker>);
+craftingTable.remove(<item:computercraft:printer>);
+craftingTable.remove(<item:computercraft:wired_modem>);
+craftingTable.remove(<item:computercraft:wired_modem_full>);
+craftingTable.remove(<item:computercraft:cable>);
+craftingTable.remove(<item:computercraft:wireless_modem_normal>);
+craftingTable.remove(<item:computercraft:wireless_modem_advanced>);
 
+craftingTable.addShaped("computercraft_computer_normal", <item:computercraft:computer_normal>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:createaddition:modular_accumulator>, <item:northstar:circuit>, <tag:items:forge:glass/tinted>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [
+    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:computercraft:computer_normal>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:northstar:advanced_circuit>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_monitor_normal", <item:computercraft:monitor_normal>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:electron_tube>, <tag:items:forge:glass/tinted>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_monitor_advanced", <item:computercraft:monitor_advanced>, [
+    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:computercraft:monitor_normal>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_turtle_normal", <item:computercraft:turtle_normal>, [
+    [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
+    [<tag:items:forge:chests/wooden>, <item:computercraft:computer_normal>, <item:create:content_observer>],
+    [<item:minecraft:air>, <item:minecraft:furnace>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_turtle_advanced", <item:computercraft:turtle_advanced>, [
+    [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
+    [<tag:items:forge:chests/wooden>, <item:computercraft:computer_advanced>, <item:create:content_observer>],
+    [<item:minecraft:air>, <item:minecraft:furnace>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_computer_advanced_2", <item:computercraft:turtle_advanced>, [
+    [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
+    [<item:northstar:advanced_circuit>, <item:computercraft:turtle_normal>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_speaker", <item:computercraft:speaker>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:supplementaries:speaker_block>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_printer", <item:computercraft:printer>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:cyan_dye>, <item:minecraft:magenta_dye>, <item:minecraft:yellow_dye>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_disk_drive", <item:computercraft:disk_drive>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:precision_mechanism>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_wired_modem_full", <item:computercraft:wired_modem_full>, [
+    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
+    [<item:computercraft:cable>, <item:northstar:circuit>, <item:computercraft:cable>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShapeless("wired_modem_full_into_not_full", <item:computercraft:wired_modem>, [<item:computercraft:wired_modem_full>]);
+craftingTable.addShapeless("wired_modem_not_full_into_full", <item:computercraft:wired_modem_full>, [<item:computercraft:wired_modem>]);
+
+craftingTable.addShaped("computercraft_cable", <item:computercraft:cable>*4, [
+    [<item:minecraft:air>, <item:create_dd:rubber>, <item:minecraft:air>],
+    [<item:create_dd:rubber>, <item:createaddition:copper_wire>, <item:create_dd:rubber>],
+    [<item:minecraft:air>, <item:create_dd:rubber>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_wireless_modem_normal", <item:computercraft:wireless_modem_normal>, [
+    [<item:createaddition:iron_rod>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:ender_eye>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:create:sturdy_sheet>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("computercraft_wireless_modem_advanced", <item:computercraft:wireless_modem_advanced>, [
+    [<item:minecraft:end_rod>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:computercraft:wireless_modem_normal>, <item:create:brass_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+//------------------------------------------------------------------------
+//computercraft disks
+//------------------------------------------------------------------------
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 1118481}));   //black
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 13388876}));  //red
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 5744206}));   //green
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 8349260}));   //brown
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 3368652}));   //blue
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 11691749}));  //purple
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 5020082}));   //cyan
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 10066329}));  //light gray
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 5000268}));   //gray
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 15905484}));  //pink
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 8375321}));   //lime
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 14605932}));  //yellow
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 10072818}));  //lightblue
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 15040472}));  //magenta
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 15905331}));  //orange
+craftingTable.remove(<item:computercraft:disk>.withTag({Color: 15790320}));  //white
+craftingTable.addShaped("computercraft_disk_recipe_black", <item:computercraft:disk>.withTag({Color: 1118481 }), [ //black
+    [<item:minecraft:air>, <item:minecraft:black_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_red",<item:computercraft:disk>.withTag({Color: 13388876 }), [ //red
+    [<item:minecraft:air>, <item:minecraft:red_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_green",<item:computercraft:disk>.withTag({Color: 5744206  }), [  //green
+    [<item:minecraft:air>, <item:minecraft:green_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_brown",<item:computercraft:disk>.withTag({Color: 8349260  }), [  //brown
+    [<item:minecraft:air>, <item:minecraft:brown_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_blue",<item:computercraft:disk>.withTag({Color: 3368652  }), [  //blue
+    [<item:minecraft:air>, <item:minecraft:blue_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_purple",<item:computercraft:disk>.withTag({Color: 11691749 }), [ //purple
+    [<item:minecraft:air>, <item:minecraft:purple_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_cyan",<item:computercraft:disk>.withTag({Color: 5020082  }), [  //cyan
+    [<item:minecraft:air>, <item:minecraft:cyan_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_light_gray",<item:computercraft:disk>.withTag({Color: 10066329 }), [ //light gray
+    [<item:minecraft:air>, <item:minecraft:light_gray_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_gray",<item:computercraft:disk>.withTag({Color: 5000268  }), [  //gray
+    [<item:minecraft:air>, <item:minecraft:gray_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_pink",<item:computercraft:disk>.withTag({Color: 15905484 }), [ //pink
+    [<item:minecraft:air>, <item:minecraft:pink_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_lime",<item:computercraft:disk>.withTag({Color: 8375321  }), [  //lime
+    [<item:minecraft:air>, <item:minecraft:lime_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_yellow",<item:computercraft:disk>.withTag({Color: 14605932 }), [ //yellow
+    [<item:minecraft:air>, <item:minecraft:yellow_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_light_blue",<item:computercraft:disk>.withTag({Color: 10072818 }), [ //lightblue
+    [<item:minecraft:air>, <item:minecraft:light_blue_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_magenta",<item:computercraft:disk>.withTag({Color: 15040472 }), [ //magenta
+    [<item:minecraft:air>, <item:minecraft:magenta_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_orange",<item:computercraft:disk>.withTag({Color: 15905331 }), [ //orange
+    [<item:minecraft:air>, <item:minecraft:orange_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+craftingTable.addShaped("computercraft_disk_recipe_white",<item:computercraft:disk>.withTag({Color: 15790320 }), [ //white
+    [<item:minecraft:air>, <item:minecraft:white_dye>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+// -----------------------------
+// ComputerCraft peripherals
+// -----------------------------
+craftingTable.remove(<item:peripherals:xp_bottler>);
+craftingTable.remove(<item:peripherals:grinder>);
+craftingTable.remove(<item:peripherals:beehive_interface>);
+craftingTable.remove(<item:peripherals:trading_interface>);
+craftingTable.remove(<item:peripherals:spawner_interface>);
+craftingTable.remove(<item:peripherals:spawner_card>);
+craftingTable.remove(<item:peripherals:induction_charger>);
+craftingTable.remove(<item:peripherals:disk_raid>);
+craftingTable.remove(<item:peripherals:advanced_disk_raid>);
+craftingTable.remove(<item:peripherals:magnetic_card_manipulator>);
+craftingTable.remove(<item:ducky-periphs:duck_block>);
+
+craftingTable.addShaped("peripherals_induction_charger", <item:peripherals:induction_charger>, [
+    [<item:create:copper_sheet>, <item:createaddition:copper_spool>, <item:create:copper_sheet>],
+    [<item:createaddition:copper_spool>, <item:createaddition:copper_rod>, <item:createaddition:copper_spool>],
+    [<item:create:copper_sheet>, <item:createaddition:copper_spool>, <item:create:copper_sheet>]]);
+
+craftingTable.addShaped("peripherals_disk_raid", <item:peripherals:disk_raid>, [
+    [<item:computercraft:disk_drive>, <item:computercraft:disk_drive>, <item:computercraft:disk_drive>],
+    [<item:computercraft:disk_drive>, <item:create:andesite_casing>, <item:computercraft:disk_drive>]]);
+
+craftingTable.addShaped("peripherals_advanced_disk_raid", <item:peripherals:advanced_disk_raid>, [
+    [<item:peripherals:disk_raid>, <item:create:brass_casing>, <item:peripherals:disk_raid>]]);
+
+craftingTable.addShaped("peripherals_magnetic_card_manipulator", <item:peripherals:magnetic_card_manipulator>, [
+    [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:peripherals:magnetic_card>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("peripherals_rubber_ducky", <item:ducky-periphs:duck_block>, [
+    [<item:minecraft:air>, <item:create_dd:rubber>,<item:minecraft:yellow_dye>],
+    [<item:create_dd:rubber>, <item:create_dd:rubber>,<item:minecraft:air>]]);
+
+// -----------------------------
 //enchantless naga_gloves
 craftingTable.remove(<item:twilightaether:naga_gloves>);
 craftingTable.addShaped("naga_gloves", <item:twilightaether:naga_gloves>, [
@@ -302,6 +496,59 @@ craftingTable.addShaped("diamond_from_diamond_shards", <item:minecraft:diamond>,
     [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>],
     [<item:create_dd:diamond_shard>, <tag:items:forge:slimeballs>, <item:create_dd:diamond_shard>],
     [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>]]);
+
+// -----------------------------------------------------------
+// northstar
+// -----------------------------------------------------------
+//iron space suit remove
+craftingTable.remove(<item:northstar:iron_space_suit_helmet>);
+craftingTable.remove(<item:northstar:iron_space_suit_chestpiece>);
+craftingTable.remove(<item:northstar:iron_space_suit_leggings>);
+craftingTable.remove(<item:northstar:iron_space_suit_boots>);
+//martian space suit remove
+craftingTable.remove(<item:northstar:martian_steel_space_suit_helmet>);
+craftingTable.remove(<item:northstar:martian_steel_space_suit_chestpiece>);
+craftingTable.remove(<item:northstar:martian_steel_space_suit_leggings>);
+craftingTable.remove(<item:northstar:martian_steel_space_suit_boots>);
+
+craftingTable.addShaped("northstar_iron_space_suit_helmet", <item:northstar:iron_space_suit_helmet>, [
+    [<item:tinkers_reforged:titanium_nugget>, <item:create:iron_sheet>, <item:tinkers_reforged:titanium_nugget>],
+    [<item:create:iron_sheet>, <tag:items:forge:glass/tinted>, <item:create:iron_sheet>],
+    [<tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>]]);
+
+craftingTable.addShaped("northstar_martian_steel_space_suit_helmet", <item:northstar:martian_steel_space_suit_helmet>, [
+    [<item:northstar:martian_steel_sheet>, <item:northstar:martian_steel_sheet>, <item:northstar:martian_steel_sheet>],
+    [<item:northstar:martian_steel_sheet>, <tag:items:forge:glass/tinted>, <item:northstar:martian_steel_sheet>],
+    [<tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>]]);
+
+craftingTable.addShaped("northstar_iron_space_suit_chestpiece", <item:northstar:iron_space_suit_chestpiece>, [
+    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
+    [<item:create:iron_sheet>, <item:create:copper_backtank>, <item:create:iron_sheet>],
+    [<item:tinkers_reforged:titanium_nugget>, <tag:items:minecraft:wool>, <item:tinkers_reforged:titanium_nugget>]]);
+
+craftingTable.addShaped("northstar_martian_steel_space_suit_chestpiece", <item:northstar:martian_steel_space_suit_chestpiece>, [
+    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>],
+    [<item:northstar:martian_steel_sheet>, <item:create:copper_backtank>, <item:northstar:martian_steel_sheet>],
+    [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>]]);
+
+craftingTable.addShaped("northstar_iron_space_suit_leggings", <item:northstar:iron_space_suit_leggings>, [
+    [<tag:items:minecraft:wool>, <item:tinkers_reforged:titanium_nugget>, <tag:items:minecraft:wool>],
+    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
+    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>]]);
+
+craftingTable.addShaped("northstar_martian_steel_space_suit_leggings", <item:northstar:martian_steel_space_suit_leggings>, [
+    [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
+    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>],
+    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>]]);
+
+craftingTable.addShaped("northstar_iron_space_suit_boots", <item:northstar:iron_space_suit_boots>, [
+    [<item:tinkers_reforged:titanium_nugget>, <item:minecraft:air>, <item:tinkers_reforged:titanium_nugget>],
+    [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
+    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>]]);
+
+craftingTable.addShaped("northstar_martian_steel_space_suit_boots", <item:northstar:martian_steel_space_suit_boots>, [
+    [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
+    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>]]);
 // -----------------------------------------------------------
 // Remove all tools 
 // -----------------------------------------------------------
@@ -330,11 +577,11 @@ craftingTable.remove(<item:minecraft:golden_axe>);
 craftingTable.remove(<item:minecraft:golden_shovel>);
 craftingTable.remove(<item:minecraft:golden_hoe>);
 // diamond
-craftingTable.remove(<item:minecraft:diamond_sword>);
-craftingTable.remove(<item:minecraft:diamond_pickaxe>);
-craftingTable.remove(<item:minecraft:diamond_axe>);
-craftingTable.remove(<item:minecraft:diamond_shovel>);
-craftingTable.remove(<item:minecraft:diamond_hoe>);
+//craftingTable.remove(<item:minecraft:diamond_sword>);
+//craftingTable.remove(<item:minecraft:diamond_pickaxe>);
+//craftingTable.remove(<item:minecraft:diamond_axe>);
+//craftingTable.remove(<item:minecraft:diamond_shovel>);
+//craftingTable.remove(<item:minecraft:diamond_hoe>);
 // silver tools
 craftingTable.remove(<item:iceandfire:silver_sword>);
 craftingTable.remove(<item:iceandfire:silver_pickaxe>);
@@ -411,6 +658,12 @@ craftingTable.remove(<item:malum:soul_stained_steel_shovel>);
 craftingTable.remove(<item:malum:soul_stained_steel_axe>);
 craftingTable.remove(<item:malum:soul_stained_steel_hoe>);
 craftingTable.remove(<item:malum:soul_stained_steel_knife>);
+//martian_steel
+craftingTable.remove(<item:northstar:martian_sword>);
+craftingTable.remove(<item:northstar:martian_pickaxe>);
+craftingTable.remove(<item:northstar:martian_shovel>);
+craftingTable.remove(<item:northstar:martian_axe>);
+craftingTable.remove(<item:northstar:martian_hoe>);
 // -----------------------------------------------------------
 // Remove all knifes
 // -----------------------------------------------------------
@@ -532,6 +785,11 @@ craftingTable.remove(<item:iceandfire:dragonsteel_lightning_helmet>);
 craftingTable.remove(<item:iceandfire:dragonsteel_lightning_chestplate>);
 craftingTable.remove(<item:iceandfire:dragonsteel_lightning_leggings>);
 craftingTable.remove(<item:iceandfire:dragonsteel_lightning_boots>);
+//martian stel
+craftingTable.remove(<item:northstar:martian_steel_helmet>);
+craftingTable.remove(<item:northstar:martian_steel_chestplate>);
+craftingTable.remove(<item:northstar:martian_steel_leggings>);
+craftingTable.remove(<item:northstar:martian_steel_boots>);
 
 
 craftingTable.remove(<item:create_dd:deforester_saw>);
