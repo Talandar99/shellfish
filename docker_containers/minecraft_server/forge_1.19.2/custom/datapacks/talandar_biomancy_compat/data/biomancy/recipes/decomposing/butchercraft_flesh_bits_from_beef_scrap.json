@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "butchercraft:beef_scraps"
+
+    },
+    "nutrientsCost": 1,
+    "processingTime": 40,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "min": -1,
+                "max": 1
+            },
+            "item": "biomancy:flesh_bits"
+        }
+    ]
+}

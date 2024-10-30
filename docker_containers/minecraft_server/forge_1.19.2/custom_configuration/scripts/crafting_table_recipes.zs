@@ -4,12 +4,88 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+// fixing butchercraft meatblock
+
+craftingTable.remove(<item:butchercraft:cooked_goat_block_item>);
+craftingTable.addShaped("cooked_goat_block", <item:butchercraft:cooked_goat_block_item>, [
+    [<tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>],
+    [<tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>],
+    [<tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>, <tag:items:forge:goat/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:goat_block_item>);
+craftingTable.addShaped("raw_goat_block", <item:butchercraft:goat_block_item>, [
+    [<tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>],
+    [<tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>],
+    [<tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>, <tag:items:forge:goat/raw>]]);
+
+craftingTable.remove(<item:butchercraft:cooked_chicken_block_item>);
+craftingTable.addShaped("cooked_chicken_block", <item:butchercraft:cooked_chicken_block_item>, [
+    [<tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>],
+    [<tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>],
+    [<tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>, <tag:items:forge:chicken/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:chicken_block_item>);
+craftingTable.addShaped("raw_chicken_block", <item:butchercraft:chicken_block_item>, [
+    [<tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>],
+    [<tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>],
+    [<tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>, <tag:items:forge:chicken/raw>]]);
+
+craftingTable.remove(<item:butchercraft:cooked_rabbit_block_item>);
+craftingTable.addShaped("cooked_rabbit_block", <item:butchercraft:cooked_rabbit_block_item>, [
+    [<tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>],
+    [<tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>],
+    [<tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>, <tag:items:forge:rabbit/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:rabbit_block_item>);
+craftingTable.addShaped("raw_rabbit_block", <item:butchercraft:rabbit_block_item>, [
+    [<tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>],
+    [<tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>],
+    [<tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>, <tag:items:forge:rabbit/raw>]]);
+
+craftingTable.remove(<item:butchercraft:cooked_lamb_block_item>);
+craftingTable.addShaped("cooked_lamb_block", <item:butchercraft:cooked_lamb_block_item>, [
+    [<tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>],
+    [<tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>],
+    [<tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>, <tag:items:forge:mutton/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:lamb_block_item>);
+craftingTable.addShaped("raw_lamb_block", <item:butchercraft:lamb_block_item>, [
+    [<tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>],
+    [<tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>],
+    [<tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>, <tag:items:forge:mutton/raw>]]);
+
+craftingTable.remove(<item:butchercraft:cooked_pork_block_item>);
+craftingTable.addShaped("cooked_pork_block", <item:butchercraft:cooked_pork_block_item>, [
+    [<tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>],
+    [<tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>],
+    [<tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>, <tag:items:forge:pork/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:pork_block_item>);
+craftingTable.addShaped("raw_pork_block", <item:butchercraft:pork_block_item>, [
+    [<tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>],
+    [<tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>],
+    [<tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>, <tag:items:forge:pork/raw>]]);
+
+craftingTable.remove(<item:butchercraft:cooked_beef_block_item>);
+craftingTable.addShaped("cooked_beef_block", <item:butchercraft:cooked_beef_block_item>, [
+    [<tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>],
+    [<tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>],
+    [<tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>, <tag:items:forge:beef/cooked>]]);
+
+craftingTable.remove(<item:butchercraft:beef_block_item>);
+craftingTable.addShaped("raw_beef_block", <item:butchercraft:beef_block_item>, [
+    [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>],
+    [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>],
+    [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>]]);
 // flour compatibility
 craftingTable.addShapeless("wheat_flour_to_flour", <item:extradelight:flour>, [ <item:create:wheat_flour>]);
 craftingTable.addShapeless("flour_to_wheat_flour", <item:create:wheat_flour>, [ <item:extradelight:flour>]);
 //corn_kernels into corn_seeds compatibility
 craftingTable.addShapeless("corn_kernels_to_corn_seeds", <item:extradelight:corn_seeds>, [ <item:culturaldelights:corn_kernels>]);
 craftingTable.addShapeless("corn_seeds_to_corn_kernels", <item:culturaldelights:corn_kernels>, [ <item:extradelight:corn_seeds>]);
+// sinew into sinew compatibility
+craftingTable.addShapeless("butchercraft_sinew_to_biomancy_mob_sinew", <item:biomancy:mob_sinew>, [ <item:butchercraft:sinew>]);
+craftingTable.addShapeless("biomancy_mob_sinew_to_butchercraft_sinew", <item:butchercraft:sinew>, [ <item:biomancy:mob_sinew>]);
 // fat into fat compatibility
 craftingTable.addShapeless("fat_delight_to_butcher", <item:butchercraft:fat>, [ <item:delightful:animal_fat>]);
 craftingTable.addShapeless("fat_butcher_to_delight", <item:delightful:animal_fat>, [ <item:butchercraft:fat>]);
@@ -25,6 +101,11 @@ craftingTable.addShaped("soul_torch_from_skreecher_soul", <item:minecraft:soul_t
 craftingTable.addShaped("soul_torch_from_soul_bead", <item:minecraft:soul_torch>*4, [
     [<item:quark:soul_bead>],
     [<tag:items:forge:rods/wooden>]]);
+// cobweb
+craftingTable.addShaped("cobweb_from_string", <item:minecraft:cobweb>, [
+    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
+    [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>],
+    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
 // tipped arrows with aether amber
 // orange dye from aether amber
 // aether arrows
@@ -42,7 +123,6 @@ craftingTable.addShaped("twilight_arrows2", <item:minecraft:tipped_arrow>.withTa
     [<item:twilightforest:steeleaf_ingot>],
     [<tag:items:forge:rods/wooden>],
     [<tag:items:forge:feathers>]]);
-
 // leather cord fishing rod
 craftingTable.addShaped("leather_cord_fishing_rod", <item:minecraft:fishing_rod>, [
     [<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/wooden>],
@@ -314,7 +394,6 @@ craftingTable.addShaped("peripherals_magnetic_card_manipulator", <item:periphera
 craftingTable.addShaped("peripherals_rubber_ducky", <item:ducky-periphs:duck_block>, [
     [<item:minecraft:air>, <item:create_dd:rubber>,<item:minecraft:yellow_dye>],
     [<item:create_dd:rubber>, <item:create_dd:rubber>,<item:minecraft:air>]]);
-
 // -----------------------------
 //enchantless naga_gloves
 craftingTable.remove(<item:twilightaether:naga_gloves>);

@@ -14,7 +14,6 @@ blastFurnace.addRecipe("cooked_eye_to_ash", <item:supplementaries:ash>, <item:bu
 //twilight
 blastFurnace.addRecipe("fiery_ingot_into_blaze_powder", <item:minecraft:blaze_powder>*25, <item:twilightforest:fiery_ingot>, 0.1, 1000);
 blastFurnace.addRecipe("knightmetal_from_ironwood", <item:twilightforest:armor_shard>, <item:twilightforest:ironwood_block>, 0.1, 500);
-
 //steel_scrap
 blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:createbigcannons:steel_scrap>*3, <item:twilightforest:knightmetal_ingot>, 0.1, 400);
 blastFurnace.addRecipe("steel_scrap_from_black_steel", <item:createbigcannons:steel_scrap>*3, <item:cataclysm:black_steel_ingot>, 0.1, 400);

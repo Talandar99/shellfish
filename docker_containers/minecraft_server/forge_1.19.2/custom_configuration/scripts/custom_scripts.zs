@@ -14,6 +14,9 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 // -----------------------------------------------------------
 // Adding / Editing tags
 // -----------------------------------------------------------
+//remove string property from one sinew and add to another
+//<tagmanager:items>.removeId(<tag:items:forge:string>, <resource:butchercraft:sinew>);
+//<tagmanager:items>.removeId(<tag:items:railways:internal/string>, <resource:butchercraft:sinew>);
 //adding wax tag to animal_fat and fat
 <tagmanager:items>.removeId(<tag:items:map_atlases:sticky_crafting_items>, <resource:butchercraft:fat>);
 <tagmanager:items>.removeId(<tag:items:forge:slimeballs>, <resource:butchercraft:fat>);
@@ -54,6 +57,8 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:green_shulker_box>);
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:red_shulker_box>);
 <tagmanager:items>.addId(<tag:items:curios:body>, <resource:minecraft:black_shulker_box>);
+// blood
+<tagmanager:fluids>.addId(<tag:fluids:tconstruct:meat_soup>, <resource:butchercraft:blood_fluid>);
 // seasons tags
 //---------------------------------------
 //spring_crops
