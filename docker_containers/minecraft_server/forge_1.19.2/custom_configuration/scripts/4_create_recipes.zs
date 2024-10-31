@@ -1,10 +1,6 @@
 <recipetype:create:mechanical_crafting>.remove(<item:creategbd:beam_reactor_helmet>);
 
 //------------------------------
-//remove seething
-//------------------------------
-<recipetype:create_dd:seething>.remove(<item:create_dd:diamond_shard>);
-//------------------------------
 //crushing
 //------------------------------
 <recipetype:create:crushing>.remove(<item:createaddition:diamond_grit>);
@@ -42,8 +38,6 @@
     <constant:create:heat_condition:none>, 
     [<fluid:create_dd:sap> * 250], 
     [<item:minecraft:jungle_log>],null, 200);
-//remove seed oil (it's the same as plant oil)
-<recipetype:create:compacting>.remove(<fluid:createaddition:seed_oil>);
 //filling
 
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_1", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:butchercraft:blood_fluid> * 250, 200);

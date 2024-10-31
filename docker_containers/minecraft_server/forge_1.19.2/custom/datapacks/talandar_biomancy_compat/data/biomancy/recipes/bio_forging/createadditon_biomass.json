@@ -1,0 +1,11 @@
+{
+    "type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:misc",
+    "ingredients":[
+        {"count":3,"item":"biomancy:organic_matter"},
+        {"count":1,"item":"biomancy:bile"}
+    ],
+    "nutrientsCost":1,
+    "result":
+    { "count":1,"item":"createaddition:biomass" }
+}

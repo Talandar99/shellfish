@@ -1,0 +1,33 @@
+{
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "item": "butchercraft:sheep_head_item"
+  },
+  "nutrientsCost": 1,
+  "processingTime": 600,
+  "results": [
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 22,
+        "min": 12
+      },
+      "item": "biomancy:flesh_bits"
+    },
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 11,
+        "min": 7
+      },
+      "item": "biomancy:elastic_fibers"
+    },
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 1
+      },
+      "item": "butchercraft:sheep_skull_head_item"
+    }
+  ]
+}

@@ -125,10 +125,10 @@
         ["malum:blazing_quartz_ore",            0.15,   3,      0.3,                                                ], 
         ["malum:block_of_blazing_quartz",       0.25,   3,      0.5,                                                ], 
         #aether
-        ["aether:icestone",                     -0.35,  7,      1.4,        "",                 "{}",               -1],
-        ["ascended_quark:icestone_bricks",      -0.35,  7,      1.4,        "",                 "{}",               -1],
-        ["ascended_quark:polished_icestone",    -0.35,  7,      1.4,        "",                 "{}",               -1],
-        ["aether:cold_aercloud",                -0.4,   1,      0.8,        "",                 "{}",               -1], 
+        ["aether:icestone",                     -0.35,  7,      1.4,        "",                 "{}",               -8],
+        ["ascended_quark:icestone_bricks",      -0.35,  7,      1.4,        "",                 "{}",               -8],
+        ["ascended_quark:polished_icestone",    -0.35,  7,      1.4,        "",                 "{}",               -8],
+        ["aether:cold_aercloud",                -0.4,   1,      0.8,        "",                 "{}",               -3], 
         ["aether:freezer",                      -0.4,   7,      0.9,        "lit=true",         "",                 -1], 
         #ice and fire
         ["iceandfire:dragon_ice",               -0.35,  5,      1.4,        "",                 "{}",               -0.7],
@@ -168,19 +168,19 @@
         ["minecraft:soul_campfire",             -0.476, 7,      1.0,        "lit=true",         "",                 -8], 
         #minecraft
         ["minecraft:fire",                      0.476,  7,      0.9,        "",                 "",                 8], 
-        ["minecraft:magma_block",               0.25,   3,      1.0                                                 ], 
+        ["minecraft:magma_block",               0.25,   4,      1.0                                                 ], 
         ["minecraft:lava_cauldron",             0.5,    7,      1.5                                                 ], 
         ["#minecraft:ice",                      -0.15,  4,      0.6,        "",                 "",                 -0.7], 
         ["minecraft:ice",                       -0.15,  4,      0.6,        "",                 "{}",               -0.7], 
         ["minecraft:packed_ice",                -0.25,  4,      1.0,        "",                 "{}",               -0.7], 
-        ["minecraft:blue_ice",                  -0.35,  5,      1.4,        "",                 "{}",               -1],
+        ["minecraft:blue_ice",                  -0.35,  5,      1.4,        "",                 "{}",               -2],
         ["minecraft:powder_snow",               -0.4,   1,      0.8,        "",                 "{}",               -1], 
         #other
         ["quark:myalite",                       -0.15,  4,      0.6,        "",                 "{}",               -0.7], 
         ["quark:myalite_crystal",               -0.15,  4,      0.6,        "",                 "{}",               -0.7], 
         ["minecraft:ice",                       -0.15,  4,      0.6,        "",                 "{}",               -0.7], 
-        ["quark:permafrost",                    -0.1,   2,      0.1,        "",                 "{}",               -0.4], 
-        ["immersive_weathering:permafrost",     -0.1,   2,      0.1,        "",                 "{}",               -0.4] 
+        ["quark:permafrost",                    -0.1,   2,      0.2,        "",                 "{}",               -0.4], 
+        ["immersive_weathering:permafrost",     -0.1,   2,      0.2,        "",                 "{}",               -0.4] 
     ]
 	#The maximum range of blocks' area of effect
 	#Note: This will not change anything unless blocks are configured to utilize the expanded range
@@ -287,7 +287,7 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.4, 0.6, 0.4]
+	Summer = [0.4, 0.7, 0.4]
 	Autumn = [0.2, 0, -0.2]
 	Winter = [-0.4, -0.7, -0.4]
 	Spring = [-0.2, 0, 0.2]

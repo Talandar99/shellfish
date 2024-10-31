@@ -1,7 +1,7 @@
 {
     "type": "biomancy:decomposing",
     "ingredient": {
-        "item": "butchercraft:rabbit_scraps"
+        "item": "butchercraft:lamb_scraps"
 
     },
     "nutrientsCost": 1,
@@ -9,9 +9,8 @@
     "results": [
         {
             "countRange": {
-                "type": "uniform",
-                "min": -1,
-                "max": 1
+                "type":"constant",
+                "value":1
             },
             "item": "biomancy:flesh_bits"
         }

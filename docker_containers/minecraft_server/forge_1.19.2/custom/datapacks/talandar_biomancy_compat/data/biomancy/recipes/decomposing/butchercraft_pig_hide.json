@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "butchercraft:pig_hide"
+
+    },
+    "nutrientsCost": 1,
+    "processingTime": 160,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "min": 14,
+                "max": 30
+            },
+            "item": "biomancy:tough_fibers"
+        }
+    ]
+}

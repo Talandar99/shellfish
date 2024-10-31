@@ -1,0 +1,20 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "butchercraft:ground_rabbit"
+
+    },
+    "nutrientsCost": 1,
+    "processingTime": 20,
+    "results": [
+        {
+            "countRange": {
+            "type": "uniform",
+            "max": 1,
+            "min": -1
+            },
+            "item": "biomancy:flesh_bits"
+        }
+    ]
+}
+
