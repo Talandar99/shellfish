@@ -115,3 +115,6 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:blocks>.addId(<tag:blocks:sereneseasons:spring_crops>, <resource:createbb:ephedra_crop_block>);
 <tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:createbb:ephedra_seeds>);
 <tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:createbb:ephedra_crop_block>);
+// flax
+<tagmanager:blocks>.addId(<tag:blocks:sereneseasons:spring_crops>, <resource:supplementaries:flax>);
+

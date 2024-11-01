@@ -357,6 +357,9 @@
     - [[https://modrinth.com/mod/paxi][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/CU0PAyzb/versions/nAUDoZw6/Paxi-1.19.2-Forge-3.0.1.jar][modrinth_download_link]]
 * UI/Utilities
+** Measurements
+   - [[https://modrinth.com/mod/measurements][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/wLINU2AB/versions/D5BBaSVt/Measurements-forge-1.19.2-1.3.1.jar][modrinth_download_link]]
 ** What's That Slot?
    - [[https://modrinth.com/mod/whats-that-slot][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/7b5VoITI/versions/2cPOnieU/whats-that-slot-forge-1.3.1%2B1.19.2.jar][modrinth_download_link]]

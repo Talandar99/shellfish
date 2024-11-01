@@ -362,6 +362,7 @@ craftingTable.remove(<item:minecraft:golden_apple>);
 craftingTable.remove(<item:create_enchantment_industry:disenchanter>);
 craftingTable.remove(<item:vs_eureka:balloon>);
 craftingTable.remove(<item:tconstruct:efln_ball>);
+craftingTable.remove(<item:measurements:tape_measure>);
 //------------------------------
 // SEETHING
 //------------------------------

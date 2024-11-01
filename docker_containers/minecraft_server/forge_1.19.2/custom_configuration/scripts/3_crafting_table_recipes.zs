@@ -4,6 +4,15 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+
+// cooking_oil from oil bucket
+
+craftingTable.addShapeless("cooking_oil_from_plant_oil", <item:extradelight:cooking_oil>*10, [<item:createdieselgenerators:plant_oil_bucket>]);
+// tape_measure
+
+craftingTable.addShaped("measurements_tape_measure", <item:measurements:tape_measure>, [
+    [<item:create_dd:rubber>, <item:minecraft:yellow_dye>, <item:minecraft:air>],
+    [<item:create_dd:rubber>, <item:create:iron_sheet>, <item:create:iron_sheet>]]);
 // fixing butchercraft meatblock
 
 craftingTable.addShaped("cooked_goat_block", <item:butchercraft:cooked_goat_block_item>, [
@@ -407,10 +416,10 @@ craftingTable.addShaped("deep_frying_pan_with_oil", <item:casualness_delight:dee
     [<item:minecraft:brick>, <item:minecraft:iron_bars>, <item:minecraft:brick>],
     [<item:minecraft:iron_ingot>, <item:createdieselgenerators:plant_oil_bucket>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
-craftingTable.addShaped("deep_frying_pan_with_oil2", <item:casualness_delight:deep_frying_pan>, [
-    [<item:minecraft:brick>, <item:minecraft:iron_bars>, <item:minecraft:brick>],
-    [<item:minecraft:iron_ingot>, <item:createaddition:seed_oil_bucket>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
+//craftingTable.addShaped("deep_frying_pan_with_oil2", <item:casualness_delight:deep_frying_pan>, [
+//    [<item:minecraft:brick>, <item:minecraft:iron_bars>, <item:minecraft:brick>],
+//    [<item:minecraft:iron_ingot>, <item:createaddition:seed_oil_bucket>, <item:minecraft:iron_ingot>],
+//    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
 //cooking pot 
 craftingTable.addShaped("alternative_recipe_cooking_pot", <item:farmersdelight:cooking_pot>, [
     [<item:minecraft:brick>, <item:extradelight:wooden_spoon>, <item:minecraft:brick>],

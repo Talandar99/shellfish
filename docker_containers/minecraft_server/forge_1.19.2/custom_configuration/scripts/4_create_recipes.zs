@@ -39,9 +39,11 @@
     [<fluid:create_dd:sap> * 250], 
     [<item:minecraft:jungle_log>],null, 200);
 //filling
-
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_1", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:butchercraft:blood_fluid> * 250, 200);
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_2", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:tconstruct:meat_soup> * 250, 200);
+<recipetype:create:filling>.addRecipe("filling_tankard_with_pure_ethanol", 
+<item:brewinandchewin:vodka>.withTag({display: {Name: "{\"text\":\"Ethanol\",\"italic\":false}"},})
+, <item:brewinandchewin:tankard>, <fluid:createdieselgenerators:ethanol> * 250, 200);
 //mixing
 <recipetype:create:mixing>.addRecipe("steel_from_iron_tungsten_and_graphite", 
     <constant:create:heat_condition:superheated>, 
@@ -59,6 +61,13 @@
 <recipetype:create:mixing>.addRecipe("pixie_dust_mixing", 
     <constant:create:heat_condition:none>, 
     [<item:iceandfire:pixie_dust> * 3], 
-    [<tag:items:quark:shards> * 2,<item:minecraft:redstone> * 2,<item:createbb:white_meth>*1,<item:createbb:blue_meth>*1,<item:minecraft:glowstone_dust>*2,<item:createaddition:diamond_grit>*1], 
+    [
+        <tag:items:quark:shards> * 2,
+        <item:minecraft:redstone> * 2,
+        <item:createbb:white_meth> * 1,
+        <item:createbb:blue_meth> * 1,
+        <item:minecraft:glowstone_dust> * 2,
+        <item:createaddition:diamond_grit> * 1
+    ], 
     null, 
     200);
