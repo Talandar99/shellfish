@@ -32,7 +32,7 @@
 
 [biome_settings]
 	#Biomes in which seasons will not apply.
-	blacklisted_biomes = ["minecraft:lush_caves", "minecraft:dripstone_caves", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean","minecraft:the_void", "biomesoplenty:glowing_grotto", "biomesoplenty:spider_nest"]
+	blacklisted_biomes = ["minecraft:lush_caves", "minecraft:dripstone_caves", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:the_void", "biomesoplenty:glowing_grotto", "biomesoplenty:spider_nest"]
 	#Biomes which use tropical seasons.
 	tropical_biomes = ["minecraft:swamp", "minecraft:warm_ocean"]
 

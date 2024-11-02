@@ -188,7 +188,7 @@
 	#Range: 1 ~ 16
 	"Block Range" = 7
 	#When set to true, uses Cold Sweat's temperature system to determine water freezing behavior
-	"Custom Freezing Check" = true
+	"Custom Freezing Check" = false
 
 [Misc]
 	#The amount of temperature normalization from being deep underground
