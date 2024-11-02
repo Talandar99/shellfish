@@ -454,6 +454,9 @@
 *** CreateTweaker
     - [[https://www.curseforge.com/minecraft/mc-mods/createtweaker][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/437717/files/4764075/download][curseforge_download_link]]
+*** JEITweaker
+    - [[https://modrinth.com/mod/jeitweaker][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/EiEOyeoL/versions/TQgBt4Ky/JeiTweaker-forge-1.19.2-4.0.12.jar][modrinth_download_link]]
 ** Property Modifier
    - [[https://www.curseforge.com/minecraft/mc-mods/property-modifier][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/474822/files/4553718/download][curseforge_download_link]]

@@ -30,6 +30,7 @@ craftingTable.remove(<item:peripherals:disk_raid>);
 craftingTable.remove(<item:peripherals:advanced_disk_raid>);
 craftingTable.remove(<item:peripherals:magnetic_card_manipulator>);
 craftingTable.remove(<item:ducky-periphs:duck_block>);
+craftingTable.remove(<item:peripherals:xp_collector>);
 // -----------------------------
 // computercraft 
 // -----------------------------
@@ -44,6 +45,7 @@ craftingTable.remove(<item:computercraft:pocket_computer_normal>);
 craftingTable.remove(<item:computercraft:pocket_computer_advanced>);
 craftingTable.remove(<item:computercraft:speaker>);
 craftingTable.remove(<item:computercraft:printer>);
+craftingTable.remove(<item:computercraft:disk_drive>);
 craftingTable.remove(<item:computercraft:wired_modem>);
 craftingTable.remove(<item:computercraft:wired_modem_full>);
 craftingTable.remove(<item:computercraft:cable>);
@@ -361,8 +363,8 @@ craftingTable.remove(<item:vs_eureka:engine>);
 craftingTable.remove(<item:minecraft:golden_apple>);
 craftingTable.remove(<item:create_enchantment_industry:disenchanter>);
 craftingTable.remove(<item:vs_eureka:balloon>);
-craftingTable.remove(<item:tconstruct:efln_ball>);
 craftingTable.remove(<item:measurements:tape_measure>);
+craftingTable.remove(<item:tconstruct:efln_ball>);
 //------------------------------
 // SEETHING
 //------------------------------

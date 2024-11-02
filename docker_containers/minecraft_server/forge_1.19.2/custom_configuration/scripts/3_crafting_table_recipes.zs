@@ -6,7 +6,6 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 
 // cooking_oil from oil bucket
-
 craftingTable.addShapeless("cooking_oil_from_plant_oil", <item:extradelight:cooking_oil>*10, [<item:createdieselgenerators:plant_oil_bucket>]);
 // tape_measure
 
@@ -137,11 +136,11 @@ craftingTable.addShaped("leather_scrap_into_leather", <item:minecraft:leather>, 
 // FarmersDelight
 // -----------------------------
 // blood soup
-craftingTable.addShapeless("blood_soup_from_bucket_tinkers", <item:tconstruct:meat_soup>*4 , [
+craftingTable.addShapeless("meat_soup_from_bucket_tinkers", <item:tconstruct:meat_soup>*4 , [
     <item:tconstruct:meat_soup_bucket>.transformReplace(<item:minecraft:bucket>),
     <item:minecraft:bowl>, <item:minecraft:bowl>, <item:minecraft:bowl>, <item:minecraft:bowl>]);
 
-craftingTable.addShapeless("blood_soup_from_bucket_butcher", <item:tconstruct:meat_soup>*4 , [
+craftingTable.addShapeless("blood_soup_from_bucket_butcher", <item:tconstruct:meat_soup>.withTag({display: {Name: "{\"text\":\"Blood Soup\",\"italic\":false,\"color\":\"red\"}"},})*4 , [
     <item:butchercraft:blood_fluid_bucket>.transformReplace(<item:minecraft:bucket>),
     <item:minecraft:bowl>, <item:minecraft:bowl>, <item:minecraft:bowl>, <item:minecraft:bowl>]);
 //craftable ambrosia dew from ambrosia

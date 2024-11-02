@@ -43,7 +43,7 @@
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_2", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:tconstruct:meat_soup> * 250, 200);
 <recipetype:create:filling>.addRecipe("filling_tankard_with_pure_ethanol", 
 <item:brewinandchewin:vodka>.withTag({display: {Name: "{\"text\":\"Ethanol\",\"italic\":false}"},})
-, <item:brewinandchewin:tankard>, <fluid:createdieselgenerators:ethanol> * 250, 200);
+, <item:brewinandchewin:tankard>, <fluid:createdieselgenerators:ethanol>  * 250, 200);
 //mixing
 <recipetype:create:mixing>.addRecipe("steel_from_iron_tungsten_and_graphite", 
     <constant:create:heat_condition:superheated>, 
