@@ -38,19 +38,47 @@
     <constant:create:heat_condition:none>, 
     [<fluid:create_dd:sap> * 250], 
     [<item:minecraft:jungle_log>],null, 200);
+
+// CompactingManager.addRecipe(name as string, 
+//heat as HeatCondition, 
+//outputs as Percentaged<IItemStack>[], 
+//itemInputs as IIngredientWithAmount[], 
+//fluidInputs as FluidIngredient[], 
+//duration as int)
+//------------------------------
 //filling
+//------------------------------
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_1", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:butchercraft:blood_fluid> * 250, 200);
 <recipetype:create:filling>.addRecipe("bloody_cinder_flour_2", <item:create:cinder_flour>, <tag:items:forge:flour>, <fluid:tconstruct:meat_soup> * 250, 200);
 <recipetype:create:filling>.addRecipe("filling_tankard_with_pure_ethanol", 
 <item:brewinandchewin:vodka>.withTag({display: {Name: "{\"text\":\"Ethanol\",\"italic\":false}"},})
 , <item:brewinandchewin:tankard>, <fluid:createdieselgenerators:ethanol>  * 250, 200);
+//------------------------------
 //mixing
-<recipetype:create:mixing>.addRecipe("steel_from_iron_tungsten_and_graphite", 
-    <constant:create:heat_condition:superheated>, 
-    [<item:createbigcannons:steel_scrap> * 36], 
-    [<item:minecraft:iron_ingot> * 3,<item:northstar:tungsten_ingot>*1,<item:create_high_pressure:graphite_powder>*4], 
-    null, 
-    200);
+//------------------------------
+//NORTHSTAR
+//<recipetype:create:mixing>.addRecipe("steel_from_iron_tungsten_and_graphite", 
+//    <constant:create:heat_condition:superheated>, 
+//    [<item:createbigcannons:steel_scrap> * 36], 
+//    [<item:minecraft:iron_ingot> * 3,<item:northstar:tungsten_ingot>*1,<item:create_high_pressure:graphite_powder>*4], 
+//    null, 
+//    200);
+
+
+// MixingManager.addRecipe(
+//name as string, 
+//heat as HeatCondition, 
+//outputs as IFluidStack[], 
+//itemInputs as IIngredientWithAmount[], 
+//fluidInputs as FluidIngredient[], 
+//duration as int)
+
+//<recipetype:create:mixing>.addRecipe("copper_zinc_catalyst_reaction", 
+//    <constant:create:heat_condition:heated>, 
+//    [<fluid:ad_astra:oxygen> * 10,<fluid:createbb:hydrogen> * 20], 
+//    [<item:createbb:copper_zinc_catalyst>], 
+//    //[<fluid:ad_astra:oxygen> * 10,<fluid:createbb:hydrogen> * 20,<item:createbb:copper_zinc_catalyst>], 250);
+//    [<fluid:minecraft:water> * 30], 250);
 
 <recipetype:create:mixing>.addRecipe("meat_soup_mixing", 
     <constant:create:heat_condition:none>, 
@@ -71,3 +99,18 @@
     ], 
     null, 
     200);
+
+// MechanicalCrafterManager.addRecipe(name as string, output as IItemStack, ingredients as IIngredient[][])
+
+<recipetype:create:mechanical_crafting>.addRecipe("mechanized", <item:ad_astra:launch_pad>, [
+[<item:create:iron_sheet>, <item:create:iron_sheet>      ,<item:create:iron_sheet>      ,<item:create:iron_sheet>   ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>       ], 
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>    ], 
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>    ], 
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   , <item:create:iron_sheet>  ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>    ], 
+[<item:create:iron_sheet>,    <item:create:iron_sheet>   ,<item:create:iron_sheet>      , <item:create:iron_sheet>  ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>       ], 
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   , <item:create:iron_sheet>  ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>     ],
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>     ], 
+[<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>     ], 
+[<item:create:iron_sheet>, <item:create:iron_sheet>      ,<item:create:iron_sheet>      ,<item:create:iron_sheet>   ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>        ]
+]);
+

@@ -6,16 +6,16 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // northstar
 // -----------------------------------------------------------
-//iron space suit remove
-craftingTable.remove(<item:northstar:iron_space_suit_helmet>);
-craftingTable.remove(<item:northstar:iron_space_suit_chestpiece>);
-craftingTable.remove(<item:northstar:iron_space_suit_leggings>);
-craftingTable.remove(<item:northstar:iron_space_suit_boots>);
-//martian space suit remove
-craftingTable.remove(<item:northstar:martian_steel_space_suit_helmet>);
-craftingTable.remove(<item:northstar:martian_steel_space_suit_chestpiece>);
-craftingTable.remove(<item:northstar:martian_steel_space_suit_leggings>);
-craftingTable.remove(<item:northstar:martian_steel_space_suit_boots>);
+///iron space suit remove
+//craftingTable.remove(<item:northstar:iron_space_suit_helmet>);
+//craftingTable.remove(<item:northstar:iron_space_suit_chestpiece>);
+//craftingTable.remove(<item:northstar:iron_space_suit_leggings>);
+//craftingTable.remove(<item:northstar:iron_space_suit_boots>);
+////martian space suit remove
+//craftingTable.remove(<item:northstar:martian_steel_space_suit_helmet>);
+//craftingTable.remove(<item:northstar:martian_steel_space_suit_chestpiece>);
+//craftingTable.remove(<item:northstar:martian_steel_space_suit_leggings>);
+//craftingTable.remove(<item:northstar:martian_steel_space_suit_boots>);
 // -----------------------------
 // ComputerCraft peripherals
 // -----------------------------
@@ -178,11 +178,11 @@ craftingTable.remove(<item:malum:soul_stained_steel_axe>);
 craftingTable.remove(<item:malum:soul_stained_steel_hoe>);
 craftingTable.remove(<item:malum:soul_stained_steel_knife>);
 //martian_steel
-craftingTable.remove(<item:northstar:martian_sword>);
-craftingTable.remove(<item:northstar:martian_pickaxe>);
-craftingTable.remove(<item:northstar:martian_shovel>);
-craftingTable.remove(<item:northstar:martian_axe>);
-craftingTable.remove(<item:northstar:martian_hoe>);
+//craftingTable.remove(<item:northstar:martian_sword>);
+//craftingTable.remove(<item:northstar:martian_pickaxe>);
+//craftingTable.remove(<item:northstar:martian_shovel>);
+//craftingTable.remove(<item:northstar:martian_axe>);
+//craftingTable.remove(<item:northstar:martian_hoe>);
 // -----------------------------------------------------------
 // Remove all knifes
 // -----------------------------------------------------------
@@ -305,10 +305,10 @@ craftingTable.remove(<item:iceandfire:dragonsteel_lightning_chestplate>);
 craftingTable.remove(<item:iceandfire:dragonsteel_lightning_leggings>);
 craftingTable.remove(<item:iceandfire:dragonsteel_lightning_boots>);
 //martian stel
-craftingTable.remove(<item:northstar:martian_steel_helmet>);
-craftingTable.remove(<item:northstar:martian_steel_chestplate>);
-craftingTable.remove(<item:northstar:martian_steel_leggings>);
-craftingTable.remove(<item:northstar:martian_steel_boots>);
+//craftingTable.remove(<item:northstar:martian_steel_helmet>);
+//craftingTable.remove(<item:northstar:martian_steel_chestplate>);
+//craftingTable.remove(<item:northstar:martian_steel_leggings>);
+//craftingTable.remove(<item:northstar:martian_steel_boots>);
 
 craftingTable.remove(<item:create_dd:deforester_saw>);
 //butchercraft
@@ -335,6 +335,26 @@ craftingTable.remove(<item:tconstruct:flint_shuriken>);
 craftingTable.remove(<item:createaddition:electrum_amulet>);
 //diamond into shards
 craftingTable.remove(<item:create_dd:diamond_shard>);
+// ------------------------------------
+// Ad Astra 
+// ------------------------------------
+craftingTable.remove(<item:ad_astra:hammer>);
+craftingTable.remove(<item:ad_astra:iron_plate>);
+craftingTable.remove(<item:ad_astra:steel_plate>);
+craftingTable.remove(<item:ad_astra:desh_plate>);
+craftingTable.remove(<item:ad_astra:ostrum_plate>);
+craftingTable.remove(<item:ad_astra:calorite_plate>);
+craftingTable.remove(<item:ad_astra:compressor>);
+craftingTable.remove(<item:ad_astra:steel_cable>);
+craftingTable.remove(<item:ad_astra:desh_cable>);
+craftingTable.remove(<item:ad_astra:cable_duct>);
+craftingTable.remove(<item:ad_astra:ostrum_fluid_pipe>);
+craftingTable.remove(<item:ad_astra:desh_fluid_pipe>);
+craftingTable.remove(<item:ad_astra:fluid_pipe_duct>);
+craftingTable.remove(<item:ad_astra:water_pump>);
+craftingTable.remove(<item:ad_astra:oxygen_loader>);
+craftingTable.remove(<item:ad_astra:fuel_refinery>);
+craftingTable.remove(<item:ad_astra:tier_1_rover>);
 // misc
 craftingTable.remove(<item:minecraft:diamond>);
 craftingTable.remove(<item:create:mechanical_drill>);
@@ -374,3 +394,14 @@ craftingTable.remove(<item:tconstruct:efln_ball>);
 //------------------------------
 //remove seed oil (it's the same as plant oil)
 <recipetype:create:compacting>.remove(<fluid:createaddition:seed_oil>);
+
+//------------------------------
+// compressing
+//------------------------------
+// Ad astra remove compressing
+<recipetype:ad_astra:compressing>.remove(<item:ad_astra:iron_plate>);
+<recipetype:ad_astra:compressing>.remove(<item:ad_astra:steel_plate>);
+<recipetype:ad_astra:compressing>.remove(<item:ad_astra:desh_plate>);
+<recipetype:ad_astra:compressing>.remove(<item:ad_astra:ostrum_plate>);
+<recipetype:ad_astra:compressing>.remove(<item:ad_astra:calorite_plate>);
+

@@ -7,6 +7,18 @@
 ** Ender Trigon
    - [[https://modrinth.com/mod/ender-trigon][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/bIGwdx6D/versions/N8s1bBhm/endertrigon-1.0.jar][modrinth_download_link]]
+** Ad Astra
+   - [[https://modrinth.com/mod/ad-astra][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/3ufwT9JF/versions/jswyrySh/ad_astra-forge-1.19.2-1.12.7.jar][modrinth_download_link]]
+*** Botarium
+    - [[https://modrinth.com/mod/botarium][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/2u6LRnMa/versions/d3FyC3ZY/botarium-forge-1.19.2-1.9.2.jar][modrinth_download_link]]
+*** Resourceful Lib
+    - [[https://modrinth.com/mod/resourceful-lib][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/G1hIVOrD/versions/VdgtVVWP/resourcefullib-forge-1.19.2-1.1.24.jar][modrinth_download_link]]
+*** Resourceful Config
+    - [[https://modrinth.com/mod/resourceful-config][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/M1953qlQ/versions/6k0hdREk/resourcefulconfig-forge-1.19.2-1.0.20.jar][modrinth_download_link]]
 ** CC: Tweaked
    - [[https://modrinth.com/mods?q=computercraft][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/gu7yAYhd/versions/6sOV3urJ/cc-tweaked-1.19.2-1.101.4.jar][modrinth_download_link]]
@@ -31,9 +43,9 @@
 ** Create
    - [[https://modrinth.com/mod/create][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/LNytGWDc/versions/tJVykywJ/create-1.19.2-0.5.1.i.jar][modrinth_download_link]]
-*** Create: Northstar
+*** Create: Northstar (removed)
     - [[https://modrinth.com/mod/create-northstar][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/XuHYu7cF/versions/zJVVKIIW/northstar-0.1cb-1.19.2.jar][modrinth_download_link]]
+    - [[removed][removed]]
 *** Create: The Salt
     - [[https://modrinth.com/mod/create-the-salt][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/OXUFUU4x/versions/IwhIDWd7/create_salt%201.19.2-1.1.0.jar][modrinth_download_link]]
@@ -423,9 +435,6 @@
 ** Falling Leaves 
    - [[https://modrinth.com/mod/fallingleavesforge][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/2JAUNCL4/versions/T0Vuacdc/Fallingleaves-1.19.1-1.3.1.jar][modrinth_download_link]]
-** Not Enough Recipe Book 
-   - [[https://modrinth.com/mod/nerb][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/bQh7xzFq/versions/ANmCMdMt/nerb-1.19.2-0.3-FORGE.jar][modrinth_download_link]]
 ** Polymorph
    - [[https://modrinth.com/mod/polymorph][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/tagwiZkJ/versions/6tFcWl5d/polymorph-forge-0.46.6%2B1.19.2.jar][modrinth_download_link]]

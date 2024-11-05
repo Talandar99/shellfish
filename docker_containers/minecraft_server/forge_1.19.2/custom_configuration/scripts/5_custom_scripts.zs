@@ -118,3 +118,4 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 // flax
 <tagmanager:blocks>.addId(<tag:blocks:sereneseasons:spring_crops>, <resource:supplementaries:flax>);
 
+

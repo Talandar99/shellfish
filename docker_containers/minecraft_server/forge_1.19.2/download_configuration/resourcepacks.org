@@ -14,9 +14,6 @@
 ** Seamless Prismarine Bricks
    - [[https://modrinth.com/resourcepack/seamless-prismarine-bricks][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/4t1WQUdt/versions/PQlU5bJ4/prismarine.zip][modrinth_download_link]]
-** Create: Diesel Generators Sound Replacement
-   - [[https://modrinth.com/resourcepack/create-diesel-generators-sound-replacement][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/yT8LlWHu/versions/PhDG3P0Y/Create%20DG%20Sound%20Replacement%201.0%20%5B1.19-1.19.2%5D.zip][modrinth_download_link]]
 ** ComputerCreate
    - [[https://modrinth.com/resourcepack/computercreate][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/KqGEAQeu/versions/ajmewVFT/ComputerCreate.zip][modrinth_download_link]]
