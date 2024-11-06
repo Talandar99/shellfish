@@ -87,7 +87,7 @@
 <recipetype:create:mixing>.addRecipe("steel_alloying", 
     <constant:create:heat_condition:superheated>, 
     [<item:ad_astra:steel_ingot>], 
-    [<item:minecraft:coal>,<tag:items:minecraft:coals>], 
+    [<tag:items:minecraft:coals>,<tag:items:minecraft:iron_ingot>], 
     null, 250);
 
 <recipetype:create:mixing>.addRecipe("meat_soup_mixing", 
