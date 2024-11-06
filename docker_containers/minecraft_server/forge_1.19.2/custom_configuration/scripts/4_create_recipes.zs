@@ -79,6 +79,16 @@
 //    [<item:createbb:copper_zinc_catalyst>], 
 //    //[<fluid:ad_astra:oxygen> * 10,<fluid:createbb:hydrogen> * 20,<item:createbb:copper_zinc_catalyst>], 250);
 //    [<fluid:minecraft:water> * 30], 250);
+//<recipetype:create:mixing>.addRecipe("steel_alloying", 
+//    <constant:create:heat_condition:superheated>, 
+//    [<fluid:createbigcannons:molten_steel> * 90], 
+//    [<item:minecraft:coal>,], 
+//    [<fluid:tconstruct:molten_iron> * 90], 250);
+<recipetype:create:mixing>.addRecipe("steel_alloying", 
+    <constant:create:heat_condition:superheated>, 
+    [<item:ad_astra:steel_ingot>], 
+    [<item:minecraft:coal>,<item:minecraft:iron_ingot>], 
+    null, 250);
 
 <recipetype:create:mixing>.addRecipe("meat_soup_mixing", 
     <constant:create:heat_condition:none>, 
@@ -113,4 +123,15 @@
 [<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>     ], 
 [<item:create:iron_sheet>, <item:create:iron_sheet>      ,<item:create:iron_sheet>      ,<item:create:iron_sheet>   ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>        ]
 ]);
+
+//<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk1", <item:ad_astra:steel_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine\",\"italic\":false,\"color\":\"red\"}"},}), [
+//[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<item:ad_astra:steel_block>               ,<item:ad_astra:steel_block>                     ,<item:minecraft:air>,<item:minecraft:air>],
+//[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_block>    ,<item:minecraft:nether_star>              ,<item:ad_astra:steel_block>              ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+//[<tag:items:forge:ingots/steel>    ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_block>           ,<item:minecraft:air>,<tag:items:forge:ingots/steel>],
+//[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+//[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:minecraft:air>,<item:minecraft:air>],
+//[<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+//[<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>               ,<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>]
+//]);
+
 

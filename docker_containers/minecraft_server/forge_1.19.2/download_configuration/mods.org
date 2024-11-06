@@ -317,6 +317,9 @@
    - [[https://modrinth.com/mod/another-furniture][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ulloLmqG/versions/b6EO57JG/another_furniture-forge-1.19.2-2.1.4.jar][modrinth_download_link]]
 * Structures
+** Disable Ad Astra Oil Wells
+   - [[https://modrinth.com/datapack/disable-ad-astra-oil-wells][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/EuuIRUEF/versions/2HVdajc5/disable-ad-astra-oil-wells-1.0.jar][modrinth_download_link]]
 ** Swampier Swamps
    - [[https://modrinth.com/mod/swampier-swamps][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/C909jS7n/versions/Qt8heIyR/swampier_swamps-forge-1.19-1.2.0.jar][modrinth_download_link]]

@@ -355,6 +355,7 @@ craftingTable.remove(<item:ad_astra:water_pump>);
 craftingTable.remove(<item:ad_astra:oxygen_loader>);
 craftingTable.remove(<item:ad_astra:fuel_refinery>);
 craftingTable.remove(<item:ad_astra:tier_1_rover>);
+craftingTable.remove(<item:ad_astra:iron_rod>);
 // misc
 craftingTable.remove(<item:minecraft:diamond>);
 craftingTable.remove(<item:create:mechanical_drill>);
@@ -385,6 +386,8 @@ craftingTable.remove(<item:create_enchantment_industry:disenchanter>);
 craftingTable.remove(<item:vs_eureka:balloon>);
 craftingTable.remove(<item:measurements:tape_measure>);
 craftingTable.remove(<item:tconstruct:efln_ball>);
+craftingTable.remove(<item:ad_astra:steel_engine>);
+craftingTable.remove(<item:ad_astra:launch_pad>);
 //------------------------------
 // SEETHING
 //------------------------------
@@ -395,6 +398,9 @@ craftingTable.remove(<item:tconstruct:efln_ball>);
 //remove seed oil (it's the same as plant oil)
 <recipetype:create:compacting>.remove(<fluid:createaddition:seed_oil>);
 
+//compressing steel into air?
+<recipetype:create:compacting>.remove(<item:minecraft:air>);
+
 //------------------------------
 // compressing
 //------------------------------
@@ -404,4 +410,29 @@ craftingTable.remove(<item:tconstruct:efln_ball>);
 <recipetype:ad_astra:compressing>.remove(<item:ad_astra:desh_plate>);
 <recipetype:ad_astra:compressing>.remove(<item:ad_astra:ostrum_plate>);
 <recipetype:ad_astra:compressing>.remove(<item:ad_astra:calorite_plate>);
+//------------------------------
+//blasting
+//------------------------------
+//remove steel blasting
+blastFurnace.remove(<item:ad_astra:steel_ingot>);
+//------------------------------
+//tinkers alloying
+//------------------------------
+//removing unfinished recipes
+craftingTable.remove(<item:ad_astra:nasa_workbench>);
+craftingTable.remove(<item:ad_astra:space_helmet>);
+craftingTable.remove(<item:ad_astra:space_suit>);
+craftingTable.remove(<item:ad_astra:space_pants>);
+craftingTable.remove(<item:ad_astra:space_boots>);
+craftingTable.remove(<item:ad_astra:coal_generator>);
+craftingTable.remove(<item:ad_astra:oxygen_tank>);
+craftingTable.remove(<item:ad_astra:wheel>);
+craftingTable.remove(<item:ad_astra:rocket_nose_cone>);
+craftingTable.remove(<item:ad_astra:rocket_fin>);
+craftingTable.remove(<item:ad_astra:steel_tank>);
+craftingTable.remove(<item:ad_astra:engine_frame>);
+craftingTable.remove(<item:ad_astra:engine_fan>);
+craftingTable.remove(<item:ad_astra:oxygen_gear>);
+craftingTable.remove(<item:minecraft:ice>);
 
+// 
