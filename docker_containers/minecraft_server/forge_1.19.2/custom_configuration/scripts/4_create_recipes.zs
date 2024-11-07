@@ -29,7 +29,18 @@
 //------------------------------
 //pressing
 //------------------------------
-//<recipetype:create:pressing>.addRecipe("pressed", [<item:minecraft:diamond> % 50, <item:minecraft:apple>, (<item:minecraft:dirt> * 2) % 12], <item:minecraft:dirt>, 200);
+<recipetype:create:pressing>.addRecipe("blue_meth_pressing", [
+<item:createbb:blue_meth>.withTag({display: {Name: "{\"text\":\"Blue Meth\",\"italic\":false,\"color\":\"aqua\"}"},})
+, <item:createbb:tray>], 
+<item:createbb:blue_meth_tray>.withTag({display: {Name: "{\"text\":\"Blue Meth Tray\",\"italic\":false,\"color\":\"aqua\"}"},})
+,200);
+
+<recipetype:create:pressing>.addRecipe("white_meth_pressing", [
+<item:createbb:white_meth>.withTag({display: {Name: "{\"text\":\"White Meth\",\"italic\":false}"},})
+, <item:createbb:tray>], 
+<item:createbb:white_meth_tray>.withTag({display: {Name: "{\"text\":\"White Meth Tray\",\"italic\":false}"},})
+,200);
+
 //------------------------------
 //compacting
 //------------------------------
@@ -53,6 +64,16 @@
 <recipetype:create:filling>.addRecipe("filling_tankard_with_pure_ethanol", 
 <item:brewinandchewin:vodka>.withTag({display: {Name: "{\"text\":\"Ethanol\",\"italic\":false}"},})
 , <item:brewinandchewin:tankard>, <fluid:createdieselgenerators:ethanol>  * 250, 200);
+
+<recipetype:create:filling>.addRecipe("filling_tray_with_blue_meth", 
+<item:createbb:blue_meth_tray>.withTag({display: {Name: "{\"text\":\"Blue Meth Tray\",\"italic\":false,\"color\":\"aqua\"}"},})
+, <item:createbb:tray>,
+<fluid:createbb:liquid_blue_methamphetamine>  * 200, 200);
+
+<recipetype:create:filling>.addRecipe("filling_tray_with_white_meth", 
+<item:createbb:white_meth_tray>.withTag({display: {Name: "{\"text\":\"White Meth Tray\",\"italic\":false}"},})
+, <item:createbb:tray>,
+<fluid:createbb:liquid_methamphetamine>  * 200, 200);
 //------------------------------
 //mixing
 //------------------------------

@@ -1,16 +1,27 @@
 //events
 import crafttweaker.api.events.CTEventManager;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.data.IData;
 // -----------------------------------------------------------
 // player is unable to place minecraft:hanging_roots on top and bottom of block
 // -----------------------------------------------------------
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((event) => {
     var face = event.getFace();
+// player is unable to place minecraft:hanging_roots on top and bottom of block
     if(event.getItemStack().contains(<item:minecraft:hanging_roots>)){
         if(face==<constant:minecraft:direction:up>|face==<constant:minecraft:direction:down>) {
             event.cancel();
         }
+// player is unable to use knife if it's bromken
+    }else if(event.getItemStack().withoutTag().contains(<item:tinkers_thinking:knife>)){
+        var item_with_tags_as_map = event.getItemStack().getOrCreateTag().asMap();
+            if (item_with_tags_as_map["tic_broken"]==1){
+                //event.player.sendMessage("knife is bromken. Fix it");
+                event.cancel();
+            }
     }
 });
+
 // -----------------------------------------------------------
 // Adding / Editing tags
 // -----------------------------------------------------------

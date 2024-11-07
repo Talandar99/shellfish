@@ -388,6 +388,13 @@ craftingTable.remove(<item:measurements:tape_measure>);
 craftingTable.remove(<item:tconstruct:efln_ball>);
 craftingTable.remove(<item:ad_astra:steel_engine>);
 craftingTable.remove(<item:ad_astra:launch_pad>);
+craftingTable.remove(<item:extradelight:candy_bowl_item>);
+craftingTable.remove(<item:vs_eureka:floater>);
+//------------------------------
+// filling
+//------------------------------
+<recipetype:create:filling>.remove(<item:createbb:white_meth_tray>);
+<recipetype:create:filling>.remove(<item:createbb:blue_meth_tray>);
 //------------------------------
 // SEETHING
 //------------------------------
@@ -397,10 +404,13 @@ craftingTable.remove(<item:ad_astra:launch_pad>);
 //------------------------------
 //remove seed oil (it's the same as plant oil)
 <recipetype:create:compacting>.remove(<fluid:createaddition:seed_oil>);
-
 //compressing steel into air?
 <recipetype:create:compacting>.remove(<item:minecraft:air>);
-
+//------------------------------
+// pressing
+//------------------------------
+<recipetype:create:pressing>.remove(<item:createbb:blue_meth>);
+<recipetype:create:pressing>.remove(<item:createbb:white_meth>);
 //------------------------------
 // compressing
 //------------------------------

@@ -4,7 +4,6 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
-
 // cooking_oil from oil bucket
 craftingTable.addShapeless("cooking_oil_from_plant_oil", <item:extradelight:cooking_oil>*10, [<item:createdieselgenerators:plant_oil_bucket>]);
 // tape_measure
@@ -171,6 +170,11 @@ craftingTable.addShaped("black_wool_from_carpet", <item:minecraft:black_wool>*2,
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+//<item:extradelight:candy_bowl_item>
+craftingTable.addShaped("candy_bowl_from_any_glass", <item:extradelight:candy_bowl_item>, [
+    [<tag:items:forge:glass/colorless>, <item:minecraft:bowl>, <tag:items:forge:glass/colorless>],
+    [<item:minecraft:air>, <tag:items:forge:glass/colorless>, <item:minecraft:air>]]);
 // -----------------------------
 // ComputerCraft
 // -----------------------------
@@ -444,17 +448,16 @@ craftingTable.addShaped("alternative_recipe_cooking_pot", <item:farmersdelight:c
     [<item:minecraft:brick>, <item:extradelight:wooden_spoon>, <item:minecraft:brick>],
     [<item:minecraft:iron_ingot>, <item:minecraft:water_bucket>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
-// -----------------------------
-// Other
-// -----------------------------
 // eureka balloon
-craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:balloon>*32, [
-    [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>],
+craftingTable.addShaped("balloon_gravitite_recipe", <item:vs_eureka:white_balloon>*32, [
+    [<item:create:white_sail>, <item:aether:cold_aercloud>, <item:create:white_sail>],
     [<item:aether:cold_aercloud>, <item:aether:enchanted_gravitite>, <item:aether:cold_aercloud>],
-    [<item:minecraft:phantom_membrane>, <item:aether:cold_aercloud>, <item:minecraft:phantom_membrane>]]);
-// -----------------------------
-// Create
-// -----------------------------
+    [<item:create:white_sail>, <item:aether:cold_aercloud>, <item:create:white_sail>]]);
+// eureka floater
+craftingTable.addShaped("floater_recipe", <item:vs_eureka:floater>*16, [
+    [<item:create:andesite_alloy>, <tag:items:minecraft:planks>, <item:create:andesite_alloy>],
+    [<tag:items:minecraft:planks>, <item:create_dd:padded_rubber>, <tag:items:minecraft:planks>],
+    [<item:create:andesite_alloy>, <tag:items:minecraft:planks>, <item:create:andesite_alloy>]]);
 //rope and elevator pulley use rope
 craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],

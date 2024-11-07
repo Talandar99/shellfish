@@ -30,5 +30,15 @@ Jei.hideIngredient(<fluid:tconstruct:molten_steel>);
 
 //ad astra engine
 Jei.hideIngredient(<item:ad_astra:steel_engine>);
-Jei.hideIngredient(<item:ad_astra:steel_engine>);
 Jei.addIngredient(<item:ad_astra:steel_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine\",\"italic\":false,\"color\":\"red\"}"},}));
+
+
+//meth
+Jei.hideIngredient(<item:createbb:white_meth_tray>);
+Jei.hideIngredient(<item:createbb:blue_meth_tray>);
+Jei.hideIngredient(<item:createbb:white_meth>);
+Jei.hideIngredient(<item:createbb:blue_meth>);
+Jei.addIngredient(<item:createbb:white_meth_tray>.withTag({display: {Name: "{\"text\":\"White Meth Tray\",\"italic\":false}"},}));
+Jei.addIngredient(<item:createbb:blue_meth_tray>.withTag({display: {Name: "{\"text\":\"Blue Meth Tray\",\"italic\":false,\"color\":\"aqua\"}"},}));
+Jei.addIngredient(<item:createbb:white_meth>.withTag({display: {Name: "{\"text\":\"White Meth\",\"italic\":false}"},}));
+Jei.addIngredient(<item:createbb:blue_meth>.withTag({display: {Name: "{\"text\":\"Blue Meth\",\"italic\":false,\"color\":\"aqua\"}"},}));

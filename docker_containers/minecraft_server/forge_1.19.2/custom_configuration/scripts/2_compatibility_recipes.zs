@@ -30,3 +30,10 @@ craftingTable.addShapeless("breadslice_to_breadslice2", <item:moredelight:bread_
 //dough
 craftingTable.addShapeless("dough_to_wet_dough", <item:farmersdelight:wheat_dough>, [<item:create:dough>]);
 craftingTable.addShapeless("wet_dough_to_dough", <item:create:dough>, [<item:farmersdelight:wheat_dough>]);
+//electrum
+//nugget
+craftingTable.addShapeless("electrum_create_addition_to_electrum_oregonized_nugget", <item:oreganized:electrum_nugget>,     [<item:createaddition:electrum_nugget>  ]);
+craftingTable.addShapeless("electrum_oregonized_to_electrum_create_addition_nugget", <item:createaddition:electrum_nugget>, [<item:oreganized:electrum_nugget>      ]);
+//potato_slice into sliced_potato
+craftingTable.addShapeless("sliced_potato_into_potato_slice", <item:casualness_delight:potato_slice>,     [<item:extradelight:sliced_potato>*4]);
+craftingTable.addShapeless("potato_slice_into_sliced_potato", <item:extradelight:sliced_potato>*4,          [<item:casualness_delight:potato_slice>]);

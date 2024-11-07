@@ -22,6 +22,18 @@
 	"Biome Temperature Offsets" = []
 	#Defines the temperature of a biome, overriding the biome's default temperature
 	"Biome Temperatures" = [
+        #ad astra
+        ["ad_astra:glacio_ice_peaks",       -20.0,  -20.0,  "C"],
+        ["ad_astra:glacio_snowy_barrens",   -20.0,  -20.0,  "C"],
+        ["ad_astra:lunar_wastelands",       -160,   -160,   "C"],
+        ["ad_astra:martian_canyon_creek",   -65.0,  -65.0,  "C"],
+        ["ad_astra:martian_polar_caps",     -65.0,  -65.0,  "C"],
+        ["ad_astra:martian_wastelands",     -65.0,  -65.0,  "C"],
+        ["ad_astra:mercury_deltas",         167.0,  167.0,  "C"],
+        ["ad_astra:orbit",                  -270.0, -270.0, "C"],
+        ["ad_astra:venus_wastelands",       464.0,  464.0,  "C"],
+        ["ad_astra:infernal_venus_barrens", 464.0,  464.0,  "C"], 
+
         #cold nether biomes
         #["minecraft:soul_sand_valley", 53.0, 53.0, "F"], 
         ["minecraft:soul_sand_valley", 8.0, 8.0, "C"], 

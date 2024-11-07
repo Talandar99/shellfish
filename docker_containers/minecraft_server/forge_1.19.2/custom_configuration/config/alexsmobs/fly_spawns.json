@@ -1,26 +1,91 @@
 {
-  "biomes": [
-    [
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "minecraft:is_end"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "minecraft:is_nether"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "aether:is_aether"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "minecraft:is_ocean"
-      }
+    "biomes": [
+        [
+            {
+                "type": "BIOME_TAG",
+                "negate": true,
+                "value": "minecraft:is_end"
+            },
+            {
+                "type": "BIOME_TAG",
+                "negate": true,
+                "value": "aether:is_aether"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "aether:is_aether"
+            },
+            {
+                "type": "BIOME_TAG",
+                "negate": true,
+                "value": "minecraft:is_nether"
+            },
+            {
+                "type": "BIOME_TAG",
+                "negate": true,
+                "value": "minecraft:is_ocean"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:lunar_wastelands"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:glacio_ice_peaks"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:infernal_venus_barrens"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:martian_canyon_creek"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:martian_polar_caps"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:martian_wastelands"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:mercury_deltas"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:orbit"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "ad_astra:venus_wastelands"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "deeperdarker:echoing_forest"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "deeperdarker:otherside_deeplands"
+            },
+            {
+                "type": "REGISTRY_NAME",
+                "negate": true,
+                "value": "deeperdarker:overcast_columns"
+            }
+        ]
     ]
-  ]
 }
