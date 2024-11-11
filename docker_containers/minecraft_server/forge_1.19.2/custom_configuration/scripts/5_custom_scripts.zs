@@ -25,6 +25,9 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 // -----------------------------------------------------------
 // Adding / Editing tags
 // -----------------------------------------------------------
+//hoe/scythe
+<tagmanager:items>.addId(<tag:items:forge:tools/hoes>, <resource:tconstruct:kama>);
+<tagmanager:items>.addId(<tag:items:forge:tools/hoes>, <resource:tconstruct:scythe>);
 //remove string property from one sinew and add to another
 //<tagmanager:items>.removeId(<tag:items:forge:string>, <resource:butchercraft:sinew>);
 //<tagmanager:items>.removeId(<tag:items:railways:internal/string>, <resource:butchercraft:sinew>);

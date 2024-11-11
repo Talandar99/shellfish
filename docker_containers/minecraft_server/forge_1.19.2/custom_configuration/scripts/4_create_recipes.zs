@@ -77,38 +77,10 @@
 //------------------------------
 //mixing
 //------------------------------
-//NORTHSTAR
-//<recipetype:create:mixing>.addRecipe("steel_from_iron_tungsten_and_graphite", 
-//    <constant:create:heat_condition:superheated>, 
-//    [<item:createbigcannons:steel_scrap> * 36], 
-//    [<item:minecraft:iron_ingot> * 3,<item:northstar:tungsten_ingot>*1,<item:create_high_pressure:graphite_powder>*4], 
-//    null, 
-//    200);
-
-
-// MixingManager.addRecipe(
-//name as string, 
-//heat as HeatCondition, 
-//outputs as IFluidStack[], 
-//itemInputs as IIngredientWithAmount[], 
-//fluidInputs as FluidIngredient[], 
-//duration as int)
-
-//<recipetype:create:mixing>.addRecipe("copper_zinc_catalyst_reaction", 
-//    <constant:create:heat_condition:heated>, 
-//    [<fluid:ad_astra:oxygen> * 10,<fluid:createbb:hydrogen> * 20], 
-//    [<item:createbb:copper_zinc_catalyst>], 
-//    //[<fluid:ad_astra:oxygen> * 10,<fluid:createbb:hydrogen> * 20,<item:createbb:copper_zinc_catalyst>], 250);
-//    [<fluid:minecraft:water> * 30], 250);
-//<recipetype:create:mixing>.addRecipe("steel_alloying", 
-//    <constant:create:heat_condition:superheated>, 
-//    [<fluid:createbigcannons:molten_steel> * 90], 
-//    [<item:minecraft:coal>,], 
-//    [<fluid:tconstruct:molten_iron> * 90], 250);
 <recipetype:create:mixing>.addRecipe("steel_alloying", 
     <constant:create:heat_condition:superheated>, 
     [<item:ad_astra:steel_ingot>], 
-    [<tag:items:minecraft:coals>,<item:minecraft:iron_ingot>], 
+    [<item:minecraft:coal>,<item:minecraft:iron_ingot>], 
     null, 250);
 
 <recipetype:create:mixing>.addRecipe("meat_soup_mixing", 
@@ -131,9 +103,16 @@
     null, 
     200);
 
+//------------------------------
+//haunting
+//------------------------------
+
+// HauntingManager.addRecipe(name as string, outputs as Percentaged<IItemStack>[], input as IIngredient, duration as int)
+
+<recipetype:create:haunting>.addRecipe("charcoal_into_coal", [<item:minecraft:coal>], <item:minecraft:charcoal>, 200);
 // MechanicalCrafterManager.addRecipe(name as string, output as IItemStack, ingredients as IIngredient[][])
 
-<recipetype:create:mechanical_crafting>.addRecipe("mechanized", <item:ad_astra:launch_pad>, [
+<recipetype:create:mechanical_crafting>.addRecipe("ad_astra_launchpad", <item:ad_astra:launch_pad>, [
 [<item:create:iron_sheet>, <item:create:iron_sheet>      ,<item:create:iron_sheet>      ,<item:create:iron_sheet>   ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>       ], 
 [<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>    ], 
 [<item:create:iron_sheet>, <item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>,<item:create:iron_sheet>   ,<item:ad_astra:steel_plate>   ,<item:ad_astra:steel_plate>    , <item:ad_astra:steel_plate>   ,<item:create:iron_sheet>    ], 
@@ -145,14 +124,68 @@
 [<item:create:iron_sheet>, <item:create:iron_sheet>      ,<item:create:iron_sheet>      ,<item:create:iron_sheet>   ,<item:create:iron_sheet>   ,<item:create:iron_sheet>      ,<item:create:iron_sheet>       , <item:create:iron_sheet>      ,<item:create:iron_sheet>        ]
 ]);
 
-//<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk1", <item:ad_astra:steel_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine\",\"italic\":false,\"color\":\"red\"}"},}), [
-//[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<item:ad_astra:steel_block>               ,<item:ad_astra:steel_block>                     ,<item:minecraft:air>,<item:minecraft:air>],
-//[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_block>    ,<item:minecraft:nether_star>              ,<item:ad_astra:steel_block>              ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
-//[<tag:items:forge:ingots/steel>    ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_block>           ,<item:minecraft:air>,<tag:items:forge:ingots/steel>],
-//[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
-//[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:minecraft:air>,<item:minecraft:air>],
-//[<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:ad_astra:steel_plate>,<item:minecraft:air>],
-//[<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>               ,<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>]
-//]);
 
+
+<recipetype:create:mechanical_crafting>.addRecipe("nether_core", <item:ad_astra:engine_frame>.withTag({display: {Name: "{\"text\":\"Nether Core\",\"italic\":false,\"color\":\"gray\"}"}}), [
+[<item:minecraft:air>,<item:minecraft:air>,<item:ad_astra:steel_plate>,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,<item:ad_astra:steel_plate>,<item:tinkers_reforged:titanium_plate>,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+[<item:ad_astra:steel_plate>,<item:tinkers_reforged:titanium_plate>,<item:minecraft:nether_star>,<item:tinkers_reforged:titanium_plate>,<item:ad_astra:steel_plate>],
+[<item:minecraft:air>,<item:ad_astra:steel_plate>,<item:tinkers_reforged:titanium_plate>,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+[<item:minecraft:air>,<item:minecraft:air>,<item:ad_astra:steel_plate>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk1", <item:ad_astra:steel_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine\",\"italic\":false,\"color\":\"red\"}"},}), [
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<item:ad_astra:steel_block>               ,<item:ad_astra:steel_block>                     ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_block>    ,<item:ad_astra:engine_frame>.withTag({display: {Name: "{\"text\":\"Nether Core\",\"italic\":false,\"color\":\"gray\"}"}})              ,<item:ad_astra:steel_block>              ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+[<tag:items:forge:ingots/steel>    ,<item:minecraft:air>           ,<item:ad_astra:steel_block>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_block>           ,<item:minecraft:air>,<tag:items:forge:ingots/steel>],
+[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+[<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>               ,<item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>]
+]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk2", <item:ad_astra:desh_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine Mk.2\",\"italic\":false,\"color\":\"red\"}"},}), [
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:desh_block>    ,<item:ad_astra:desh_block>               ,<item:ad_astra:desh_block>                     ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:desh_block>    ,<item:ad_astra:engine_frame>.withTag({display: {Name: "{\"text\":\"Nether Core\",\"italic\":false,\"color\":\"gray\"}"}})              ,<item:ad_astra:desh_block>              ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+[<tag:items:forge:ingots/steel>    ,<item:minecraft:air>           ,<item:ad_astra:desh_block>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:desh_block>           ,<item:minecraft:air>,<tag:items:forge:ingots/steel>],
+[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+[<item:ad_astra:desh_plate>,<item:ad_astra:desh_plate>    ,<item:ad_astra:desh_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:desh_plate>               ,<item:ad_astra:desh_plate>,<item:ad_astra:desh_plate>]
+]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk3", <item:ad_astra:ostrum_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine Mk.3\",\"italic\":false,\"color\":\"red\"}"},}), [
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:ostrum_block>    ,<item:ad_astra:ostrum_block>               ,<item:ad_astra:ostrum_block>                     ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:ad_astra:ostrum_block>    ,<item:ad_astra:ostrum_block>    ,<item:ad_astra:engine_frame>.withTag({display: {Name: "{\"text\":\"Nether Core\",\"italic\":false,\"color\":\"gray\"}"}})              ,<item:ad_astra:ostrum_block>              ,<item:ad_astra:ostrum_block>,<item:minecraft:air>],
+[<tag:items:forge:ingots/steel>    ,<item:minecraft:air>           ,<item:ad_astra:ostrum_block>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:ostrum_block>           ,<item:minecraft:air>,<tag:items:forge:ingots/steel>],
+[<item:minecraft:air>           ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<tag:items:forge:ingots/steel>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>           ,<item:ad_astra:steel_plate>    ,<item:ad_astra:steel_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:steel_plate>           ,<item:ad_astra:steel_plate>,<item:minecraft:air>],
+[<item:ad_astra:ostrum_plate>,<item:ad_astra:ostrum_plate>    ,<item:ad_astra:ostrum_plate>    ,<tag:items:forge:glass/tinted>               ,<item:ad_astra:ostrum_plate>               ,<item:ad_astra:ostrum_plate>,<item:ad_astra:ostrum_plate>]
+]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("nether_engine_mk4", <item:ad_astra:calorite_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine Mk.4\",\"italic\":false,\"color\":\"red\"}"},}), [
+[<item:minecraft:air>          ,<item:minecraft:air>          ,<item:minecraft:air>              ,<item:ad_astra:calorite_block>    ,<item:ad_astra:calorite_block>                                                                                             ,<item:ad_astra:calorite_block>               ,<item:minecraft:air>             ,<item:minecraft:air>           ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<item:minecraft:air>          ,<item:ad_astra:calorite_block>    ,<item:ad_astra:calorite_block>    ,<item:ad_astra:engine_frame>.withTag({display: {Name: "{\"text\":\"Nether Core\",\"italic\":false,\"color\":\"gray\"}"}})  ,<item:ad_astra:calorite_block>               ,<item:ad_astra:calorite_block>   ,<item:minecraft:air>           ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<tag:items:forge:ingots/steel>,<item:minecraft:air>              ,<item:ad_astra:calorite_block>    ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:calorite_block>               ,<item:minecraft:air>             ,<tag:items:forge:ingots/steel> ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<item:minecraft:air>          ,<tag:items:forge:ingots/steel>    ,<item:ad_astra:steel_plate>       ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:steel_plate>                  ,<tag:items:forge:ingots/steel>   ,<item:minecraft:air>           ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<item:minecraft:air>          ,<item:minecraft:air>              ,<item:ad_astra:steel_plate>       ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:steel_plate>                  ,<item:minecraft:air>             ,<item:minecraft:air>           ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<item:minecraft:air>          ,<item:ad_astra:steel_plate>       ,<item:ad_astra:steel_plate>       ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:steel_plate>                  ,<item:ad_astra:steel_plate>      ,<item:minecraft:air>           ,<item:minecraft:air>],
+[<item:minecraft:air>          ,<item:ad_astra:calorite_plate>,<item:ad_astra:calorite_plate>    ,<item:ad_astra:calorite_plate>    ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:calorite_plate>               ,<item:ad_astra:calorite_plate>   ,<item:ad_astra:calorite_plate> ,<item:minecraft:air>],
+[<item:ad_astra:calorite_plate>,<item:ad_astra:calorite_plate>,<item:ad_astra:calorite_plate>    ,<item:ad_astra:calorite_plate>    ,<tag:items:forge:glass/tinted>                                                                                             ,<item:ad_astra:calorite_plate>               ,<item:ad_astra:calorite_plate>   ,<item:ad_astra:calorite_plate> ,<item:ad_astra:calorite_plate>]
+]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("ad_astra_tier_1_rocket", <item:ad_astra:tier_1_rocket>, [
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:minecraft:air>,                               <item:minecraft:lightning_rod>,                     <item:minecraft:air>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:minecraft:air>,                               <item:ad_astra:steel_block>,                        <item:minecraft:air>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:minecraft:air>,                               <item:ad_astra:steel_block>,                        <item:minecraft:air>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <tag:items:forge:glass/colorless>,                  <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:air>,          <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                        <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:minecraft:air>],
+[<item:minecraft:lightning_rod>,<item:ad_astra:steel_plate>,<item:railways:fuel_tank>,                          <item:railways:fuel_tank>,                          <item:railways:fuel_tank>,                          <item:ad_astra:steel_plate>,<item:minecraft:lightning_rod>],
+[<item:ad_astra:steel_plate>,   <item:ad_astra:steel_plate>,<item:createdieselgenerators:large_diesel_engine>,  <item:createdieselgenerators:large_diesel_engine>,  <item:createdieselgenerators:large_diesel_engine>,  <item:ad_astra:steel_plate>,<item:ad_astra:steel_plate>],
+[<item:ad_astra:steel_plate>,   <item:minecraft:air>,       <item:ad_astra:steel_block>,                        <item:ad_astra:steel_engine>.withTag({display: {Name: "{\"text\":\"Nether Engine\",\"italic\":false,\"color\":\"red\"}"},}),                               <item:ad_astra:steel_block>,                               <item:minecraft:air>,<item:ad_astra:steel_plate>]
+]);
 

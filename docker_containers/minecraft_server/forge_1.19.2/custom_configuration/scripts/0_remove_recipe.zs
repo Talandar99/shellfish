@@ -356,6 +356,13 @@ craftingTable.remove(<item:ad_astra:oxygen_loader>);
 craftingTable.remove(<item:ad_astra:fuel_refinery>);
 craftingTable.remove(<item:ad_astra:tier_1_rover>);
 craftingTable.remove(<item:ad_astra:iron_rod>);
+craftingTable.remove(<item:ad_astra:launch_pad>);
+craftingTable.remove(<item:ad_astra:steel_engine>);
+craftingTable.remove(<item:ad_astra:desh_engine>);
+craftingTable.remove(<item:ad_astra:ostrum_engine>);
+craftingTable.remove(<item:ad_astra:calorite_engine>);
+craftingTable.remove(<item:ad_astra:engine_frame>);
+craftingTable.remove(<item:ad_astra:engine_fan>);
 // misc
 craftingTable.remove(<item:minecraft:diamond>);
 craftingTable.remove(<item:create:mechanical_drill>);
@@ -386,10 +393,9 @@ craftingTable.remove(<item:create_enchantment_industry:disenchanter>);
 craftingTable.remove(<item:vs_eureka:balloon>);
 craftingTable.remove(<item:measurements:tape_measure>);
 craftingTable.remove(<item:tconstruct:efln_ball>);
-craftingTable.remove(<item:ad_astra:steel_engine>);
-craftingTable.remove(<item:ad_astra:launch_pad>);
 craftingTable.remove(<item:extradelight:candy_bowl_item>);
 craftingTable.remove(<item:vs_eureka:floater>);
+craftingTable.remove(<item:createdieselgenerators:diesel_engine>);
 //------------------------------
 // filling
 //------------------------------
@@ -440,8 +446,6 @@ craftingTable.remove(<item:ad_astra:wheel>);
 craftingTable.remove(<item:ad_astra:rocket_nose_cone>);
 craftingTable.remove(<item:ad_astra:rocket_fin>);
 craftingTable.remove(<item:ad_astra:steel_tank>);
-craftingTable.remove(<item:ad_astra:engine_frame>);
-craftingTable.remove(<item:ad_astra:engine_fan>);
 craftingTable.remove(<item:ad_astra:oxygen_gear>);
 craftingTable.remove(<item:minecraft:ice>);
 

@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:misc",
+    "ingredients": [
+        {
+            "count": 10,
+            "item": "biomancy:tough_fibers"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "count": 1,
+            "item": "biomancy:bile"
+        }
+    ],
+    "nutrientsCost": 3,
+    "result": {
+        "count": 1,
+        "item": "minecraft:phantom_membrane"
+    }
+}

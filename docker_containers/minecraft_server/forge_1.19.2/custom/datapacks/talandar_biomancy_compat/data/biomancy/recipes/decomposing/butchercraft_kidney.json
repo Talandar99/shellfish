@@ -1,34 +1,34 @@
 {
-  "type": "biomancy:decomposing",
-  "ingredient": {
-    "item": "butchercraft:kidney"
-  },
-  "nutrientsCost": 1,
-  "processingTime": 80,
-  "results": [
-    {
-      "countRange": {
-        "type": "uniform",
-        "max": 2,
-        "min": -1
-      },
-      "item": "biomancy:flesh_bits"
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "butchercraft:kidney"
     },
-    {
-      "countRange": {
-        "type": "uniform",
-        "max": 1,
-        "min": -1
-      },
-      "item": "biomancy:mineral_fragment"
-    },
-    {
-      "countRange": {
-        "type": "uniform",
-        "max": 2,
-        "min": -1
-      },
-      "item": "biomancy:hormone_secretion"
-    }
-  ]
+    "nutrientsCost": 1,
+    "processingTime": 80,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": -1
+            },
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": -1
+            },
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": -1
+            },
+            "item": "biomancy:hormone_secretion"
+        }
+    ]
 }

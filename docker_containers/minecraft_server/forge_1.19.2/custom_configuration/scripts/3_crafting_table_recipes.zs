@@ -134,6 +134,9 @@ craftingTable.addShaped("leather_scrap_into_leather", <item:minecraft:leather>, 
 // -----------------------------
 // FarmersDelight
 // -----------------------------
+craftingTable.addShaped("straw_hat", <item:overweight_farming:straw_hat>, [
+    [<item:minecraft:air>, <item:minecraft:wheat>, <item:minecraft:air>],
+    [<item:minecraft:wheat>, <item:minecraft:wheat>, <item:minecraft:wheat>]]);
 // blood soup
 craftingTable.addShapeless("meat_soup_from_bucket_tinkers", <item:tconstruct:meat_soup>*4 , [
     <item:tconstruct:meat_soup_bucket>.transformReplace(<item:minecraft:bucket>),
@@ -175,6 +178,11 @@ craftingTable.addShaped("black_wool_from_carpet", <item:minecraft:black_wool>*2,
 craftingTable.addShaped("candy_bowl_from_any_glass", <item:extradelight:candy_bowl_item>, [
     [<tag:items:forge:glass/colorless>, <item:minecraft:bowl>, <tag:items:forge:glass/colorless>],
     [<item:minecraft:air>, <tag:items:forge:glass/colorless>, <item:minecraft:air>]]);
+//change diesel engine recipe
+craftingTable.addShaped("createdieselgenerators_diesel_engine", <item:createdieselgenerators:diesel_engine>, [
+    [<item:createdieselgenerators:engine_piston>, <item:minecraft:flint_and_steel>, <item:createdieselgenerators:engine_piston>],
+    [<item:createdieselgenerators:engine_piston>, <item:create:brass_block>, <item:createdieselgenerators:engine_piston>],
+    [<item:minecraft:polished_blackstone_slab>, <item:create:fluid_tank>, <item:minecraft:polished_blackstone_slab>]]);
 // -----------------------------
 // ComputerCraft
 // -----------------------------
@@ -193,6 +201,11 @@ craftingTable.addShaped("computercraft_computer_normal", <item:computercraft:com
 //    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:computercraft:computer_normal>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:northstar:advanced_circuit>, <item:minecraft:air>]]);
+
+//craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [
+//    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
+//    [<item:minecraft:air>, <item:computercraft:computer_normal>, <item:minecraft:air>],
+//    [<item:minecraft:air>, <item:ad_astra:desh_plate>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [
     [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
@@ -223,6 +236,11 @@ craftingTable.addShaped("computercraft_turtle_advanced", <item:computercraft:tur
 //    [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
 //    [<item:northstar:advanced_circuit>, <item:computercraft:turtle_normal>, <item:minecraft:air>],
 //    [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>]]);
+
+//craftingTable.addShaped("computercraft_computer_advanced_turtle_alternative_recipe", <item:computercraft:turtle_advanced>, [
+//    [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
+//    [<item:ad_astra:desh_plate>, <item:computercraft:turtle_normal>, <item:minecraft:air>],
+//    [<item:createaddition:modular_accumulator>, <item:create:brass_casing>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("computercraft_computer_advanced_turtle_alternative_recipe", <item:computercraft:turtle_advanced>, [
     [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
@@ -483,44 +501,3 @@ craftingTable.addShaped("diamond_from_diamond_shards", <item:minecraft:diamond>,
     [<item:create_dd:diamond_shard>, <tag:items:forge:slimeballs>, <item:create_dd:diamond_shard>],
     [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>]]);
 
-// -----------------------------------------------------------
-// northstar
-// -----------------------------------------------------------
-//craftingTable.addShaped("northstar_iron_space_suit_helmet", <item:northstar:iron_space_suit_helmet>, [
-//    [<item:tinkers_reforged:titanium_nugget>, <item:create:iron_sheet>, <item:tinkers_reforged:titanium_nugget>],
-//    [<item:create:iron_sheet>, <tag:items:forge:glass/tinted>, <item:create:iron_sheet>],
-//    [<tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>]]);
-//
-//craftingTable.addShaped("northstar_martian_steel_space_suit_helmet", <item:northstar:martian_steel_space_suit_helmet>, [
-//    [<item:northstar:martian_steel_sheet>, <item:northstar:martian_steel_sheet>, <item:northstar:martian_steel_sheet>],
-//    [<item:northstar:martian_steel_sheet>, <tag:items:forge:glass/tinted>, <item:northstar:martian_steel_sheet>],
-//    [<tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>, <tag:items:forge:glass/tinted>]]);
-//
-//craftingTable.addShaped("northstar_iron_space_suit_chestpiece", <item:northstar:iron_space_suit_chestpiece>, [
-//    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
-//    [<item:create:iron_sheet>, <item:create:copper_backtank>, <item:create:iron_sheet>],
-//    [<item:tinkers_reforged:titanium_nugget>, <tag:items:minecraft:wool>, <item:tinkers_reforged:titanium_nugget>]]);
-//
-//craftingTable.addShaped("northstar_martian_steel_space_suit_chestpiece", <item:northstar:martian_steel_space_suit_chestpiece>, [
-//    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>],
-//    [<item:northstar:martian_steel_sheet>, <item:create:copper_backtank>, <item:northstar:martian_steel_sheet>],
-//    [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>]]);
-//
-//craftingTable.addShaped("northstar_iron_space_suit_leggings", <item:northstar:iron_space_suit_leggings>, [
-//    [<tag:items:minecraft:wool>, <item:tinkers_reforged:titanium_nugget>, <tag:items:minecraft:wool>],
-//    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>],
-//    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>]]);
-//
-//craftingTable.addShaped("northstar_martian_steel_space_suit_leggings", <item:northstar:martian_steel_space_suit_leggings>, [
-//    [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
-//    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>],
-//    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>]]);
-//
-//craftingTable.addShaped("northstar_iron_space_suit_boots", <item:northstar:iron_space_suit_boots>, [
-//    [<item:tinkers_reforged:titanium_nugget>, <item:minecraft:air>, <item:tinkers_reforged:titanium_nugget>],
-//    [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
-//    [<item:create:iron_sheet>, <item:minecraft:air>, <item:create:iron_sheet>]]);
-//
-//craftingTable.addShaped("northstar_martian_steel_space_suit_boots", <item:northstar:martian_steel_space_suit_boots>, [
-//    [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
-//    [<item:northstar:martian_steel_sheet>, <item:minecraft:air>, <item:northstar:martian_steel_sheet>]]);

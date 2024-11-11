@@ -6,6 +6,9 @@ import mods.farmersdelight.CuttingBoard;
 // flax_to_straw
 <recipetype:farmersdelight:cutting>.addRecipe("flax_to_straw", <item:supplementaries:flax>, [<item:farmersdelight:straw>*2,<item:minecraft:string>], <tag:items:forge:tools/knives>, "minecraft:block.sweet_berry_bush.break");
 
+//<recipetype:farmersdelight:cutting>.addRecipe("getting_seeds_from_overweight_cocoa_block_scythe", <item:overweight_farming:peeled_overweight_cocoa_block>, [<item:minecraft:cocoa_beans>*10], <tag:items:forge:tools/scythe>, "minecraft:block.sweet_berry_bush.break");
+<recipetype:farmersdelight:cutting>.addRecipe("getting_seeds_from_overweight_cocoa_block_hoes", <item:overweight_farming:peeled_overweight_cocoa_block>, [<item:minecraft:cocoa_beans>*10], <tag:items:forge:tools/hoes>, "minecraft:block.sweet_berry_bush.break");
+<recipetype:farmersdelight:cutting>.addRecipe("getting_seeds_from_overweight_nether_wart_block_hoes", <item:overweight_farming:overweight_nether_wart_block>, [<item:minecraft:nether_wart>*10], <tag:items:forge:tools/hoes>, "minecraft:block.sweet_berry_bush.break");
 
 /*
 Farmers Delight Cooking Pot
