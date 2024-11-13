@@ -142,11 +142,11 @@ craftingTable.remove(<item:twilightforest:knightmetal_sword>);
 craftingTable.remove(<item:twilightforest:knightmetal_pickaxe>);
 craftingTable.remove(<item:twilightforest:knightmetal_axe>);
 // black steel
-craftingTable.remove(<item:cataclysm:black_steel_sword>);
-craftingTable.remove(<item:cataclysm:black_steel_pickaxe>);
-craftingTable.remove(<item:cataclysm:black_steel_shovel>);
-craftingTable.remove(<item:cataclysm:black_steel_axe>);
-craftingTable.remove(<item:cataclysm:black_steel_hoe>);
+//craftingTable.remove(<item:cataclysm:black_steel_sword>);
+//craftingTable.remove(<item:cataclysm:black_steel_pickaxe>);
+//craftingTable.remove(<item:cataclysm:black_steel_shovel>);
+//craftingTable.remove(<item:cataclysm:black_steel_axe>);
+//craftingTable.remove(<item:cataclysm:black_steel_hoe>);
 //fire dragonsteel
 craftingTable.remove(<item:iceandfire:dragonsteel_fire_sword>);
 craftingTable.remove(<item:iceandfire:dragonsteel_fire_pickaxe>);
@@ -172,11 +172,11 @@ craftingTable.remove(<item:aquaculture:neptunium_shovel>);
 craftingTable.remove(<item:aquaculture:neptunium_axe>);
 craftingTable.remove(<item:aquaculture:neptunium_hoe>);
 // soul steel
-craftingTable.remove(<item:malum:soul_stained_steel_pickaxe>);
-craftingTable.remove(<item:malum:soul_stained_steel_shovel>);
-craftingTable.remove(<item:malum:soul_stained_steel_axe>);
-craftingTable.remove(<item:malum:soul_stained_steel_hoe>);
-craftingTable.remove(<item:malum:soul_stained_steel_knife>);
+//craftingTable.remove(<item:malum:soul_stained_steel_pickaxe>);
+//craftingTable.remove(<item:malum:soul_stained_steel_shovel>);
+//craftingTable.remove(<item:malum:soul_stained_steel_axe>);
+//craftingTable.remove(<item:malum:soul_stained_steel_hoe>);
+//craftingTable.remove(<item:malum:soul_stained_steel_knife>);
 //martian_steel
 //craftingTable.remove(<item:northstar:martian_sword>);
 //craftingTable.remove(<item:northstar:martian_pickaxe>);
@@ -449,4 +449,8 @@ craftingTable.remove(<item:ad_astra:steel_tank>);
 craftingTable.remove(<item:ad_astra:oxygen_gear>);
 craftingTable.remove(<item:minecraft:ice>);
 
-// 
+// nasa crafting table recipes
+<recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_1_rocket>);
+<recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_2_rocket>);
+<recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_3_rocket>);
+<recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_4_rocket>);

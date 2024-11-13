@@ -16,7 +16,7 @@ blastFurnace.addRecipe("fiery_ingot_into_blaze_powder", <item:minecraft:blaze_po
 blastFurnace.addRecipe("knightmetal_from_ironwood", <item:twilightforest:armor_shard>, <item:twilightforest:ironwood_block>, 0.1, 500);
 //steel_scrap
 blastFurnace.addRecipe("steel_scrap_from_knightmetal", <item:ad_astra:steel_ingot>, <item:twilightforest:knightmetal_ingot>, 0.1, 400);
-blastFurnace.addRecipe("steel_scrap_from_black_steel", <item:ad_astra:steel_ingot>, <item:cataclysm:black_steel_ingot>, 0.1, 400);
+//blastFurnace.addRecipe("steel_scrap_from_black_steel", <item:ad_astra:steel_ingot>, <item:cataclysm:black_steel_ingot>, 0.1, 400);
 //serpent scales to neptunium
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium1", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_green>, 0.1, 1000);
 blastFurnace.addRecipe("sea_serpent_scales_to_neptunium2", <item:aquaculture:neptunium_nugget>, <item:iceandfire:sea_serpent_scale_block_deepblue>, 0.1, 1000);

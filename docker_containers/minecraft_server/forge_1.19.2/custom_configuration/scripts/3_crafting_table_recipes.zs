@@ -75,9 +75,9 @@ craftingTable.addShaped("raw_beef_block", <item:butchercraft:beef_block_item>, [
 // label easy crafting
 craftingTable.addShapeless("easier_label_crafting", <item:labels:label>*2, [ <item:minecraft:paper>,<item:minecraft:ink_sac>]);
 // soul torch additional recipes
-craftingTable.addShaped("soul_torch_from_soulstone", <item:minecraft:soul_torch>*4, [
-    [<item:malum:processed_soulstone>],
-    [<tag:items:forge:rods/wooden>]]);
+//craftingTable.addShaped("soul_torch_from_soulstone", <item:minecraft:soul_torch>*4, [
+//    [<item:malum:processed_soulstone>],
+//    [<tag:items:forge:rods/wooden>]]);
 craftingTable.addShaped("soul_torch_from_skreecher_soul", <item:minecraft:soul_torch>*4, [
     [<item:alexsmobs:skreecher_soul>],
     [<tag:items:forge:rods/wooden>]]);

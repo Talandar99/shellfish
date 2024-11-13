@@ -1,4 +1,3 @@
-<recipetype:create:mechanical_crafting>.remove(<item:creategbd:beam_reactor_helmet>);
 
 //------------------------------
 //crushing
@@ -24,7 +23,7 @@
 //------------------------------
 //splashing
 //------------------------------
-<recipetype:create:splashing>.addRecipe("blazing_quartz_into_quartz", [<item:malum:natural_quartz>], <item:malum:blazing_quartz>, 200);
+//<recipetype:create:splashing>.addRecipe("blazing_quartz_into_quartz", [<item:malum:natural_quartz>], <item:malum:blazing_quartz>, 200);
 
 //------------------------------
 //pressing
