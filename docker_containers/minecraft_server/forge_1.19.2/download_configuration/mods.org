@@ -91,9 +91,6 @@
 *** Create: Connected
     - [[https://modrinth.com/mod/create-connected][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/Vg5TIO6d/versions/1HrN6TRS/create_connected-0.8.2-mc1.19.2-all.jar][modrinth_download_link]]
-*** Create Guardian Beam Defense
-    - [[https://modrinth.com/mod/create-guardian-beam-defense][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/pwPEdvXO/versions/1SHlpVZa/Create-Guardian-Beam-Defense-1.2.3b.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
@@ -145,9 +142,6 @@
 *** Butchercraft
     - [[https://www.curseforge.com/minecraft/mc-mods/butchercraft][curseforge_modpage]] 
     - [[https://www.curseforge.com/api/v1/mods/265715/files/5384489/download][curseforge_download_link]]
-*** Bamboo Delight
-    - [[https://www.curseforge.com/minecraft/mc-mods/bamboo-delight][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/1055397/files/5683757/download][curseforge_download_link]]
 *** Overweight Farming
     - [[https://modrinth.com/mod/overweight-farming][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/bCxmmxKN/versions/HwaPTwXt/overweightfarming-1.19.2-2.0.1-forge.jar][modrinth_download_link]]
@@ -244,12 +238,6 @@
 ** Map Atlases
    - [[https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/519759/files/5138314/download][curseforge_download_link]]
-** Malum
-   - [[https://www.curseforge.com/minecraft/mc-mods/malum][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/484064/files/4952075/download][curseforge_download_link]]
-** AstikorCarts
-   - [[https://www.curseforge.com/minecraft/mc-mods/astikorcarts][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/273771/files/4367405/download][curseforge_download_link]]
 ** Terralith
    - [[https://modrinth.com/mod/terralith][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/8oi3bsk5/versions/FOe2l0tx/Terralith_1.19.3_v2.3.12.jar][modrinth_download_link]]
@@ -283,18 +271,9 @@
 ** Snow! Real Magic!
    - [[https://modrinth.com/mod/snow-real-magic][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/iJNje1E8/versions/BywGg9xj/SnowRealMagic-1.19.2-forge-6.5.4.jar][modrinth_download_link]]
-** Bosses of Mass Destruction
-   - [[https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/941573/files/4955735/download][curseforge_download_link]]
 ** Biomancy
    - [[https://modrinth.com/mod/biomancy][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/uAAuyU4M/versions/fAYXgFCf/biomancy-forge-1.19.2-2.3.2.0.jar][modrinth_download_link]]
-** L_Ender 's Cataclysm
-   - [[https://www.curseforge.com/minecraft/mc-mods/lendercataclysm][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/551586/files/5804796/download][curseforge_download_link]]
-*** Cataclysm Delight 
-    - [[https://www.curseforge.com/minecraft/mc-mods/cataclysm-delight][curseforge_modpage]] 
-    - [[https://www.curseforge.com/api/v1/mods/867902/files/5357862/download][curseforge_download_link]]
 ** Supplementaries
    - [[https://modrinth.com/mod/supplementaries][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fFEIiSDQ/versions/UQu29fD5/supplementaries-1.19.2-2.4.20.jar][modrinth_download_link]]
@@ -307,12 +286,6 @@
 ** Domestication Innovation
    - [[https://modrinth.com/mod/domestication-innovation][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/h5JyLdjM/versions/FQhDA1rS/domesticationinnovation-1.6.1-1.19.2.jar][modrinth_download_link]]
-** Wares
-   - [[https://modrinth.com/mod/wares][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/Jz71ddli/versions/lRAIOtDK/wares-1.19.2-1.2.9.jar][modrinth_download_link]]
-** Sawmill
-   - [[https://modrinth.com/mod/universal-sawmill][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/WRaRZdTd/versions/ueQ31MJ8/sawmill-1.19-1.2.0.jar][modrinth_download_link]]
 ** Another Furniture
    - [[https://modrinth.com/mod/another-furniture][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ulloLmqG/versions/b6EO57JG/another_furniture-forge-1.19.2-2.1.4.jar][modrinth_download_link]]
@@ -320,9 +293,6 @@
 ** Disable Ad Astra Oil Wells
    - [[https://modrinth.com/datapack/disable-ad-astra-oil-wells][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/EuuIRUEF/versions/2HVdajc5/disable-ad-astra-oil-wells-1.0.jar][modrinth_download_link]]
-** Swampier Swamps
-   - [[https://modrinth.com/mod/swampier-swamps][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/C909jS7n/versions/Qt8heIyR/swampier_swamps-forge-1.19-1.2.0.jar][modrinth_download_link]]
 ** Create: New Beginnings
    - [[https://modrinth.com/mod/create-new-beginnings][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar][modrinth_download_link]]
@@ -375,9 +345,6 @@
 ** Measurements
    - [[https://modrinth.com/mod/measurements][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/wLINU2AB/versions/D5BBaSVt/Measurements-forge-1.19.2-1.3.1.jar][modrinth_download_link]]
-** What's That Slot?
-   - [[https://modrinth.com/mod/whats-that-slot][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/7b5VoITI/versions/2cPOnieU/whats-that-slot-forge-1.3.1%2B1.19.2.jar][modrinth_download_link]]
 ** AmbientSounds
    - [[https://modrinth.com/mod/ambientsounds][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fM515JnW/versions/2z5buLUy/AmbientSounds_FORGE_v5.3.9_mc1.19.2.jar][modrinth_download_link]]
@@ -453,9 +420,6 @@
 ** No Elytra Boosting
    - [[https://www.curseforge.com/minecraft/mc-mods/no-elytra-boosting][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/620541/files/4490327/download][curseforge_download_link]]
-** Enhanced Boss Bars
-   - [[https://modrinth.com/mod/enhanced-boss-bars-mod][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/J5bVsBt9/versions/llTZkxCc/enhanced_boss_bars-1.19.2-1.0.0.jar][modrinth_download_link]]
 ** Leaves Be Gone
    - [[https://modrinth.com/mod/leaves-be-gone][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/AVq17PqV/versions/6LsBcPWG/LeavesBeGone-v4.0.1-1.19.2-Forge.jar][modrinth_download_link]]
@@ -613,9 +577,6 @@
 ** AttributeFix (Spice of Life: Sweet Potato Edition)
    - [[https://www.curseforge.com/minecraft/mc-mods/attributefix][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/280510/files/5126457/download][curseforge_download_link]]
-** Lodestone (Malum)
-   - [[https://www.curseforge.com/minecraft/mc-mods/lodestone][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/616457/files/5586307/download][curseforge_download_link]]
 ** Moonlight Lib (Map Atlases)
    - [[https://www.curseforge.com/minecraft/mc-mods/selene][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/499980/files/5567102/download][curseforge_download_link]]
@@ -631,9 +592,6 @@
 ** Kiwi (SnowRealMagic)
    - [[https://modrinth.com/mod/kiwi][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/ufdDoWPd/versions/yQbhR062/Kiwi-1.19.2-forge-8.3.6.jar][modrinth_download_link]]
-** Lionfish-API
-   - [[https://modrinth.com/mod/lionfish-api][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar][modrinth_download_link]]
 ** Reforgium (required by Enhanced Block Entities Reforged)
    - [[https://www.curseforge.com/minecraft/mc-mods/reforgium][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/853424/files/4505759/download][curseforge_download_link]]
