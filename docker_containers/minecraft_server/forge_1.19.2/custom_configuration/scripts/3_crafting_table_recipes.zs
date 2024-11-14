@@ -500,4 +500,15 @@ craftingTable.addShaped("diamond_from_diamond_shards", <item:minecraft:diamond>,
     [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>],
     [<item:create_dd:diamond_shard>, <tag:items:forge:slimeballs>, <item:create_dd:diamond_shard>],
     [<item:minecraft:air>, <item:create_dd:diamond_shard>, <item:minecraft:air>]]);
+//ad_astra
+
+craftingTable.addShaped("ad_astra_oxygen_distributor", <item:ad_astra:oxygen_distributor>, [
+    [<item:ad_astra:steel_plate>, <item:create:propeller>, <item:ad_astra:steel_plate>],
+    [<item:ad_astra:desh_plate>, <item:create_connected:control_chip>, <item:ad_astra:desh_plate>],
+    [<item:ad_astra:oxygen_tank>, <item:ad_astra:oxygen_tank>, <item:ad_astra:oxygen_tank>]]);
+
+craftingTable.addShaped("ad_astra_solar_panel", <item:ad_astra:solar_panel>, [
+    [<item:minecraft:daylight_detector>, <item:minecraft:daylight_detector>, <item:minecraft:daylight_detector>],
+    [<item:ad_astra:steel_plate>, <item:create_connected:control_chip>, <item:ad_astra:steel_plate>],
+    [<item:ad_astra:desh_plate>, <item:ad_astra:desh_plate>, <item:ad_astra:desh_plate>]]);
 

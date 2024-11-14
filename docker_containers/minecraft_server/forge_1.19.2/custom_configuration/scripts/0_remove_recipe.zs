@@ -352,7 +352,6 @@ craftingTable.remove(<item:ad_astra:ostrum_fluid_pipe>);
 craftingTable.remove(<item:ad_astra:desh_fluid_pipe>);
 craftingTable.remove(<item:ad_astra:fluid_pipe_duct>);
 craftingTable.remove(<item:ad_astra:water_pump>);
-craftingTable.remove(<item:ad_astra:oxygen_loader>);
 craftingTable.remove(<item:ad_astra:fuel_refinery>);
 craftingTable.remove(<item:ad_astra:tier_1_rover>);
 craftingTable.remove(<item:ad_astra:iron_rod>);
@@ -362,7 +361,15 @@ craftingTable.remove(<item:ad_astra:desh_engine>);
 craftingTable.remove(<item:ad_astra:ostrum_engine>);
 craftingTable.remove(<item:ad_astra:calorite_engine>);
 craftingTable.remove(<item:ad_astra:engine_frame>);
+craftingTable.remove(<item:ad_astra:steel_tank>);
 craftingTable.remove(<item:ad_astra:engine_fan>);
+craftingTable.remove(<item:ad_astra:desh_tank>);
+craftingTable.remove(<item:ad_astra:ostrum_tank>);
+craftingTable.remove(<item:ad_astra:calorite_tank>);
+craftingTable.remove(<item:ad_astra:oxygen_gear>);
+craftingTable.remove(<item:ad_astra:oxygen_loader>);
+craftingTable.remove(<item:ad_astra:oxygen_distributor>);
+craftingTable.remove(<item:ad_astra:solar_panel>);
 // misc
 craftingTable.remove(<item:minecraft:diamond>);
 craftingTable.remove(<item:create:mechanical_drill>);
@@ -445,8 +452,6 @@ craftingTable.remove(<item:ad_astra:oxygen_tank>);
 craftingTable.remove(<item:ad_astra:wheel>);
 craftingTable.remove(<item:ad_astra:rocket_nose_cone>);
 craftingTable.remove(<item:ad_astra:rocket_fin>);
-craftingTable.remove(<item:ad_astra:steel_tank>);
-craftingTable.remove(<item:ad_astra:oxygen_gear>);
 craftingTable.remove(<item:minecraft:ice>);
 
 // nasa crafting table recipes

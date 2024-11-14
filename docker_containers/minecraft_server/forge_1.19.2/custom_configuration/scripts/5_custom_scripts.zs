@@ -131,5 +131,39 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:blocks>.addId(<tag:blocks:sereneseasons:autumn_crops>, <resource:createbb:ephedra_crop_block>);
 // flax
 <tagmanager:blocks>.addId(<tag:blocks:sereneseasons:spring_crops>, <resource:supplementaries:flax>);
+//-----------------------------
+//cold sweat fluid tags
+//-----------------------------
+// = HOT =
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:gasoline>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:plant_oil>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:crude_oil>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:biodiesel>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:diesel>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createdieselgenerators:ethanol>);
+//replacing tags
+<tagmanager:fluids>.removeId(<tag:fluids:cold_sweat:cold>, <resource:ad_astra:oil>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:ad_astra:oil>);
+
+<tagmanager:fluids>.removeId(<tag:fluids:cold_sweat:cold>, <resource:createaddition:seed_oil>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createaddition:seed_oil>);
+
+<tagmanager:fluids>.removeId(<tag:fluids:cold_sweat:cold>, <resource:createaddition:bioethanol>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:hot>, <resource:createaddition:bioethanol>);
+
+// = COLD =
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:cold>, <resource:create_enchantment_industry:ink>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:cold>, <resource:createbb:hydrogen>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:cold>, <resource:create_central_kitchen:tomato_sauce>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:cold>, <resource:butchercraft:blood_fluid>);
+<tagmanager:fluids>.addId(<tag:fluids:cold_sweat:cold>, <resource:tconstruct:meat_soup>);
+
+//-----------------------------
+//brewin and chewin freeze sources
+//-----------------------------
+<tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:polished_icestone>);
+<tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:aether:icestone>);
+<tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:icestone_bricks>);
+
 
 

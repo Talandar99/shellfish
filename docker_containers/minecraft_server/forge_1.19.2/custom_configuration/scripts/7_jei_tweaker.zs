@@ -18,6 +18,17 @@ Jei.hideIngredient(<item:ad_astra:compressor>);
 Jei.hideIngredient(<item:ad_astra:fuel_refinery>);
 Jei.hideIngredient(<item:ad_astra:fuel_bucket>);
 Jei.hideIngredient(<item:ad_astra:wheel>);
+Jei.hideIngredient(<item:ad_astra:steel_tank>);
+Jei.hideIngredient(<item:ad_astra:desh_tank>);
+Jei.hideIngredient(<item:ad_astra:ostrum_tank>);
+Jei.hideIngredient(<item:ad_astra:calorite_tank>);
+Jei.hideIngredient(<item:ad_astra:nasa_workbench>);
+Jei.hideIngredient(<item:ad_astra:oxygen_gear>);
+Jei.hideIngredient(<item:ad_astra:engine_fan>);
+Jei.hideIngredient(<item:ad_astra:hammer>);
+Jei.hideIngredient(<item:ad_astra:rocket_nose_cone>);
+Jei.hideIngredient(<item:ad_astra:rocket_fin>);
+
 
 //createbb oxygen_bucket was replaced with one from ad astra
 Jei.hideIngredient(<item:createbb:oxygen_bucket>);

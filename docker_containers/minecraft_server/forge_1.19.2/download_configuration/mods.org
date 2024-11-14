@@ -28,6 +28,9 @@
 *** More Peripherals
     - [[https://modrinth.com/mod/more-peripherals][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/7ACsQCnG/versions/ryE6gIoN/MorePeripherals_1.19.2-1.8.5.jar][modrinth_download_link]]
+*** CC: VS
+    - [[https://modrinth.com/mod/cc-vs][modrinth_modpage]] 
+    - [[https://cdn.modrinth.com/data/bvgy8HrZ/versions/ZoLdrUhc/cc_vs-1.19.2-forge-0.1.1.jar][modrinth_download_link]]
 ** Aether (new version is bugged)
    - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/h8VKO9w6/aether-1.19.2-1.4.2-forge.jar][modrinth_download_link]]
@@ -261,7 +264,7 @@
    - [[https://cdn.modrinth.com/data/H1sntfo8/versions/ZXYzy1iR/guardvillagers-1.19.2-1.5.9.jar][modrinth_download_link]]
 ** Cold Sweat
    - [[https://modrinth.com/mod/cold-sweat][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/uXhSmPjd/versions/God35jzk/ColdSweat-2.3.5.jar][modrinth_download_link]]
+   - [[https://cdn.modrinth.com/data/uXhSmPjd/versions/NWeSBfZt/ColdSweat-2.3.8.jar][modrinth_download_link]]
 ** Serene Seasons
    - [[https://modrinth.com/mod/serene-seasons][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/e0bNACJD/versions/O1v6mc2V/SereneSeasons-1.19.2-8.1.0.24.jar][modrinth_download_link]]
