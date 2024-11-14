@@ -16,9 +16,12 @@ energyBarXOffset = 0
 energyBarYOffset = 0
 energyBarScale = 1.0
 orbitGravity = 3.26
+#oxygenDamage = 1
+#freezeDamage = 1
+#heatDamage = 2
 oxygenDamage = 1
-freezeDamage = 1
-heatDamage = 2
+freezeDamage = 0
+heatDamage = 0
 acidRainDamage = 3
 allowFlagImages = true
 #A list of planets that should be disabled. This is a comma-separated list of planet ids.
