@@ -7,9 +7,9 @@
 
 
 #pacman -Sy archlinux-keyring --noconfirm
-#pacman -Syu git docker docker-compose neovim zip --noconfirm
+#pacman -Syu git docker docker-compose neovim zip tmux wget --noconfirm
 #git clone https://github.com/Talandar99/shellfish.git
-#./shellfish/setup/arch/install_docker.sh
+#./shellfish/scripts/arch/docker_setup.sh
 
 #cp data* ~/shellfish/docker_containers/minecraft_server/forge_1.18.2_v40.2.10/
 #cd ~/shellfish/docker_containers/minecraft_server/forge_1.18.2_v40.2.10/
