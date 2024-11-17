@@ -194,8 +194,27 @@
 //------------------------------
 
 // HauntingManager.addRecipe(name as string, outputs as Percentaged<IItemStack>[], input as IIngredient, duration as int)
-
 <recipetype:create:haunting>.addRecipe("charcoal_into_coal", [<item:minecraft:coal>], <item:minecraft:charcoal>, 200);
+
+//------------------------------
+// SequencedAssembly
+//------------------------------
+<recipetype:create:sequenced_assembly>.registerRecipe("build_sequence", (rb) => {
+ rb.transitionTo(<item:create_dd:incomplete_integrated_circuit>);
+ rb.require(<item:create:golden_sheet>);
+ rb.loops(6);
+ rb.addOutput(<item:create_dd:integrated_circuit>, 1);
+ rb.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb1) => rb1.require(<item:createaddition:copper_wire>));
+ rb.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb1) => rb1.require(<item:createaddition:copper_wire>));
+ rb.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb1) => rb1.require(<item:createaddition:gold_wire>));
+ rb.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb1) => rb1.require(<item:createaddition:electrum_wire>));
+ rb.addStep<mods.createtweaker.FillingRecipe>((rb1) => rb1.require(<fluid:create_dd:sap> * 25));
+ rb.addStep<mods.createtweaker.PressingRecipe>((rb1) => rb1.duration(25));
+ });
+//------------------------------
+// MechanicalCrafting
+//------------------------------
+
 // MechanicalCrafterManager.addRecipe(name as string, output as IItemStack, ingredients as IIngredient[][])
 
 <recipetype:create:mechanical_crafting>.addRecipe("ad_astra_launchpad", <item:ad_astra:launch_pad>, [

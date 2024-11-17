@@ -72,8 +72,6 @@ craftingTable.addShaped("raw_beef_block", <item:butchercraft:beef_block_item>, [
     [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>],
     [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>],
     [<tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>, <tag:items:forge:beef/raw>]]);
-// label easy crafting
-craftingTable.addShapeless("easier_label_crafting", <item:labels:label>*2, [ <item:minecraft:paper>,<item:minecraft:ink_sac>]);
 // soul torch additional recipes
 //craftingTable.addShaped("soul_torch_from_soulstone", <item:minecraft:soul_torch>*4, [
 //    [<item:malum:processed_soulstone>],
@@ -194,7 +192,7 @@ craftingTable.addShaped("createdieselgenerators_diesel_engine", <item:createdies
 
 craftingTable.addShaped("computercraft_computer_normal", <item:computercraft:computer_normal>, [
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
-    [<item:createaddition:modular_accumulator>, <item:create_connected:control_chip>, <tag:items:forge:glass/tinted>],
+    [<item:createaddition:modular_accumulator>, <item:create_dd:integrated_circuit>, <tag:items:forge:glass/tinted>],
     [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
 
 //craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [
@@ -209,7 +207,7 @@ craftingTable.addShaped("computercraft_computer_normal", <item:computercraft:com
 
 craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [
     [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
-    [<item:create_connected:control_chip>, <item:computercraft:computer_normal>, <item:create_connected:control_chip>],
+    [<item:create_dd:integrated_circuit>, <item:computercraft:computer_normal>, <item:create_dd:integrated_circuit>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("computercraft_monitor_normal", <item:computercraft:monitor_normal>, [
@@ -244,7 +242,7 @@ craftingTable.addShaped("computercraft_turtle_advanced", <item:computercraft:tur
 
 craftingTable.addShaped("computercraft_computer_advanced_turtle_alternative_recipe", <item:computercraft:turtle_advanced>, [
     [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>],
-    [<item:create_connected:control_chip>, <item:computercraft:turtle_normal>, <item:create_connected:control_chip>],
+    [<item:create_dd:integrated_circuit>, <item:computercraft:turtle_normal>, <item:create_dd:integrated_circuit>],
     [<item:createaddition:modular_accumulator>, <item:create:brass_casing>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("computercraft_speaker", <item:computercraft:speaker>, [
@@ -269,7 +267,7 @@ craftingTable.addShaped("computercraft_disk_drive", <item:computercraft:disk_dri
 
 craftingTable.addShaped("computercraft_wired_modem_full", <item:computercraft:wired_modem_full>, [
     [<item:minecraft:air>, <item:create:brass_casing>, <item:minecraft:air>],
-    [<item:computercraft:cable>, <item:create_connected:control_chip>, <item:computercraft:cable>],
+    [<item:computercraft:cable>, <item:create_dd:integrated_circuit>, <item:computercraft:cable>],
     [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
 
 craftingTable.addShapeless("wired_modem_full_into_not_full", <item:computercraft:wired_modem>, [<item:computercraft:wired_modem_full>]);
@@ -504,11 +502,11 @@ craftingTable.addShaped("diamond_from_diamond_shards", <item:minecraft:diamond>,
 
 craftingTable.addShaped("ad_astra_oxygen_distributor", <item:ad_astra:oxygen_distributor>, [
     [<item:ad_astra:steel_plate>, <item:create:propeller>, <item:ad_astra:steel_plate>],
-    [<item:ad_astra:desh_plate>, <item:create_connected:control_chip>, <item:ad_astra:desh_plate>],
+    [<item:ad_astra:desh_plate>, <item:create_dd:integrated_circuit>, <item:ad_astra:desh_plate>],
     [<item:ad_astra:oxygen_tank>, <item:ad_astra:oxygen_tank>, <item:ad_astra:oxygen_tank>]]);
 
 craftingTable.addShaped("ad_astra_solar_panel", <item:ad_astra:solar_panel>, [
     [<item:minecraft:daylight_detector>, <item:minecraft:daylight_detector>, <item:minecraft:daylight_detector>],
-    [<item:ad_astra:steel_plate>, <item:create_connected:control_chip>, <item:ad_astra:steel_plate>],
+    [<item:ad_astra:steel_plate>, <item:create_dd:integrated_circuit>, <item:ad_astra:steel_plate>],
     [<item:ad_astra:desh_plate>, <item:ad_astra:desh_plate>, <item:ad_astra:desh_plate>]]);
 
