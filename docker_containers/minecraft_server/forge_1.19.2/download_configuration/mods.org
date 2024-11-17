@@ -63,7 +63,7 @@
     - [[https://cdn.modrinth.com/data/GWp4jCJj/versions/t8xKYZve/createbigcannons-5.5.1%2Bmc.1.19.2-forge.jar][modrinth_download_link]]
 *** Create: Dreams & Desires (new version is bugged)
     - [[https://modrinth.com/mod/create-dreams-and-desires][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/JmybsfWs/versions/PiqvawlN/Create-DnDesire-1.19.2-0.1c.Release-Early-Dev.jar][modrinth_download_link]]
+    - [[https://cdn.modrinth.com/data/JmybsfWs/versions/n3bakyiQ/Create-DnDesire-1.19.2-1.2c.Beta%20Mid-Dev.jar][modrinth_download_link]]
 *** Create: Dynamic Village 
     - [[https://modrinth.com/mod/dynamic-village][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/YCPmkFAm/versions/JhQKUR2E/dynamicvillage-v0.4-1.19.2.jar][modrinth_download_link]]
