@@ -91,9 +91,6 @@
 *** Create: Dynamic Lights
     - [[https://modrinth.com/mod/create-dynamic-lights][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/evMQRxqV/versions/mYHHrKDE/create-dyn-light-forge1.19.2%2B1.0.2.jar][modrinth_download_link]]
-*** Create: Connected
-    - [[https://modrinth.com/mod/create-connected][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/Vg5TIO6d/versions/1HrN6TRS/create_connected-0.8.2-mc1.19.2-all.jar][modrinth_download_link]]
 ** The Salt
    - [[https://www.curseforge.com/minecraft/mc-mods/salt][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/832006/files/5550436/download][curseforge_download_link]]
@@ -280,12 +277,6 @@
 ** Supplementaries
    - [[https://modrinth.com/mod/supplementaries][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/fFEIiSDQ/versions/UQu29fD5/supplementaries-1.19.2-2.4.20.jar][modrinth_download_link]]
-*** Storage Labels
-    - [[https://modrinth.com/mod/labels][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/x6r7yhfi/versions/qAXckCmt/labels-1.19.2-1.10.jar][modrinth_download_link]]
-*** MmmMmmMmmMmmmm
-    - [[https://modrinth.com/mod/mmmmmmmmmmmm][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/Adega8YN/versions/gEbry6GM/dummmmmmy-1.19.2-1.7.2.jar][modrinth_download_link]]
 ** Domestication Innovation
    - [[https://modrinth.com/mod/domestication-innovation][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/h5JyLdjM/versions/FQhDA1rS/domesticationinnovation-1.6.1-1.19.2.jar][modrinth_download_link]]
@@ -469,7 +460,7 @@
    - [[https://cdn.modrinth.com/data/nmDcB62a/versions/FqoRZlrr/modernfix-forge-5.18.1%2Bmc1.19.2.jar][modrinth_download_link]]
 ** Pluto (Krypton for forge)
    - [[https://modrinth.com/mod/pluto][modrinth_modpage]] 
-   - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][temporarly_disabled]]
+   - [[https://cdn.modrinth.com/data/I2K4u1Q7/versions/7JnXMAAf/pluto-mc1.19.2-0.0.9.jar][modrinth_download_link]]
 ** Saturn
    - [[https://modrinth.com/mod/saturn][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/2eT495vq/versions/np1EcSVx/saturn-mc1.19.2-0.1.4.jar][modrinth_download_link]]
