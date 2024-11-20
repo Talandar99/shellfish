@@ -1,0 +1,10 @@
+{
+    "replace": "false",
+    "values": [
+        "immersive_weathering:moss_clump",
+        "delightful:chopped_clover",
+        "immersive_weathering:enchanted_golden_moss_clump",
+        "mynethersdelight:bullet_pepper",
+        "casualness_delight:stargazy_pie_slice"
+    ]
+}

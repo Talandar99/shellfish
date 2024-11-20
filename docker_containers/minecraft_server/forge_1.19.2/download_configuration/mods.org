@@ -1,5 +1,6 @@
 #+title: mods
 
+
 * Gamgechanging Mods
 ** Copperative
    - [[https://modrinth.com/mod/copperative][modrinth_modpage]] 
@@ -10,15 +11,6 @@
 ** Ad Astra
    - [[https://modrinth.com/mod/ad-astra][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/3ufwT9JF/versions/jswyrySh/ad_astra-forge-1.19.2-1.12.7.jar][modrinth_download_link]]
-*** Botarium
-    - [[https://modrinth.com/mod/botarium][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/2u6LRnMa/versions/d3FyC3ZY/botarium-forge-1.19.2-1.9.2.jar][modrinth_download_link]]
-*** Resourceful Lib
-    - [[https://modrinth.com/mod/resourceful-lib][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/G1hIVOrD/versions/VdgtVVWP/resourcefullib-forge-1.19.2-1.1.24.jar][modrinth_download_link]]
-*** Resourceful Config
-    - [[https://modrinth.com/mod/resourceful-config][modrinth_modpage]] 
-    - [[https://cdn.modrinth.com/data/M1953qlQ/versions/6k0hdREk/resourcefulconfig-forge-1.19.2-1.0.20.jar][modrinth_download_link]]
 ** CC: Tweaked
    - [[https://modrinth.com/mods?q=computercraft][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/gu7yAYhd/versions/6sOV3urJ/cc-tweaked-1.19.2-1.101.4.jar][modrinth_download_link]]
@@ -46,9 +38,6 @@
 ** Create
    - [[https://modrinth.com/mod/create][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/LNytGWDc/versions/tJVykywJ/create-1.19.2-0.5.1.i.jar][modrinth_download_link]]
-*** Create: Northstar (removed)
-    - [[https://modrinth.com/mod/create-northstar][modrinth_modpage]] 
-    - [[removed][removed]]
 *** Create: The Salt
     - [[https://modrinth.com/mod/create-the-salt][modrinth_modpage]] 
     - [[https://cdn.modrinth.com/data/OXUFUU4x/versions/IwhIDWd7/create_salt%201.19.2-1.1.0.jar][modrinth_download_link]]
@@ -232,9 +221,9 @@
 ** Spice of Life: Carrot Edition
    - [[https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/277616/files/3974155/download][curseforge_download_link]]
-** Spice of Life: Sweet Potato Editio
-   - [[https://www.curseforge.com/minecraft/mc-mods/spice-of-life-sweet-potato-edition][curseforge_modpage]] 
-   - [[https://www.curseforge.com/api/v1/mods/643106/files/4030254/download][curseforge_download_link]]
+** Diet
+   - [[https://modrinth.com/mod/diet][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/SsIkH9rZ/versions/CSDmpxxP/diet-forge-2.0.1%2B1.19.2.jar][modrinth_download_link]]
 ** Map Atlases
    - [[https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge][curseforge_modpage]] 
    - [[https://www.curseforge.com/api/v1/mods/519759/files/5138314/download][curseforge_download_link]]
@@ -592,6 +581,15 @@
 ** Architectury API (required by Ducky Peripherals)
    - [[https://modrinth.com/mod/architectury-api][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/lhGA9TYQ/versions/96L7fC9l/architectury-6.6.92-forge.jar][modrinth_download_link]]
-** Patchouli
+** Patchouli (Ad Astra)
    - [[https://modrinth.com/mod/patchouli][modrinth_modpage]] 
    - [[https://cdn.modrinth.com/data/nU0bVIaL/versions/62ztr7HA/Patchouli-1.19.2-77.jar][modrinth_download_link]]
+** Botarium (Ad Astra)
+   - [[https://modrinth.com/mod/botarium][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/2u6LRnMa/versions/d3FyC3ZY/botarium-forge-1.19.2-1.9.2.jar][modrinth_download_link]]
+** Resourceful Lib (Ad Astra)
+   - [[https://modrinth.com/mod/resourceful-lib][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/G1hIVOrD/versions/VdgtVVWP/resourcefullib-forge-1.19.2-1.1.24.jar][modrinth_download_link]]
+** Resourceful Config (Ad Astra)
+   - [[https://modrinth.com/mod/resourceful-config][modrinth_modpage]] 
+   - [[https://cdn.modrinth.com/data/M1953qlQ/versions/6k0hdREk/resourcefulconfig-forge-1.19.2-1.0.20.jar][modrinth_download_link]]

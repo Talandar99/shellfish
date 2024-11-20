@@ -1,0 +1,30 @@
+{
+    "replace": "false",
+    "values": [
+        "mynethersdelight:ghasta_with_cream",
+        "extradelight:mashed_potato_gravy_block_item",
+        "minecraft:pumpkin_pie",
+        "casualness_delight:stargazy_pie",
+        "ends_delight:chorus_fruit_pie",
+        "delightful:salmonberry_pie",
+        "extradelight:sweet_berry_pie",
+        "extradelight:glow_berry_pie",
+        "extradelight:pumpkin_pie_item",
+        "farmersrespite:rose_hip_pie",
+        "farmersdelight:shepherds_pie_block",
+        "brewinandchewin:unripe_flaxen_cheese_wheel",
+        "brewinandchewin:flaxen_cheese_wheel",
+        "brewinandchewin:unripe_scarlet_cheese_wheel",
+        "brewinandchewin:scarlet_cheese_wheel",
+        "casualness_delight:raw_cheese_wheel",
+        "extradelight:cheesecake",
+        "extradelight:honey_cheesecake",
+        "extradelight:chocolate_cheesecake",
+        "extradelight:pumpkin_cheesecake",
+        "extradelight:glow_berry_cheesecake",
+        "extradelight:apple_cheesecake",
+        "extradelight:caramel_cheesecake_item",
+        "casualness_delight:cheese_wheel",
+        "mynethersdelight:striderloaf"
+    ]
+}

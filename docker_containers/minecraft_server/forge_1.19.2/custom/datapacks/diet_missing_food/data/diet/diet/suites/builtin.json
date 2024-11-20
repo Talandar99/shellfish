@@ -1,0 +1,282 @@
+{
+    "replace": true,
+    "groups": [
+        "fruits",
+        "grains",
+        "proteins",
+        "sugars",
+        "vegetables"
+    ],
+    "effects": [
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:regeneration",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "fruits"
+                    ],
+                    "match": "all",
+                    "above": 0.8,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:poison",
+                    "power": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "fruits"
+                    ],
+                    "match": "all",
+                    "above": 0.0,
+                    "below": 0.1
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:poison",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "fruits"
+                    ],
+                    "match": "all",
+                    "above": 0.1,
+                    "below": 0.2
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:resistance",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "vegetables"
+                    ],
+                    "match": "all",
+                    "above": 0.8,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:mining_fatigue",
+                    "power": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "vegetables"
+                    ],
+                    "match": "all",
+                    "above": 0.0,
+                    "below": 0.1
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:mining_fatigue",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "vegetables"
+                    ],
+                    "match": "all",
+                    "above": 0.1,
+                    "below": 0.2
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:strength",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins"
+                    ],
+                    "match": "all",
+                    "above": 0.8,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:weakness",
+                    "power": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins"
+                    ],
+                    "match": "all",
+                    "above": 0.0,
+                    "below": 0.1
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:weakness",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins"
+                    ],
+                    "match": "all",
+                    "above": 0.1,
+                    "below": 0.2
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:speed",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "sugars"
+                    ],
+                    "match": "all",
+                    "above": 0.8,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:slowness",
+                    "power": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "sugars"
+                    ],
+                    "match": "all",
+                    "above": 0.0,
+                    "below": 0.1
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:slowness",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "sugars"
+                    ],
+                    "match": "all",
+                    "above": 0.1,
+                    "below": 0.2
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:saturation",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "grains"
+                    ],
+                    "match": "all",
+                    "above": 0.8,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:hunger",
+                    "power": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "grains"
+                    ],
+                    "match": "all",
+                    "above": 0.0,
+                    "below": 0.1
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:hunger",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "grains"
+                    ],
+                    "match": "all",
+                    "above": 0.1,
+                    "below": 0.2
+                }
+            ]
+        }
+    ]
+}

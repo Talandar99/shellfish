@@ -1,0 +1,13 @@
+{
+    "replace": "false",
+    "values": [
+        "culturaldelights:corn_dough",
+        "culturaldelights:corn_cob",
+        "mynethersdelight:ghasta",
+        "casualness_delight:stargazy_pie_slice",
+        "extradelight:cheesecake_slice",
+        "extradelight:honey_cheesecake_slice",
+        "extradelight:chocolate_cheesecake_slice",
+        "extradelight:apple_cheesecake_slice"
+    ]
+}

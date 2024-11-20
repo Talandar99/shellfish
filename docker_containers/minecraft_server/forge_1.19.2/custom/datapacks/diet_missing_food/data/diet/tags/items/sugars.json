@@ -1,0 +1,27 @@
+{
+    "replace": "false",
+    "values": [
+        "aetherdelight:ambrosia_dew",
+        "extradelight:jelly_white",
+        "extradelight:jelly_light_grey",
+        "extradelight:jelly_yellow",
+        "extradelight:jelly_light_blue",
+        "extradelight:jelly_grey",
+        "extradelight:jelly_cyan",
+        "extradelight:jelly_magenta",
+        "extradelight:jelly_pink",
+        "extradelight:jelly_orange",
+        "extradelight:jelly_blue",
+        "extradelight:jelly_brown",
+        "extradelight:jelly_black",
+        "extradelight:jelly_lime",
+        "extradelight:jelly_green",
+        "extradelight:jelly_red",
+        "iceandfire:myrmex_desert_resin",
+        "iceandfire:myrmex_jungle_resin",
+        "alexsmobs:rainbow_jelly",
+        "extradelight:jelly_purple",
+        "extradelight:chocolate_cheesecake_slice",
+        "extradelight:honey_cheesecake_slice"
+    ]
+}
