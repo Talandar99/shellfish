@@ -25,6 +25,20 @@
         "extradelight:apple_cheesecake",
         "extradelight:caramel_cheesecake_item",
         "casualness_delight:cheese_wheel",
+        "extradelight:beef_stew_feast",
+        "extradelight:pork_stew_feast",
+        "extradelight:lamb_stew_feast",
+        "extradelight:rabbit_stew_feast",
+        "extradelight:chicken_stew_feast",
+        "extradelight:fish_stew_feast",
+        "extradelight:curry_feast",
+        "extradelight:goat_stew_feast",
+        "farmersdelight:roast_chicken_block",
+        "farmersdelight:stuffed_pumpkin_block",
+        "farmersdelight:honey_glazed_ham_block",
+        "farmersdelight:rice_roll_medley_block",
+        "farmersdelightplus:heart_of_the_minotaur_block",
+        "farmersdelightplus:honeyed_rice_with_dragon_egg_block",
         "mynethersdelight:striderloaf"
     ]
 }

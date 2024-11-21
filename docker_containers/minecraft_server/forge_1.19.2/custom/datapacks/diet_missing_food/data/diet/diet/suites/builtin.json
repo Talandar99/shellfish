@@ -225,10 +225,11 @@
             ]
         },
         {
-            "status_effects": [
+            "attributes": [
                 {
-                    "name": "minecraft:saturation",
-                    "power": 0
+                    "name": "minecraft:generic.armor_toughness",
+                    "operation": "add",
+                    "amount": 1.0
                 }
             ],
             "conditions": [
