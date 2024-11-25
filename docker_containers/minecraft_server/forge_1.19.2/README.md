@@ -29,10 +29,7 @@ final result should look like this: ![adding_instance](images/adding_instance.pn
 ![edit_instance](images/edit_instance.png)
 ## First launch
 - run game for the first time to check if everything till this point works
-### checking game language and font 
-- you can change language and font on right corner and main menu
-- set it to be something like this
-![language](images/language.png)
+- change game language to english (US) (should be set like this by default)
 ## File installation
 - quit game and press `Foler` button in right panel to open instance files
 ### File installation (Where to put what?)
@@ -51,6 +48,7 @@ if asked to replace files, replace them
 ![yeet_configuration](images/yeet_configuration.png)
 #### Disable tutorial (optionally) 
 - open `options.txt`
+- file should be created automaticly after any change in ingame configuration, so if it does not exist change something like graphics, and save
 - find a line 
 ```
 tutorialStep:movement
