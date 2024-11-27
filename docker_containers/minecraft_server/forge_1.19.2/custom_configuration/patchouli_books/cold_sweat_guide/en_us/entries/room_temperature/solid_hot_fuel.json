@@ -1,0 +1,37 @@
+{
+    "name": "Solid Hot Fuel List",
+    "icon": "minecraft:coal",
+    "category": "patchouli:room_temperature_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:oak_log",
+            "text": "You can use any logs that burn"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:oak_planks",
+            "text": "You can use any wooden planks"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:coal"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:coal_block"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:magma_block"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:charcoal"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:blazewood"
+        }
+    ]
+}

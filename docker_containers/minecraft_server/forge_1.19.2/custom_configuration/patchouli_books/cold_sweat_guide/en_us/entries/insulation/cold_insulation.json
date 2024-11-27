@@ -1,0 +1,47 @@
+{
+    "name": "Cold Insulation List",
+    "icon": "cold_sweat:goat_fur",
+    "category": "patchouli:insulation_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:white_wool",
+            "text": "Insulation strength: 0.75"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:arctic_fur",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alexsmobs:bear_fur",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alexsmobs:raccoon_tail",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alexsmobs:bison_fur",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "naturalist:bear_fur",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:alpha_yeti_fur",
+            "text": "Insulation strength: 2"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:goat_fur",
+            "text": "Insulation strength: 2"
+        }
+    ]
+}

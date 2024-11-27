@@ -1,0 +1,83 @@
+{
+    "name": "Solid Cold Fuel List",
+    "icon": "minecraft:ice",
+    "category": "patchouli:room_temperature_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:snowball"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:clay_ball"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:snow_block"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:ice"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:packed_ice"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:blue_ice"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:clay"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:powder_snow_bucket"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:aurora_block"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "iceandfire:dragon_ice"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "aether:cold_aercloud"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "aether:icestone"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:permafrost"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:myalite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:myalite_crystal"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ascended_quark:icestone_bricks"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ascended_quark:polished_icestone"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:ice_bomb"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "immersive_weathering:permafrost"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Don't die of cold",
+    "landing_text": "How to not freeze to death",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "show_progress": false,
+    "model": "patchouli:book_blue",
+    "use_resource_pack": true
+}

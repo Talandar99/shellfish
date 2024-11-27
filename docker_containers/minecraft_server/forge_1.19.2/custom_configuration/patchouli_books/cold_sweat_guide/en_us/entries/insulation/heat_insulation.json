@@ -1,0 +1,57 @@
+{
+    "name": "Heat Insulation List",
+    "icon": "minecraft:rabbit_hide",
+    "category": "patchouli:insulation_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:canvas",
+            "text": "Insulation strength: 0.75"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:slime_ball",
+            "text": "Insulation strength: 0.75"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:rabbit_hide",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alexsmobs:shed_snake_skin",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alexsmobs:kangaroo_hide",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "aether:golden_amber",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "naturalist:reptile_hide",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:silky_cloth",
+            "text": "Insulation strength: 1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mynethersdelight:hoglin_hide",
+            "text": "Insulation strength: 2"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tinkers_thinking:gilded_silky_cloth",
+            "text": "Insulation strength: 2"
+        }
+    ]
+}

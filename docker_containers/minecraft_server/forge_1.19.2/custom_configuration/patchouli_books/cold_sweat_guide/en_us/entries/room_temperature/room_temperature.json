@@ -1,0 +1,35 @@
+{
+    "name": "Room Temperature",
+    "icon": "cold_sweat:hearth",
+    "category": "patchouli:room_temperature_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:boiler",
+            "text": "This is boiler .$(br)It's used to warm up rooms in your house. It requires hot fuel in order to work. By default boiler emit heat when powered by redstone."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:icebox",
+            "text": "This is icebox .$(br)It's used to cool down rooms in your house. It requires cold fuel in order to work. By default icebox emit low temperature when powered by redstone."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:smokestack",
+            "text": "This is smokestack.You can put it on top of an icebox or boiler, and then power boiler/icebox with redstone. It will create chill/warmth effect which should cool down or warm up your character in closed space$(br)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Smokestack effect is propagating from TOP of smokestack block. You can stack smokestacks if you want effect to propagate from different room"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:hearth",
+            "text": "This is hearth. $(br)It combines room heating features of boiler and icebox. It comes with smokestack, so you don't have to place another one on top in order to make it work as a room heater/cooler."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Based on powered side hearth will emit cold or warmth effect. If you inspect block closer, you will notice blue and red spots on 4 sides of the block.(right,left = cold, back,bottom = hot) $(br)If you power it with redstone signal side marked with red dot/line hearth will emit warmth effect $(br)If you power with redstone signal side marked with blue line hearth will emit chill effect"
+        }
+    ]
+}

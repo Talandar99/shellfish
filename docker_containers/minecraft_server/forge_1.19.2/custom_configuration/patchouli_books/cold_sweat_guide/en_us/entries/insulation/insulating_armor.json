@@ -1,0 +1,16 @@
+{
+    "name": "Insulating Armor",
+    "icon": "cold_sweat:sewing_table",
+    "category": "patchouli:insulation_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cold_sweat:sewing_table",
+            "text": "This is a Sewing Table. $(br)You can use it in order to add/remove insulaiton to/from your armor."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Adding Insulation:$(br)Put armor in upper slot and insulaiton in lower one in order to add insulaiton to your armor.$(br)$(br)Removing Insulation:$(br)Put armor in upper slot and shears in lower one in order to remove insulaiton from your armor.$(br)"
+        }
+    ]
+}
