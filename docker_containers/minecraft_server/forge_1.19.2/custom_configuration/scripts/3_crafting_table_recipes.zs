@@ -4,6 +4,11 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+// cold_sweat_guide
+craftingTable.addShapeless("cold_sweat_book_goat_fur", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:cold_sweat_guide"}), 
+[<item:minecraft:book>,<item:cold_sweat:goat_fur>]);
+craftingTable.addShapeless("cold_sweat_book_rabbit_hide", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:cold_sweat_guide"}), 
+[<item:minecraft:book>,<item:minecraft:rabbit_hide>]);
 // cooking_oil from oil bucket
 craftingTable.addShapeless("cooking_oil_from_plant_oil", <item:extradelight:cooking_oil>*10, [<item:createdieselgenerators:plant_oil_bucket>]);
 // tape_measure
