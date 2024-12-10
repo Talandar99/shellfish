@@ -370,6 +370,24 @@ craftingTable.remove(<item:ad_astra:oxygen_gear>);
 craftingTable.remove(<item:ad_astra:oxygen_loader>);
 craftingTable.remove(<item:ad_astra:oxygen_distributor>);
 craftingTable.remove(<item:ad_astra:solar_panel>);
+// padded rubber
+craftingTable.remove(<item:create_dd:white_padded_rubber>);
+craftingTable.remove(<item:create_dd:orange_padded_rubber>);
+craftingTable.remove(<item:create_dd:magenta_padded_rubber>);
+craftingTable.remove(<item:create_dd:light_blue_padded_rubber>);
+craftingTable.remove(<item:create_dd:yellow_padded_rubber>);
+craftingTable.remove(<item:create_dd:lime_padded_rubber>);
+craftingTable.remove(<item:create_dd:pink_padded_rubber>);
+craftingTable.remove(<item:create_dd:gray_padded_rubber>);
+craftingTable.remove(<item:create_dd:light_gray_padded_rubber>);
+craftingTable.remove(<item:create_dd:cyan_padded_rubber>);
+craftingTable.remove(<item:create_dd:purple_padded_rubber>);
+craftingTable.remove(<item:create_dd:blue_padded_rubber>);
+craftingTable.remove(<item:create_dd:brown_padded_rubber>);
+craftingTable.remove(<item:create_dd:green_padded_rubber>);
+craftingTable.remove(<item:create_dd:red_padded_rubber>);
+craftingTable.remove(<item:create_dd:black_padded_rubber>);
+
 // misc
 craftingTable.remove(<item:minecraft:diamond>);
 craftingTable.remove(<item:create:mechanical_drill>);
@@ -403,6 +421,8 @@ craftingTable.remove(<item:tconstruct:efln_ball>);
 craftingTable.remove(<item:extradelight:candy_bowl_item>);
 craftingTable.remove(<item:vs_eureka:floater>);
 craftingTable.remove(<item:createdieselgenerators:diesel_engine>);
+craftingTable.remove(<item:cratedelight:egg_crate>);
+
 //------------------------------
 // filling
 //------------------------------

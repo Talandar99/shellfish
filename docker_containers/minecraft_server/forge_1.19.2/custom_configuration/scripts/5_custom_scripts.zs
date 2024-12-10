@@ -25,6 +25,9 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 // -----------------------------------------------------------
 // Adding / Editing tags
 // -----------------------------------------------------------
+//tags
+<tagmanager:items>.addId(<tag:items:forge:fruit>, <resource:alexsmobs:banana>);
+<tagmanager:items>.addId(<tag:items:forge:fruits>, <resource:alexsmobs:banana>);
 //hoe/scythe
 <tagmanager:items>.addId(<tag:items:forge:tools/hoes>, <resource:tconstruct:kama>);
 <tagmanager:items>.addId(<tag:items:forge:tools/hoes>, <resource:tconstruct:scythe>);
@@ -164,6 +167,5 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:polished_icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:aether:icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:icestone_bricks>);
-
 
 

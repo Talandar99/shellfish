@@ -4,6 +4,72 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // -----------------------------------------------------------
 // new recipes
 // -----------------------------------------------------------
+// padded_rubber
+craftingTable.addShaped("white_padded_rubber",<item:create_dd:white_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:white_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("orange_padded_rubber",<item:create_dd:orange_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:orange_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("magenta_padded_rubber",<item:create_dd:magenta_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:magenta_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("light_blue_padded_rubber",<item:create_dd:light_blue_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:light_blue_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("yellow_padded_rubber",<item:create_dd:yellow_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:yellow_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("lime_padded_rubber",<item:create_dd:lime_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:lime_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("pink_padded_rubber",<item:create_dd:pink_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:pink_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("gray_padded_rubber",<item:create_dd:gray_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:gray_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("light_gray_padded_rubber",<item:create_dd:light_gray_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:light_gray_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("cyan_padded_rubber",<item:create_dd:cyan_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:cyan_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("purple_padded_rubber",<item:create_dd:purple_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:purple_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("blue_padded_rubber",<item:create_dd:blue_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:blue_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("brown_padded_rubber",<item:create_dd:brown_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:brown_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("green_padded_rubber",<item:create_dd:green_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:green_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("red_padded_rubber",<item:create_dd:red_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:red_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+craftingTable.addShaped("black_padded_rubber",<item:create_dd:black_padded_rubber>*8,[
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:minecraft:black_dye>, <item:create_dd:padded_rubber>],
+    [<item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>, <item:create_dd:padded_rubber>]]);
+
 // cold_sweat_guide
 craftingTable.addShapeless("cold_sweat_book_goat_fur", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:cold_sweat_guide"}), 
 [<item:minecraft:book>,<item:cold_sweat:goat_fur>]);
@@ -343,6 +409,7 @@ craftingTable.addShaped("computercraft_disk_recipe_orange",<item:computercraft:d
 craftingTable.addShaped("computercraft_disk_recipe_white",<item:computercraft:disk>.withTag({Color: 15790320 }), [ //white
     [<item:minecraft:air>, <item:minecraft:white_dye>, <item:minecraft:air>],
     [<item:minecraft:paper>, <item:create:sturdy_sheet>, <item:create:iron_sheet>]]);
+
 // -----------------------------
 // ComputerCraft peripherals
 // -----------------------------
@@ -381,6 +448,10 @@ craftingTable.addShaped("naturescompass_twilight", <item:naturescompass:naturesc
     [<item:minecraft:air>, <item:twilightforest:ironwood_ingot>, <item:minecraft:air>]]);
 //campfire
 craftingTable.addShaped("easy_campfire", <item:minecraft:campfire>, [
+    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
+    [<tag:items:forge:rods/wooden>, <tag:items:minecraft:logs>, <tag:items:forge:rods/wooden>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
+craftingTable.addShaped("sticks_campfire", <item:minecraft:campfire>, [
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <tag:items:minecraft:logs>, <tag:items:forge:rods/wooden>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);

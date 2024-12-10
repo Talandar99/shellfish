@@ -37,3 +37,6 @@ craftingTable.addShapeless("electrum_oregonized_to_electrum_create_addition_nugg
 //potato_slice into sliced_potato
 craftingTable.addShapeless("sliced_potato_into_potato_slice", <item:casualness_delight:potato_slice>,     [<item:extradelight:sliced_potato>*4]);
 craftingTable.addShapeless("potato_slice_into_sliced_potato", <item:extradelight:sliced_potato>*4,          [<item:casualness_delight:potato_slice>]);
+//cactus flesh and cactus paddle
+craftingTable.addShapeless("cactus_paddle_into_cactus_flesh", <item:delightful:cactus_flesh>,     [<item:extradelight:cactus>]);
+craftingTable.addShapeless("cactus_flesh_into_cactus_paddle", <item:extradelight:cactus>,          [<item:delightful:cactus_flesh>]);
