@@ -1,0 +1,15 @@
+services:
+  factorio:
+    #image: factoriotools/factorio
+    image: factoriotools/factorio:2.0.23
+    ports:
+      - "34197:34197/udp" # game server port
+      - "27015:27015/tcp"
+    environment:
+      #- GENERATE_NEW_SAVE=false
+      - GENERATE_NEW_SAVE=true # comment line if already have game save
+      - SAVE_NAME=this_is_factorio_save
+    volumes:
+      - ./factorio:/factorio/  
+      - ./config:/factorio/config  # this settings have dissabled user verification 
+
