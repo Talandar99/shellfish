@@ -167,5 +167,9 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:polished_icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:aether:icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:icestone_bricks>);
-
+//aether gold tree bark
+<tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:createbb:ephedra_seeds>);
+<tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tconstruct:broad_axe>);
+<tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tconstruct:hand_axe>);
+<tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tinkers_thinking:paxel>);
 
