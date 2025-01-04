@@ -1,13 +1,13 @@
 ## Gentoo UEFI Systemd installation guide
 
 
-## partitioning (using gnu parted) (in this case my disk is nvme0n1)
+## partitioning (using cfdisk) (in this case my disk is nvme0n1)
 ```
 cfdisk /dev/nvme0n1
 ```
 pick gpt
 ```
-1G          EFI System (mark boot)
+1G          EFI System (mark boot if possible)
 4/8/12/16G  Linux swap
 rest        Linux filesystem
 ```
@@ -59,6 +59,8 @@ COMMON_FLAGS="-march=native -O2 -pipe"
 # - set the MAKEOPTS jobs value to the same number of threads returned by `nproc`
 # - set the MAKEOPTS load-average value slightly above the number of threads returned by `nproc`, due to it being a damped value
 # Please replace '4' as appropriate for the system (min(RAM/2GB, threads), or leave it unset.
+# for AMD 64bit CPU
+USE="amd64"
 MAKEOPTS="-j6"
 ACCEPT_LICENSE="*"
 GRUB_PLATFORMS="efi-64" 
@@ -257,7 +259,10 @@ emerge -a -v sys-boot/grub:2
 ```
 install grub
 ```
-grub-install --target=x86_64-efi --efi-directory=/efi
+grub-install --target=x86_64-efi --efi-directory=/efi 
+
+# in case of error ad this flag at the end 
+--removable
 ```
 make config
 ```
@@ -274,11 +279,14 @@ cd
 umount -l /mnt/gentoo/dev{/shm,/pts,}
 umount -R /mnt/gentoo
 ```
-reboot system to check if everything works fine
+reboot system to check if everything works fine (if stuck on cursor check partition you are booting into)
 ```
 reboot
 ```
-
+## systemd time clock sync
+```
+timedatectl set-timezone Europe/Warsaw
+```
 # anything bellow is optional
 ## TTY fonts and resolution
 update grub resolution
@@ -311,12 +319,24 @@ checking if font works
 ```
 setfont ter-132n
 ```
-edit file and add font
+edit file and add font (not sure if needed)
 ```
 nvim /etc/vconsole.conf
 
 KEYMAP=pl
 FONT="ter-132n"
+```
+add keyboard.conf
+```
+open nvim /etc/X11/xorg.conf.d/10-keyboard.conf
+
+paste this:
+
+Section "InputClass"
+    Identifier "system-keyboard"
+    MatchIsKeyboard "on"
+    Option "XkbLayout" "pl"
+EndSection
 ```
 
 ## create user and add persmissions
@@ -326,7 +346,7 @@ emerge sudo
 ```
 create user
 ```
-useradd -mG wheel username
+useradd -G wheel username
 passwd username
 ```
 edit sudoers file
@@ -361,6 +381,7 @@ mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.tar.xz
 tar xvJf FiraCode.tar.xz
+cd ~ 
 ```
 emerge some tools
 ```
@@ -390,11 +411,17 @@ get i3
 ```
 # most important stuff
 emerge -a -q x11-base/xorg-server x11-wm/i3 
-# configuraiton specific stuff
+```
+configuraiton specific stuff
+```
 emerge -a -q x11-misc/i3blocks x11-misc/dunst x11-misc/rofi x11-misc/xcompmgr x11-terms/alacritty media-gfx/feh  \
 media-sound/pulseaudio media-sound/pavucontrol media-sound/pulsemixer media-sound/paprefs \
-net-misc/networkmanager gnome-extra/nm-applet
+net-misc/networkmanager gnome-extra/nm-applet media-sound/playerctl media-libs/mesa x11-misc/xclip
 
+```
+emoji font for i3 configuraiton
+```
+sudo emerge media-fonts/fontawesome
 ```
 enable audio
 ```
@@ -406,7 +433,7 @@ sudo systemctl enable NetworkManager
 ```
 udpate portage with NetworkManager and pulseaudio
 ```
-nvim /etc/portage/make.conf
+sudo nvim /etc/portage/make.conf
 # add this
 USE="... networkmanager pulseaudio ..."
 ```
@@ -414,12 +441,6 @@ create .xinitrc configuraiton
 ```
 nvim .xinitrc
 exec dbus-launch i3
-```
-
-try if it works
-```
-startx
-# you can exit witrh Shift+Alt+E 
 ```
 get configuration
 ```
@@ -431,6 +452,10 @@ startx
 # you can exit with 
 # Win+E to get into system mode
 # q to quit
+```
+get alacritty configs
+```
+git clone https://github.com/Talandar99/alacritty_config ~/.config/alacritty
 ```
 ## laptop specific
 ### touchapd tweaks
@@ -535,6 +560,10 @@ emerge proton-ge
 ```
 sudo emerge app-emulation/proton-ge-custom-bin
 ```
+also emerge wine and winetricks for other games/apps
+```
+sudo emerge app-emulation/wine-proton app-emulation/winetricks
+```
 ## Theme customization
 
 edit use flags (ad qt5 and gtk3 support and remove qt6)
@@ -551,7 +580,7 @@ sudo nvim  /etc/portage/package.accept_keywords/kvantum
 ```
 get kvantummanager lxappearance qt5ct
 ```
-sudo emerge -aq x11-themes/kvantum lxde-base/lxappearance x11-misc/qt5ct
+sudo emerge -aq x11-themes/kvantum lxde-base/lxappearance x11-misc/qt5ct x11-themes/arc-theme
 ```
 update .bashrc with this stuff
 ```
@@ -566,9 +595,11 @@ lxappearance
 ```
 
 # usefull default apps 
-firefox
+librewolf (browser)
 ```
-sudo emerge -aq www-client/firefox-bin
+sudo eselect repository enable librewolf
+sudo emerge --sync
+sudo emerge -aq www-client/librewolf-bin
 ```
 thunar (file manager)
 ```
@@ -587,9 +618,20 @@ audacious
 ```
 sudo emerge media-sound/audacious
 ```
-
-## suport for wireless xbox one dongle 
-
+prusa slicer
+```
+sudo emerge media-gfx/prusaslicer
+```
+heroic launcher
+```
+# unmask repo 
+sudo nvim  /etc/portage/package.accept_keywords/
+# add this
+sudo emerge -q games-util/heroic-bin
+```
+aseprite
+```
+sudo emerge -q dev-games/aseprite
+```
 # TODO
-add icons
-
+- support for wireless xbox one dongle 
