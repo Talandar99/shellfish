@@ -40,3 +40,6 @@ craftingTable.addShapeless("potato_slice_into_sliced_potato", <item:extradelight
 //cactus flesh and cactus paddle
 craftingTable.addShapeless("cactus_paddle_into_cactus_flesh", <item:delightful:cactus_flesh>,     [<item:extradelight:cactus>]);
 craftingTable.addShapeless("cactus_flesh_into_cactus_paddle", <item:extradelight:cactus>,          [<item:delightful:cactus_flesh>]);
+//limestone
+craftingTable.addShapeless("quark_limestone_into_create_limestone", <item:create:limestone>,     [<item:quark:limestone>]);
+craftingTable.addShapeless("create_limestone_into_quark_limestone", <item:quark:limestone>,     [<item:create:limestone>]);

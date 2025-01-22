@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo emerge app-containers/docker app-containers/docker-compose
+sudo emerge -q app-containers/docker app-containers/docker-compose
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 USER=$(whoami)

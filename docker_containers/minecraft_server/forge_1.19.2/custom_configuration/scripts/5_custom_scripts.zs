@@ -7,18 +7,19 @@ import crafttweaker.api.data.IData;
 // -----------------------------------------------------------
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((event) => {
     var face = event.getFace();
-// player is unable to place minecraft:hanging_roots on top and bottom of block
-    if(event.getItemStack().contains(<item:minecraft:hanging_roots>)){
+    // player is unable to place minecraft:hanging_roots on top and bottom of block
+    if(event.getItemStack().getDefinition().defaultInstance.matches(<item:minecraft:hanging_roots>)){
         if(face==<constant:minecraft:direction:up>|face==<constant:minecraft:direction:down>) {
             event.cancel();
         }
-// player is unable to use knife if it's bromken
-    }else if(event.getItemStack().withoutTag().contains(<item:tinkers_thinking:knife>)){
+    }
+    // player is unable to use knife if it's bromken
+    else if(event.getItemStack().withoutTag().contains(<item:tinkers_thinking:knife>)){
         var item_with_tags_as_map = event.getItemStack().getOrCreateTag().asMap();
             if (item_with_tags_as_map["tic_broken"]==1){
-                //event.player.sendMessage("knife is bromken. Fix it");
-                event.cancel();
-            }
+            //event.player.sendMessage("knife is bromken. Fix it");
+            event.cancel();
+        }
     }
 });
 
@@ -167,9 +168,21 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:polished_icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:aether:icestone>);
 <tagmanager:blocks>.addId(<tag:blocks:brewinandchewin:freeze_sources>, <resource:ascended_quark:icestone_bricks>);
-//aether gold tree bark
 <tagmanager:items>.addId(<tag:items:sereneseasons:autumn_crops>, <resource:createbb:ephedra_seeds>);
+//aether gold tree bark
 <tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tconstruct:broad_axe>);
 <tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tconstruct:hand_axe>);
 <tagmanager:items>.addId(<tag:items:aether:golden_amber_harvesters>, <resource:tinkers_thinking:paxel>);
+//aether_delight:advanced_axes
+<tagmanager:items>.addId(<tag:items:aetherdelight:advanced_axes>, <resource:tconstruct:broad_axe>);
+<tagmanager:items>.addId(<tag:items:aetherdelight:advanced_axes>, <resource:tconstruct:hand_axe>);
+<tagmanager:items>.addId(<tag:items:aetherdelight:advanced_axes>, <resource:tinkers_thinking:paxel>);
+<tagmanager:items>.addId(<tag:items:aetherdelight:advanced_axes>, <resource:tconstruct:mattock>);
+//give axes axe property
+<tagmanager:items>.addId(<tag:items:forge:tools/axes>, <resource:tconstruct:broad_axe>);
+<tagmanager:items>.addId(<tag:items:forge:tools/axes>, <resource:tconstruct:hand_axe>);
+<tagmanager:items>.addId(<tag:items:forge:tools/axes>, <resource:tinkers_thinking:paxel>);
+<tagmanager:items>.addId(<tag:items:forge:tools/axes>, <resource:tconstruct:mattock>);
+
+
 

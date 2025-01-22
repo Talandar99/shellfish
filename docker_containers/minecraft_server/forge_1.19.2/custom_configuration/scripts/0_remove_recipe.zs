@@ -458,6 +458,7 @@ craftingTable.remove(<item:cratedelight:egg_crate>);
 //------------------------------
 //remove steel blasting
 blastFurnace.remove(<item:ad_astra:steel_ingot>);
+blastFurnace.remove(<item:italian_delight:mozzarella>);
 //------------------------------
 //tinkers alloying
 //------------------------------
@@ -479,3 +480,5 @@ craftingTable.remove(<item:minecraft:ice>);
 <recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_2_rocket>);
 <recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_3_rocket>);
 <recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_4_rocket>);
+// bone broth recipe that needs glass bottle for some reason
+<recipetype:farmersdelight:cooking>.removeByName("extradelight:stock");

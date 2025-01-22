@@ -1,4 +1,5 @@
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
+import crafttweaker.api.recipe.FurnaceRecipeManager;
 // -----------------------------------------------------------
 // B L A S T   F U R N A C E
 // -----------------------------------------------------------

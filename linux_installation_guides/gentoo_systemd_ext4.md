@@ -610,6 +610,10 @@ xfce-extra/thunar-vcs-plugin \
 xfce-extra/thunar-media-tags-plugin \
 xfce-extra/thunar-archive-plugin \
 ```
+setting thunar as default file manager
+```
+xdg-mime default thunar.desktop inode/directory
+```
 flameshot (tool for screenshots)
 ```
 sudo emerge -aq media-dfx/flameshot
@@ -632,6 +636,10 @@ sudo emerge -q games-util/heroic-bin
 aseprite
 ```
 sudo emerge -q dev-games/aseprite
+```
+audacity
+```
+sudo emerge -q media-sound/audacity
 ```
 # TODO
 - support for wireless xbox one dongle 
