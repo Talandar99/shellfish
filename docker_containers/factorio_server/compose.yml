@@ -1,7 +1,7 @@
 services:
   factorio:
     #image: factoriotools/factorio
-    image: factoriotools/factorio:2.0.23
+    image: factoriotools/factorio:2.0.28
     ports:
       - "34197:34197/udp" # game server port
       - "27015:27015/tcp"
