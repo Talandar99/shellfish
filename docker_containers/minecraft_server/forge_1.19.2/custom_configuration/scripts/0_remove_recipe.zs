@@ -422,6 +422,7 @@ craftingTable.remove(<item:extradelight:candy_bowl_item>);
 craftingTable.remove(<item:vs_eureka:floater>);
 craftingTable.remove(<item:createdieselgenerators:diesel_engine>);
 craftingTable.remove(<item:cratedelight:egg_crate>);
+craftingTable.remove(<item:twilightforest:magic_map>);
 
 //------------------------------
 // filling
@@ -482,3 +483,5 @@ craftingTable.remove(<item:minecraft:ice>);
 <recipetype:ad_astra:nasa_workbench>.remove(<item:ad_astra:tier_4_rocket>);
 // bone broth recipe that needs glass bottle for some reason
 <recipetype:farmersdelight:cooking>.removeByName("extradelight:stock");
+<recipetype:farmersdelight:cooking>.remove(<item:extradelight:apple_jam>);
+

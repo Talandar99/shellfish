@@ -50,6 +50,21 @@ The CookingPotRecipeBookTab refers to a constant value.
     [<item:minecraft:milk_bucket>,<item:minecraft:water_bucket>,<item:salt:salt>], 
     <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item:minecraft:air>,
     100, 200);
+//fixed bone broth
+<recipetype:farmersdelight:cooking>.addRecipe("bone_broth_fixed", 
+    <item:farmersdelight:bone_broth>, 
+    [<tag:items:extradelight:makes_stock>,<tag:items:forge:bones>], 
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, 
+    <item:minecraft:bowl>, 
+    100, 400);
+
+//fixed Apple Butter
+<recipetype:farmersdelight:cooking>.addRecipe("fixed_apple_jam", 
+    <item:extradelight:apple_jam>, 
+    [<item:minecraft:apple>,<item:minecraft:apple>,<tag:items:extradelight:sweetener>,<tag:items:extradelight:sweetener>], 
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, 
+    <item:minecraft:glass_bottle>, 
+    100, 400);
 //solnik_soup
 <recipetype:farmersdelight:cooking>.addRecipe("solnik_soup", 
     <item:minecraft:beetroot_soup>.withTag({display: {Name: "{\"text\":\"Solnik\",\"italic\":false}"},CustomModelData: 21370,})*3, 
@@ -57,3 +72,5 @@ The CookingPotRecipeBookTab refers to a constant value.
     <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, 
     <item:minecraft:bowl>, 
     100, 400);
+
+            //"tag": "extradelight:makes_stock"
