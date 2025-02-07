@@ -595,13 +595,13 @@ lxappearance
 ```
 
 # usefull default apps 
-librewolf (browser)
+## librewolf (browser)
 ```
 sudo eselect repository enable librewolf
 sudo emerge --sync
 sudo emerge -aq www-client/librewolf-bin
 ```
-thunar (file manager)
+## thunar (file manager)
 ```
 sudo emerge -aq \
 xfce-base/thunar \
@@ -609,35 +609,47 @@ xfce-base/thunar-volman \
 xfce-extra/thunar-vcs-plugin \
 xfce-extra/thunar-media-tags-plugin \
 xfce-extra/thunar-archive-plugin \
+xfce-base/tumbler
 ```
 setting thunar as default file manager
 ```
 xdg-mime default thunar.desktop inode/directory
 ```
-flameshot (tool for screenshots)
+adding thumbnails for stl files
+```
+git https://github.com/j-james/thunar-stl-thumbnails
+cd thunar-stl-thumbnails
+install -Dvm644 "stl.thumbnailer" "/usr/share/thumbnailers/stl.thumbnailer"
+install -Dvm755 "stl-thumbnailer.sh" "/usr/bin/stl-thumbnailer"
+```
+thumbnailer for stl files need imagemagick and openscad so install it like this
+```
+sudo emerge -q media-gfx/imagemagick media-gfx/openscad
+```
+## flameshot (tool for screenshots)
 ```
 sudo emerge -aq media-dfx/flameshot
 ```
-audacious
+## audacious
 ```
 sudo emerge media-sound/audacious
 ```
-prusa slicer
+## prusa slicer
 ```
 sudo emerge media-gfx/prusaslicer
 ```
-heroic launcher
+## heroic launcher
 ```
 # unmask repo 
 sudo nvim  /etc/portage/package.accept_keywords/
 # add this
 sudo emerge -q games-util/heroic-bin
 ```
-aseprite
+## aseprite
 ```
 sudo emerge -q dev-games/aseprite
 ```
-audacity
+## audacity
 ```
 sudo emerge -q media-sound/audacity
 ```
