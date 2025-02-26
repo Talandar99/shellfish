@@ -1,0 +1,19 @@
+services:
+  jupyter:
+    image: jupyter/base-notebook:latest
+    container_name: jupyter_notebook
+    ports:
+      - "8888:8888"  # Exposes port 8888 to access Jupyter Notebook
+    volumes:
+      - ./notebooks:/home/jovyan/work  # Mounts the local 'notebooks' folder to the container
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # This will start JupyterLab by default (optional)
+      - JUPYTER_TOKEN=""  # Disables token authentication
+    command: start-notebook.sh --NotebookApp.token=''  # Disable token authentication
+    restart: unless-stopped  # Automatically restart the container if it crashes
+    networks:
+      - jupyter_network
+
+networks:
+  jupyter_network:
+    driver: bridge
