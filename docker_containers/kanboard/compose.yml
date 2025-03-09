@@ -1,6 +1,7 @@
 services:
   kanboard:
     image: kanboard/kanboard:latest
+    restart: always
     ports:
       - "80:80"
       - "443:443"
