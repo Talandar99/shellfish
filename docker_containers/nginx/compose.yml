@@ -4,6 +4,6 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./site:/usr/share/nginx/html
+      - ./my-site:/usr/share/nginx/html
       - ./nginx_conf_default.conf:/etc/nginx/conf.d/default.conf
     restart: always
