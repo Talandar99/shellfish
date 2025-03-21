@@ -17,7 +17,7 @@ services:
       EULA: "TRUE"
       MEMORY: "7G"
       TYPE: FORGE
-      FORGE_VERSION: 47.1.0
+      FORGE_VERSION: 54.1.3
       VERSION: 1.21.4
       ENABLE_ROLLING_LOGS: "true"
     volumes:
