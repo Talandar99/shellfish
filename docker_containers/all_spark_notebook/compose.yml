@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  spark-scala-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NB_UID: 1000
+        NB_GID: 1000
+    image: spark-scala-notebook:latest
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=
+    volumes:
+      - ./work:/home/jovyan/work
+    user: root
+    command: >
+      bash -c "
+        chown -R jovyan:jovyan /home/jovyan/work &&
+        start-notebook.sh --NotebookApp.token=''
+      "
+    networks:
+      - spark_network
+
+networks:
+  spark_network:
+    driver: bridge
