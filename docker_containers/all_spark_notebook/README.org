@@ -5,7 +5,7 @@
   #+end_src
 
 ** Accessing notebooks
-   after running container for first time notebooks should be available in "work" directory
+   after running container for first time notebooks should be available in ~work~ volumen created in ~all_spark_notebook~
 
 ** Using Spark (example)
   #+begin_src Python
