@@ -1,0 +1,31 @@
+services:
+  owncloud-db:
+    image: mariadb:10.5
+    container_name: owncloud-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: owncloud
+      MYSQL_USER: owncloud
+      MYSQL_PASSWORD: secret
+    volumes:
+      - ./db_data:/var/lib/mysql
+
+  owncloud:
+    image: owncloud/server
+    container_name: owncloud
+    ports:
+      - 8080:8080
+    depends_on:
+      - owncloud-db
+    environment:
+      OWNCLOUD_DOMAIN: localhost
+      ADMIN_USERNAME: admin
+      ADMIN_PASSWORD: admin
+      OWNCLOUD_DB_TYPE: mysql
+      OWNCLOUD_DB_NAME: owncloud
+      OWNCLOUD_DB_USERNAME: owncloud
+      OWNCLOUD_DB_PASSWORD: secret
+      OWNCLOUD_DB_HOST: owncloud-db
+    volumes:
+      - ./owncloud_files:/mnt/data
+
