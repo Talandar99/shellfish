@@ -3,16 +3,13 @@ FROM jupyter/all-spark-notebook
 USER root
 RUN pip install spylon-kernel
 
-# Rejestracja kernela Scala w Jupyter
 RUN python -m spylon_kernel install
 
-# Obsługa UID/GID przez argumenty
 ARG NB_UID=1000
 ARG NB_GID=1000
 
 RUN usermod -u ${NB_UID} jovyan && groupmod -g ${NB_GID} users
 
-# Zmieniamy lokalizację runtime i dodajemy odpowiednie uprawnienia
 ENV JUPYTER_RUNTIME_DIR=/home/jovyan/.local/share/jupyter/runtime
 
 RUN mkdir -p /home/jovyan/.local/share/jupyter/runtime && \
