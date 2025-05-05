@@ -5,8 +5,8 @@
   #+end_src
 
 ** Accessing notebooks
-   after running container for first time notebooks should be available in ~work~ volumen created in ~all_spark_notebook~
-
+  - after running container for first time notebooks should be available in ~work~ volumen created in ~all_spark_notebook~
+  - noetebook will be running on localhost:8888
 ** Using Spark (example)
   #+begin_src Python
 from pyspark.sql import SparkSession
