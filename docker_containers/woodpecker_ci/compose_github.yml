@@ -1,0 +1,28 @@
+services:
+  woodpecker-server:
+    image: woodpeckerci/woodpecker-server:latest
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+    volumes:
+      - ./woodpecker-data:/var/lib/woodpecker/
+    environment:
+      - WOODPECKER_OPEN=true
+      - WOODPECKER_HOST=http://${WOODPECKER_IP_ADDRESS}:8000
+      - WOODPECKER_GITHUB=true
+      - WOODPECKER_GITHUB_CLIENT=${MY_GITHUB_CLIENT}
+      - WOODPECKER_GITHUB_SECRET=${MY_GITHUB_SECRET}
+      - WOODPECKER_DATABASE_DRIVER=sqlite3
+      - WOODPECKER_DATABASE_DATASOURCE=/var/lib/woodpecker/woodpecker.sqlite
+      - WOODPECKER_AGENT_SECRET=${WOODPECKER_AGENT_SECRET}
+
+  woodpecker-agent:
+    image: woodpeckerci/woodpecker-agent:latest
+    depends_on:
+      - woodpecker-server
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock    
+    environment:
+      - WOODPECKER_SERVER=woodpecker-server:9000      
+      - WOODPECKER_AGENT_SECRET=${WOODPECKER_AGENT_SECRET}
+      - WOODPECKER_MAX_WORKFLOWS=4
