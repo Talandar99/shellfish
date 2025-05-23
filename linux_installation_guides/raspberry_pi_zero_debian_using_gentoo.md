@@ -88,11 +88,15 @@ lscpu | grep "Architecture"
 ## after chrooting (SSH & connecting to wifi automaticly)
 ```bash
 # update and install bettter package manager
-apt update; apt upgrade; apt install nala
+apt update; apt upgrade -y; apt install nala -y
 # install superior editor
 nala remove nano -y ; nala install neovim -y
 # install stuff
 nala install -y wpasupplicant dhcpcd5 openssh-server
+
+# OR
+# do everythong above in 1 line
+apt update; apt upgrade -y; apt install nala -y; nala remove nano -y ; nala install neovim -y; nala install -y wpasupplicant dhcpcd5 openssh-server
 
 ```
 ### WPA supplicant configuration
@@ -122,6 +126,9 @@ systemctl enable dhcpcd.service
 systemctl enable systemd-networkd
 # ssh
 systemctl enable ssh.service
+
+#or enable everything with one line
+systemctl enable wpa_supplicant@wlan0.service; systemctl enable dhcpcd.service; systemctl enable systemd-networkd; systemctl enable ssh.service
 ```
 ### Finishing touches
 ```bash
