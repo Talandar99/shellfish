@@ -24,9 +24,10 @@ sudo dd if=20231109_raspi_1_bookworm.img of=/dev/sdc bs=4M oflag=sync status=pro
 sudo sync
 ```
 ## Mounting
+
 ```bash
 sudo mkdir -p /mnt/debian/{boot,root}
-
+# in my case it's sdc but it can be different use lsblk to check
 sudo mount /dev/sdc1 /mnt/debian/boot
 sudo mount /dev/sdc2 /mnt/debian/root
 
@@ -35,7 +36,7 @@ lsblk
 ```
 ## QEMU
 ```bash
-# edit /etc/package/package.use/qemu
+# edit /etc/portage/package.use/qemu
 # add this:
 
 # ------------------------------------------------------------
@@ -57,7 +58,7 @@ dev-libs/libpcre2 static-libs
 # ------------------------------------------------------------
 #rebuild qemu
 sudo emerge -q --update --newuse app-emulation/qemu
-
+#emerge --changed-use --deep --newuse @world -q
 #link binfmt
 ln -s /usr/share/qemu/binfmt.d/qemu.conf /etc/binfmt.d/qemu.conf
 
@@ -156,4 +157,16 @@ exit
 #unmount
 sudo umount -l /mnt/debian/boot
 sudo umount -l /mnt/debian/root
+```
+## Use nmap to scan network in search of our device
+```bash
+# get your ip
+ip a
+# use nmap to scan for 22
+nmap -p 22 YOUR_ADDRES_ENDING_WITH/24
+```
+## Monitoring setup
+chroot into device
+```bash
+nala install wget
 ```
