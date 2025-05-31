@@ -1,0 +1,17 @@
+#+title: mods
+
+* Nature's Compass
+  - [[https://modrinth.com/mod/tameable-foxes][modrinth_modpage]] 
+  - [[https://cdn.modrinth.com/data/fPetb5Kh/versions/gM9Ds7fk/NaturesCompass-1.21.5-1.11.8-forge.jar][modrinth_download_link]]
+* Skin Restorer
+  - [[https://modrinth.com/mod/skinrestorer][modrinth_modpage]] 
+  - [[https://cdn.modrinth.com/data/ghrZDhGW/versions/6l9GB4fS/skinrestorer-2.3.2%2B1.21.5-forge.jar][modrinth_download_link]]
+* Comforts
+  - [[https://modrinth.com/mod/comforts][modrinth_modpage]] 
+  - [[https://cdn.modrinth.com/data/SaCpeal4/versions/zLCVIqUY/comforts-forge-11.0.0%2B1.21.5.jar][modrinth_download_link]]
+* Saddle Backport
+  - [[https://modrinth.com/datapack/saddle-crafting-backport][modrinth_modpage]] 
+  - [[https://cdn.modrinth.com/data/NF5MRD2M/versions/FY7fyBWO/saddle-crafting-backport-v1.0.jar][modrinth_download_link]]
+* Craftable Nametag
+  - [[https://modrinth.com/datapack/craftablenametag][modrinth_modpage]] 
+  - [[https://cdn.modrinth.com/data/BURCJb3B/versions/EYOO0NBz/craftable_nametag-1.21.5.jar][modrinth_download_link]]
