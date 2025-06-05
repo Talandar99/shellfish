@@ -21,3 +21,4 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       - LISTEN=/beszel_socket/beszel.sock
+      - KEY=${BESZEL_KEY}

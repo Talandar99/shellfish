@@ -1,6 +1,7 @@
 #!/bin/bash
 
 DIR="./beszel_data"
+ENV_FILE="./.env"
 
 mkdir -p "$DIR"
 
@@ -17,4 +18,13 @@ chmod 600 "$PRIVATE_KEY"
 
 echo "Keys generated in $DIR"
 cat "$PUBLIC_KEY"
-at "$PUBLIC_KEY"
+
+# Tworzenie pliku .env z kluczem publicznym, z zachowaniem całej linii jako jedna zmienna
+PUB_KEY_CONTENT=$(cat "$PUBLIC_KEY")
+
+# Escape znaków specjalnych (opcjonalnie, jeśli np. w kluczu mogą być znaki problematyczne)
+# PUB_KEY_CONTENT=$(cat "$PUBLIC_KEY" | sed 's/"/\\"/g')
+
+echo "BESZEL_KEY=\"$PUB_KEY_CONTENT\"" > "$ENV_FILE"
+
+echo ".env file created with BESZEL_KEY variable"
