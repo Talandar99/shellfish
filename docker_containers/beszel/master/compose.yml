@@ -20,5 +20,5 @@ services:
       - ./beszel_socket:/beszel_socket
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
-      - LISTEN=/beszel_socket/beszel.sock
+      - LISTEN=/beszel_socket/beszel.sock # this is adres for localhost
       - KEY=${BESZEL_KEY}
