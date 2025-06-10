@@ -2,13 +2,14 @@ services:
   jellyfin:
     image: jellyfin/jellyfin
     container_name: jellyfin
-    user: uid:gid
+    #user: uid:gid
+    user: root:root #for example
     network_mode: 'host' # use this or ports 
-    ports:
-      - "2196:8096/tcp"  # HTTP traffic
-      - "2120:8920/tcp"  # HTTPS traffic
-      - "2100:1900/udp"  # Service auto-discovery
-      - "2159:7359/udp"  # Auto-discovery
+    #ports:
+    #  - "2196:8096/tcp"  # HTTP traffic
+    #  - "2120:8920/tcp"  # HTTPS traffic
+    #  - "2100:1900/udp"  # Service auto-discovery
+    #  - "2159:7359/udp"  # Auto-discovery
     volumes:
       - ./config:/config
       - ./cache:/cache
@@ -17,7 +18,7 @@ services:
         source: ./path/to/media1
         target: /nameofmedia1
       #- type: bind
-        #source: ./media2
+        #source: ./media2 # or /media2 for absolute path
         #target: /media2
         #read_only: true # source can be read only
     restart: 'unless-stopped'
