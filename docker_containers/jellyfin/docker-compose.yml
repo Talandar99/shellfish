@@ -2,8 +2,8 @@ services:
   jellyfin:
     image: jellyfin/jellyfin
     container_name: jellyfin
-    #user: uid:gid
-    # network_mode: 'host' # use this or ports 
+    user: uid:gid
+    network_mode: 'host' # use this or ports 
     ports:
       - "2196:8096/tcp"  # HTTP traffic
       - "2120:8920/tcp"  # HTTPS traffic
@@ -14,13 +14,13 @@ services:
       - ./cache:/cache
       # bind as many sources as you want
       - type: bind
-        source: ./media1
-        target: /media2
+        source: ./path/to/media1
+        target: /nameofmedia1
       #- type: bind
         #source: ./media2
         #target: /media2
         #read_only: true # source can be read only
-    #restart: 'unless-stopped'
+    restart: 'unless-stopped'
     # Optional - alternative address used for autodiscovery
     #environment:
       #  - JELLYFIN_PublishedServerUrl=http://example.com
