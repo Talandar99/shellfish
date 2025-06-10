@@ -1,0 +1,7 @@
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
+    environment:
+      - CLOUDFLARE_TOKEN=your-token-here
+    restart: unless-stopped
