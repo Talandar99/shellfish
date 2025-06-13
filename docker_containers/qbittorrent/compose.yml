@@ -9,15 +9,17 @@ services:
       #- PGID=1000
       #- PUID=1000
       - QBT_LEGAL_NOTICE=confirm
+      - QBT_WEBUI_PORT=8686
       #- TZ=UTC
       #- UMASK=022
+      #
     image: qbittorrentofficial/qbittorrent-nox:latest
     ports:
       # for bittorrent traffic
       - 6881:6881/tcp
       - 6881:6881/udp
       # for WebUI
-      - 8686:8080/tcp
+      - 8686:8686/tcp
     read_only: true
     stop_grace_period: 30m
     tmpfs:
@@ -26,4 +28,3 @@ services:
     volumes:
       - ./config:/config
       - ./torrent_downloads:/downloads
-# Refer to Readme.md for an explanation of the variables
