@@ -17,7 +17,7 @@ services:
       - 6881:6881/tcp
       - 6881:6881/udp
       # for WebUI
-      - 8080:8080/tcp
+      - 8686:8080/tcp
     read_only: true
     stop_grace_period: 30m
     tmpfs:
@@ -25,5 +25,5 @@ services:
     tty: true
     volumes:
       - ./config:/config
-      - ./downloads:/downloads
+      - ./torrent_downloads:/downloads
 # Refer to Readme.md for an explanation of the variables
