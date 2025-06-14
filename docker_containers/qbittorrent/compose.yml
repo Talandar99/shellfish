@@ -28,3 +28,4 @@ services:
     volumes:
       - ./config:/config
       - ./torrent_downloads:/downloads
+    restart: unless-stopped
