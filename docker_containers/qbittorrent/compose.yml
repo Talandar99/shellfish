@@ -4,6 +4,7 @@ services:
     #cap_add:
       #- SYS_PTRACE
     container_name: qbittorrent-nox
+    network_mode: host
     environment:
       #- PAGID=10000
       #- PGID=1000
