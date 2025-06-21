@@ -3,7 +3,6 @@ Repo with scripts, guides, and docker-compose files that I use
 <br/>Hope you will also find something usefull here
 
 ## Contents
-- [ansible_playbooks](ansible_playbooks)
 ### Docker Containers: [directory](docker_containers)
 - [beszel](docker_containers/beszel)
 - [cloudflare_tunnel](docker_containers/cloudflare_tunnel)
@@ -23,5 +22,5 @@ Repo with scripts, guides, and docker-compose files that I use
 - [qbittorrent](docker_containers/qbittorrent)
 - [woodpecker_ci](docker_containers/woodpecker_ci)
 ### Guides [directory](guides)
-- [linux_installation_guides](linux_installation_guides)
-- [scripts](scripts)
+### Linux installation guides [directory](linux_installation_guides)
+### Scripts [directory](scripts)
