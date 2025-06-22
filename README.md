@@ -23,4 +23,8 @@ Repo with scripts, guides, and docker-compose files that I use
 - [woodpecker_ci](docker_containers/woodpecker_ci) - Self-hosted CI/CD system built to work with Docker and Git repositories.
 ### Guides [directory](guides)
 ### Linux installation guides [directory](linux_installation_guides)
+- [ArchLinux with BTRFS](linux_installation_guides/archlinux_btrfs.md) 
+- [ArchLinux with EXT4 simple](linux_installation_guides/archlinux_ext4_simple.md) 
+- [Gentoo with EXT4](linux_installation_guides/gentoo_systemd_ext4.md) 
+- [Debian on Raspberry Pi Zero Using Gentoo For Installation](linux_installation_guides/raspberry_pi_zero_debian_using_gentoo.md) 
 ### Scripts [directory](scripts)
