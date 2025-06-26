@@ -5,7 +5,6 @@
 # - make sure you coppied data_$BACKUPDATE_tar.xz to home dir on remote server
 # - make sure you have shellfish at home dir on rmeovet server
 
-
 #pacman -Sy archlinux-keyring --noconfirm
 #pacman -Syu git docker docker-compose neovim zip tmux wget --noconfirm
 #git clone https://github.com/Talandar99/shellfish.git
