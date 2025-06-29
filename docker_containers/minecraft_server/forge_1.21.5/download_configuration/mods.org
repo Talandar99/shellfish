@@ -19,5 +19,5 @@
   - [[https://modrinth.com/datapack/craftablenametag][modrinth_modpage]] 
   - [[https://cdn.modrinth.com/data/BURCJb3B/versions/EYOO0NBz/craftable_nametag-1.21.5.jar][modrinth_download_link]]
 * gravestone-mod
-  - [[https://modrinth.com/mod/gravestone-mod][modrinth_modpage]] 
-  - [[https://cdn.modrinth.com/data/RYtXKJPr/versions/mxsOjIk1/gravestone-neoforge-1.21.5-1.0.25.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/gravestone-mod][only_neoforge]] 
+  - [[https://cdn.modrinth.com/data/RYtXKJPr/versions/mxsOjIk1/gravestone-neoforge-1.21.5-1.0.25.jar][only_neoforge]]

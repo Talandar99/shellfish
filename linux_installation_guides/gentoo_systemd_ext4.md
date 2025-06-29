@@ -416,7 +416,7 @@ configuraiton specific stuff
 ```
 emerge -a -q x11-misc/i3blocks x11-misc/dunst x11-misc/rofi x11-misc/xcompmgr x11-terms/alacritty media-gfx/feh  \
 media-sound/pulseaudio media-sound/pavucontrol media-sound/pulsemixer media-sound/paprefs \
-net-misc/networkmanager gnome-extra/nm-applet media-sound/playerctl media-libs/mesa x11-misc/xclip x11-misc/picom
+net-misc/networkmanager gnome-extra/nm-applet media-sound/playerctl media-libs/mesa x11-misc/xclip 
 
 ```
 emoji font for i3 configuraiton
