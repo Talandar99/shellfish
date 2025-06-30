@@ -37,7 +37,7 @@
 # -----------------------------------------------------------
 #[common]
 #bind_port = 7000
-#bind_udp_port = 7000
+#bind_udp_port = 34197
 # -----------------------------------------------------------
 #command for running remote server:
 #frps -c frps.toml
@@ -48,7 +48,7 @@
 git clone https://github.com/fatedier/frp.git
 cd frp
 make
-sudo install -m755 ./bin/frps /usr/local/bin/
-sudo install -m755 ./bin/frpc /usr/local/bin/
+install -m755 ./bin/frps /usr/local/bin/
+install -m755 ./bin/frpc /usr/local/bin/
 echo "frp (frps i frpc) installed /usr/local/bin/"
 
