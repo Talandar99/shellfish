@@ -1,0 +1,13 @@
+services:
+  heimdall:
+    image: linuxserver/heimdall
+    container_name: heimdall
+    restart: unless-stopped
+    ports:
+      - 8181:80 
+    volumes:
+      - ./config:/config  
+    environment:
+      - PUID=1000       # UID user
+      - PGID=1000       # GID group
+      - TZ=Europe/Warsaw  # timezone

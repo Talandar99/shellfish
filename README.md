@@ -8,6 +8,7 @@ Repo with scripts, guides, and docker-compose files that I use
 - [cloudflare_tunnel](docker_containers/cloudflare_tunnel) - Cloudflare Tunnel in form of docker compsoe.
 - [factorio_server](docker_containers/factorio_server) - Headless multiplayer server for the automation game Factorio.
 - [forgejo](docker_containers/forgejo) - Lightweight self-hosted Git service.
+- [heimdall](docker_containers/heimdall) - Minimalistic, simple dashboard.
 - [jackett](docker_containers/jackett) - API proxy to various torrent indexers.
 - [jellyfin](docker_containers/jellyfin) - Self-hosted media server for streaming movies, TV shows, and music.
 - [jupyter](docker_containers/jupyter) - Interactive development environment for working with Jupyter notebooks.
