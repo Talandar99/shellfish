@@ -1,0 +1,29 @@
+name: influxdb3
+
+services:
+  init-permissions:
+    image: busybox
+    command: sh -c "mkdir -p /data /plugins && chown -R 1500:1500 /data /plugins"
+    volumes:
+      - ./influxdb3/core/data:/data
+      - ./influxdb3/core/plugins:/plugins
+  influxdb3-core:
+    container_name: influxdb3-core
+    image: influxdb:3-core
+    environment:
+      INFLUXDB3_AUTH_TOKEN: "local-dev-token"
+    depends_on:
+      init-permissions:
+        condition: service_completed_successfully
+    ports:
+      - "8181:8181"
+    command:
+      - influxdb3
+      - serve
+      - --node-id=node0
+      - --object-store=file
+      - --data-dir=/var/lib/influxdb3/data
+      - --plugin-dir=/var/lib/influxdb3/plugins
+    volumes:
+      - ./influxdb3/core/data:/var/lib/influxdb3/data
+      - ./influxdb3/core/plugins:/var/lib/influxdb3/plugins
