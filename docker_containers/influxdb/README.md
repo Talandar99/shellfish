@@ -29,7 +29,7 @@ read some data
 curl -G "http://localhost:8181/api/v3/query_sql" -H "Authorization: Bearer $INFLUXDB3_AUTH_TOKEN" --data-urlencode "db=mydb" --data-urlencode "q=SELECT * FROM temperature"
 ```
 ## using jq for better readability
-[jq website](https://jqlang.org/)
+[jq website](https://jqlang.org/)\
 data comes from influxdb3 in form of json, you can use jq cli tool to parse it into more readable format\
 example command:
 ```bash
