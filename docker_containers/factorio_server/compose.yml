@@ -6,10 +6,10 @@ services:
       - "34197:34197/udp" # game server port
       - "27015:27015/tcp"
     environment:
-      #- GENERATE_NEW_SAVE=false
-      - GENERATE_NEW_SAVE=true # comment line if already have game save
-      - SAVE_NAME=this_is_factorio_save_m
+      - GENERATE_NEW_SAVE=false
+      #- GENERATE_NEW_SAVE=true # comment line if already have game save
+      - SAVE_NAME=se_2026
+      - DLC_SPACE_AGE=false
     volumes:
-      - ./factorio:/factorio/  
-      - ./config:/factorio/config  # this settings have dissabled user verification 
-
+      - ./factorio:/factorio/
+      - ./config:/factorio/config  # this settings have dissabled user verification
