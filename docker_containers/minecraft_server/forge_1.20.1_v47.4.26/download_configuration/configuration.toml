@@ -1,0 +1,20 @@
+[shaderpacks]
+final_location = "custom_configuration"
+additional_custom_files = ""
+cleanup_temp_file_after_downloading = true
+
+[datapacks]
+final_location = "custom_configuration/config/paxi"
+additional_custom_files = "custom/datapacks"
+cleanup_temp_file_after_downloading = true
+
+[resourcepacks]
+final_location = "custom_configuration/config/paxi"
+additional_custom_files = "custom/resourcepacks"
+cleanup_temp_file_after_downloading = false
+
+[mods]
+final_location = "mods"
+additional_custom_files = ""
+cleanup_temp_file_after_downloading = false
+
