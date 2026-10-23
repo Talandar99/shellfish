@@ -25,4 +25,6 @@ printf "================================================\n"
 printf "\033[0m"
 ./scripts/modrinth_curseforge_downloader.py mods 
 
+./scripts/split_mods.py || exit 1
+
 rm -rf resourcepacks datapacks download.* download shaderpacks 

@@ -12,18 +12,30 @@
 * Appleskin (UI)
  - [[https://modrinth.com/mod/appleskin][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar][modrinth_download_link]]
+* Controlling :client:
+ - [[https://modrinth.com/mod/controlling][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar][modrinth_download_link]]
+** Searchables (library) :client:
+ - [[https://modrinth.com/mod/searchables][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar][modrinth_download_link]]
 * Nature's Compass
  - [[https://modrinth.com/mod/natures-compass][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/fPetb5Kh/versions/eRSDvCjN/NaturesCompass-1.20.1-1.12.0-forge.jar][modrinth_download_link]]
 * Explorer's Compass
  - [[https://modrinth.com/mod/explorers-compass][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/RV1qfVQ8/versions/7ZdJbCOx/ExplorersCompass-1.20.1-1.4.0-forge.jar][modrinth_download_link]]
-* Skin Restorer
+* Skin Restorer :server:
  - [[https://modrinth.com/mod/skinrestorer][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/ghrZDhGW/versions/WwS30jjd/skinrestorer-2.11.0%2B1.20-forge.jar][modrinth_download_link]]
 * Comforts
  - [[https://modrinth.com/mod/comforts][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar][modrinth_download_link]]
+* Biomes O' Plenty
+ - [[https://modrinth.com/mod/biomes-o-plenty][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/HXF82T3G/versions/jxUqRzSD/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar][modrinth_download_link]]
+** TerraBlender (library)
+ - [[https://modrinth.com/mod/terrablender][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar][modrinth_download_link]]
 * Tinkers Construct
  - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
@@ -36,9 +48,18 @@
 * Tinkers Create Diving Modifiers
  - [[https://modrinth.com/mod/tinkers-create-diving-modifiers][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/KzvCmQck/versions/Pdu98AJK/tconstruct_create_diving-0.0.1.jar][modrinth_download_link]]
+* Engineers' Materials
+ - [[https://modrinth.com/mod/engineers-materials][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/u0ld3B59/versions/67WGl40m/engineersmaterials-forge-1.20.1-1.1.1.jar][modrinth_download_link]]
+* Tinkers' Ponder
+ - [[https://modrinth.com/mod/tinkers-ponder][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/TCeZ7WOo/versions/8vkTQXwT/tponder-1.2.jar][modrinth_download_link]]
 * Create
  - [[https://modrinth.com/mod/create][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar][modrinth_download_link]]
+* Create: Central Kitchen
+ - [[https://modrinth.com/mod/create-central-kitchen][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/btq68HMO/versions/jMB94kRJ/create_central_kitchen-1.20.1-for-create-6.0.8-1.5.1.jar][modrinth_download_link]]
 * Ice And Fire
  - [[https://modrinth.com/mod/ice-and-fire-dragons][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar][modrinth_download_link]]
@@ -54,6 +75,12 @@
 * Farmers Delight
  - [[https://modrinth.com/mod/farmers-delight][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar][modrinth_download_link]]
+* Farmer's Cutting: Biomes O' Plenty
+ - [[https://modrinth.com/mod/farmers-cutting-biomes-o-plenty][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/QWfaJXEc/versions/xroQMKdK/farmers-cutting-biomes-o-plenty-1.1.0-1.20.1.jar][modrinth_download_link]]
+* Farmer's Cutting: Quark
+ - [[https://modrinth.com/mod/farmers-cutting-quark][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/rH2QzhPh/versions/jvk6T2SJ/farmers-cutting-quark-1.0.0.jar][modrinth_download_link]]
 * Tinkers Delight
  - [[https://modrinth.com/mod/tinkers-delight][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/Y4vhKn2h/versions/iLTKQrxu/Tinkers-Delight-1.20.1FORGE-2.0.3.jar][modrinth_download_link]]
@@ -75,9 +102,15 @@
 * Croptopia
  - [[https://www.curseforge.com/minecraft/mc-mods/croptopia][curseforge_modpage]] 
  - [[https://www.curseforge.com/api/v1/mods/415438/files/8066550/download][curseforge_download_link]]
+** EpheroLib (library) 
+ - [[https://modrinth.com/mod/epherolib][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/DIIgdJzf/versions/vZWRmjl2/EpheroLib-1.20.1-FORGE-1.2.0.jar][modrinth_download_link]]
 * Aether
  - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/2411kUqF/aether-1.20.1-1.5.2-neoforge.jar][modrinth_download_link]]
+* Deep Aether
+ - [[https://modrinth.com/mod/deep-aether][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/gcHIih5B/versions/IE1ZMRN3/deep_aether-1.20.1-1.1.7.jar][modrinth_download_link]]
 * Aether Delight
  - [[https://modrinth.com/mod/the-aethers-delight][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/XUztKPS9/versions/IMQRjMr0/aethersdelight-0.1.3.1-1.20.1.jar][modrinth_download_link]]
@@ -99,3 +132,57 @@
 ** GlitchCore (library)
  - [[https://modrinth.com/mod/glitchcore][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar][modrinth_download_link]]
+* Every Compat (Wood Good)
+ - [[https://modrinth.com/mod/every-compat][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/eiktJyw1/versions/1W3wIglQ/everycomp-1.20-2.9.27-forge.jar][modrinth_download_link]]
+** Moonlight (library)
+ - [[https://modrinth.com/mod/moonlight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/twkfQtEc/versions/b1cuadwV/moonlight-1.20-2.16.37-forge.jar][modrinth_download_link]]
+* Polymorph
+ - [[https://modrinth.com/mod/polymorph][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/tagwiZkJ/versions/5lNATnbO/polymorph-forge-0.49.11%2B1.20.1.jar][modrinth_download_link]]
+* Almost Unified
+ - [[https://modrinth.com/mod/almostunified][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/sdaSaQEz/versions/9qc7KIeg/almostunified-forge-1.20.1-0.11.0.jar][modrinth_download_link]]
+* ModernFix
+ - [[https://modrinth.com/mod/modernfix][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/nmDcB62a/versions/sgbtnCX5/modernfix-forge-5.27.89%2Bmc1.20.1.jar][modrinth_download_link]]
+* FerriteCore
+ - [[https://modrinth.com/mod/ferritecore][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar][modrinth_download_link]]
+* Canary :server:
+ - [[https://modrinth.com/mod/canary][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar][modrinth_download_link]]
+* Clumps :server:
+ - [[https://modrinth.com/mod/clumps][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar][modrinth_download_link]]
+* Chunky :server:
+ - [[https://modrinth.com/mod/chunky][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/fALzjamp/versions/4FTDk9wv/Chunky-1.3.146.jar][modrinth_download_link]]
+* Noisium :server:
+ - [[https://modrinth.com/mod/noisium][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar][modrinth_download_link]]
+* FastSuite :server:
+ - [[https://modrinth.com/mod/fastsuite][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/roccmqou/versions/nhk4VpGm/FastSuite-1.20.1-5.1.2.jar][modrinth_download_link]]
+** Placebo (library) :server:
+ - [[https://modrinth.com/mod/placebo][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar][modrinth_download_link]]
+* ServerCore :server:
+ - [[https://modrinth.com/mod/servercore][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/4WWQxlQP/versions/rx1c7m6q/servercore-forge-1.5.2%2B1.20.1.jar][modrinth_download_link]]
+* Embeddium :client:
+ - [[https://modrinth.com/mod/embeddium][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar][modrinth_download_link]]
+* Oculus :client:
+ - [[https://modrinth.com/mod/oculus][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar][modrinth_download_link]]
+* Iris & Oculus Flywheel Compat :client:
+ - [[https://modrinth.com/mod/iris-flw-compat][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/ndHYMY2K/versions/dE1A45cG/oculus-flywheel-compat-Forge-2.0.3.jar][modrinth_download_link]]
+* EntityCulling :client:
+ - [[https://modrinth.com/mod/entityculling][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/NNAgCjsB/versions/HUUJcFnt/entityculling-forge-1.11.3-mc1.20.1.jar][modrinth_download_link]]
+* ImmediatelyFast :client:
+ - [[https://modrinth.com/mod/immediatelyfast][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/5ZwdcRci/versions/rvsLEEZU/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar][modrinth_download_link]]
