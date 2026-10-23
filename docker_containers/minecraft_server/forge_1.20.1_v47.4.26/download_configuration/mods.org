@@ -3,6 +3,9 @@
 * Just Enough Items (UI)
  - [[https://modrinth.com/mod/jei][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/u6dRKJwZ/versions/uyTkeINn/jei-1.20.1-forge-15.62.0.219.jar][modrinth_download_link]]
+* MezzConfig (library)
+ - [[https://modrinth.com/mod/mezzconfig][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/7tEfOcA7/versions/EAG7rQQs/mezz_config-1.20.1-forge-0.6.8.jar][modrinth_download_link]]
 * Jade (UI)
  - [[https://modrinth.com/mod/jade][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar][modrinth_download_link]]
@@ -21,21 +24,27 @@
 * Comforts
  - [[https://modrinth.com/mod/comforts][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar][modrinth_download_link]]
-* Saddle Backport
- - [[https://modrinth.com/datapack/saddle-crafting-backport][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/NF5MRD2M/versions/vETyRlXF/saddle-crafting-backport-v1.0.1.jar][modrinth_download_link]]
 * Tinkers Construct
  - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
 ** Mantle (library)
  - [[https://modrinth.com/mod/mantle][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/Cg6Uc79H/versions/37ccXi7G/Mantle-1.20.1-1.11.117.jar][modrinth_download_link]]
+* Tinkers Gears
+ - [[https://modrinth.com/mod/tinkers-gears][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/g4cGxdiq/versions/m4pNXtVl/tgears-0.4.1-for-create-6.0.6.jar][modrinth_download_link]]
+* Tinkers Create Diving Modifiers
+ - [[https://modrinth.com/mod/tinkers-create-diving-modifiers][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/KzvCmQck/versions/Pdu98AJK/tconstruct_create_diving-0.0.1.jar][modrinth_download_link]]
 * Create
  - [[https://modrinth.com/mod/create][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar][modrinth_download_link]]
 * Ice And Fire
  - [[https://modrinth.com/mod/ice-and-fire-dragons][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar][modrinth_download_link]]
+** Citadel (library)
+ - [[https://modrinth.com/mod/citadel][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar][modrinth_download_link]]
 * Alex Mobs
  - [[https://modrinth.com/mod/alexs-mobs][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar][modrinth_download_link]]
@@ -45,15 +54,27 @@
 * Farmers Delight
  - [[https://modrinth.com/mod/farmers-delight][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar][modrinth_download_link]]
-* Cocktails Delight
- - [[https://modrinth.com/mod/cocktails-delight][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/hzcliQdE/versions/82Tlb7QJ/cocktails-Delight-1.20.1-1.3.1.jar][modrinth_download_link]]
-* Brewin' And Chewin'
- - [[https://modrinth.com/mod/brewin-and-chewin][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar][modrinth_download_link]]
-* Farmers Cutting: Quark
- - [[https://modrinth.com/datapack/farmers-cutting-quark][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/rH2QzhPh/versions/jvk6T2SJ/farmers-cutting-quark-1.0.0.jar][modrinth_download_link]]
+* Tinkers Delight
+ - [[https://modrinth.com/mod/tinkers-delight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/Y4vhKn2h/versions/iLTKQrxu/Tinkers-Delight-1.20.1FORGE-2.0.3.jar][modrinth_download_link]]
+* Fruits Delight
+ - [[https://modrinth.com/mod/fruits-delight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/g6sbyCTu/versions/E7H5IrKI/fruitsdelight-1.1.3.jar][modrinth_download_link]]
+* Ice and Fire Delight
+ - [[https://modrinth.com/mod/ice-and-fire-delight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/mGwAPysv/versions/KlKH4KyH/ice_and_fire_delight-forge-1.20.1-0.2.5.jar][modrinth_download_link]]
+* Miners Delight
+ - [[https://modrinth.com/mod/miners-delight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/qMxbM4BQ/versions/p0INUam7/miners_delight-1.20.1-1.4.5-backport.jar][modrinth_download_link]]
+* Hearth And Harvest
+ - [[https://modrinth.com/mod/hearth-and-harvest][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/8EEEXOzj/versions/Lc4WN5U1/hearthandharvest-1.20.1-1.0.12c.jar][modrinth_download_link]]
+* Croptopia Delight
+ - [[https://modrinth.com/mod/croptopia-delight][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/z2Ihxkgp/versions/zLhnr9EI/croptopiadelight-1.3.2.jar][modrinth_download_link]]
+* Croptopia
+ - [[https://www.curseforge.com/minecraft/mc-mods/croptopia][curseforge_modpage]] 
+ - [[https://www.curseforge.com/api/v1/mods/415438/files/8066550/download][curseforge_download_link]]
 * Aether
  - [[https://modrinth.com/mod/aether][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/YhmgMVyu/versions/2411kUqF/aether-1.20.1-1.5.2-neoforge.jar][modrinth_download_link]]
@@ -65,7 +86,7 @@
  - [[https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar][modrinth_download_link]]
 ** Zeta (library)
  - [[https://modrinth.com/mod/zeta][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/mvarlg2f/versions/mser3jbi/zeta-1.0-31.jar][modrinth_download_link]]
+ - [[https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar][modrinth_download_link]]
 * Ascended Quark
  - [[https://modrinth.com/mod/ascended-quark][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/SqIC1Dq9/versions/VRivY9qz/ascended_quark-1.20.1-1.1.6.jar][modrinth_download_link]]
@@ -74,4 +95,7 @@
  - [[https://cdn.modrinth.com/data/juge6qKH/versions/P6hj8lDd/ThirstWasTaken2-1.8.0%2B1.20.1-forge.jar][modrinth_download_link]]
 * Serene Seasons
  - [[https://modrinth.com/mod/serene-seasons][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/e0bNACJD/versions/WMrhrybF/SereneSeasons-forge-1.20.1-9.1.0.3.jar?mr_download_reason=standalone&mr_game_version=1.20.1][modrinth_download_link]]
+ - [[https://cdn.modrinth.com/data/e0bNACJD/versions/WMrhrybF/SereneSeasons-forge-1.20.1-9.1.0.3.jar][modrinth_download_link]]
+** GlitchCore (library)
+ - [[https://modrinth.com/mod/glitchcore][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar][modrinth_download_link]]

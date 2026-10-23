@@ -1,1 +1,10 @@
 #+title: Datapacks
+* Saddle Backport
+ - [[https://modrinth.com/datapack/saddle-crafting-backport][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/NF5MRD2M/versions/vETyRlXF/saddle-crafting-backport-v1.0.1.jar][modrinth_download_link]]
+* Tinkers Melting: The Aether (data pack?)
+ - [[https://modrinth.com/datapack/tinkers-melting-the-aether][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27%20Melting%20-%20The%20Aether.zip][modrinth_download_link]]
+* Farmers Cutting: Quark
+ - [[https://modrinth.com/datapack/farmers-cutting-quark][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/rH2QzhPh/versions/jvk6T2SJ/farmers-cutting-quark-1.0.0.jar][modrinth_download_link]]
