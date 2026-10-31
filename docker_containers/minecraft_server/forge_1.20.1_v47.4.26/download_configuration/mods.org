@@ -39,6 +39,9 @@
 * Explorer's Compass
  - [[https://modrinth.com/mod/explorers-compass][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/RV1qfVQ8/versions/7ZdJbCOx/ExplorersCompass-1.20.1-1.4.0-forge.jar][modrinth_download_link]]
+* Map Atlases
+ - [[https://modrinth.com/mod/map-atlases-forge][modrinth_modpage]]
+ - [[https://cdn.modrinth.com/data/4hwXMFif/versions/Zcz2vXIl/map_atlases-1.20-6.0.20.jar][modrinth_download_link]]
 * Skin Restorer :server:
  - [[https://modrinth.com/mod/skinrestorer][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/ghrZDhGW/versions/WwS30jjd/skinrestorer-2.11.0%2B1.20-forge.jar][modrinth_download_link]]
