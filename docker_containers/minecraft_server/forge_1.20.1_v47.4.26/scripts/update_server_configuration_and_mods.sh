@@ -21,5 +21,3 @@ mkdir -p data/world/serverconfig
 cp -r custom_configuration/defaultconfigs/. data/world/serverconfig/
 echo "adding permissions"
 chown 1000 -R data
-echo "starting server"
-docker compose up -d
