@@ -15,6 +15,9 @@
 * Traveler's Titles (UI) :client:
  - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar][modrinth_download_link]]
+* New Death Messages
+ - [[https://modrinth.com/mod/new-death-messages][modrinth_modpage]]
+ - [[https://cdn.modrinth.com/data/xmBoimWR/versions/kmZbNZoL/New-Death-Messages-1.20.1.jar][modrinth_download_link]]
 * Controlling :client:
  - [[https://modrinth.com/mod/controlling][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar][modrinth_download_link]]
@@ -123,9 +126,6 @@
 * YUNG's Better End Island
  - [[https://modrinth.com/mod/yungs-better-end-island][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar][modrinth_download_link]]
-* YUNG's Bridges
- - [[https://modrinth.com/mod/yungs-bridges][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/Ht4BfYp6/versions/KgO1gfM2/YungsBridges-1.20-Forge-4.0.3.jar][modrinth_download_link]]
 * YUNG's Extras
  - [[https://modrinth.com/mod/yungs-extras][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar][modrinth_download_link]]

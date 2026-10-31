@@ -35,8 +35,8 @@ services:
       #  nick1
       #  nick2
       #ENFORCE_WHITELIST: "true"
-      #OPS: |
-      #  nick1
+      OPS: |
+        Talandar_
     volumes:
     #use a named, managed volume for data volume
     - ./data:/data
