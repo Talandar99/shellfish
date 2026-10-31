@@ -1,0 +1,76 @@
+{
+    "foodItems": {
+        "entries": [],
+        "isWhitelist": false
+    },
+    "trackCount": 80,
+    "resetOnDeath": true,
+    "limitProgressionToSurvival": false,
+    "minFoodsToActivate": 0,
+    "benefits": [
+        {
+            "comment": "--- player start game with -18 hp (2 HP) ---",
+            "threshold": 0,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:-18.0d}"
+        },
+        {
+            "threshold": 5,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:-14.0d}"
+        },
+        {
+            "threshold": 10,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:-10.0d}"
+        },
+        {
+            "threshold": 15,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:-6.0d}"
+        },
+        {
+            "threshold": 20,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:-2.0d}"
+        },
+        {
+            "comment": "--- player has all hearts again ---",
+            "threshold": 25,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:0.0d}"
+        },
+        {
+            "comment": "--- Positive effects ---",
+            "threshold": 30,
+            "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:0.0d}"
+        },
+        {
+            "threshold": 35,
+            "benefit": "{key:\"minecraft:speed\",type:\"eff\",val:0.0d}"
+        },
+        {
+            "threshold": 40,
+            "benefit": "{key:\"minecraft:regeneration\",type:\"eff\",val:0.0d}"
+        },
+        {
+            "comment": "--- extra hearts ---",
+            "threshold": 45,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+        },
+        {
+            "threshold": 50,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:6.0d}"
+        },
+        {
+            "threshold": 55,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:8.0d}"
+        },
+        {
+            "comment": "--- +5 extra hears ---",
+            "threshold": 60,
+            "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:10.0d}"
+        }
+    ],
+    "shouldExcludedCount": true,
+    "complexityStandardNutrition": 5,
+    "complexityStandardSaturation": 0.6,
+    "complexityBenefitEffectModifier": 0.2,
+    "complexityNeutralEffectModifier": 0,
+    "complexityHarmEffectModifier": -0.2,
+    "foodDiversity": []
+}

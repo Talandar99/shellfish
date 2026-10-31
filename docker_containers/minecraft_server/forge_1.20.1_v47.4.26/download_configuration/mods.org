@@ -18,6 +18,15 @@
 ** Searchables (library) :client:
  - [[https://modrinth.com/mod/searchables][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar][modrinth_download_link]]
+* Spice of Life - Onion
+ - [[https://modrinth.com/mod/spice-of-life-onion][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/eHGYGKJz/versions/kMmavFVY/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar][modrinth_download_link]]
+** creativecore (library)
+ - [[https://modrinth.com/mod/creativecore][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar][modrinth_download_link]]
+* GraveStone Mod
+ - [[https://modrinth.com/mod/gravestone-mod][modrinth_modpage]] 
+ - [[https://cdn.modrinth.com/data/RYtXKJPr/versions/q9kZE5Xo/gravestone-forge-1.20.1-1.0.35.jar][modrinth_download_link]]
 * Nature's Compass
  - [[https://modrinth.com/mod/natures-compass][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/fPetb5Kh/versions/eRSDvCjN/NaturesCompass-1.20.1-1.12.0-forge.jar][modrinth_download_link]]
@@ -51,7 +60,7 @@
 * Engineers' Materials
  - [[https://modrinth.com/mod/engineers-materials][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/u0ld3B59/versions/67WGl40m/engineersmaterials-forge-1.20.1-1.1.1.jar][modrinth_download_link]]
-* Tinkers' Ponder
+* Tinkers' Ponder :client:
  - [[https://modrinth.com/mod/tinkers-ponder][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/TCeZ7WOo/versions/8vkTQXwT/tponder-1.2.jar][modrinth_download_link]]
 * Create
@@ -177,9 +186,6 @@
 * Oculus :client:
  - [[https://modrinth.com/mod/oculus][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar][modrinth_download_link]]
-* Iris & Oculus Flywheel Compat :client:
- - [[https://modrinth.com/mod/iris-flw-compat][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/ndHYMY2K/versions/dE1A45cG/oculus-flywheel-compat-Forge-2.0.3.jar][modrinth_download_link]]
 * EntityCulling :client:
  - [[https://modrinth.com/mod/entityculling][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/NNAgCjsB/versions/HUUJcFnt/entityculling-forge-1.11.3-mc1.20.1.jar][modrinth_download_link]]
