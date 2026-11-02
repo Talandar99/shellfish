@@ -120,8 +120,6 @@ def resolve(entries, files):
 
     taken = set(claimed.values())
     for entry in entries:
-        if not expected_names(entry):
-            continue
         if entry["title"] in claimed or entry["title"] in unresolved:
             continue
         available = sorted(files - taken)
@@ -133,7 +131,7 @@ def resolve(entries, files):
             errors.append(
                 f"ambiguous file for '{entry['title']}': {', '.join(matches)}"
             )
-        else:
+        elif expected_names(entry):
             errors.append(f"no downloaded file for '{entry['title']}'")
 
     return claimed, sorted(files - taken), errors
