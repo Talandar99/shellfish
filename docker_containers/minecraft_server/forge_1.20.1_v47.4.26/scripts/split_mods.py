@@ -185,6 +185,8 @@ def main():
     client = []
     shared = []
     for entry in entries:
+        if not expected_names(entry):
+            continue
         name = claimed[entry["title"]]
         where = sides(entry)
         if len(where) == 2:
