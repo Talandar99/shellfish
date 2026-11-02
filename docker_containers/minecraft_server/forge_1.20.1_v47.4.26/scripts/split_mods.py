@@ -120,6 +120,8 @@ def resolve(entries, files):
 
     taken = set(claimed.values())
     for entry in entries:
+        if not expected_names(entry):
+            continue
         if entry["title"] in claimed or entry["title"] in unresolved:
             continue
         available = sorted(files - taken)

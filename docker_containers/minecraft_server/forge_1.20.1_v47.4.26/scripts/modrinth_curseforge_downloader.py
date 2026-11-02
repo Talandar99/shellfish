@@ -31,13 +31,15 @@ def _download_curseforge(url, save_directory):
          " | tail -n 1",
          " | tr -d '\n'",
          " | tr -d ' '"])
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    result = subprocess.run(command, shell=True,
+                            capture_output=True, text=True)
     mod_name = result.stdout
     print(f"{color.green}{color.bold}{mod_name}{color.end}")
     print("\rsaved ")
     print("------------------------------------------------")
     command = f"mv download {save_directory}/{result.stdout}"
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    result = subprocess.run(command, shell=True,
+                            capture_output=True, text=True)
 
 
 def _download(url, save_directory):
@@ -102,14 +104,16 @@ def main():
     print("================================================")
     print(f"Getting {download_list_filename} from curseforge")
     print("================================================")
-    links = _get_download_links(f"download_configuration/{download_list_filename}.org", "[curseforge_download_link]")
+    links = _get_download_links(
+        f"download_configuration/{download_list_filename}.org", "[curseforge_download_link]")
     for link in links:
         _download_curseforge(link, download_list_filename)
 
     print("================================================")
     print(f"Getting {download_list_filename} from modrinth")
     print("================================================")
-    links = _get_download_links(f"download_configuration/{download_list_filename}.org", "[modrinth_download_link]")
+    links = _get_download_links(
+        f"download_configuration/{download_list_filename}.org", "[modrinth_download_link]")
     for link in links:
         _download(link, download_list_filename)
     if download_list_filename != final_location:
@@ -118,7 +122,7 @@ def main():
 
     if cleanup_temp_file_after_downloading:
         print("================================================")
-        print("Cleaning up")
+        print("Cleaning up temp directory")
         print("================================================")
         command = f"rm -r {download_list_filename}"
         subprocess.run(command, shell=True, capture_output=True, text=True)
