@@ -24,6 +24,7 @@ ORG_FILE = "download_configuration/mods.org"
 STAGING = "mods"
 SERVER = "mods_server"
 CLIENT = "mods_client"
+CUSTOM_MODS = "custom/mods"
 
 HEADING_RE = re.compile(r"^\*+\s+(.*)$")
 TAG_RE = re.compile(r"(:\S+?:)")
@@ -152,12 +153,19 @@ def main():
     if not os.path.isdir(STAGING):
         raise SystemExit(f"{STAGING}/ does not exist, run the downloader first")
 
+    custom_files = {
+        name
+        for name in os.listdir(CUSTOM_MODS)
+        if not name.startswith(".")
+        and os.path.isfile(os.path.join(CUSTOM_MODS, name))
+    }
     files = {
         name
         for name in os.listdir(STAGING)
         if not name.startswith(".")
         and os.path.isfile(os.path.join(STAGING, name))
     }
+    files -= custom_files
     if not files:
         raise SystemExit(f"{STAGING}/ is empty")
 
@@ -191,6 +199,9 @@ def main():
         os.makedirs(directory)
     fill(SERVER, server, STAGING)
     fill(CLIENT, client, STAGING)
+    for name in custom_files:
+        link(os.path.join(STAGING, name), os.path.join(SERVER, name))
+        link(os.path.join(STAGING, name), os.path.join(CLIENT, name))
     shutil.rmtree(STAGING)
 
     print(f"{SERVER}: {len(server)} mods")

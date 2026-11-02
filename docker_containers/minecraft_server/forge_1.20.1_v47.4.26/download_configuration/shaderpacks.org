@@ -1,1 +1,4 @@
 #+title: Shaders
+* MakeUp - Ultra Fast
+  - [[https://modrinth.com/shader/makeup-ultra-fast-shaders][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip][modrinth_download_link]]

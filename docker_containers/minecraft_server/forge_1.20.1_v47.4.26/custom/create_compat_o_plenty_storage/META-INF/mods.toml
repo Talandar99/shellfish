@@ -1,0 +1,30 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="create_compat_o_plenty_storage"
+version="1.0.0"
+displayName="Create: Compat O' Plenty Storage"
+description='''Adds Compat O' Plenty chests to Create's mounted storage tag.'''
+
+[[dependencies.create_compat_o_plenty_storage]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_compat_o_plenty_storage]]
+modId="create"
+mandatory=true
+versionRange="[6.0.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.create_compat_o_plenty_storage]]
+modId="compat_o_plenty"
+mandatory=true
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"

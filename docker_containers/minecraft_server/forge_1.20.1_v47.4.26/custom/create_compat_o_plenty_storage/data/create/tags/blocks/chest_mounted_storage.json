@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "compat_o_plenty:dead_chest",
+    "compat_o_plenty:fir_chest",
+    "compat_o_plenty:hellbark_chest",
+    "compat_o_plenty:jacaranda_chest",
+    "compat_o_plenty:magic_chest",
+    "compat_o_plenty:mahogany_chest",
+    "compat_o_plenty:palm_chest",
+    "compat_o_plenty:redwood_chest",
+    "compat_o_plenty:umbran_chest",
+    "compat_o_plenty:willow_chest",
+    "compat_o_plenty:trapped_dead_chest",
+    "compat_o_plenty:trapped_fir_chest",
+    "compat_o_plenty:trapped_hellbark_chest",
+    "compat_o_plenty:trapped_jacaranda_chest",
+    "compat_o_plenty:trapped_magic_chest",
+    "compat_o_plenty:trapped_mahogany_chest",
+    "compat_o_plenty:trapped_palm_chest",
+    "compat_o_plenty:trapped_redwood_chest",
+    "compat_o_plenty:trapped_umbran_chest",
+    "compat_o_plenty:trapped_willow_chest"
+  ]
+}

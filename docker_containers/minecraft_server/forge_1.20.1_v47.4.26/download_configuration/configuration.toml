@@ -15,6 +15,5 @@ cleanup_temp_file_after_downloading = false
 
 [mods]
 final_location = "mods"
-additional_custom_files = ""
+additional_custom_files = "custom/mods"
 cleanup_temp_file_after_downloading = false
-

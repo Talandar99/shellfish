@@ -14,7 +14,7 @@ services:
       EULA: "TRUE"
       MEMORY: "7G"
       TYPE: FORGE
-      FORGE_VERSION: 47.4.26
+      FORGE_VERSION: 47.4.28
       VERSION: 1.20.1
       ENABLE_ROLLING_LOGS: "true"
       USE_AIKAR_FLAGS: "true" #aikar's flags - GC tuning for mc servers

@@ -1,4 +1,7 @@
 #+title: Resourcepacks
+* Enhanced Boss Bars
+  - [[https://modrinth.com/resourcepack/enhanced-boss-bars][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/U5SedJ9S/versions/fzlnlUF3/%5B1.6%5D%20Enhanced%20Boss%20Bars.zip][modrinth_download_link]]
 * Create: ComputerCraft
   - [[https://modrinth.com/resourcepack/create-computercraft][modrinth_modpage]]
-  - [[https://cdn.modrinth.com/data/mh9nQqo4/versions/WWoDAEI5/Create%20Computers%201.2.1%20-%201.20.1%20Resource%20Pack%20Only.zip][modrinth_download_link]]
+  - [[https://cdn.modrinth.com/data/mh9nQqo4/versions/KGjoGhyf/Create%20Computers%201.2.1%20-%201.20.1%20Resource%20Pack%20Only.zip][modrinth_download_link]]
