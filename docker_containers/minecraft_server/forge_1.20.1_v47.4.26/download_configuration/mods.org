@@ -81,6 +81,9 @@
 * Skin Restorer :server:
  - [[https://modrinth.com/mod/skinrestorer][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/ghrZDhGW/versions/WwS30jjd/skinrestorer-2.11.0%2B1.20-forge.jar][modrinth_download_link]]
+* Login System :server:
+ - [[https://modrinth.com/mod/loginmod][modrinth_modpage]]
+ - [[https://cdn.modrinth.com/data/S4Tu3Hn2/versions/b0HIVWOS/loginsystem-1.7.jar][modrinth_download_link]]
 * Comforts
  - [[https://modrinth.com/mod/comforts][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar][modrinth_download_link]]
