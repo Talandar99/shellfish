@@ -8,6 +8,7 @@ services:
       FORGEJO__server__DOMAIN: git.talandar.dev             # comment out for non https
       FORGEJO__server__ROOT_URL: https://git.talandar.dev/  # comment out for non https
       FORGEJO__server__SSH_DOMAIN: git.talandar.dev         # comment out for non https
+      FORGEJO__service__DISABLE_REGISTRATION: "true"
       SSH_PORT: 6022
       SSH_LISTEN_PORT: 22
     restart: unless-stopped
