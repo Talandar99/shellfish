@@ -12,7 +12,7 @@ services:
     environment:
       #REQUIRED for all types
       EULA: "TRUE"
-      MEMORY: "7G"
+      MEMORY: "8G"
       TYPE: FORGE
       FORGE_VERSION: 47.4.28
       VERSION: 1.20.1
