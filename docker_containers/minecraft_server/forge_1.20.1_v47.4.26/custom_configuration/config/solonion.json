@@ -3,8 +3,8 @@
         "entries": [],
         "isWhitelist": false
     },
-    "trackCount": 30,
-    "resetOnDeath": true,
+    "trackCount": 20,
+    "resetOnDeath": false,
     "limitProgressionToSurvival": false,
     "minFoodsToActivate": 0,
     "benefits": [

@@ -18,6 +18,9 @@
 * Disable Elytra Boosting
   - [[https://modrinth.com/mod/disable-elytra-boosting][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/oO0FrO2x/versions/Mxrcn34T/disable_elytra_boosting-1.0.0.jar][modrinth_download_link]]
+* Just Another Rotten Flesh to Leather
+  - [[https://modrinth.com/mod/jrftl][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/8nIicBYu/versions/lHLTx4dM/JRFTL-1.20.1-1.6.0.jar][modrinth_download_link]]
 * Traveler's Titles (UI) :client:
  - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar][modrinth_download_link]]
@@ -45,9 +48,6 @@
 ** ObsidianUI (library) :client:
  - [[https://modrinth.com/mod/obsidianui][modrinth_modpage]]
  - [[https://cdn.modrinth.com/data/E0L8mfJZ/versions/3UXTHiK6/ObsidianUI-forge-0.2.3%2Bmc1.20.1.jar][modrinth_download_link]]
-* Presence Footsteps [FORGE] :client:
-  - [[https://modrinth.com/mod/presence-footsteps-forge][modrinth_modpage]]
-  - [[https://cdn.modrinth.com/data/dLfueQtY/versions/mru6MmJT/Presence%20Footsteps%20%5BFORGE%5D%201.0.0.jar][modrinth_download_link]]
 * Controlling :client:
   - [[https://modrinth.com/mod/controlling][modrinth_modpage]] 
   - [[https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar][modrinth_download_link]]
