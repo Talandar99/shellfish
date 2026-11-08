@@ -20,4 +20,8 @@ remotePort = 25565
 ## Running commands
 ```bash
 docker compose exec mc rcon-cli "list"
+docker compose exec mc rcon-cli "chunky world minecraft:overworld"
+docker compose exec mc rcon-cli "chunky center 0 0"
+docker compose exec mc rcon-cli "chunky radius 1000"
+docker compose exec mc rcon-cli "chunky start"
 ```

@@ -3,6 +3,12 @@
 * Just Enough Items (UI)
  - [[https://modrinth.com/mod/jei][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/u6dRKJwZ/versions/uyTkeINn/jei-1.20.1-forge-15.62.0.219.jar][modrinth_download_link]]
+* Advanced Loot Info :both:
+  - [[https://modrinth.com/mod/advanced-loot-info][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/PEPVViac/versions/HV3K5Aus/AdvancedLootInfo-forge-1.20.1-2.5.0.jar][modrinth_download_link]]
+** Advanced Core Info (library) :both:
+  - [[https://modrinth.com/mod/advanced-core-info][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/BaR4ijFC/versions/HeSOGi4n/AdvancedCoreInfo-forge-1.20.1-1.5.0.jar][modrinth_download_link]]
 * MezzConfig (library)
  - [[https://modrinth.com/mod/mezzconfig][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/7tEfOcA7/versions/EAG7rQQs/mezz_config-1.20.1-forge-0.6.8.jar][modrinth_download_link]]
@@ -25,8 +31,11 @@
  - [[https://modrinth.com/mod/travelers-titles][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar][modrinth_download_link]]
 * New Death Messages
- - [[https://modrinth.com/mod/new-death-messages][modrinth_modpage]]
- - [[https://cdn.modrinth.com/data/xmBoimWR/versions/kmZbNZoL/New-Death-Messages-1.20.1.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/new-death-messages][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/xmBoimWR/versions/kmZbNZoL/New-Death-Messages-1.20.1.jar][modrinth_download_link]]
+* No Chat Reports :both:
+  - [[https://modrinth.com/mod/no-chat-reports][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/qQyHxfxd/versions/2XUIKIAa/NoChatReports-FORGE-1.20.1-v2.2.3.jar][modrinth_download_link]]
 * Death Counter
   - [[https://modrinth.com/mod/death-counter-ichun][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/PPtJBZAV/versions/GtI3a9NT/DeathCounter-1.20.1-Forge-1.4.0.jar][modrinth_download_link]]
@@ -97,11 +106,11 @@
  - [[https://modrinth.com/mod/terrablender][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar][modrinth_download_link]]
 * Tinkers Construct
- - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
 ** Mantle (library)
- - [[https://modrinth.com/mod/mantle][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/Cg6Uc79H/versions/37ccXi7G/Mantle-1.20.1-1.11.117.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/mantle][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/Cg6Uc79H/versions/37ccXi7G/Mantle-1.20.1-1.11.117.jar][modrinth_download_link]]
 * Tinkers' Compatibility
   - [[https://modrinth.com/mod/tinkers-compatibility][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/7dqAlUms/versions/rPvJmwfO/tcompat-1.20.1-2.1.0.jar][modrinth_download_link]]
@@ -173,6 +182,12 @@
 * Alex Mobs
   - [[https://modrinth.com/mod/alexs-mobs][modrinth_modpage]] 
   - [[https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar][modrinth_download_link]]
+* Clay Soldiers
+  - [[https://modrinth.com/mod/clay-soldiers][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/7b2B0QcO/versions/Ebztqh1Y/clay-1.0.0-forge-1.20.1-1.20.4.jar][modrinth_download_link]]
+** Architectury API (library)
+  - [[https://modrinth.com/mod/architectury-api][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar][modrinth_download_link]]
 * Ribbits
  - [[https://modrinth.com/mod/ribbits][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/8YcE8y4T/versions/RCsQFeua/Ribbits-1.20.1-Forge-3.0.5.jar][modrinth_download_link]]
