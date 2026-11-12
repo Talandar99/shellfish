@@ -1,10 +1,7 @@
 #+title: Datapacks
-* No Elytra Firework Boost
-  - [[https://modrinth.com/datapack/no-elytra-firework-boost][modrinth_modpage]]
-  - [[https://cdn.modrinth.com/data/Esd8r4y8/versions/bAcRybzF/No%20Elytra%20Firework%20Boost%20v1.0.zip][modrinth_download_link]]
-* Saddle Backport
- - [[https://modrinth.com/datapack/saddle-crafting-backport][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/NF5MRD2M/versions/vETyRlXF/saddle-crafting-backport-v1.0.1.jar][modrinth_download_link]]
+* Create: Curios Backtank
+  - [[https://modrinth.com/datapack/create-curios-backtank][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/WuKy9y7l/versions/YEiwyfDP/create_curios_backtank-1.0.0.zip][modrinth_download_link]]
 * Tinkers Melting: The Aether (data pack?)
  - [[https://modrinth.com/datapack/tinkers-melting-the-aether][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27%20Melting%20-%20The%20Aether.zip][modrinth_download_link]]

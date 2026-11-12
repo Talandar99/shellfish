@@ -106,8 +106,8 @@
  - [[https://modrinth.com/mod/terrablender][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar][modrinth_download_link]]
 * Tinkers Construct
-  - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]]
-  - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
+   - [[https://modrinth.com/mod/tinkers-construct][modrinth_modpage]]
+   - [[https://cdn.modrinth.com/data/rxIIYO6c/versions/Fv0zTUuh/TConstruct-1.20.1-3.12.1.231.jar][modrinth_download_link]]
 ** Mantle (library)
   - [[https://modrinth.com/mod/mantle][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/Cg6Uc79H/versions/37ccXi7G/Mantle-1.20.1-1.11.117.jar][modrinth_download_link]]
@@ -127,8 +127,11 @@
  - [[https://modrinth.com/mod/engineers-materials][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/u0ld3B59/versions/67WGl40m/engineersmaterials-forge-1.20.1-1.1.1.jar][modrinth_download_link]]
 * Tinkers' Ponder :client:
- - [[https://modrinth.com/mod/tinkers-ponder][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/TCeZ7WOo/versions/8vkTQXwT/tponder-1.2.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/tinkers-ponder][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/TCeZ7WOo/versions/8vkTQXwT/tponder-1.2.jar][modrinth_download_link]]
+* Curios API (library) :both:
+  - [[https://modrinth.com/mod/curios][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar][modrinth_download_link]]
 * Create
   - [[https://modrinth.com/mod/create][modrinth_modpage]] 
   - [[https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar][modrinth_download_link]]
@@ -204,8 +207,11 @@
   - [[https://modrinth.com/mod/yungs-better-end-island][modrinth_modpage]] 
   - [[https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar][modrinth_download_link]]
 * Farmers Delight
- - [[https://modrinth.com/mod/farmers-delight][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/farmers-delight][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar][modrinth_download_link]]
+* Overweight Farming
+  - [[https://modrinth.com/mod/overweight-farming][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/bCxmmxKN/versions/cRR55xmK/overweightfarming-1.20.1-2.1.0-forge.jar][modrinth_download_link]]
 * Aquaculture 2
  - [[https://modrinth.com/mod/aquaculture][modrinth_modpage]]
  - [[https://cdn.modrinth.com/data/Vl1uNAuy/versions/wNiFoROs/Aquaculture-1.20.1-2.5.7.jar][modrinth_download_link]]
@@ -282,11 +288,11 @@
  - [[https://modrinth.com/mod/farmers-cutting-the-aether][modrinth_modpage]]
  - [[https://cdn.modrinth.com/data/W77u83l0/versions/mnkWIZL9/farmers-cutting-the-aether-1.20.1-1.0.jar][modrinth_download_link]]
 * Quark
- - [[https://modrinth.com/mod/quark][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/quark][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar][modrinth_download_link]]
 ** Zeta (library)
- - [[https://modrinth.com/mod/zeta][modrinth_modpage]] 
- - [[https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar][modrinth_download_link]]
+  - [[https://modrinth.com/mod/zeta][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar][modrinth_download_link]]
 * Ascended Quark
  - [[https://modrinth.com/mod/ascended-quark][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/SqIC1Dq9/versions/VRivY9qz/ascended_quark-1.20.1-1.1.6.jar][modrinth_download_link]]
