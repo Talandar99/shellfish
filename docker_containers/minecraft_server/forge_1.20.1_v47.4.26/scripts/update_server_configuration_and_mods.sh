@@ -8,6 +8,7 @@ rm -rf data/mods
 rm -rf data/config
 rm -rf data/defaultconfigs
 rm -rf data/world/serverconfig
+rm -rf data/world/datapacks
 rm -rf data/resourcepacks
 
 echo "adding new mods"
@@ -17,6 +18,9 @@ cp -r custom_configuration/config data/config
 echo "adding new resourcepacks"
 mkdir -p data/resourcepacks
 cp -r custom_configuration/config/paxi/resourcepacks/. data/resourcepacks/
+echo "adding new datapacks"
+mkdir -p data/world/datapacks
+cp -r custom_configuration/config/paxi/datapacks/. data/world/datapacks/
 echo "adding new scripts"
 cp -r custom_configuration/scripts data/scripts
 echo "adding new defaultconfigs"
