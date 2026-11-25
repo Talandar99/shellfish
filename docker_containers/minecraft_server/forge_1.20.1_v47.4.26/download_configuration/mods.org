@@ -99,6 +99,9 @@
 * Carry On
  - [[https://modrinth.com/mod/carry-on][modrinth_modpage]]
  - [[https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar][modrinth_download_link]]
+* Amendments
+ - [[https://modrinth.com/mod/amendments][modrinth_modpage]]
+ - [[https://cdn.modrinth.com/data/6iTJugQR/versions/nJORWvdh/amendments-1.20-2.2.6.jar][modrinth_download_link]]
 * Biomes O' Plenty
  - [[https://modrinth.com/mod/biomes-o-plenty][modrinth_modpage]] 
  - [[https://cdn.modrinth.com/data/HXF82T3G/versions/jxUqRzSD/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar][modrinth_download_link]]
@@ -135,6 +138,9 @@
 * Charm of Undying
   - [[https://modrinth.com/mod/charm-of-undying][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/b5GyyYkp/versions/NmSTxeOm/charmofundying-forge-6.5.0%2B1.20.1.jar][modrinth_download_link]]
+* Ice and Fire Curios
+  - [[https://modrinth.com/mod/ice-and-fire-curios-and-trinkets][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/kme4edJZ/versions/RlAtuwqI/iceandfire_curios-1.3.0-forge-1.20.1.jar][modrinth_download_link]]
 * Jewelcraft
   - [[https://modrinth.com/mod/k2HyfPfj][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/k2HyfPfj/versions/UQpA0WjG/Jewelry-1.7.0.jar][modrinth_download_link]]
@@ -221,6 +227,9 @@
 * End's Delight
   - [[https://modrinth.com/mod/ends-delight][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/yHN0njMr/versions/FHVQqUkN/ends_delight-2.6.1%2Bforge.1.20.1.jar][modrinth_download_link]]
+* Farmer's Delight: Contracts & Feasts
+  - [[https://modrinth.com/mod/farmers-delight-contracts-feasts][modrinth_modpage]]
+  - [[https://cdn.modrinth.com/data/1PHi8joa/versions/oVRsb0Ql/farmerscontracts-1.0.3-forge-1.20.1.jar][modrinth_download_link]]
 * Overweight Farming
   - [[https://modrinth.com/mod/overweight-farming][modrinth_modpage]]
   - [[https://cdn.modrinth.com/data/bCxmmxKN/versions/cRR55xmK/overweightfarming-1.20.1-2.1.0-forge.jar][modrinth_download_link]]

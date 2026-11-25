@@ -1,0 +1,17 @@
+services:
+  calibre-web-automated:
+    # Default login: admin / admin123, change the password after first login
+    image: crocodilestick/calibre-web-automated:latest
+    container_name: calibre-web-automated
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Warsaw
+      - NETWORK_SHARE_MODE=false
+    volumes:
+      - ./config:/config
+      - ./ingest:/cwa-book-ingest
+      - ./library:/calibre-library
+    ports:
+      - "8083:8083"
+    restart: unless-stopped
