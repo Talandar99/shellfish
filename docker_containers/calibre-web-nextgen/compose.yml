@@ -1,7 +1,7 @@
 services:
   calibre-web-automated:
     # Default login: admin / admin123, change the password after first login
-    image: crocodilestick/calibre-web-automated:latest
+    image: ghcr.io/new-usemame/calibre-web-nextgen:latest
     container_name: calibre-web-automated
     environment:
       - PUID=1000
