@@ -8,6 +8,7 @@ services:
       - PGID=1000
       - TZ=Europe/Warsaw
       - NETWORK_SHARE_MODE=false
+      - CWNG_SPA=0
     volumes:
       - ./config:/config
       - ./ingest:/cwa-book-ingest
